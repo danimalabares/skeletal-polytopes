@@ -1,0 +1,170 @@
+\documentclass[oneside,final]{amsart}
+\usepackage{amssymb}
+\usepackage{amsaddr}
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{comment}
+\usepackage{xargs}
+\usepackage{graphicx, color}
+\setkeys{Gin}{draft=false}
+\usepackage[figurewithin=none]{caption,subcaption} 
+\graphicspath{{./img/}} %Uso: \graphicspath{{RelativePath}}
+% \newcommand{\src}{./source}
+\usepackage{enumitem}
+\setlist[enumerate,1]{label={(\roman*)}}
+
+\usepackage[sfdefault]{arimo}
+\usepackage[T1]{fontenc}
+
+
+%% Linenumbers
+\usepackage[pagewise,modulo,mathlines]{lineno}
+\linenumbers
+\renewcommand{\linenumberfont}{\normalfont\bfseries\scriptsize\color{cyan}}
+
+\usepackage[notcite,notref,color,]{showkeys}
+
+ \usepackage{hyperref}
+ \hypersetup{
+ 	hidelinks,
+   colorlinks  = true,    % Colours links instead of ugly boxes
+   urlcolor    = blue,    % Colour for external hyperlinks
+   linkcolor   = blue,    % Colour of internal links
+   citecolor   = blue,      % Colour of citations
+   pdfauthor   = {Javier Bracjo, Daniel Gonzáles-Casanova, Isabel Hubard, Elías Mochán, Antonio Montero },%
+   pdfsubject  = {Chiral},%
+   pdftitle    = {Two new chiral 4-polytopes in $\mathbb{E}^4$},  
+}
+\usepackage{float}
+\usepackage[capitalise,noabbrev, nameinlink,]{cleveref}
+\usepackage{tikz-cd}
+\tikzcdset{%
+row sep=tiny,%
+arrows={shorten=-4pt}
+% start anchor = center, %
+% end anchor = center%
+}
+
+\usepackage[loadshadowlibrary,shadow, colorinlistoftodos,textsize=tiny,obeyFinal]{todonotes}
+
+%if you need to use a twosided document but you want the to-dos on the right (left) margin, uncomment the following lines.
+% \makeatletter 
+% \@mparswitchfalse%
+% \makeatother
+% \normalmarginpar %for right-handed notes and lines, or 
+% %\reversemarginpar %if you want them on the left of your twosided document. 
+
+\setuptodonotes{fancyline, backgroundcolor=gray!10,bordercolor=gray}
+\newcommand{\missingref}[1][?]{\todo[color=gray!30]{Reference (#1)}}
+
+
+
+%%Other examples of todonotes %requires xargs
+\newcommandx{\inline}[2][1=]{\todo[inline, #1]{#2}}
+\newcounter{hw}
+\setcounter{hw}{1}
+\newcommandx{\homework}[2][1=]{\todo[inline, caption={Homework \thehw} #1]{\stepcounter{hw} #2}}
+
+%
+ \newcommand{\isa}[1]{\todo[color=green!25]{\textbf{Isa:}#1}}
+ \newcommand{\elias}[1]{\todo[color=red!25]{\textbf{Elías:} #1}}
+ \newcommand{\tero}[1]{\todo[color=blue!25]{\textbf{Tero:} #1}}
+
+ \newcommandx{\isaLong}[2][1=Long todo, usedefault]{\todo[inline, color=green!25, caption={\textbf{Isa:} #1}]{\textbf{Isa: #1}. #2}}
+ \newcommandx{\eliasLong}[2][1=Long todo, usedefault]{\todo[inline, color=red!25,caption={\textbf{Roli:} #1}]{\textbf{Elías: #1}. #2}}
+ \newcommandx{\teroLong}[2][1=Long todo, usedefault]{\todo[inline,color=blue!25, caption={\textbf{Dani:} #1}]{\textbf{Tero: #1}. #2} }
+
+\makeatletter
+    \providecommand\@dotsep{5}
+\makeatother
+
+%[problem]
+
+\input{source/authorThm}
+
+
+\input{source/authorCmd}
+
+
+\usepackage[%
+sorting=nyt, %
+backend=biber, %
+style=numeric,%
+defernumbers=true,%
+% sorting=ydnt,%
+url=false,%
+eprint=false,%
+giveninits=true,
+maxbibnames=9,%
+% doi=false,%
+isbn=false,%
+sortcites = true,%
+citestyle=numeric-comp,
+]{biblatex}
+\addbibresource{source/moreVoltageOperations.bib}
+
+
+
+
+
+
+\begin{document}
+
+\title{Two new chiral 4-polytopes of full rank}
+\author{Javier Bracho} 
+\address{Institute of Mathematics, National Autonomous University of Mexico (IM UNAM), 04510 Mexico City, Mexico}
+\email{jbracho@im.unam.mx}
+\author{Daniel Gonz\'alez-Casanova}
+\address{Institute of Mathematics, National Autonomous University of Mexico (IM UNAM), 04510 Mexico City, Mexico}
+\email{dag@ciencias.unam.mx}
+\author{Isabel Hubard}
+\address{Institute of Mathematics, National Autonomous University of Mexico (IM UNAM), 04510 Mexico City, Mexico}
+\email{isahubard@im.unam.mx}
+
+
+\section{Introduction}
+Polygons and polyhedra are foundational objects in mathematics, yet their formal definitions have evolved significantly. The skeletal approach to polytopes---where structures are viewed as 1-dimensional complexes rather than solid bodies---allows for the emergence of highly symmetric structures not visible in classical definitions. Among these are \emph{chiral polytopes}, which are defined by the presence of maximal rotational symmetry and the absence of reflection symmetry.
+
+While regular polytopes are transitive on flags, chiral polytopes have two flag orbits such that adjacent flags belong to distinct orbits. The study of chiral polytopes in $\mathbb{E}^3$ was pioneered by Schulte (2004--2005), and the first finite example in $\mathbb{E}^4$---Roli's cube---was introduced by Bracho, Hubard, and Pellicer (2014).
+
+Here, we construct two new chiral 4-polytopes in $\mathbb{E}^4$ based on spherical chiral polyhedra identified in \cite{BHP2021}. We demonstrate that the natural rotational symmetries of these polyhedra give rise to distinct chiral 4-polytopes and verify their combinatorial chirality.
+
+\section{Historical Background}
+The evolution of polytope theory spans millennia, from the Platonic solids studied in antiquity to the abstract combinatorial definitions of today. Euclid's \emph{Elements} formalized the study of regular polygons and solids. The Renaissance and early modern periods saw the introduction of star polyhedra by Kepler and Poinsot.
+
+In the 19th century, Sch\"afli classified regular polytopes in higher dimensions, and in the 20th century, Coxeter and Gr\"unbaum extended the concept by allowing infinite and non-planar faces. Abstract polytopes, introduced through the study of face lattices and partially ordered sets, became a central framework for understanding these structures, leading to the formal study of chirality by Schulte and Weiss (1991).
+
+\section{Skeletal and Abstract 4-Polytopes in $\mathbb{E}^4$}
+A skeletal 4-polytope in $\mathbb{E}^4$ consists of vertices, edges, faces (edge-cycles), and cells (skeletal polyhedra), satisfying conditions of incidence, connectivity, and local finiteness. Each vertex has a well-defined vertex-figure---a connected skeletal polyhedron.
+
+Associated with every skeletal polytope is an abstract polytope, defined as a ranked poset whose elements correspond to faces of various dimensions. A flag is a maximal chain in this poset, and symmetries act by permuting these flags.
+
+\section{Regular and Chiral Abstract 4-Polytopes}
+Abstract polytopes are classified as \emph{regular} if their automorphism group acts transitively on flags and as \emph{chiral} if the flag set splits into two orbits with adjacent flags in distinct orbits.
+
+Using string C-groups (for regular polytopes) and their rotational subgroups (for chiral polytopes), we define polytopes via group-theoretic data satisfying specific relations and intersection properties. Faithful geometric realizations in $\mathbb{E}^4$ are constructed via Wythoff's method.
+
+\section{Realization of $\{\frac{5}{2}, 3, 5\}$}
+We construct a regular 4-polytope of Schl\"afli type $\{\frac{5}{2}, 3, 5\}$ using a known realization of $\{3,3,5\}$. By identifying a star-shaped icosahedral structure in its vertex-figure and defining appropriate reflections, we show that the associated group satisfies the relations of a string C-group, yielding a realization of $\{\frac{5}{2}, 3, 5\}$.
+
+\section{A Chiral 4-Polytope from $\{\frac{5}{2}, 3, 5\}$}
+By composing symmetries of the polytope $\{\frac{5}{2}, 3, 5\}$, we define a subgroup generated by three elements $S_1, S_2, S_3$ satisfying the relations of a chiral string group. The realization obtained via Wythoff's method yields a skeletal chiral 4-polytope, denoted $\{\frac{12_{1,5}}, 3, 5\}$, with helical-faced cells isomorphic to the polyhedron $H_1\left( \left\{ 5, 3, \frac{5}{2} \right\} \right)$. Computational checks confirm its combinatorial chirality.
+
+\section{A Chiral 4-Polytope from $\{5, 3, \frac{5}{2}\}$}
+Using the dual structure of the previous polytope, we construct a chiral 4-polytope with cells isomorphic to $H_0\left( \left\{ 5, 3, \frac{5}{2} \right\} \right)$. The abstract group structure and realization process are analogous, and the resulting chiral 4-polytope, denoted $\{\frac{12_{1,5}}, 3, \frac{5}{2}\}$, is shown to be both geometrically and combinatorially chiral.
+
+\section{Computational Verification}
+We employ GAP to verify the group relations, intersection properties, and face counts. Realizations are constructed using Wythoff's method based on the coordinates of base flags derived from the polytope $\{3,3,5\}$. Code and data are available at: \href{https://github.com/dan-gc/tesina}{github.com/dan-gc/tesina}.
+
+\section*{Acknowledgments}
+The author gratefully acknowledges the guidance and inspiration of Rolf (Roli), Isabel, and Bris; the camaraderie of the \emph{politoperes} group; and the enduring support of Vinicio G\'omez and family.
+
+\begin{thebibliography}{99}
+\bibitem{BHP2014} J. Bracho, I. Hubard, D. Pellicer, \emph{A Finite Chiral 4-Polytope in $\mathbb{R}^4$}, Discrete Comput. Geom. 52(4): 799--805 (2014).
+\bibitem{BHP2021} J. Bracho, I. Hubard, D. Pellicer, \emph{Chiral Polyhedra in 3-Dimensional Geometries and from a Petrie--Coxeter Construction}, Discrete Comput. Geom. 66(3): 1025--1052 (2021).
+% Additional entries as in original thesis...
+\end{thebibliography}
+
+\end{document}
