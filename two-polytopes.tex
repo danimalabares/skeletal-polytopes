@@ -86,7 +86,7 @@ arrows={shorten=-4pt}
 
 %\input{source/authorCmd}
 
-
+\iffalse
 \usepackage[%
 sorting=nyt, %
 backend=biber, %
@@ -103,7 +103,7 @@ sortcites = true,%
 citestyle=numeric-comp,
 ]{biblatex}
 \addbibresource{biblio.bib}
-
+\fi
 \begin{document}
 
 \title{Two new chiral 4-polytopes of full rank}
@@ -634,7 +634,10 @@ surface spanned between the edges and the axis of the generating twist.}
 %\bibliographystyle{acm} 
 %\bibliography{biblio}
 
-\printbibliography
+%\printbibliography
+
+\bibliography{biblio.bib}
+\bibliographystyle{amsalpha}
 
 %\bibliographystyle{plain}
 %\bibliography{biblio}
