@@ -118,11 +118,10 @@ citestyle=numeric-comp,
 \email{isahubard@im.unam.mx}
 
 \begin{abstract}
-In the setting of skeletal geometric complexes, chiral polytopes are those
-possessing maximal rotational symmetry while lacking reflection symmetry. We
-demonstrate that the natural rotation about the base edge in two chiral
-polyhedra from \cite{petcox} generates, in each case, a chiral 4-polytope in
-$\mathbb{E}^4$. Furthermore, both resulting polytopes are shown to be
+Using GAP scripts we confirm that the natural rotation 
+about the base edges of two of the chiral polyhedra listed in \cite{petcox} 
+generate, in each case, a chiral 4-polytope in $\mathbb{E}^4$.
+Furthermore, both resulting polytopes are shown to be
 combinatorially chiral. 
 \end{abstract}
 
@@ -189,14 +188,21 @@ A \textit{skeletal polyhedron} in $\mathbb{E}^4$ consists of \textit{vertices}
 that:
     
 \begin{enumerate}
-\item every edge belongs to two faces, \item the
-graph determined by the vertices and edges is connected, \item every compact
-subset of $\mathbb{E}^4$ meets finitely many edges, and \item the
+\item every edge belongs to two faces, 
+
+\item the
+graph determined by the vertices and edges is connected, 
+
+\item every compact
+subset of $\mathbb{E}^4$ meets finitely many edges, and 
+
+\item the
 \textit{vertex-figure}, defined as follows, is a connected graph. For any vertex
 $v$, the vertices of the vertex-figure are the neighbours of $v$ and the edges
 are segments joining any two neighbours that are both in some face.
 \end{enumerate}
     
+\noindent
 A \textit{skeletal 4-polytope} in $\mathbb{E}^4$ consits of vertices, edges,
 faces and \textit{cells} (skeletal polyhedra), such that
     
@@ -206,8 +212,9 @@ faces and \textit{cells} (skeletal polyhedra), such that
 \item every compact subset of $\mathbb{E}^4$ meets finitely many edges, and
 \item the vertex-figure at every vertex is a skeletal polyhedron.
 \end{enumerate}
-	
-Hereafter we omit the term "skeletal" when the context permits it. If
+
+\noindent
+Hereafter we omit the term ``skeletal'' when the context permits it. If
 $\mathcal{P}$ is a 4-polytope, the set of vertices, edges, faces and cells is a
 partial order with respect to inclusion. We say two such elements are
 \textit{incident} if they are comparable. This poset is called the
@@ -228,7 +235,7 @@ acts transitively on the set of flags, and \textit{chiral} if $G(\mathcal{P})$
 induces two orbits on flags so that adjacent flags are on different orbits. In
 fact, whether $\mathcal{P}$ is regular or chiral, its symmetry group acts
 transitively on the sets of vertices, edges, faces and cells.
-	
+
 \section{Abstract 4-polytopes}
 \label{section-abstract-4-polytopes}
 
