@@ -1,0 +1,153 @@
+GAP version: 4.14.0
+
+
+=== Roli's cube ===
+PASS  Roli: |[4,3,3]| = 384
+PASS  Roli: Gamma = [4,3,3]^+
+PASS  Roli: E_i -> R_i isomorphism onto cube.g matrices, carrying (S1,S2,S3)
+PASS  Roli: Wythoff base-flag data of cube.g
+PASS  Roli: geometric f-vector (matrix-group orbits) equals the coset f-vector = [ 16, 32, 12, 4 ]
+PASS  Roli: edges per 2-face and 2-faces per cell = [ 8, 6 ]
+PASS  Roli: orientation e.S1 = F'_1 (other edge of f at v), with diamond condition
+PASS  Roli: orientation f.S2 = F'_2 (other 2-face of c at e), with diamond condition
+PASS  Roli: orientation c.S3 = F'_3 (other cell at f), with diamond condition
+PASS  Roli: (-S1,S2,S3) violates the orientation of S1
+PASS  Roli: geometric face stabilisers are <S2,S3>, <S3,S1S2>, <S1,S2S3>, <S1,S2>
+PASS  Roli: S1 S2 = E0 E3 and S1 S2 S3 = E0 E2
+PASS  Roli: |Gamma| = 192
+PASS  Roli: orders of S1,S2,S3 = [ 8, 3, 3 ]
+PASS  Roli: (S1S2)^2 = (S2S3)^2 = (S1S2S3)^2 = 1
+PASS  Roli: S3S2S1 is NOT an involution (convention check), order = 4
+PASS  Roli: rank-4 intersection property
+PASS  Roli: abstract f-vector = [ 16, 32, 12, 4 ]
+PASS  Roli: mirror assignment does NOT extend to an automorphism of Gamma
+PASS  Roli: ord(S1^-1 S3) = 4
+PASS  Roli: ord(S1 S3) = 8
+PASS  Roli: presentation on (S1,S2,S3) certified (relators hold, coset enumeration gives |Gamma|)
+PASS  Roli: fp generators correspond to S1,S2,S3
+PASS  Roli: W^+ relators are the first three relators
+PASS  Roli: mirror substitution is involutory on words
+PASS  Roli: mirrored W^+ relators evaluate to 1 in Gamma (triviality in W^+ itself is a theorem)
+PASS  Roli: Method 1: |X_1| = 2
+PASS  Roli: Method 2: |Mix| (= |Gamma|*|X|) = 384
+PASS  Roli: Method 2: both projections of Mix are surjective
+PASS  Roli: Method 2: X_2 (ker of projection onto mirror factor) = X_1 as subgroups
+PASS  Roli: Method 2: X_2-bar (ker of projection onto first factor) = X_1 as subgroups
+PASS  Roli: Method 2: kernel via explicit homomorphism agrees
+PASS  Roli: Method 3: smallest N with mirror-invariant Gamma/N equals X_1
+PASS  Roli: Method 3: every mirror-invariant N contains X
+PASS  Roli: Method 3: mirror-invariant N are closed under intersection
+PASS  Roli: normal subgroup orders of Gamma (sorted) = [ 1, 2, 8, 8, 8, 32, 96, 192 ]
+PASS  Roli: orders of mirror-invariant N (sorted) = [ 2, 8, 32, 96, 192 ]
+PASS  Roli: X(P) is normal in Gamma
+PASS  Roli: [Gamma : X(P)] = 96
+PASS  Roli: IdGroup(X(P)) = [ 2, 1 ]
+PASS  Roli: IdGroup(Gamma/X(P)) = [ 96, 227 ]
+PASS  Roli: X(P) ~= C2 (explicit IsomorphismGroups)
+PASS  Roli: Gamma/X(P) admits the mirror automorphism
+PASS  Roli: Gamma/X(P) generator orders = [ 4, 3, 3 ]
+PASS  Roli: Gamma/X(P) generators satisfy the string relations
+PASS  Roli: Gamma/X(P) coset f-vector = [ 8, 16, 12, 4 ]
+PASS  Roli: Gamma/X(P) has the intersection property = true
+PASS  Roli: Mix generator orders = [ 8, 3, 3 ]
+PASS  Roli: Mix generators satisfy the string relations
+PASS  Roli: Mix admits the mirror automorphism (directly regular)
+PASS  Roli: Mix has the intersection property (P_W is a polytope)
+PASS  Roli: Mix coset f-vector = [ 32, 64, 24, 8 ]
+PASS  Roli: combinatorially chiral (X nontrivial)
+PASS  Roli: NOT totally chiral (X <> Gamma)
+PASS  Roli: defect A = (S1 S3)^ord(S1^-1 S3) has order 2
+PASS  Roli: normal closure of defect A equals X(P)
+PASS  Roli: defect B = (S1^-1 S3)^ord(S1 S3) is trivial
+PASS  Roli: Z(Gamma) has order 2 and lies in X(P)
+PASS  Roli: all mirrored relators evaluate into X(P)
+PASS  Roli: X(P) = Z(Gamma)
+PASS  Roli: X(P) = <S1^4>
+PASS  Roli: S1^4 is the central inversion -I of R^4
+PASS  Roli: IdGroup(Gamma) = [ 192, 1494 ]
+PASS  Roli: Z([4,3,3]) = {+-I} has order 2
+PASS  Roli: |[4,3,3]/{+-I}| and |rotation subgroup of [4,3,3]/{+-I}| = [ 192, 96 ]
+PASS  Roli: S_i -> S_i{+-I} embeds Gamma/X(P) onto the rotation subgroup of [4,3,3]/{+-I} (hemi-4-cube)
+PASS  Roli: normal subgroups containing X with NON-mirror-invariant quotient have orders [8,8]
+PASS  Roli: Gamma is not isomorphic to (Gamma/X) x X
+
+=== {12/(1,5),3,5} ===
+PASS  12: |[3,3,5]| = 14400
+PASS  12: <P0,P1,P2,P3> = [3,3,5]
+PASS  12: P_i involutions with (P0P1,P1P2,P2P3,P0P2,P0P3,P1P3) of orders (5,3,5,2,2,2)
+PASS  12: Gamma = [3,3,5]^+
+PASS  12: E_i -> R_i isomorphism onto geometric.g matrices, carrying (S1,S2,S3)
+PASS  12: Wythoff base-flag data of geometric.g
+PASS  12: geometric f-vector (matrix-group orbits) equals the coset f-vector = [ 120, 720, 300, 50 ]
+PASS  12: edges per 2-face and 2-faces per cell = [ 12, 12 ]
+PASS  12: orientation e.S1 = F'_1 (other edge of f at w0), with diamond condition
+PASS  12: orientation f.S2 = F'_2 (other 2-face of c at e), with diamond condition
+PASS  12: orientation c.S3 = F'_3 (other cell at f), with diamond condition
+PASS  12: (-S1,S2,S3) violates the orientation of S1
+PASS  12: geometric face stabilisers are <S2,S3>, <S3,S1S2>, <S1,S2S3>, <S1,S2>
+PASS  12: S1 S2 = P0 P3 and S1 S2 S3 = P0 P2
+PASS  12: |Gamma| = 7200
+PASS  12: orders of S1,S2,S3 = [ 12, 3, 5 ]
+PASS  12: (S1S2)^2 = (S2S3)^2 = (S1S2S3)^2 = 1
+PASS  12: S3S2S1 is NOT an involution (convention check), order = 5
+PASS  12: rank-4 intersection property
+PASS  12: abstract f-vector = [ 120, 720, 300, 50 ]
+PASS  12: mirror assignment does NOT extend to an automorphism of Gamma
+PASS  12: ord(S1^-1 S3) = 5
+PASS  12: ord(S1 S3) = 15
+PASS  12: presentation on (S1,S2,S3) certified (relators hold, coset enumeration gives |Gamma|)
+PASS  12: fp generators correspond to S1,S2,S3
+PASS  12: W^+ relators are the first three relators
+PASS  12: mirror substitution is involutory on words
+PASS  12: mirrored W^+ relators evaluate to 1 in Gamma (triviality in W^+ itself is a theorem)
+PASS  12: Method 1: |X_1| = 120
+PASS  12: Method 2: |Mix| (= |Gamma|*|X|) = 864000
+PASS  12: Method 2: both projections of Mix are surjective
+PASS  12: Method 2: X_2 (ker of projection onto mirror factor) = X_1 as subgroups
+PASS  12: Method 2: X_2-bar (ker of projection onto first factor) = X_1 as subgroups
+PASS  12: Method 2: kernel via explicit homomorphism agrees
+PASS  12: Method 3: smallest N with mirror-invariant Gamma/N equals X_1
+PASS  12: Method 3: every mirror-invariant N contains X
+PASS  12: Method 3: mirror-invariant N are closed under intersection
+PASS  12: normal subgroup orders of Gamma (sorted) = [ 1, 2, 120, 120, 7200 ]
+PASS  12: orders of mirror-invariant N (sorted) = [ 120, 7200 ]
+PASS  12: X(P) is normal in Gamma
+PASS  12: [Gamma : X(P)] = 60
+PASS  12: IdGroup(X(P)) = [ 120, 5 ]
+PASS  12: IdGroup(Gamma/X(P)) = [ 60, 5 ]
+PASS  12: X(P) ~= SL(2,5) (explicit IsomorphismGroups)
+PASS  12: Gamma/X(P) admits the mirror automorphism
+PASS  12: Gamma/X(P) generator orders = [ 2, 3, 5 ]
+PASS  12: Gamma/X(P) generators satisfy the string relations
+PASS  12: Gamma/X(P) coset f-vector = [ 1, 6, 15, 10 ]
+PASS  12: Gamma/X(P) has the intersection property = false
+PASS  12: Mix generator orders = [ 12, 3, 5 ]
+PASS  12: Mix generators satisfy the string relations
+PASS  12: Mix admits the mirror automorphism (directly regular)
+PASS  12: Mix has the intersection property (P_W is a polytope)
+PASS  12: Mix coset f-vector = [ 14400, 86400, 36000, 6000 ]
+PASS  12: combinatorially chiral (X nontrivial)
+PASS  12: NOT totally chiral (X <> Gamma)
+PASS  12: defect A = (S1 S3)^ord(S1^-1 S3) has order 3
+PASS  12: normal closure of defect A equals X(P)
+PASS  12: defect B = (S1^-1 S3)^ord(S1 S3) is trivial
+PASS  12: Z(Gamma) has order 2 and lies in X(P)
+PASS  12: all mirrored relators evaluate into X(P)
+PASS  12: Gamma/X(P) ~= A5 (explicit IsomorphismGroups)
+PASS  12: Gamma/X(P) is simple
+PASS  12: X(P) is perfect with centre of order 2 and X/Z(X) ~= A5
+PASS  12: X(P) has a unique involution
+PASS  12: C_Gamma(X(P)) is the other normal subgroup of order 120
+PASS  12: Gamma = X(P) C_Gamma(X(P)) with X cap C = Z(Gamma)
+PASS  12: Gamma is perfect
+PASS  12: every element of X(P) acts on R^4 as a Clifford translation (isoclinic rotation)
+PASS  12: every element of C_Gamma(X(P)) acts on R^4 as a Clifford translation too
+PASS  12: the centre of X(P) acts on R^4 as {+-I}
+PASS  12: Gamma contains rotations that are not Clifford translations
+PASS  12: Gamma ~= (SL(2,5) x SL(2,5)) / <(-1,-1)> (explicit IsomorphismGroups)
+PASS  12: |Gamma| = 7200 has no IdGroup; StructureDescription is report-only
+
+==========================================================
+VERIFICATION SUMMARY: 142 passed, 0 failed
+ALL CHECKS PASSED
+==========================================================

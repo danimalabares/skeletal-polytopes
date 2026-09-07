@@ -1,0 +1,122 @@
+##########################################################
+# {12/(1,5),3,5}: chirality group computation
+##########################################################
+GAP version: 4.14.0
+Loaded packages:
+  gapdoc 1.6.7
+  primgrp 3.4.4
+  smallgrp 1.5.4
+  transgrp 3.6.5
+
+|[3,3,5]| = 14400
+orders of P0,P1,P2,P3 = [ 2, 2, 2, 2 ];  orders of P0P1,P1P2,P2P3,P0P2,P0P3,P1P3 = [ 5, 3, 5, 2, 2, 2 ]
+<P0,P1,P2,P3> = [3,3,5] (the star polytope {5/2,3,5} has the same group): true
+Gamma = <S1,S2,S3> equals the rotation subgroup [3,3,5]^+: true
+E_i -> R_i is an isomorphism [3,3,5] -> <R0,R1,R2,R3> carrying (S1,S2,S3) to geometric.g's matrices: true
+Wythoff base-flag data of geometric.g consistent (w0 fixed by P1,P2,P3,S2,S3; e={w0,w0 S1^-1}={w0,w0 P0}; 120 vertices): true
+S1 S2 = P0 P3: true;  S1 S2 S3 = P0 P2: true
+geometric f-vector (orbits of w0, e, f, c under the matrix group) = [ 120, 720, 300, 50 ];  edges per 2-face = 12, 2-faces per cell = 12
+orientation checks F_i.S_i = F'_i for i=1,2,3: [ true, true, true ];  (-S1,S2,S3) violates the orientation of S1: true;  face stabilisers <S2,S3>, <S3,S1S2>, <S1,S2S3>, <S1,S2>: true
+
+==========================================================
+{12/(1,5),3,5}  (Gamma = [3,3,5]^+, |Gamma| = 7200)
+==========================================================
+|Gamma| = 7200
+IdGroup(Gamma) = fail   StructureDescription(Gamma) = SL(2,5) : A5   (StructureDescription strings are GAP output, not isomorphism invariants)
+orders of (S1,S2,S3) = [ 12, 3, 5 ]   (Schlaefli type {12,3,5})
+ord(S1 S2) = 2, ord(S2 S3) = 2, ord(S1 S2 S3) = 2, ord(S3 S2 S1) = 5
+standard relations (s1s2)^2=(s2s3)^2=(s1s2s3)^2=1 hold: true
+intersection property (rank 4) holds: true
+abstract f-vector (vertices, edges, 2-faces, cells) = [ 120, 720, 300, 50 ]
+mirror assignment S1->S1^-1, S2->S1^2 S2, S3->S3 extends to an automorphism of Gamma: false
+ord(S1^-1 S3) = 5   versus   ord(S1 S3) = 15
+
+--- Method 1: mirrored relators ---
+presentation on (S1,S2,S3): 12 relators (3 of W^+ first); relators hold in Gamma: true; |<S1,S2,S3 | R>| = |Gamma| by coset enumeration: true
+relators R (as words in S1,S2,S3):
+  r1 = (S1*S2)^2
+  r2 = (S2*S3)^2
+  r3 = (S1*S2*S3)^2
+  r4 = S2^3
+  r5 = (S3*S2)^2
+  r6 = (S1*S2)^2
+  r7 = S3^5
+  r8 = S1*S2^-1*S3*S1^-1*S3^-1
+  r9 = S3^2*S1*S2^-1*S1^-2*S2*(S1^-1*S3^-1)^2*S1^-1*S2^-1
+  r10 = S3^-2*S1^-1*S2*S3^-1*S1^-1*(S2^-1*S3^2)^2*S1*S2^-1
+  r11 = (S3*S2^-1*S3)^5
+  r12 = S2*S3*(S1*S2^-1*S1^-2*S3^-1*S2^-1)^4*S1*S2^-1*S1^-2
+mirrored relators R^{r0} and their values in Gamma (order of the value):
+  r1-bar = (S1*S2)^2   -> order 1
+  r2-bar = (S1^2*S2*S3)^2   -> order 1
+  r3-bar = (S1*S2*S3)^2   -> order 1
+  r4-bar = (S1^2*S2)^3   -> order 1
+  r5-bar = (S3*S1^2*S2)^2   -> order 1
+  r6-bar = (S1*S2)^2   -> order 1
+  r7-bar = S3^5   -> order 1
+  r8-bar = S1^-1*S2^-1*S1^-2*S3*S1*S3^-1   -> order 1
+  r9-bar = S3^2*S1^-1*S2^-1*S1^2*S2*(S1*S3^-1)^2*S1*S2^-1*S1^-2   -> order 10
+  r10-bar = S3^-2*S1^3*S2*S3^-1*S1*(S2^-1*S1^-2*S3^2)^2*S1^-1*S2^-1*S1^-2   -> order 10
+  r11-bar = (S3*S2^-1*S1^-2*S3)^5   -> order 1
+  r12-bar = S1^2*S2*S3*(S1^-1*S2^-1*S3^-1*S2^-1*S1^-2)^4*S1^-1*S2^-1   -> order 2
+|X_1| = |normal closure of the mirrored relators| = 120
+greedy sublist of mirrored relators already normally generating X_1: [ "r9-bar" ]
+
+--- Method 2: mix with the enantiomorphic group ---
+|Mix| = |<(S1,S1^-1),(S2,S1^2 S2),(S3,S3)>| = 864000
+|Gamma| * |X_1| = 864000   equal to |Mix|: true
+both projections surjective: true
+|X_2| = |first coordinates of ker(projection onto mirror factor)| = 120
+|X_2-bar| = |second coordinates of ker(projection onto first factor)| = 120
+X_2 = X_1 as subgroups of Gamma: true
+X_2 = X_2-bar as subgroups of Gamma: true
+X_2 = kernel computed via explicit homomorphism Mix -> Gamma-bar: true
+
+--- Method 3: smallest normal subgroup with mirror-invariant quotient ---
+orders of all normal subgroups of Gamma: [ 1, 2, 120, 120, 7200 ]
+orders of those N with Gamma/N admitting the mirror automorphism: [ 120, 7200 ]
+smallest such N has order 120; equals X_1: true
+every such N contains X_1: true;  the set of such N is closed under intersection: true
+orders of normal subgroups containing X_1 whose quotient is NOT mirror-invariant: [  ]
+
+--- The chirality group X(P) ---
+|X(P)| = 120
+X(P) normal in Gamma: true
+[Gamma : X(P)] = 60
+StructureDescription(X(P)) = SL(2,5)
+IdGroup(X(P)) = [ 120, 5 ]
+StructureDescription(Gamma/X(P)) = A5
+IdGroup(Gamma/X(P)) = [ 60, 5 ]
+Gamma/X(P) admits the mirror automorphism: true
+Gamma/X(P) = W^+/M^W: generator orders [ 2, 3, 5 ], string relations hold: true, intersection property: false, coset f-vector [ 1, 6, 15, 10 ]
+Mix = W^+/M_W (smallest regular cover): generator orders [ 12, 3, 5 ], string relations hold: true, mirror automorphism exists: true, intersection property: true, coset f-vector 
+[ 14400, 86400, 36000, 6000 ]
+directly regular (X trivial): false
+totally chiral (X = Gamma): false
+
+--- Defect elements ---
+A = (S1 S3)^5  [mirror of the relator (S1^-1 S3)^5]: order 3, |normal closure| = 120, equals X(P): true
+B = (S1^-1 S3)^15  [mirror of the relator (S1 S3)^15]: order 1, |normal closure| = 1, equals X(P): false
+
+--- Identification by explicit isomorphisms ---
+X(P) ~= SL(2,5): true
+X(P) ~= A5: false
+X(P) ~= S5: false
+X(P) ~= C2: false
+Gamma/X(P) ~= A5: true
+Gamma/X(P) ~= SL(2,5): false
+Gamma/X(P) ~= A5 x A5: false
+X(P) perfect: true;  |Z(X(P))| = 2;  X(P)/Z(X(P)) ~= A5: true;  number of involutions in X(P) = 1
+Gamma/X(P) simple: true
+Gamma ~= (SL(2,5) x SL(2,5)) / <(-1,-1)> (explicit IsomorphismGroups): true
+Gamma perfect: true;  |Z(Gamma)| = 2;  X(P) contains Z(Gamma): true
+|C_Gamma(X(P))| = 120;  C_Gamma(X(P)) is the other normal subgroup of order 120: true
+Gamma = X(P) * C_Gamma(X(P)) with intersection of order 2: true
+every element of X(P) acts on R^4 as a Clifford translation (isoclinic rotation): true;  same for C_Gamma(X(P)): true;  not all of Gamma: true
+generators of X(P) as words in S1,S2,S3:
+  S2*S3^-1*S2*S1^2*S2*S1^-3*S3^-1*S1^-1*S2^-1*S1*S2^-1*S1^-1   (order 10)
+  S3^-1*(S3^-1*S1^-1*S2)^2*S3   (order 10)
+defect element A as a word:
+  S3*S2*S1^5*S2*S3^-1*S2*S1^-1   (order 3)
+
+Done: {12/(1,5),3,5}.

@@ -1,0 +1,112 @@
+##########################################################
+# Roli's cube: chirality group computation
+##########################################################
+GAP version: 4.14.0
+Loaded packages:
+  gapdoc 1.6.7
+  primgrp 3.4.4
+  smallgrp 1.5.4
+  transgrp 3.6.5
+
+|[4,3,3]| = 384
+Gamma = <S1,S2,S3> equals the rotation subgroup [4,3,3]^+: true
+E_i -> R_i is an isomorphism [4,3,3] -> <R0,R1,R2,R3> carrying (S1,S2,S3) to cube.g's matrices: true
+Wythoff base-flag data of cube.g consistent (v fixed by S2,S3; e={v,vS1^-1}={v,vR0}; 16 vertices): true
+S1 S2 = E0 E3: true;  S1 S2 S3 = E0 E2: true
+geometric f-vector (orbits of v, e, f, c under the matrix group) = [ 16, 32, 12, 4 ];  edges per 2-face = 8, 2-faces per cell = 6
+orientation checks F_i.S_i = F'_i for i=1,2,3: [ true, true, true ];  (-S1,S2,S3) violates the orientation of S1: true;  face stabilisers <S2,S3>, <S3,S1S2>, <S1,S2S3>, <S1,S2>: true
+
+==========================================================
+Roli's cube  {8,3,3}  (Gamma = [4,3,3]^+, |Gamma| = 192)
+==========================================================
+|Gamma| = 192
+IdGroup(Gamma) = [ 192, 1494 ]   StructureDescription(Gamma) = Q8 : S4   (StructureDescription strings are GAP output, not isomorphism invariants)
+orders of (S1,S2,S3) = [ 8, 3, 3 ]   (Schlaefli type {8,3,3})
+ord(S1 S2) = 2, ord(S2 S3) = 2, ord(S1 S2 S3) = 2, ord(S3 S2 S1) = 4
+standard relations (s1s2)^2=(s2s3)^2=(s1s2s3)^2=1 hold: true
+intersection property (rank 4) holds: true
+abstract f-vector (vertices, edges, 2-faces, cells) = [ 16, 32, 12, 4 ]
+mirror assignment S1->S1^-1, S2->S1^2 S2, S3->S3 extends to an automorphism of Gamma: false
+ord(S1^-1 S3) = 4   versus   ord(S1 S3) = 8
+
+--- Method 1: mirrored relators ---
+presentation on (S1,S2,S3): 9 relators (3 of W^+ first); relators hold in Gamma: true; |<S1,S2,S3 | R>| = |Gamma| by coset enumeration: true
+relators R (as words in S1,S2,S3):
+  r1 = (S1*S2)^2
+  r2 = (S2*S3)^2
+  r3 = (S1*S2*S3)^2
+  r4 = S2^3
+  r5 = (S1^-1*S2^-1)^2
+  r6 = S1^-1*S3*S1*S3^-1*S2
+  r7 = (S2^-1*S1*S3^-1)^2
+  r8 = S2^-1*S1^-1*S3^-2*S1*S2*S3
+  r9 = (S3*S1^-1)^4
+mirrored relators R^{r0} and their values in Gamma (order of the value):
+  r1-bar = (S1*S2)^2   -> order 1
+  r2-bar = (S1^2*S2*S3)^2   -> order 1
+  r3-bar = (S1*S2*S3)^2   -> order 1
+  r4-bar = (S1^2*S2)^3   -> order 1
+  r5-bar = S1*(S2^-1*S1^-1)^2*S1^-1   -> order 1
+  r6-bar = S1*S3*S1^-1*S3^-1*S1^2*S2   -> order 1
+  r7-bar = (S2^-1*S1^-3*S3^-1)^2   -> order 1
+  r8-bar = S2^-1*S1^-1*S3^-2*S1*S2*S3   -> order 1
+  r9-bar = (S3*S1)^4   -> order 2
+|X_1| = |normal closure of the mirrored relators| = 2
+greedy sublist of mirrored relators already normally generating X_1: [ "r9-bar" ]
+
+--- Method 2: mix with the enantiomorphic group ---
+|Mix| = |<(S1,S1^-1),(S2,S1^2 S2),(S3,S3)>| = 384
+|Gamma| * |X_1| = 384   equal to |Mix|: true
+both projections surjective: true
+|X_2| = |first coordinates of ker(projection onto mirror factor)| = 2
+|X_2-bar| = |second coordinates of ker(projection onto first factor)| = 2
+X_2 = X_1 as subgroups of Gamma: true
+X_2 = X_2-bar as subgroups of Gamma: true
+X_2 = kernel computed via explicit homomorphism Mix -> Gamma-bar: true
+
+--- Method 3: smallest normal subgroup with mirror-invariant quotient ---
+orders of all normal subgroups of Gamma: [ 1, 2, 8, 8, 8, 32, 96, 192 ]
+orders of those N with Gamma/N admitting the mirror automorphism: [ 2, 8, 32, 96, 192 ]
+smallest such N has order 2; equals X_1: true
+every such N contains X_1: true;  the set of such N is closed under intersection: true
+orders of normal subgroups containing X_1 whose quotient is NOT mirror-invariant: [ 8, 8 ]
+
+--- The chirality group X(P) ---
+|X(P)| = 2
+X(P) normal in Gamma: true
+[Gamma : X(P)] = 96
+StructureDescription(X(P)) = C2
+IdGroup(X(P)) = [ 2, 1 ]
+StructureDescription(Gamma/X(P)) = (C2 x C2) : S4
+IdGroup(Gamma/X(P)) = [ 96, 227 ]
+Gamma/X(P) admits the mirror automorphism: true
+Gamma/X(P) = W^+/M^W: generator orders [ 4, 3, 3 ], string relations hold: true, intersection property: true, coset f-vector [ 8, 16, 12, 4 ]
+Mix = W^+/M_W (smallest regular cover): generator orders [ 8, 3, 3 ], string relations hold: true, mirror automorphism exists: true, intersection property: true, coset f-vector [ 32, 64, 24, 8 ]
+directly regular (X trivial): false
+totally chiral (X = Gamma): false
+
+--- Defect elements ---
+A = (S1 S3)^4  [mirror of the relator (S1^-1 S3)^4]: order 2, |normal closure| = 2, equals X(P): true
+B = (S1^-1 S3)^8  [mirror of the relator (S1 S3)^8]: order 1, |normal closure| = 1, equals X(P): false
+
+--- Identification by explicit isomorphisms ---
+X(P) ~= Q8: false
+X(P) ~= C2^3: false
+X(P) ~= C2 x C4: false
+X(P) ~= C8: false
+X(P) ~= C2: true
+Z([4,3,3]) = {+-I} of order 2: true;  |[4,3,3]/{+-I}| = 192, its rotation subgroup <E0E1,E1E2,E2E3>/{+-I} has order 96
+S_i -> S_i{+-I} embeds Gamma/X(P) onto the rotation subgroup of [4,3,3]/{+-I} (hemi-4-cube): true
+Gamma/X(P) ~= S4: false
+Gamma/X(P) ~= SL(2,3): false
+Gamma/X(P) ~= GL(2,3): false
+Gamma ~= Gamma/X x X ? (IsomorphismGroups): false
+X(P) abelian: true;  X(P) is a 2-group: true;  exponent(X(P)) = 2;  |Z(X(P))| = 2;  number of involutions in X(P) = 1
+X(P) contains the centre of Gamma (|Z(Gamma)| = 2): true
+X(P) = O_2(Gamma)? false;  X(P) = Fitting(Gamma)? false;  X(P) = derived subgroup? false
+generators of X(P) as words in S1,S2,S3:
+  S1^-4   (order 2)
+defect element A as a word:
+  S1^-4   (order 2)
+
+Done: Roli's cube.
