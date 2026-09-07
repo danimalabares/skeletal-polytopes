@@ -34,7 +34,7 @@
 ##      The kernel of the projection onto the second (mirror) factor consists
 ##      of the pairs (x,1); the set of their first coordinates is
 ##          phi(M^{r0}) = M M^{r0}/M = X(P)  as a subgroup of Gamma^+(P).
-##      (See README.md for the derivation, and note that here the kernel of
+##      (See TECHNICAL_NOTES.md for the derivation, and note that here the kernel of
 ##      the *first* projection, read in the second coordinate, is the same
 ##      subgroup of Gamma, because the mirror copy lives inside Gamma itself.)
 ##
