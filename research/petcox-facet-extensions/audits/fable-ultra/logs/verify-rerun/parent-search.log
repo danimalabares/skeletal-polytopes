@@ -1,0 +1,1794 @@
+
+
+################ PARENT SEARCH: T = {3,3,3}, parent = W(T) (order 120) ################
+elements: 120; satisfying (S2X)^2=(S1S2X)^2=1: 5; of these with a fixed LINE in the plane: 3 (no fixed point: 2, fixing the whole plane: 0); order >= 3: 2 (order 2 rejected: 1); fixing the base edge: 2
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 4)
+STATS {3,3,3} in W(T): rec(
+  edge := 2,
+  fixedline := 3,
+  ip := 0,
+  order_ge3 := 2,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 2,
+  rejected_order2 := 1,
+  rejected_realisation := 0,
+  rejected_relations := 115,
+  relations := 5,
+  survivors := 0,
+  total := 120 )
+
+
+################ PARENT SEARCH: T = {3,3,3}*, parent = W(T) (order 120) ################
+elements: 120; satisfying (S2X)^2=(S1S2X)^2=1: 5; of these with a fixed LINE in the plane: 3 (no fixed point: 2, fixing the whole plane: 0); order >= 3: 2 (order 2 rejected: 1); fixing the base edge: 2
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 4)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+STATS {3,3,3}* in W(T): rec(
+  edge := 2,
+  fixedline := 3,
+  ip := 0,
+  order_ge3 := 2,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 2,
+  rejected_order2 := 1,
+  rejected_realisation := 0,
+  rejected_relations := 115,
+  relations := 5,
+  survivors := 0,
+  total := 120 )
+
+
+################ PARENT SEARCH: T = {4,3,3}, parent = W(T) (order 384) ################
+elements: 384; satisfying (S2X)^2=(S1S2X)^2=1: 8; of these with a fixed LINE in the plane: 3 (no fixed point: 5, fixing the whole plane: 0); order >= 3: 3 (order 2 rejected: 0); fixing the base edge: 3
+
+========== PARENT W(T), T = {4,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator S1^-1*S2*S3^-1*S1^2*S3*S1^2*S2^-1*S1^-1 mirrors to S1^3*S2*S3^-1*S1^-2*S3*S1^-2*S2^-1*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 0 (exact: true); X = word R3^-1*R2^-1
+  reject X of order 4, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+
+========== PARENT W(T), T = {4,3,3}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S3^-1*S1^2*S3*S2*S1 mirrors to S1^-1*S2^-1*S1^-2*S3^-1*S1^-2*S3*S1^2*S2*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = infinity (exact: true); X = word R0^-1*R1^-1*R2^-1*R1^-1*R3^-1*R2^-1*R1^-1*R0^-1*R1^-1*R2^-1
+STATS {4,3,3} in W(T): rec(
+  edge := 3,
+  fixedline := 3,
+  ip := 2,
+  order_ge3 := 3,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 1,
+  rejected_nofixedpoint := 5,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 376,
+  relations := 8,
+  survivors := 2,
+  total := 384 )
+
+
+################ PARENT SEARCH: T = {3,3,4}, parent = W(T) (order 384) ################
+elements: 384; satisfying (S2X)^2=(S1S2X)^2=1: 8; of these with a fixed LINE in the plane: 3 (no fixed point: 5, fixing the whole plane: 0); order >= 3: 3 (order 2 rejected: 0); fixing the base edge: 3
+
+========== PARENT W(T), T = {3,3,4}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S1^-2*S3*S2*S1^-1*S2*S3^-1 mirrors to S1^-1*S2^-1*S3*S1^2*S2*S1^3*S2*S3^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 1 (exact: true); X = word R1^-1*R0^-1
+
+========== PARENT W(T), T = {3,3,4}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator (S1*S3^-1)^4 mirrors to (S1^-1*S3^-1)^4 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = infinity (exact: true); X = word R2^-1*R1*R2*R3*R2^-1*R1^-1*R0*R1*R2*R3
+  reject X of order 4, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,3,4} in W(T): rec(
+  edge := 3,
+  fixedline := 3,
+  ip := 2,
+  order_ge3 := 3,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 1,
+  rejected_nofixedpoint := 5,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 376,
+  relations := 8,
+  survivors := 2,
+  total := 384 )
+
+
+################ PARENT SEARCH: T = {3,4,3}, parent = W(T) (order 1152) ################
+elements: 1152; satisfying (S2X)^2=(S1S2X)^2=1: 12; of these with a fixed LINE in the plane: 4 (no fixed point: 8, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 2+E(8)-E(8)^3 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = -1-E(8)+E(8)^3 (a:b = [ -1, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,4,3} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 8,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 1140,
+  relations := 12,
+  survivors := 0,
+  total := 1152 )
+
+
+################ PARENT SEARCH: T = {3,4,3}*, parent = W(T) (order 1152) ################
+elements: 1152; satisfying (S2X)^2=(S1S2X)^2=1: 12; of these with a fixed LINE in the plane: 4 (no fixed point: 8, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 2+E(8)-E(8)^3 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = -1-E(8)+E(8)^3 (a:b = [ -1, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,4,3}* in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 8,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 1140,
+  relations := 12,
+  survivors := 0,
+  total := 1152 )
+
+
+################ PARENT SEARCH: T = {5,3,3}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 4 (no fixed point: 26, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+
+========== PARENT W(T), T = {5,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1*S3*S1^-1*(S1^-1*S3)^2*S1^-1*S2^-1*S3 mirrors to S1^-1*S3*S1*(S1*S3)^2*S1*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 0 (exact: true); X = word R3^-1*R2^-1
+  reject X of order 5, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+
+========== PARENT W(T), T = {5,3,3}, X of order 3, alpha = E(40)^7-E(40)^8-E(40)^13-3*E(40)^16-2*E(40)^21+E(40)^23-3*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^32-E(40)^37+2*E(40)^39 (a:b = [ 1/2*E(5)^2+1/2*E(5)^3, 1 ]) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 5; relator S1^2*S3*S1^-1*S2*S1^-2*S3*S2^-1*S3 mirrors to S1^-2*S3*S1^3*S2*S1^2*S3*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 120, 720, 48 ], face size 30, polyhedron: false, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: true
+alpha = E(40)^7-E(40)^8-E(40)^13-3*E(40)^16-2*E(40)^21+E(40)^23-3*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^32-E(40)^37+2*E(40)^39 (exact: true); X = word R1^-1*R2^-1*(R0^-1*R1^-1)^2*R2^-1*R1^-1*R0^-1*R1^-1*R3^-1*R2^-1*R1^-1*R0^-1*R1^-1*R2^-1*(R0^-1*R1^-1)^2*R2^-1*R3^-1*R2^-1*(R1^-1*R0^-1)^2*R2^-1*R1^-1*R0^-1*R3^-1*R2^-1*R1^-1*R0^-1
+  reject X of order 5, alpha = -1-E(8)+E(8)^3 (a:b = [ 1/2*E(5)+E(5)^2+E(5)^3+1/2*E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+STATS {5,3,3} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 2,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 26,
+  rejected_order2 := 0,
+  rejected_realisation := 1,
+  rejected_relations := 14370,
+  relations := 30,
+  survivors := 1,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {3,3,5}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 4 (no fixed point: 26, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+  reject X of order 5, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 4)
+  reject X of order 5, alpha = 2+E(8)-E(8)^3 (a:b = [ 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+
+========== PARENT W(T), T = {3,3,5}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 5; relator (S3*S1)^5 mirrors to (S3*S1^-1)^5 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 1 (exact: true); X = word R1^-1*R0^-1
+
+========== PARENT W(T), T = {3,3,5}, X of order 3, alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39 (a:b = [ 1/4*E(5)+3/4*E(5)^2+3/4*E(5)^3+1/4*E(5)^4, 1 ]) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1^2*S3*S2^-1*S1*S3*S1^-1*S2*S1*S3^-1 mirrors to S1^-2*S3*S2^-1*S1^-3*S3*S1^3*S2*S1^-1*S3^-1 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 120, 720, 48 ], face size 30, polyhedron: false, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: true
+alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39 (exact: true); X = word R0^-1*R1^-1*R3^-1*(R2^-1*R3^-1*R1^-1*R2^-1*R3^-1*R0^-1*R1^-1)^2*R2^-1*R3^-1*R2^-1*R1^-1*R3^-1*(R3^-1*R1^-1)^2*(R2^-1*R0^-1)^2*R0^-1*R3^-2*R1^-2*R3^-2*R0^-1*R1^-2*R2^-1*R1^-5*R3^-1*R2^-2*R0^-1*R1^-1*R2^-1*R0^-2*R2^-1*R3^-2*(R0^-2*R2^-1)^2*R0^-1*R2^-1*R1^-2*R3^-1*(R1^-1*R2^-1)^2*R2^-1*R3^-1*R0^-1*R1^-3*R0^-2*R2^-1*R0^-1*R3^-1*(R2^-1*R0^-1*R1^-1)^2*R0^-1*R3^-2*R1^-1*R3^-2*R2^-1*R3^-1*(R2^-1*R3^-1*R1^-1)^2*R2^-1*R1^-1*R0^-1
+STATS {3,3,5} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 2,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 26,
+  rejected_order2 := 0,
+  rejected_realisation := 1,
+  rejected_relations := 14370,
+  relations := 30,
+  survivors := 1,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {3,5,5/2}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 20; of these with a fixed LINE in the plane: 4 (no fixed point: 16, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+  reject X of order 5, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 5, alpha = infinity (a:b = [ 1/2*E(5)^2+1/2*E(5)^3, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,5,5/2} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 16,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 14380,
+  relations := 20,
+  survivors := 0,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5/2,5,3}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 20; of these with a fixed LINE in the plane: 4 (no fixed point: 16, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 5, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = E(5)^2+E(5)^3 (a:b = [ 1/2*E(5)+E(5)^2+E(5)^3+1/2*E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 5, alpha = infinity (a:b = [ 1/2*E(5)^2+1/2*E(5)^3, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {5/2,5,3} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 16,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 14380,
+  relations := 20,
+  survivors := 0,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5,5/2,5}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 6 (no fixed point: 24, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 2); fixing the base edge: 4
+  reject X of order 5, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = E(5)^2+E(5)^3 (a:b = [ 1/2*E(5)+E(5)^2+E(5)^3+1/2*E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+STATS {5,5/2,5} in W(T): rec(
+  edge := 4,
+  fixedline := 6,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 24,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 14370,
+  relations := 30,
+  survivors := 0,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5,5/2,5}*, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 6 (no fixed point: 24, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 2); fixing the base edge: 4
+  reject X of order 5, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = E(5)^2+E(5)^3 (a:b = [ 1/2*E(5)+E(5)^2+E(5)^3+1/2*E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+STATS {5,5/2,5}* in W(T): rec(
+  edge := 4,
+  fixedline := 6,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 24,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 14370,
+  relations := 30,
+  survivors := 0,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5,3,5/2}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 12; of these with a fixed LINE in the plane: 2 (no fixed point: 10, fixing the whole plane: 0); order >= 3: 2 (order 2 rejected: 0); fixing the base edge: 2
+
+========== PARENT W(T), T = {5,3,5/2}, X of order 5, alpha = 0 (a:b = [ 1, 0 ]) ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 15; relator S1^2*S3^-2*S1^-2*S2*S1^-1*S3^-1*S2^-1*S3*S2*S3^-1*S2 mirrors to S1^-2*S3^-2*S1^4*S2*S1*S3^-1*S2^-1*S1^-2*S3*S1^2*S2*S3^-1*S1^2*S2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 0 (exact: true); X = word R3^-1*R2^-1
+
+========== PARENT W(T), T = {5,3,5/2}, X of order 5, alpha = 1 (a:b = [ 0, 1 ]) ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 15
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 15 vs ord(S1 S3) = 5; relator S1*(S1*S2^-1)^2*S3^-1*S1^-2*S2*S3^2*S2^-1*S3^2*S2 mirrors to (S1^-2*S2^-1*S1^-1)^2*S1^-1*S3^-1*S1^4*S2*S3^2*S2^-1*S1^-2*S3^2*S1^2*S2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 1 (exact: true); X = word R1^-1*R0^-1
+STATS {5,3,5/2} in W(T): rec(
+  edge := 2,
+  fixedline := 2,
+  ip := 2,
+  order_ge3 := 2,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 10,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 14388,
+  relations := 12,
+  survivors := 2,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5/2,3,5}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 12; of these with a fixed LINE in the plane: 2 (no fixed point: 10, fixing the whole plane: 0); order >= 3: 2 (order 2 rejected: 0); fixing the base edge: 2
+
+========== PARENT W(T), T = {5/2,3,5}, X of order 5, alpha = 0 (a:b = [ 1, 0 ]) ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 15; relator S1^2*S3^-2*S1^-2*S2*S1^-1*S3^-1*S2^-1*S3*S2*S3^-1*S2 mirrors to S1^-2*S3^-2*S1^4*S2*S1*S3^-1*S2^-1*S1^-2*S3*S1^2*S2*S3^-1*S1^2*S2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 0 (exact: true); X = word R3^-1*R2^-1
+
+========== PARENT W(T), T = {5/2,3,5}, X of order 5, alpha = 1 (a:b = [ 0, 1 ]) ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 15
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 15 vs ord(S1 S3) = 5; relator S1*(S1*S2^-1)^2*S3^-1*S1^-2*S2*S3^2*S2^-1*S3^2*S2 mirrors to (S1^-2*S2^-1*S1^-1)^2*S1^-1*S3^-1*S1^4*S2*S3^2*S2^-1*S1^-2*S3^2*S1^2*S2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 1 (exact: true); X = word R1^-1*R0^-1
+STATS {5/2,3,5} in W(T): rec(
+  edge := 2,
+  fixedline := 2,
+  ip := 2,
+  order_ge3 := 2,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 10,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 14388,
+  relations := 12,
+  survivors := 2,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {3,3,5/2}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 4 (no fixed point: 26, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+  reject X of order 5, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 4)
+
+========== PARENT W(T), T = {3,3,5/2}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 5; relator (S3*S1)^5 mirrors to (S3*S1^-1)^5 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 1 (exact: true); X = word R1^-1*R0^-1
+
+========== PARENT W(T), T = {3,3,5/2}, X of order 3, alpha = -2*E(40)^7+2*E(40)^8+2*E(40)^13+E(40)^21-2*E(40)^23+E(40)^29-E(40)^31+2*E(40)^32+2*E(40)^37-E(40)^39 (a:b = [ 3/4*E(5)+1/4*E(5)^2+1/4*E(5)^3+3/4*E(5)^4, 1 ]) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1^2*S3*S2^-1*S1*S3*S1^-1*S2*S1*S3^-1 mirrors to S1^-2*S3*S2^-1*S1^-3*S3*S1^3*S2*S1^-1*S3^-1 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 120, 720, 48 ], face size 30, polyhedron: false, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: true
+alpha = -2*E(40)^7+2*E(40)^8+2*E(40)^13+E(40)^21-2*E(40)^23+E(40)^29-E(40)^31+2*E(40)^32+2*E(40)^37-E(40)^39 (exact: true); X = word R3^-1*(R2^-1*R3^-1*R1^-1)^2*R2^-1*R0*R1*R2*R3*R2*R1*R0*(R3*R2*R1)^2*R0*R3*R2^-1*R1^-1*R0^-1*(R3^-1*R2^-1*R1^-1)^2*R3^-1*R2^-1
+  reject X of order 5, alpha = 2+E(8)-E(8)^3 (a:b = [ 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+STATS {3,3,5/2} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 2,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 26,
+  rejected_order2 := 0,
+  rejected_realisation := 1,
+  rejected_relations := 14370,
+  relations := 30,
+  survivors := 1,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5/2,3,3}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 4 (no fixed point: 26, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+
+========== PARENT W(T), T = {5/2,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1*S3*S1^-1*(S1^-1*S3)^2*S1^-1*S2^-1*S3 mirrors to S1^-1*S3*S1*(S1*S3)^2*S1*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 0 (exact: true); X = word R3^-1*R2^-1
+  reject X of order 5, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+  reject X of order 5, alpha = -1-E(8)+E(8)^3 (a:b = [ E(5)+1/2*E(5)^2+1/2*E(5)^3+E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+
+========== PARENT W(T), T = {5/2,3,3}, X of order 3, alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39 (a:b = [ 1/2*E(5)+1/2*E(5)^4, 1 ]) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 5; relator S1^2*S3*S1^-1*S2*S1^-2*S3*S2^-1*S3 mirrors to S1^-2*S3*S1^3*S2*S1^2*S3*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 120, 720, 48 ], face size 30, polyhedron: false, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: true
+alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39 (exact: true); X = word R3*R2*R1*R0*R1*R2*R3*R0*R1*R0*R2*(R1*R0)^2*R2*R3*(R0^-1*R1^-1)^2*R2^-1*R3^-1*R2^-1*R1^-1*R0^-1*R1^-1*R0*R2*R1*R0*R1*R2*R3*R2^-1*R1^-1*R0^-1*R1^-1*R2^-1*(R0^-1*R1^-1)^2*R2^-1*R3^-1*R2^-1*R1^-1*R0^-1*R1^-1*R0*R1*R2*R1*R0*R1*R2*R0^-1*R1^-1*R0^-1*R3
+STATS {5/2,3,3} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 2,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 26,
+  rejected_order2 := 0,
+  rejected_realisation := 1,
+  rejected_relations := 14370,
+  relations := 30,
+  survivors := 1,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {3,5/2,5}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 20; of these with a fixed LINE in the plane: 4 (no fixed point: 16, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+  reject X of order 5, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = E(5)^2+E(5)^3 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 5, alpha = 1/2 (a:b = [ 1/2*E(5)+1/2*E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,5/2,5} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 16,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 14380,
+  relations := 20,
+  survivors := 0,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5,5/2,3}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 20; of these with a fixed LINE in the plane: 4 (no fixed point: 16, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 0); fixing the base edge: 4
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 5, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 (a:b = [ E(5)+1/2*E(5)^2+1/2*E(5)^3+E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 5, alpha = 1/2 (a:b = [ 1/2*E(5)+1/2*E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {5,5/2,3} in W(T): rec(
+  edge := 4,
+  fixedline := 4,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 16,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 14380,
+  relations := 20,
+  survivors := 0,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5/2,5,5/2}, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 6 (no fixed point: 24, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 2); fixing the base edge: 4
+  reject X of order 5, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 (a:b = [ E(5)+1/2*E(5)^2+1/2*E(5)^3+E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = E(5)^2+E(5)^3 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+STATS {5/2,5,5/2} in W(T): rec(
+  edge := 4,
+  fixedline := 6,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 24,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 14370,
+  relations := 30,
+  survivors := 0,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {5/2,5,5/2}*, parent = W(T) (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 6 (no fixed point: 24, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 2); fixing the base edge: 4
+  reject X of order 5, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = E(5)^2+E(5)^3 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+  reject X of order 5, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 (a:b = [ E(5)+1/2*E(5)^2+1/2*E(5)^3+E(5)^4, 1 ]): intersection condition fails ([ true, true, false ], defect 12)
+STATS {5/2,5,5/2}* in W(T): rec(
+  edge := 4,
+  fixedline := 6,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 24,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 14370,
+  relations := 30,
+  survivors := 0,
+  total := 14400 )
+
+
+################ EXTENDED PARENTS ################
+PASS  embedded {3,3,3} in [3,3,5]: order of the reflection subgroup = 120
+PASS  embedded {3,3,3}: marks = [ 3, 3, 3 ]
+PASS  embedded {3,3,3}: f-vector = [ 5, 10, 10, 5 ]
+
+
+################ PARENT SEARCH: T = {3,3,3}in[3,3,5], parent = [3,3,5] (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 50; of these with a fixed LINE in the plane: 6 (no fixed point: 44, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 2); fixing the base edge: 4
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 4)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+
+========== PARENT [3,3,5], T = {3,3,3}in[3,3,5], X of order 3, alpha = -E(5)-E(5)^4 (a:b = [ 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, 1 ]) ==========
+orders (S1,S2,S3) = [ 5, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 60  |<S2,S3>| = 12  |W(T)| = 120  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 5, (p1,p2) in [ [ 1, 2 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 720, 120 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 720, 120 ]; 2-face size 5, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 10, 60 ] vs [ 12, 6, 10, 60 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 20, 30, 12 ], face size 5, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 60, type {5,3}, coset f-vector [ 20, 30, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: false
+alpha = -E(5)-E(5)^4 (exact: true); X = outside W(T); order 3, det 1
+
+========== PARENT [3,3,5], T = {3,3,3}in[3,3,5], X of order 3, alpha = -E(5)^2-E(5)^3 (a:b = [ 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 1 ]) ==========
+orders (S1,S2,S3) = [ 5, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 60  |<S2,S3>| = 12  |W(T)| = 120  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 5, (p1,p2) in [ [ 1, 2 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 720, 120 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 720, 120 ]; 2-face size 5, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 10, 60 ] vs [ 12, 6, 10, 60 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 20, 30, 12 ], face size 5, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 60, type {5,3}, coset f-vector [ 20, 30, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: false
+alpha = -E(5)^2-E(5)^3 (exact: true); X = outside W(T); order 3, det 1
+STATS {3,3,3}in[3,3,5] in [3,3,5]: rec(
+  edge := 4,
+  fixedline := 6,
+  ip := 2,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 44,
+  rejected_order2 := 2,
+  rejected_realisation := 2,
+  rejected_relations := 14350,
+  relations := 50,
+  survivors := 0,
+  total := 14400 )
+
+
+################ PARENT SEARCH: T = {3,3,3}*in[3,3,5], parent = [3,3,5] (order 14400) ################
+elements: 14400; satisfying (S2X)^2=(S1S2X)^2=1: 50; of these with a fixed LINE in the plane: 6 (no fixed point: 44, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 2); fixing the base edge: 4
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 4)
+
+========== PARENT [3,3,5], T = {3,3,3}*in[3,3,5], X of order 3, alpha = -E(5)^2-E(5)^3 (a:b = [ 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 1 ]) ==========
+orders (S1,S2,S3) = [ 5, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 60  |<S2,S3>| = 12  |W(T)| = 120  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 5, (p1,p2) in [ [ 1, 2 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 720, 120 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 720, 120 ]; 2-face size 5, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 10, 60 ] vs [ 12, 6, 10, 60 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 20, 30, 12 ], face size 5, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 60, type {5,3}, coset f-vector [ 20, 30, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: false
+alpha = -E(5)^2-E(5)^3 (exact: true); X = outside W(T); order 3, det 1
+
+========== PARENT [3,3,5], T = {3,3,3}*in[3,3,5], X of order 3, alpha = -E(5)-E(5)^4 (a:b = [ 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, 1 ]) ==========
+orders (S1,S2,S3) = [ 5, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 60  |<S2,S3>| = 12  |W(T)| = 120  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 5, (p1,p2) in [ [ 1, 2 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 720, 120 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 720, 120 ]; 2-face size 5, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 10, 60 ] vs [ 12, 6, 10, 60 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 20, 30, 12 ], face size 5, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 60, type {5,3}, coset f-vector [ 20, 30, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: false
+alpha = -E(5)-E(5)^4 (exact: true); X = outside W(T); order 3, det 1
+STATS {3,3,3}*in[3,3,5] in [3,3,5]: rec(
+  edge := 4,
+  fixedline := 6,
+  ip := 2,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 44,
+  rejected_order2 := 2,
+  rejected_realisation := 2,
+  rejected_relations := 14350,
+  relations := 50,
+  survivors := 0,
+  total := 14400 )
+PASS  [3,4,3] = <[4,3,3], refl(1,1,1,1)>: order = 1152
+PASS  [3,4,3] contains the mirrors of our {3,4,3} record
+PASS  [3,4,3] contains [4,3,3]
+PASS  D is orthogonal
+PASS  [[3,4,3]] = <[3,4,3], D>: order = 2304
+PASS  D normalises [3,4,3]
+
+
+################ PARENT SEARCH: T = {4,3,3}, parent = [3,4,3] (order 1152) ################
+elements: 1152; satisfying (S2X)^2=(S1S2X)^2=1: 8; of these with a fixed LINE in the plane: 3 (no fixed point: 5, fixing the whole plane: 0); order >= 3: 3 (order 2 rejected: 0); fixing the base edge: 3
+
+========== PARENT [3,4,3], T = {4,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator S1^-1*S2*S3^-1*S1^2*S3*S1^2*S2^-1*S1^-1 mirrors to S1^3*S2*S3^-1*S1^-2*S3*S1^-2*S2^-1*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 0 (exact: true); X = word R3^-1*R2^-1
+
+========== PARENT [3,4,3], T = {4,3,3}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S3^-1*S1^2*S3*S2*S1 mirrors to S1^-1*S2^-1*S1^-2*S3^-1*S1^-2*S3*S1^2*S2*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = infinity (exact: true); X = word R0^-1*R1^-1*R2^-1*R1^-1*R3^-1*R2^-1*R1^-1*R0^-1*R1^-1*R2^-1
+  reject X of order 4, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {4,3,3} in [3,4,3]: rec(
+  edge := 3,
+  fixedline := 3,
+  ip := 2,
+  order_ge3 := 3,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 1,
+  rejected_nofixedpoint := 5,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 1144,
+  relations := 8,
+  survivors := 2,
+  total := 1152 )
+
+
+################ PARENT SEARCH: T = {4,3,3}, parent = [[3,4,3]] (order 2304) ################
+elements: 2304; satisfying (S2X)^2=(S1S2X)^2=1: 16; of these with a fixed LINE in the plane: 3 (no fixed point: 13, fixing the whole plane: 0); order >= 3: 3 (order 2 rejected: 0); fixing the base edge: 3
+
+========== PARENT [[3,4,3]], T = {4,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator S1^-1*S2*S3^-1*S1^2*S3*S1^2*S2^-1*S1^-1 mirrors to S1^3*S2*S3^-1*S1^-2*S3*S1^-2*S2^-1*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 0 (exact: true); X = word R3^-1*R2^-1
+  reject X of order 4, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+
+========== PARENT [[3,4,3]], T = {4,3,3}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S3^-1*S1^2*S3*S2*S1 mirrors to S1^-1*S2^-1*S1^-2*S3^-1*S1^-2*S3*S1^2*S2*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = infinity (exact: true); X = word R0^-1*R1^-1*R2^-1*R1^-1*R3^-1*R2^-1*R1^-1*R0^-1*R1^-1*R2^-1
+STATS {4,3,3} in [[3,4,3]]: rec(
+  edge := 3,
+  fixedline := 3,
+  ip := 2,
+  order_ge3 := 3,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 1,
+  rejected_nofixedpoint := 13,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 2288,
+  relations := 16,
+  survivors := 2,
+  total := 2304 )
+
+
+################ PARENT SEARCH: T = {3,3,4}, parent = [3,4,3] (order 1152) ################
+elements: 1152; satisfying (S2X)^2=(S1S2X)^2=1: 8; of these with a fixed LINE in the plane: 3 (no fixed point: 5, fixing the whole plane: 0); order >= 3: 3 (order 2 rejected: 0); fixing the base edge: 3
+
+========== PARENT [3,4,3], T = {3,3,4}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S1^-2*S3*S2*S1^-1*S2*S3^-1 mirrors to S1^-1*S2^-1*S3*S1^2*S2*S1^3*S2*S3^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 1 (exact: true); X = word R1^-1*R0^-1
+
+========== PARENT [3,4,3], T = {3,3,4}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator (S1*S3^-1)^4 mirrors to (S1^-1*S3^-1)^4 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = infinity (exact: true); X = word R2^-1*R1*R2*R3*R2^-1*R1^-1*R0*R1*R2*R3
+  reject X of order 4, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,3,4} in [3,4,3]: rec(
+  edge := 3,
+  fixedline := 3,
+  ip := 2,
+  order_ge3 := 3,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 1,
+  rejected_nofixedpoint := 5,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 1144,
+  relations := 8,
+  survivors := 2,
+  total := 1152 )
+
+
+################ PARENT SEARCH: T = {3,3,4}, parent = [[3,4,3]] (order 2304) ################
+elements: 2304; satisfying (S2X)^2=(S1S2X)^2=1: 16; of these with a fixed LINE in the plane: 3 (no fixed point: 13, fixing the whole plane: 0); order >= 3: 3 (order 2 rejected: 0); fixing the base edge: 3
+
+========== PARENT [[3,4,3]], T = {3,3,4}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S1^-2*S3*S2*S1^-1*S2*S3^-1 mirrors to S1^-1*S2^-1*S3*S1^2*S2*S1^3*S2*S3^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = 1 (exact: true); X = word R1^-1*R0^-1
+
+========== PARENT [[3,4,3]], T = {3,3,4}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator (S1*S3^-1)^4 mirrors to (S1^-1*S3^-1)^4 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+alpha = infinity (exact: true); X = word R2^-1*R1*R2*R3*R2^-1*R1^-1*R0*R1*R2*R3
+  reject X of order 4, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,3,4} in [[3,4,3]]: rec(
+  edge := 3,
+  fixedline := 3,
+  ip := 2,
+  order_ge3 := 3,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 1,
+  rejected_nofixedpoint := 13,
+  rejected_order2 := 0,
+  rejected_realisation := 0,
+  rejected_relations := 2288,
+  relations := 16,
+  survivors := 2,
+  total := 2304 )
+
+
+################ PARENT SEARCH: T = {3,4,3}, parent = [[3,4,3]] (order 2304) ################
+elements: 2304; satisfying (S2X)^2=(S1S2X)^2=1: 24; of these with a fixed LINE in the plane: 6 (no fixed point: 18, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 2); fixing the base edge: 4
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = -1-E(8)+E(8)^3 (a:b = [ -1, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 2+E(8)-E(8)^3 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,4,3} in [[3,4,3]]: rec(
+  edge := 4,
+  fixedline := 6,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 18,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2280,
+  relations := 24,
+  survivors := 0,
+  total := 2304 )
+
+
+################ PARENT SEARCH: T = {3,4,3}*, parent = [[3,4,3]] (order 2304) ################
+elements: 2304; satisfying (S2X)^2=(S1S2X)^2=1: 24; of these with a fixed LINE in the plane: 6 (no fixed point: 18, fixing the whole plane: 0); order >= 3: 4 (order 2 rejected: 2); fixing the base edge: 4
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 2+E(8)-E(8)^3 (a:b = [ -1/2, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+  reject X of order 3, alpha = -1-E(8)+E(8)^3 (a:b = [ -1, 1 ]): intersection condition fails ([ true, true, false ], defect 2)
+STATS {3,4,3}* in [[3,4,3]]: rec(
+  edge := 4,
+  fixedline := 6,
+  ip := 0,
+  order_ge3 := 4,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 4,
+  rejected_nofixedpoint := 18,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2280,
+  relations := 24,
+  survivors := 0,
+  total := 2304 )
+
+
+################ NORMALISERS N_{O(4)}(G) OF THE FACET GROUPS ################
+## Note: by Prop. E1-E3 (theory.md, verified in alpha-complete.g) the third
+## generator is uniquely determined by the base vertex, over ALL of O(4);
+## the normaliser is therefore reported for information and searched only
+## when the enumeration is cheap.
+Syntax warning: Unbound global variable in parent-search.g:366
+    if ForAll(PX.CanonicalTriple(Td){[1,2]}, x -> x in nr.elements) then
+                                                       ^^
+
+{3,3,3}: |G| = 60, |Aut(G)| = 120 (inner 60, outer 2); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {3,3,3}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 60 * 2 = 240; enumerated: 240 elements (formula confirmed: true); contains W(T): true; rotations: 120
+PASS  {3,3,3}: the coset formula for |N_{O(4)}(G)| is confirmed by enumeration
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): false
+PASS  {3,3,3}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ 1/4, 1 ], alpha = 1/2 ~ 0.5   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ -1/4, 1 ], alpha = infinity   (geometrically regular member H_alpha of the family)
+
+
+################ PARENT SEARCH: T = {3,3,3}, parent = N_O(4)(G) (order 240) ################
+elements: 240; satisfying (S2X)^2=(S1S2X)^2=1: 10; of these with a fixed LINE in the plane: 4 (no fixed point: 6, fixing the whole plane: 0); order >= 3: 2 (order 2 rejected: 2); fixing the base edge: 2
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 4)
+STATS {3,3,3} in N_O(4)(G): rec(
+  edge := 2,
+  fixedline := 4,
+  ip := 0,
+  order_ge3 := 2,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 6,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 230,
+  relations := 10,
+  survivors := 0,
+  total := 240 )
+
+
+################ PARENT SEARCH: T = {3,3,3}*, parent = N_O(4)(G) (order 240) ################
+elements: 240; satisfying (S2X)^2=(S1S2X)^2=1: 10; of these with a fixed LINE in the plane: 4 (no fixed point: 6, fixing the whole plane: 0); order >= 3: 2 (order 2 rejected: 2); fixing the base edge: 2
+  reject X of order 3, alpha = 0 (a:b = [ 1, 0 ]): intersection condition fails ([ true, true, false ], defect 4)
+  reject X of order 3, alpha = 1 (a:b = [ 0, 1 ]): intersection condition fails ([ true, true, false ], defect 4)
+STATS {3,3,3}* in N_O(4)(G): rec(
+  edge := 2,
+  fixedline := 4,
+  ip := 0,
+  order_ge3 := 2,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 2,
+  rejected_nofixedpoint := 6,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 230,
+  relations := 10,
+  survivors := 0,
+  total := 240 )
+
+{4,3,3}: |G| = 48, |Aut(G)| = 48 (inner 24, outer 2); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {4,3,3}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 24 * 2 = 96; enumerated: 96 elements (formula confirmed: true); contains W(T): false; rotations: 96
+PASS  {4,3,3}: the coset formula for |N_{O(4)}(G)| is confirmed by enumeration
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): false
+PASS  {4,3,3}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ -1/2*E(12)^4-1/2*E(12)^7-1/2*E(12)^8+1/2*E(12)^11, 1 ], alpha = -2*E(12)^4+E(12)^7-2*E(12)^8-E(12)^11 ~ 0.2679491924311237   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ -1/2*E(12)^4+1/2*E(12)^7-1/2*E(12)^8-1/2*E(12)^11, 1 ], alpha = -2*E(12)^4-E(12)^7-2*E(12)^8+E(12)^11 ~ 3.732050807568877   (geometrically regular member H_alpha of the family)
+
+
+################ PARENT SEARCH: T = {4,3,3}, parent = N_O(4)(G) (order 96) ################
+elements: 96; satisfying (S2X)^2=(S1S2X)^2=1: 8; of these with a fixed LINE in the plane: 2 (no fixed point: 6, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {4,3,3} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 6,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 88,
+  relations := 8,
+  survivors := 0,
+  total := 96 )
+
+
+################ PARENT SEARCH: T = {3,3,4}, parent = N_O(4)(G) (order 96) ################
+elements: 96; satisfying (S2X)^2=(S1S2X)^2=1: 8; of these with a fixed LINE in the plane: 2 (no fixed point: 6, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {3,3,4} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 6,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 88,
+  relations := 8,
+  survivors := 0,
+  total := 96 )
+
+{3,4,3}: |G| = 192, |Aut(G)| = 384 (inner 96, outer 4); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 0, 2 ], [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {3,4,3}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 96 * 2 = 384; enumerated: 384 elements (formula confirmed: true); contains W(T): false; rotations: 384
+PASS  {3,4,3}: the coset formula for |N_{O(4)}(G)| is confirmed by enumeration
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): false
+PASS  {3,4,3}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ 1/2*E(8)-1/2*E(8)^3, 1 ], alpha = 1/2 ~ 0.5   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ -1/2*E(8)+1/2*E(8)^3, 1 ], alpha = infinity   (geometrically regular member H_alpha of the family)
+
+
+################ PARENT SEARCH: T = {3,4,3}, parent = N_O(4)(G) (order 384) ################
+elements: 384; satisfying (S2X)^2=(S1S2X)^2=1: 12; of these with a fixed LINE in the plane: 2 (no fixed point: 10, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {3,4,3} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 10,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 372,
+  relations := 12,
+  survivors := 0,
+  total := 384 )
+
+
+################ PARENT SEARCH: T = {3,4,3}*, parent = N_O(4)(G) (order 384) ################
+elements: 384; satisfying (S2X)^2=(S1S2X)^2=1: 12; of these with a fixed LINE in the plane: 2 (no fixed point: 10, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {3,4,3}* in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 10,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 372,
+  relations := 12,
+  survivors := 0,
+  total := 384 )
+
+{5,3,3}: |G| = 1440, |Aut(G)| = 2880 (inner 720, outer 4); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 0, 2 ], [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {5,3,3}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 720 * 2 = 2880; enumerated: 2880 elements (formula confirmed: true); contains W(T): false; rotations: 2880
+PASS  {5,3,3}: the coset formula for |N_{O(4)}(G)| is confirmed by enumeration
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): false
+PASS  {5,3,3}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ -1/2*E(40)^7-1/2*E(40)^8+1/2*E(40)^13-3/2*E(40)^16+3/2*E(40)^21-1/2*E(40)^23-3/2*E(40)^24+3/2*E(40)^29-3/2*E(40)^31-1/2*E(40)^32+1/2*E(40)^37-3/2*E(40)^39, 1 ], alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-7*E(40)^16-5*E(40)^21+2*E(40)^23-7*E(40)^24-5*E(40)^29+5*E(40)^31-3*E(40)^32-2*E(40)^37+5*E(40)^39 ~ 19.16529991355798   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ 1/2*E(40)^7-1/2*E(40)^8-1/2*E(40)^13-3/2*E(40)^16-3/2*E(40)^21+1/2*E(40)^23-3/2*E(40)^24-3/2*E(40)^29+3/2*E(40)^31-1/2*E(40)^32-1/2*E(40)^37+3/2*E(40)^39, 1 ], alpha = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-2/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-1/3*E(40)^39 ~ 0.1532728288415159   (geometrically regular member H_alpha of the family)
+
+
+################ PARENT SEARCH: T = {5,3,3}, parent = N_O(4)(G) (order 2880) ################
+elements: 2880; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 2 (no fixed point: 28, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {5,3,3} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 28,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2850,
+  relations := 30,
+  survivors := 0,
+  total := 2880 )
+
+
+################ PARENT SEARCH: T = {3,3,5}, parent = N_O(4)(G) (order 2880) ################
+elements: 2880; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 2 (no fixed point: 28, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {3,3,5} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 28,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2850,
+  relations := 30,
+  survivors := 0,
+  total := 2880 )
+
+{3,5,5/2}: |G| = 1200, |Aut(G)| = 4800 (inner 600, outer 8); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 0, 6 ], [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {3,5,5/2}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 600 * 2 = 2400; enumerated: 2400 elements (formula confirmed: true); contains W(T): false; rotations: 2400
+PASS  {3,5,5/2}: the coset formula for |N_{O(4)}(G)| is confirmed by enumeration
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): false
+PASS  {3,5,5/2}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ 1/2*E(20)-1/2*E(20)^8-1/2*E(20)^9-1/2*E(20)^12-1/2*E(20)^13+1/2*E(20)^17, 1 ], alpha = -2*E(20)-2*E(20)^4-4*E(20)^8+2*E(20)^9-4*E(20)^12+E(20)^13-2*E(20)^16-E(20)^17 ~ 0.2562714077342295   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ -1/2*E(20)-1/2*E(20)^8+1/2*E(20)^9-1/2*E(20)^12+1/2*E(20)^13-1/2*E(20)^17, 1 ], alpha = 2*E(20)-2*E(20)^4-4*E(20)^8-2*E(20)^9-4*E(20)^12-E(20)^13-2*E(20)^16+E(20)^17 ~ 10.21586454726535   (geometrically regular member H_alpha of the family)
+
+
+################ PARENT SEARCH: T = {3,5,5/2}, parent = N_O(4)(G) (order 2400) ################
+elements: 2400; satisfying (S2X)^2=(S1S2X)^2=1: 20; of these with a fixed LINE in the plane: 2 (no fixed point: 18, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {3,5,5/2} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 18,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2380,
+  relations := 20,
+  survivors := 0,
+  total := 2400 )
+
+
+################ PARENT SEARCH: T = {5/2,5,3}, parent = N_O(4)(G) (order 2400) ################
+elements: 2400; satisfying (S2X)^2=(S1S2X)^2=1: 20; of these with a fixed LINE in the plane: 2 (no fixed point: 18, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {5/2,5,3} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 18,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2380,
+  relations := 20,
+  survivors := 0,
+  total := 2400 )
+
+{5,5/2,5}: |G| = 7200, |Aut(G)| = 28800 (inner 3600, outer 8); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 0, 6 ], [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {5,5/2,5}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 3600 * 2 = 14400; not enumerated (too large)
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): true
+PASS  {5,5/2,5}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ 1/2*E(5)^2+1/2*E(5)^3, 1 ], alpha = infinity   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ -1/2*E(5)^2-1/2*E(5)^3, 1 ], alpha = 1/2 ~ 0.5   (geometrically regular member H_alpha of the family)
+   N not enumerated: no element search here.  Level 3 for this family is settled by alpha-complete.g
+   (Prop. E1: the third generator is unique for each base vertex, over all of O(4)).
+
+{5,3,5/2}: |G| = 144, |Aut(G)| = 288 (inner 72, outer 4); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 1, 4 ] ]; realised by orthogonal matrices: 4; square roots failed: 0
+PASS  {5,3,5/2}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 72 * 4 = 576; enumerated: 576 elements (formula confirmed: true); contains W(T): false; rotations: 576
+PASS  {5,3,5/2}: the coset formula for |N_{O(4)}(G)| is confirmed by enumeration
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): false
+PASS  {5,3,5/2}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ -E(120)^7+2*E(120)^8-E(120)^13+1/2*E(120)^16+E(120)^23+1/2*E(120)^29-1/2*E(120)^31+2*E(120)^32-E(120)^37+E(120)^47+E(120)^53+1/2*E(120)^56-1/2*E(120)^61+1/2*E(120)^64+1/2*E(120)^71+E(120)^77-1/2*E(120)^79+2*E(120)^88+1/2*E(120)^101-E(120)^103+1/2*E(120)^104-1/2*E(120)^109+2*E(120)^112+1/2*E(120)^119, 1 ], alpha = 1/5*E(120)^7+4/5*E(120)^8+1/5*E(120)^13+1/5*E(120)^16-1/5*E(120)^23+1/5*E(120)^29-1/5*E(120)^31+4/5*E(120)^32+1/5*E(120)^37-1/5*E(120)^47-1/5*E(120)^53+1/5*E(120)^56-1/5*E(120)^61+1/5*E(120)^64+1/5*E(120)^71-1/5*E(120)^77-1/5*E(120)^79+4/5*E(120)^88+1/5*E(120)^101+1/5*E(120)^103+1/5*E(120)^104-1/5*E(120)^109+4/5*E(120)^112+1/5*E(120)^119 ~ 2.266265508260268   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ E(120)^7+2*E(120)^8+E(120)^13+1/2*E(120)^16-E(120)^23-1/2*E(120)^29+1/2*E(120)^31+2*E(120)^32+E(120)^37-E(120)^47-E(120)^53+1/2*E(120)^56+1/2*E(120)^61+1/2*E(120)^64-1/2*E(120)^71-E(120)^77+1/2*E(120)^79+2*E(120)^88-1/2*E(120)^101+E(120)^103+1/2*E(120)^104+1/2*E(120)^109+2*E(120)^112-1/2*E(120)^119, 1 ], alpha = -1/5*E(120)^7+4/5*E(120)^8-1/5*E(120)^13+1/5*E(120)^16+1/5*E(120)^23-1/5*E(120)^29+1/5*E(120)^31+4/5*E(120)^32-1/5*E(120)^37+1/5*E(120)^47+1/5*E(120)^53+1/5*E(120)^56+1/5*E(120)^61+1/5*E(120)^64-1/5*E(120)^71+1/5*E(120)^77+1/5*E(120)^79+4/5*E(120)^88-1/5*E(120)^101-1/5*E(120)^103+1/5*E(120)^104+1/5*E(120)^109+4/5*E(120)^112-1/5*E(120)^119 ~ 0.07537527823960463   (geometrically regular member H_alpha of the family)
+
+
+################ PARENT SEARCH: T = {5,3,5/2}, parent = N_O(4)(G) (order 576) ################
+elements: 576; satisfying (S2X)^2=(S1S2X)^2=1: 12; of these with a fixed LINE in the plane: 2 (no fixed point: 10, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {5,3,5/2} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 10,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 564,
+  relations := 12,
+  survivors := 0,
+  total := 576 )
+
+
+################ PARENT SEARCH: T = {5/2,3,5}, parent = N_O(4)(G) (order 576) ################
+elements: 576; satisfying (S2X)^2=(S1S2X)^2=1: 12; of these with a fixed LINE in the plane: 2 (no fixed point: 10, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {5/2,3,5} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 10,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 564,
+  relations := 12,
+  survivors := 0,
+  total := 576 )
+
+{3,3,5/2}: |G| = 1440, |Aut(G)| = 2880 (inner 720, outer 4); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 0, 2 ], [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {3,3,5/2}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 720 * 2 = 2880; enumerated: 2880 elements (formula confirmed: true); contains W(T): false; rotations: 2880
+PASS  {3,3,5/2}: the coset formula for |N_{O(4)}(G)| is confirmed by enumeration
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): false
+PASS  {3,3,5/2}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ -1/4*E(40)^7+1/4*E(40)^8+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^32+1/4*E(40)^37, 1 ], alpha = -5*E(40)^7+6*E(40)^8+5*E(40)^13+2*E(40)^16+2*E(40)^21-5*E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+6*E(40)^32+5*E(40)^37-2*E(40)^39 ~ 0.2658049769463149   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ 1/4*E(40)^7+1/4*E(40)^8-1/4*E(40)^13+1/4*E(40)^23+1/4*E(40)^32-1/4*E(40)^37, 1 ], alpha = 1/3*E(40)^7-2/3*E(40)^8-1/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+1/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-2/3*E(40)^32-1/3*E(40)^37+2/3*E(40)^39 ~ 1.900819724547944   (geometrically regular member H_alpha of the family)
+
+
+################ PARENT SEARCH: T = {3,3,5/2}, parent = N_O(4)(G) (order 2880) ################
+elements: 2880; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 2 (no fixed point: 28, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {3,3,5/2} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 28,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2850,
+  relations := 30,
+  survivors := 0,
+  total := 2880 )
+
+
+################ PARENT SEARCH: T = {5/2,3,3}, parent = N_O(4)(G) (order 2880) ################
+elements: 2880; satisfying (S2X)^2=(S1S2X)^2=1: 30; of these with a fixed LINE in the plane: 2 (no fixed point: 28, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {5/2,3,3} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 28,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2850,
+  relations := 30,
+  survivors := 0,
+  total := 2880 )
+
+{3,5/2,5}: |G| = 1200, |Aut(G)| = 4800 (inner 600, outer 8); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 0, 6 ], [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {3,5/2,5}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 600 * 2 = 2400; enumerated: 2400 elements (formula confirmed: true); contains W(T): false; rotations: 2400
+PASS  {3,5/2,5}: the coset formula for |N_{O(4)}(G)| is confirmed by enumeration
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): false
+PASS  {3,5/2,5}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ 1/2*E(20)-1/2*E(20)^4-1/2*E(20)^9+1/2*E(20)^13-1/2*E(20)^16-1/2*E(20)^17, 1 ], alpha = 1/5*E(20)-1/5*E(20)^9-2/5*E(20)^13+2/5*E(20)^17 ~ 0.8506508083520399   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ -1/2*E(20)-1/2*E(20)^4+1/2*E(20)^9-1/2*E(20)^13-1/2*E(20)^16+1/2*E(20)^17, 1 ], alpha = -1/5*E(20)+1/5*E(20)^9+2/5*E(20)^13-2/5*E(20)^17 ~ -0.8506508083520399   (geometrically regular member H_alpha of the family)
+
+
+################ PARENT SEARCH: T = {3,5/2,5}, parent = N_O(4)(G) (order 2400) ################
+elements: 2400; satisfying (S2X)^2=(S1S2X)^2=1: 20; of these with a fixed LINE in the plane: 2 (no fixed point: 18, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {3,5/2,5} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 18,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2380,
+  relations := 20,
+  survivors := 0,
+  total := 2400 )
+
+
+################ PARENT SEARCH: T = {5,5/2,3}, parent = N_O(4)(G) (order 2400) ################
+elements: 2400; satisfying (S2X)^2=(S1S2X)^2=1: 20; of these with a fixed LINE in the plane: 2 (no fixed point: 18, fixing the whole plane: 0); order >= 3: 0 (order 2 rejected: 2); fixing the base edge: 0
+STATS {5,5/2,3} in N_O(4)(G): rec(
+  edge := 0,
+  fixedline := 2,
+  ip := 0,
+  order_ge3 := 0,
+  rejected_edge := 0,
+  rejected_fixesplane := 0,
+  rejected_ip := 0,
+  rejected_nofixedpoint := 18,
+  rejected_order2 := 2,
+  rejected_realisation := 0,
+  rejected_relations := 2380,
+  relations := 20,
+  survivors := 0,
+  total := 2400 )
+
+{5/2,5,5/2}: |G| = 7200, |Aut(G)| = 28800 (inner 3600, outer 8); commutant dimension 1; solution-space dimensions for the coset representatives [ [ 0, 6 ], [ 1, 2 ] ]; realised by orthogonal matrices: 2; square roots failed: 0
+PASS  {5/2,5,5/2}: the commutant of the facet group in the matrix algebra is 1-dimensional (so C_O(G) = {+-I}) = 1
+   |N_{O(4)}(G)| = 2 |Inn(G)| (realised classes) = 2 * 3600 * 2 = 14400; not enumerated (too large)
+   rho_1 intertwiner: solution space of dimension 1, orthogonal involution: true, inverts S1 and S2: true, det 1, lies in +-W(T): true
+PASS  {5/2,5,5/2}: the rho_1 intertwiner is an involution inverting S1 and S2
+   -> R fixes the circle point (a,b) = [ -1/2*E(5)-1/2*E(5)^4, 1 ], alpha = infinity   (geometrically regular member H_alpha of the family)
+   -> -R fixes the circle point (a,b) = [ 1/2*E(5)+1/2*E(5)^4, 1 ], alpha = 1/2 ~ 0.5   (geometrically regular member H_alpha of the family)
+   N not enumerated: no element search here.  Level 3 for this family is settled by alpha-complete.g
+   (Prop. E1: the third generator is unique for each base vertex, over all of O(4)).
+
+
+################ COMPARISON OF PARENT-SEARCH SURVIVORS ################
+PARENT W(T), T = {4,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT W(T), T = {4,3,3}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT W(T), T = {3,3,4}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT W(T), T = {3,3,4}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT W(T), T = {5,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 120, 5 ], orders [ 30, 3, 3 ]
+   abstractly isomorphic to canonical {5,3,3} (same orientation: true, mirror: false, dual: false)
+   abstractly isomorphic to canonical {5/2,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT W(T), T = {5,3,3}, X of order 3, alpha = E(40)^7-E(40)^8-E(40)^13-3*E(40)^16-2*E(40)^21+E(40)^23-3*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^32-E(40)^37+2*E(40)^39 (a:b = [ 1/2*E(5)^2+1/2*E(5)^3, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 120, 5 ], orders [ 30, 3, 3 ]
+   abstractly isomorphic to canonical {5,3,3} (same orientation: false, mirror: true, dual: false)
+   abstractly isomorphic to canonical {5/2,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT W(T), T = {3,3,5}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 120, 5 ], orders [ 30, 3, 3 ]
+   abstractly isomorphic to canonical {5,3,3} (same orientation: false, mirror: true, dual: false)
+   abstractly isomorphic to canonical {5/2,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT W(T), T = {3,3,5}, X of order 3, alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39 (a:b = [ 1/4*E(5)+3/4*E(5)^2+3/4*E(5)^3+1/4*E(5)^4, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 120, 5 ], orders [ 30, 3, 3 ]
+   abstractly isomorphic to canonical {5,3,3} (same orientation: true, mirror: false, dual: false)
+   abstractly isomorphic to canonical {5/2,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT W(T), T = {5,3,5/2}, X of order 5, alpha = 0 (a:b = [ 1, 0 ]):
+   |Gamma| = 7200, f-vector [ 120, 720, 300, 50 ], orders [ 12, 3, 5 ]
+   abstractly isomorphic to canonical {5,3,5/2} (same orientation: true, mirror: false, dual: false)
+   abstractly isomorphic to canonical {5/2,3,5} (same orientation: true, mirror: false, dual: false)
+PARENT W(T), T = {5,3,5/2}, X of order 5, alpha = 1 (a:b = [ 0, 1 ]):
+   |Gamma| = 7200, f-vector [ 120, 720, 300, 50 ], orders [ 12, 3, 5 ]
+   abstractly isomorphic to canonical {5,3,5/2} (same orientation: false, mirror: true, dual: false)
+   abstractly isomorphic to canonical {5/2,3,5} (same orientation: false, mirror: true, dual: false)
+PARENT W(T), T = {5/2,3,5}, X of order 5, alpha = 0 (a:b = [ 1, 0 ]):
+   |Gamma| = 7200, f-vector [ 120, 720, 300, 50 ], orders [ 12, 3, 5 ]
+   abstractly isomorphic to canonical {5,3,5/2} (same orientation: true, mirror: false, dual: false)
+   abstractly isomorphic to canonical {5/2,3,5} (same orientation: true, mirror: false, dual: false)
+PARENT W(T), T = {5/2,3,5}, X of order 5, alpha = 1 (a:b = [ 0, 1 ]):
+   |Gamma| = 7200, f-vector [ 120, 720, 300, 50 ], orders [ 12, 3, 5 ]
+   abstractly isomorphic to canonical {5,3,5/2} (same orientation: false, mirror: true, dual: false)
+   abstractly isomorphic to canonical {5/2,3,5} (same orientation: false, mirror: true, dual: false)
+PARENT W(T), T = {3,3,5/2}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 120, 5 ], orders [ 30, 3, 3 ]
+   abstractly isomorphic to canonical {5,3,3} (same orientation: false, mirror: true, dual: false)
+   abstractly isomorphic to canonical {5/2,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT W(T), T = {3,3,5/2}, X of order 3, alpha = -2*E(40)^7+2*E(40)^8+2*E(40)^13+E(40)^21-2*E(40)^23+E(40)^29-E(40)^31+2*E(40)^32+2*E(40)^37-E(40)^39 (a:b = [ 3/4*E(5)+1/4*E(5)^2+1/4*E(5)^3+3/4*E(5)^4, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 120, 5 ], orders [ 30, 3, 3 ]
+   abstractly isomorphic to canonical {5,3,3} (same orientation: true, mirror: false, dual: false)
+   abstractly isomorphic to canonical {5/2,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT W(T), T = {5/2,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 120, 5 ], orders [ 30, 3, 3 ]
+   abstractly isomorphic to canonical {5,3,3} (same orientation: true, mirror: false, dual: false)
+   abstractly isomorphic to canonical {5/2,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT W(T), T = {5/2,3,3}, X of order 3, alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39 (a:b = [ 1/2*E(5)+1/2*E(5)^4, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 120, 5 ], orders [ 30, 3, 3 ]
+   abstractly isomorphic to canonical {5,3,3} (same orientation: false, mirror: true, dual: false)
+   abstractly isomorphic to canonical {5/2,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT [3,3,5], T = {3,3,3}in[3,3,5], X of order 3, alpha = -E(5)-E(5)^4 (a:b = [ 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 720, 120 ], orders [ 5, 3, 3 ]
+PARENT [3,3,5], T = {3,3,3}in[3,3,5], X of order 3, alpha = -E(5)^2-E(5)^3 (a:b = [ 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 720, 120 ], orders [ 5, 3, 3 ]
+PARENT [3,3,5], T = {3,3,3}*in[3,3,5], X of order 3, alpha = -E(5)^2-E(5)^3 (a:b = [ 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 720, 120 ], orders [ 5, 3, 3 ]
+PARENT [3,3,5], T = {3,3,3}*in[3,3,5], X of order 3, alpha = -E(5)-E(5)^4 (a:b = [ 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, 1 ]):
+   |Gamma| = 7200, f-vector [ 600, 1200, 720, 120 ], orders [ 5, 3, 3 ]
+PARENT [3,4,3], T = {4,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT [3,4,3], T = {4,3,3}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT [[3,4,3]], T = {4,3,3}, X of order 3, alpha = 0 (a:b = [ 1, 0 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT [[3,4,3]], T = {4,3,3}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT [3,4,3], T = {3,3,4}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT [3,4,3], T = {3,3,4}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: true, mirror: false, dual: false)
+PARENT [[3,4,3]], T = {3,3,4}, X of order 3, alpha = 1 (a:b = [ 0, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: false, mirror: true, dual: false)
+PARENT [[3,4,3]], T = {3,3,4}, X of order 3, alpha = infinity (a:b = [ -1/2, 1 ]):
+   |Gamma| = 192, f-vector [ 16, 32, 12, 4 ], orders [ 8, 3, 3 ]
+   abstractly isomorphic to canonical {4,3,3} (same orientation: true, mirror: false, dual: false)
+
+parent-search.g: 37 passed, 0 failed.
+Done: parent-search.g

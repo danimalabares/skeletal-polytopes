@@ -1,0 +1,26 @@
+started: 2026-09-09T16:15:18Z
+(a) a = (1,2,3,4,5), b = (1,2,3,5,4): orders [ 5, 5 ], ord(ab) = 2, <a> cap <b> trivial: true, <a,b> = A5: true; coset f-vector (V,E,F) of P(<a,b>; a, b) = [ 12, 30, 12 ]
+    a and b lie in different A5-conjugacy classes of 5-cycles (rotation angles 2pi/5 and 4pi/5): true
+AU-PASS  (a) the (5,5) vertex-figure case is realised in A5 and is not excluded by the spherical-triangle inequality
+(d) triangle group <x,y | x^3, y^3, (xy)^2>: size 12
+(d) triangle group <x,y | x^3, y^4, (xy)^2>: size 24
+(d) triangle group <x,y | x^3, y^5, (xy)^2>: size 60
+(d) <x,y | x^5, y^5, (xy)^2> maps onto A5 (a -> (1,2,3,4,5), b -> (1,2,3,5,4)): true
+(c) pairs of order-4 elements of S4 with involutory product and trivial cyclic intersection: 0
+AU-PASS  (c) (q,m) = (4,4) is excluded in S4
+(b) |[3,3,5]^+| = 7200, element orders [ 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 ]
+(b) |[[3,4,3]]| = 2304, rotation subgroup +-[OxO] of order 1152, element orders [ 1, 2, 3, 4, 6, 8, 12, 24 ]
+    p = 8 is an element order of [3,3,5]^+: false; p in {5,15,20,30} are element orders of +-[OxO]: [ false, false, false, false ]
+(e) {3,3,3}: dim of fixed space of S1 in the ambient space = 1 (expected 1)
+(e) {4,3,3}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+(e) {3,4,3}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+(e) {5,3,3}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+(e) {3,5,5/2}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+(e) {5,5/2,5}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+(e) {5,3,5/2}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+(e) {3,3,5/2}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+(e) {3,5/2,5}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+(e) {5/2,5,5/2}: dim of fixed space of S1 in the ambient space = 0 (expected 0)
+Done: misc-audit.g
+gap exit: 
+finished: 2026-09-09T16:15:48Z

@@ -1,0 +1,26 @@
+started: 2026-09-09T16:46:17Z
+Syntax warning: Unbound global variable in xp-audit.g:20
+  c := First(PX.Saved, r -> r.case = rp[2]); S := [c.S1, c.S2, c.X]; V := AU.Orbit(S, c.w); pos := x -> Position(V, x);
+                                                                                                                 ^
+Syntax warning: Unbound global variable in xp-audit.g:21
+  s := List(S, g -> PermList(List(V, v -> pos(v*g)))); P := Group(s);
+                                  ^
+Syntax warning: Unbound global variable in xp-audit.g:21
+  s := List(S, g -> PermList(List(V, v -> pos(v*g)))); P := Group(s);
+                                          ^^^
+Syntax warning: Unbound global variable in xp-audit.g:24
+  Mix := Subgroup(D, List([1..3], i -> Image(e1, s[i])*Image(e2, bar[i])));
+                                             ^^
+Syntax warning: Unbound global variable in xp-audit.g:24
+  Mix := Subgroup(D, List([1..3], i -> Image(e1, s[i])*Image(e2, bar[i])));
+                                                 ^
+Syntax warning: Unbound global variable in xp-audit.g:24
+  Mix := Subgroup(D, List([1..3], i -> Image(e1, s[i])*Image(e2, bar[i])));
+                                                             ^^
+Syntax warning: Unbound global variable in xp-audit.g:24
+  Mix := Subgroup(D, List([1..3], i -> Image(e1, s[i])*Image(e2, bar[i])));
+                                                                 ^^^
+Error, Variable: 'X' is read only in
+  Image( p1, Intersection( Mix, Image( e1, P ) ) ) at xp-audit.g:25 called from 
+gap exit: 
+finished: 2026-09-09T16:46:23Z

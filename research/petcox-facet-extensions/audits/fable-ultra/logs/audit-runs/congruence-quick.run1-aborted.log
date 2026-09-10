@@ -1,0 +1,42 @@
+started: 2026-09-09T16:26:32Z
+script sha256: 3a383694a401f98d7831d4df6defc99c08d93960833f8660f5459e50d0a3f3cb  congruence-quick.g
+survivors: 24
+Syntax warning: Unbound global variable in congruence-quick.g:35
+  pos := x -> Position(V, x);
+                       ^
+Syntax warning: Unbound global variable in congruence-quick.g:36
+  perms := List(S, g -> PermList(List(V, v -> pos(v*g)))); P := Group(perms); s := perms;
+                                      ^
+Syntax warning: Unbound global variable in congruence-quick.g:36
+  perms := List(S, g -> PermList(List(V, v -> pos(v*g)))); P := Group(perms); s := perms;
+                                              ^^^
+Syntax warning: Unbound global variable in congruence-quick.g:43
+           face_profile := List([1..Int(Order(c.S1)/2)], k -> (w*(w*c.S1^k))/n2),
+                                                               ^
+Syntax warning: Unbound global variable in congruence-quick.g:43
+           face_profile := List([1..Int(Order(c.S1)/2)], k -> (w*(w*c.S1^k))/n2),
+                                                                  ^
+Syntax warning: Unbound global variable in congruence-quick.g:43
+           face_profile := List([1..Int(Order(c.S1)/2)], k -> (w*(w*c.S1^k))/n2),
+                                                                             ^^
+Syntax warning: Unbound global variable in congruence-quick.g:44
+           vf_profile := Collected(List(Combinations([1..Length(nb)], 2), pr -> (nb[pr[1]]*nb[pr[2]])/n2)),
+                                                                                 ^^
+Syntax warning: Unbound global variable in congruence-quick.g:44
+           vf_profile := Collected(List(Combinations([1..Length(nb)], 2), pr -> (nb[pr[1]]*nb[pr[2]])/n2)),
+                                                                                           ^^
+Syntax warning: Unbound global variable in congruence-quick.g:44
+           vf_profile := Collected(List(Combinations([1..Length(nb)], 2), pr -> (nb[pr[1]]*nb[pr[2]])/n2)),
+                                                                                                      ^^
+Syntax warning: Unbound global variable in congruence-quick.g:45
+           dist := Collected(List(V, v -> (w*v)/n2)));
+                                           ^
+Syntax warning: Unbound global variable in congruence-quick.g:45
+           dist := Collected(List(V, v -> (w*v)/n2)));
+                                                ^^
+L3-{4,3,3}-1 | alpha~0.5 | type [ 8, 3, 3 ] |Gamma| 192 f [ 16, 32, 12, 4 ] dr false | edge ip 1/2 ~ 0.5 | #dist 5
+L3-{4,3,3}-2 | alpha~2. | type [ 8, 3, 3 ] |Gamma| 192 f [ 16, 32, 12, 4 ] dr false | edge ip -1/2 ~ -0.5 | #dist 5
+Error, no method found! For debugging hints type ?Recovery from NoMethodFound
+Error, no 1st choice method found for `Conductor' on 1 arguments at /private/var/tmp/sage-10.7-current/local/share/gap/lib/methsel2.g:250 called from
+gap exit: 
+finished: 2026-09-09T16:26:37Z

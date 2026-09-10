@@ -1,0 +1,55 @@
+started: 2026-09-09T16:46:00Z
+script sha256: 36b71b5269effd4a22bcfa1de7e39d4b23be8a05dcfc1524e1a87b6a1ee39660  congruence-certify.g
+Syntax warning: Unbound global variable in congruence-certify.g:30
+  S := [c.S1, c.S2, c.X]; w := c.w; n2 := w*w; V := AU.Orbit(S, w); pos := x -> Position(V, x);
+                                                                                         ^
+Syntax warning: Unbound global variable in congruence-certify.g:31
+  perms := List(S, g -> PermList(List(V, v -> pos(v*g)))); P := Group(perms); s := perms;
+                                      ^
+Syntax warning: Unbound global variable in congruence-certify.g:31
+  perms := List(S, g -> PermList(List(V, v -> pos(v*g)))); P := Group(perms); s := perms;
+                                              ^^^
+Syntax warning: Unbound global variable in congruence-certify.g:33
+  vec := x -> Set(List(x, i -> V[i]));
+                               ^
+Syntax warning: Unbound global variable in congruence-certify.g:35
+  Fv := Set(List(Orbit(P, f, OnSetsSets), fa -> Set(List(fa, vec))));
+                                                             ^^^
+Syntax warning: Unbound global variable in congruence-certify.g:36
+  Cv := Set(List(Orbit(P, cc, AU.OnSSS), ce -> Set(List(ce, fa -> Set(List(fa, vec))))));
+                                                                               ^^^
+Syntax warning: Unbound global variable in congruence-certify.g:41
+           inv := [ (w*(w*c.S1^-1))/n2, List([1..Int(Order(c.S1)/2)], k -> (w*(w*c.S1^k))/n2),
+                                                                            ^
+Syntax warning: Unbound global variable in congruence-certify.g:41
+           inv := [ (w*(w*c.S1^-1))/n2, List([1..Int(Order(c.S1)/2)], k -> (w*(w*c.S1^k))/n2),
+                                                                               ^
+Syntax warning: Unbound global variable in congruence-certify.g:41
+           inv := [ (w*(w*c.S1^-1))/n2, List([1..Int(Order(c.S1)/2)], k -> (w*(w*c.S1^k))/n2),
+                                                                                          ^^
+Syntax warning: Unbound global variable in congruence-certify.g:42
+                    Collected(List(Combinations([1..Length(nb)], 2), pr -> (nb[pr[1]]*nb[pr[2]])/n2)), Collected(List(V, v -> (w*v)/n2)) ]);
+                                                                            ^^
+Syntax warning: Unbound global variable in congruence-certify.g:42
+                    Collected(List(Combinations([1..Length(nb)], 2), pr -> (nb[pr[1]]*nb[pr[2]])/n2)), Collected(List(V, v -> (w*v)/n2)) ]);
+                                                                                      ^^
+Syntax warning: Unbound global variable in congruence-certify.g:42
+                    Collected(List(Combinations([1..Length(nb)], 2), pr -> (nb[pr[1]]*nb[pr[2]])/n2)), Collected(List(V, v -> (w*v)/n2)) ]);
+                                                                                                 ^^
+Syntax warning: Unbound global variable in congruence-certify.g:42
+                    Collected(List(Combinations([1..Length(nb)], 2), pr -> (nb[pr[1]]*nb[pr[2]])/n2)), Collected(List(V, v -> (w*v)/n2)) ]);
+                                                                                                                               ^
+Syntax warning: Unbound global variable in congruence-certify.g:42
+                    Collected(List(Combinations([1..Length(nb)], 2), pr -> (nb[pr[1]]*nb[pr[2]])/n2)), Collected(List(V, v -> (w*v)/n2)) ]);
+                                                                                                                                    ^^
+realisations: 24
+
+=== pairwise congruence within abstract classes (up to scale; det>0 proper, det<0 mirror) ===
+
+-- abstract class 1 (type [ 8, 3, 3 ], f [ 16, 32, 12, 4 ], |Gamma| 192): [ "L3-{4,3,3}-1 alpha~0.5", "L3-{4,3,3}-2 alpha~2.", "L3-{4,3,3}-3 alpha~infinity", "L3-{4,3,3}-6 alpha~0." ]
+   L3-{4,3,3}-2 vs L3-{4,3,3}-1: NOT congruent -- invariant differs: [edge ip, 2-face profile, vf profile, distance distribution] equal = [ false, false, true, true ]
+   L3-{4,3,3}-3 vs L3-{4,3,3}-1: NOT congruent -- invariant differs: [edge ip, 2-face profile, vf profile, distance distribution] equal = [ false, false, true, true ]
+   L3-{4,3,3}-3 vs L3-{4,3,3}-2: CONGRUENT up to scale (12 structure-preserving similarities found; det 9/16 ~ 0.5625, lambda = 3/4, proper (same handedness))
+Error, Comparison of float and 0 is not supported. Please refer to the manual section on floats for details at /private/var/tmp/sage-10.7-current/local/share/gap/lib/float.gi:1001 called from
+gap exit: 
+finished: 2026-09-09T16:46:13Z

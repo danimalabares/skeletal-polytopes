@@ -1,0 +1,395 @@
+
+=== {3,3,3} ===
+PASS  {3,3,3}: dim Fix(S2) = 2
+PASS  {3,3,3}: Fix(S2) = span(v0,v3)
+PASS  {3,3,3}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,3,3}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,3,3}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,3,3}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,3,3}: v0, v3 independent
+PASS  {3,3,3}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,3,3}: its order 2q = 6
+PASS  {3,3,3}: rotations fixing the plane pointwise = <S2>
+H_0({3,3,3}): facet f-vector [ 5, 10, 6 ] (abstract [ 20, 30, 12 ]); vertex collapse multiplicity 4; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+H_1({3,3,3}): facet f-vector [ 5, 10, 6 ] (abstract [ 20, 30, 12 ]); vertex collapse multiplicity 4; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+PASS  {3,3,3}: collapse multiplicity at alpha=0 vs table = 4
+PASS  {3,3,3}: collapse multiplicity at alpha=1 vs table = 4
+PASS  {3,3,3}: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,3,3}: H_1 is a polyhedron iff no vertex collapse
+
+=== {3,3,3}* ===
+PASS  {3,3,3}*: dim Fix(S2) = 2
+PASS  {3,3,3}*: Fix(S2) = span(v0,v3)
+PASS  {3,3,3}*: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,3,3}*: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,3,3}*: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,3,3}*: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,3,3}*: v0, v3 independent
+PASS  {3,3,3}*: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,3,3}*: its order 2q = 6
+PASS  {3,3,3}*: rotations fixing the plane pointwise = <S2>
+H_0({3,3,3}*): facet f-vector [ 5, 10, 6 ] (abstract [ 20, 30, 12 ]); vertex collapse multiplicity 4; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+H_1({3,3,3}*): facet f-vector [ 5, 10, 6 ] (abstract [ 20, 30, 12 ]); vertex collapse multiplicity 4; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+PASS  {3,3,3}*: collapse multiplicity at alpha=0 vs table = 4
+PASS  {3,3,3}*: collapse multiplicity at alpha=1 vs table = 4
+PASS  {3,3,3}*: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,3,3}*: H_1 is a polyhedron iff no vertex collapse
+
+=== {4,3,3} ===
+PASS  {4,3,3}: dim Fix(S2) = 2
+PASS  {4,3,3}: Fix(S2) = span(v0,v3)
+PASS  {4,3,3}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {4,3,3}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {4,3,3}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {4,3,3}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {4,3,3}: v0, v3 independent
+PASS  {4,3,3}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {4,3,3}: its order 2q = 6
+PASS  {4,3,3}: rotations fixing the plane pointwise = <S2>
+H_0({4,3,3}): facet f-vector [ 16, 24, 6 ] (abstract [ 16, 24, 6 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+H_1({4,3,3}): facet f-vector [ 8, 24, 6 ] (abstract [ 16, 24, 6 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {4,3,3}: collapse multiplicity at alpha=0 vs table = 1
+PASS  {4,3,3}: collapse multiplicity at alpha=1 vs table = 2
+PASS  {4,3,3}: H_0 is a polyhedron iff no vertex collapse
+PASS  {4,3,3}: H_1 is a polyhedron iff no vertex collapse
+PASS  {4,3,3}: H_0 geometrically chiral
+
+=== {3,3,4} ===
+PASS  {3,3,4}: dim Fix(S2) = 2
+PASS  {3,3,4}: Fix(S2) = span(v0,v3)
+PASS  {3,3,4}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,3,4}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,3,4}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,3,4}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,3,4}: v0, v3 independent
+PASS  {3,3,4}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,3,4}: its order 2q = 6
+PASS  {3,3,4}: rotations fixing the plane pointwise = <S2>
+H_0({3,3,4}): facet f-vector [ 8, 24, 6 ] (abstract [ 16, 24, 6 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({3,3,4}): facet f-vector [ 16, 24, 6 ] (abstract [ 16, 24, 6 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+PASS  {3,3,4}: collapse multiplicity at alpha=0 vs table = 2
+PASS  {3,3,4}: collapse multiplicity at alpha=1 vs table = 1
+PASS  {3,3,4}: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,3,4}: H_1 is a polyhedron iff no vertex collapse
+PASS  {3,3,4}: H_1 geometrically chiral
+
+=== {3,4,3} ===
+PASS  {3,4,3}: dim Fix(S2) = 2
+PASS  {3,4,3}: Fix(S2) = span(v0,v3)
+PASS  {3,4,3}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,4,3}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,4,3}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,4,3}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,4,3}: v0, v3 independent
+PASS  {3,4,3}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,4,3}: its order 2q = 8
+PASS  {3,4,3}: rotations fixing the plane pointwise = <S2>
+H_0({3,4,3}): facet f-vector [ 24, 96, 16 ] (abstract [ 48, 96, 16 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({3,4,3}): facet f-vector [ 24, 96, 16 ] (abstract [ 48, 96, 16 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {3,4,3}: collapse multiplicity at alpha=0 vs table = 2
+PASS  {3,4,3}: collapse multiplicity at alpha=1 vs table = 2
+PASS  {3,4,3}: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,4,3}: H_1 is a polyhedron iff no vertex collapse
+
+=== {3,4,3}* ===
+PASS  {3,4,3}*: dim Fix(S2) = 2
+PASS  {3,4,3}*: Fix(S2) = span(v0,v3)
+PASS  {3,4,3}*: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,4,3}*: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,4,3}*: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,4,3}*: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,4,3}*: v0, v3 independent
+PASS  {3,4,3}*: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,4,3}*: its order 2q = 8
+PASS  {3,4,3}*: rotations fixing the plane pointwise = <S2>
+H_0({3,4,3}*): facet f-vector [ 24, 96, 16 ] (abstract [ 48, 96, 16 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({3,4,3}*): facet f-vector [ 24, 96, 16 ] (abstract [ 48, 96, 16 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {3,4,3}*: collapse multiplicity at alpha=0 vs table = 2
+PASS  {3,4,3}*: collapse multiplicity at alpha=1 vs table = 2
+PASS  {3,4,3}*: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,4,3}*: H_1 is a polyhedron iff no vertex collapse
+
+=== {5,3,3} ===
+PASS  {5,3,3}: dim Fix(S2) = 2
+PASS  {5,3,3}: Fix(S2) = span(v0,v3)
+PASS  {5,3,3}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5,3,3}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5,3,3}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5,3,3}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5,3,3}: v0, v3 independent
+PASS  {5,3,3}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5,3,3}: its order 2q = 6
+PASS  {5,3,3}: rotations fixing the plane pointwise = <S2>
+H_0({5,3,3}): facet f-vector [ 480, 720, 48 ] (abstract [ 480, 720, 48 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+H_1({5,3,3}): facet f-vector [ 120, 720, 48 ] (abstract [ 480, 720, 48 ]); vertex collapse multiplicity 4; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {5,3,3}: collapse multiplicity at alpha=0 vs table = 1
+PASS  {5,3,3}: collapse multiplicity at alpha=1 vs table = 4
+PASS  {5,3,3}: H_0 is a polyhedron iff no vertex collapse
+PASS  {5,3,3}: H_1 is a polyhedron iff no vertex collapse
+PASS  {5,3,3}: H_0 geometrically chiral
+
+=== {3,3,5} ===
+PASS  {3,3,5}: dim Fix(S2) = 2
+PASS  {3,3,5}: Fix(S2) = span(v0,v3)
+PASS  {3,3,5}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,3,5}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,3,5}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,3,5}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,3,5}: v0, v3 independent
+PASS  {3,3,5}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,3,5}: its order 2q = 6
+PASS  {3,3,5}: rotations fixing the plane pointwise = <S2>
+H_0({3,3,5}): facet f-vector [ 120, 720, 48 ] (abstract [ 480, 720, 48 ]); vertex collapse multiplicity 4; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({3,3,5}): facet f-vector [ 480, 720, 48 ] (abstract [ 480, 720, 48 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+PASS  {3,3,5}: collapse multiplicity at alpha=0 vs table = 4
+PASS  {3,3,5}: collapse multiplicity at alpha=1 vs table = 1
+PASS  {3,3,5}: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,3,5}: H_1 is a polyhedron iff no vertex collapse
+PASS  {3,3,5}: H_1 geometrically chiral
+
+=== {3,5,5/2} ===
+PASS  {3,5,5/2}: dim Fix(S2) = 2
+PASS  {3,5,5/2}: Fix(S2) = span(v0,v3)
+PASS  {3,5,5/2}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,5,5/2}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,5,5/2}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,5,5/2}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,5,5/2}: v0, v3 independent
+PASS  {3,5,5/2}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,5,5/2}: its order 2q = 10
+PASS  {3,5,5/2}: rotations fixing the plane pointwise = <S2>
+H_0({3,5,5/2}): facet f-vector [ 120, 600, 60 ] (abstract [ 240, 600, 60 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({3,5,5/2}): facet f-vector [ 120, 600, 60 ] (abstract [ 240, 600, 60 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {3,5,5/2}: collapse multiplicity at alpha=0 vs table = 2
+PASS  {3,5,5/2}: collapse multiplicity at alpha=1 vs table = 2
+PASS  {3,5,5/2}: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,5,5/2}: H_1 is a polyhedron iff no vertex collapse
+
+=== {5/2,5,3} ===
+PASS  {5/2,5,3}: dim Fix(S2) = 2
+PASS  {5/2,5,3}: Fix(S2) = span(v0,v3)
+PASS  {5/2,5,3}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5/2,5,3}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5/2,5,3}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5/2,5,3}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5/2,5,3}: v0, v3 independent
+PASS  {5/2,5,3}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5/2,5,3}: its order 2q = 10
+PASS  {5/2,5,3}: rotations fixing the plane pointwise = <S2>
+H_0({5/2,5,3}): facet f-vector [ 120, 600, 60 ] (abstract [ 240, 600, 60 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({5/2,5,3}): facet f-vector [ 120, 600, 60 ] (abstract [ 240, 600, 60 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {5/2,5,3}: collapse multiplicity at alpha=0 vs table = 2
+PASS  {5/2,5,3}: collapse multiplicity at alpha=1 vs table = 2
+PASS  {5/2,5,3}: H_0 is a polyhedron iff no vertex collapse
+PASS  {5/2,5,3}: H_1 is a polyhedron iff no vertex collapse
+
+=== {5,5/2,5} ===
+PASS  {5,5/2,5}: dim Fix(S2) = 2
+PASS  {5,5/2,5}: Fix(S2) = span(v0,v3)
+PASS  {5,5/2,5}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5,5/2,5}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5,5/2,5}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5,5/2,5}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5,5/2,5}: v0, v3 independent
+PASS  {5,5/2,5}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5,5/2,5}: its order 2q = 10
+PASS  {5,5/2,5}: rotations fixing the plane pointwise = <S2>
+H_0({5,5/2,5}): facet f-vector [ 120, 720, 240 ] (abstract [ 1440, 3600, 480 ]); vertex collapse multiplicity 12; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+H_1({5,5/2,5}): facet f-vector [ 120, 720, 240 ] (abstract [ 1440, 3600, 480 ]); vertex collapse multiplicity 12; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+PASS  {5,5/2,5}: collapse multiplicity at alpha=0 vs table = 12
+PASS  {5,5/2,5}: collapse multiplicity at alpha=1 vs table = 12
+PASS  {5,5/2,5}: H_0 is a polyhedron iff no vertex collapse
+PASS  {5,5/2,5}: H_1 is a polyhedron iff no vertex collapse
+
+=== {5,5/2,5}* ===
+PASS  {5,5/2,5}*: dim Fix(S2) = 2
+PASS  {5,5/2,5}*: Fix(S2) = span(v0,v3)
+PASS  {5,5/2,5}*: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5,5/2,5}*: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5,5/2,5}*: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5,5/2,5}*: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5,5/2,5}*: v0, v3 independent
+PASS  {5,5/2,5}*: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5,5/2,5}*: its order 2q = 10
+PASS  {5,5/2,5}*: rotations fixing the plane pointwise = <S2>
+H_0({5,5/2,5}*): facet f-vector [ 120, 720, 240 ] (abstract [ 1440, 3600, 480 ]); vertex collapse multiplicity 12; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+H_1({5,5/2,5}*): facet f-vector [ 120, 720, 240 ] (abstract [ 1440, 3600, 480 ]); vertex collapse multiplicity 12; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+PASS  {5,5/2,5}*: collapse multiplicity at alpha=0 vs table = 12
+PASS  {5,5/2,5}*: collapse multiplicity at alpha=1 vs table = 12
+PASS  {5,5/2,5}*: H_0 is a polyhedron iff no vertex collapse
+PASS  {5,5/2,5}*: H_1 is a polyhedron iff no vertex collapse
+
+=== {5,3,5/2} ===
+PASS  {5,3,5/2}: dim Fix(S2) = 2
+PASS  {5,3,5/2}: Fix(S2) = span(v0,v3)
+PASS  {5,3,5/2}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5,3,5/2}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5,3,5/2}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5,3,5/2}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5,3,5/2}: v0, v3 independent
+PASS  {5,3,5/2}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5,3,5/2}: its order 2q = 6
+PASS  {5,3,5/2}: rotations fixing the plane pointwise = <S2>
+H_0({5,3,5/2}): facet f-vector [ 48, 72, 12 ] (abstract [ 48, 72, 12 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+H_1({5,3,5/2}): facet f-vector [ 48, 72, 12 ] (abstract [ 48, 72, 12 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+PASS  {5,3,5/2}: collapse multiplicity at alpha=0 vs table = 1
+PASS  {5,3,5/2}: collapse multiplicity at alpha=1 vs table = 1
+PASS  {5,3,5/2}: H_0 is a polyhedron iff no vertex collapse
+PASS  {5,3,5/2}: H_1 is a polyhedron iff no vertex collapse
+PASS  {5,3,5/2}: H_0 geometrically chiral
+PASS  {5,3,5/2}: H_1 geometrically chiral
+
+=== {5/2,3,5} ===
+PASS  {5/2,3,5}: dim Fix(S2) = 2
+PASS  {5/2,3,5}: Fix(S2) = span(v0,v3)
+PASS  {5/2,3,5}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5/2,3,5}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5/2,3,5}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5/2,3,5}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5/2,3,5}: v0, v3 independent
+PASS  {5/2,3,5}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5/2,3,5}: its order 2q = 6
+PASS  {5/2,3,5}: rotations fixing the plane pointwise = <S2>
+H_0({5/2,3,5}): facet f-vector [ 48, 72, 12 ] (abstract [ 48, 72, 12 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+H_1({5/2,3,5}): facet f-vector [ 48, 72, 12 ] (abstract [ 48, 72, 12 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+PASS  {5/2,3,5}: collapse multiplicity at alpha=0 vs table = 1
+PASS  {5/2,3,5}: collapse multiplicity at alpha=1 vs table = 1
+PASS  {5/2,3,5}: H_0 is a polyhedron iff no vertex collapse
+PASS  {5/2,3,5}: H_1 is a polyhedron iff no vertex collapse
+PASS  {5/2,3,5}: H_0 geometrically chiral
+PASS  {5/2,3,5}: H_1 geometrically chiral
+
+=== {3,3,5/2} ===
+PASS  {3,3,5/2}: dim Fix(S2) = 2
+PASS  {3,3,5/2}: Fix(S2) = span(v0,v3)
+PASS  {3,3,5/2}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,3,5/2}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,3,5/2}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,3,5/2}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,3,5/2}: v0, v3 independent
+PASS  {3,3,5/2}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,3,5/2}: its order 2q = 6
+PASS  {3,3,5/2}: rotations fixing the plane pointwise = <S2>
+H_0({3,3,5/2}): facet f-vector [ 120, 720, 48 ] (abstract [ 480, 720, 48 ]); vertex collapse multiplicity 4; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({3,3,5/2}): facet f-vector [ 480, 720, 48 ] (abstract [ 480, 720, 48 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+PASS  {3,3,5/2}: collapse multiplicity at alpha=0 vs table = 4
+PASS  {3,3,5/2}: collapse multiplicity at alpha=1 vs table = 1
+PASS  {3,3,5/2}: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,3,5/2}: H_1 is a polyhedron iff no vertex collapse
+PASS  {3,3,5/2}: H_1 geometrically chiral
+
+=== {5/2,3,3} ===
+PASS  {5/2,3,3}: dim Fix(S2) = 2
+PASS  {5/2,3,3}: Fix(S2) = span(v0,v3)
+PASS  {5/2,3,3}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5/2,3,3}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5/2,3,3}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5/2,3,3}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5/2,3,3}: v0, v3 independent
+PASS  {5/2,3,3}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5/2,3,3}: its order 2q = 6
+PASS  {5/2,3,3}: rotations fixing the plane pointwise = <S2>
+H_0({5/2,3,3}): facet f-vector [ 480, 720, 48 ] (abstract [ 480, 720, 48 ]); vertex collapse multiplicity 1; stabilisers (v,e,f) match: [ true, true, true ]; polyhedron: true; geometrically regular: false
+H_1({5/2,3,3}): facet f-vector [ 120, 720, 48 ] (abstract [ 480, 720, 48 ]); vertex collapse multiplicity 4; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {5/2,3,3}: collapse multiplicity at alpha=0 vs table = 1
+PASS  {5/2,3,3}: collapse multiplicity at alpha=1 vs table = 4
+PASS  {5/2,3,3}: H_0 is a polyhedron iff no vertex collapse
+PASS  {5/2,3,3}: H_1 is a polyhedron iff no vertex collapse
+PASS  {5/2,3,3}: H_0 geometrically chiral
+
+=== {3,5/2,5} ===
+PASS  {3,5/2,5}: dim Fix(S2) = 2
+PASS  {3,5/2,5}: Fix(S2) = span(v0,v3)
+PASS  {3,5/2,5}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {3,5/2,5}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {3,5/2,5}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {3,5/2,5}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {3,5/2,5}: v0, v3 independent
+PASS  {3,5/2,5}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {3,5/2,5}: its order 2q = 10
+PASS  {3,5/2,5}: rotations fixing the plane pointwise = <S2>
+H_0({3,5/2,5}): facet f-vector [ 120, 600, 60 ] (abstract [ 240, 600, 60 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({3,5/2,5}): facet f-vector [ 120, 600, 60 ] (abstract [ 240, 600, 60 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {3,5/2,5}: collapse multiplicity at alpha=0 vs table = 2
+PASS  {3,5/2,5}: collapse multiplicity at alpha=1 vs table = 2
+PASS  {3,5/2,5}: H_0 is a polyhedron iff no vertex collapse
+PASS  {3,5/2,5}: H_1 is a polyhedron iff no vertex collapse
+
+=== {5,5/2,3} ===
+PASS  {5,5/2,3}: dim Fix(S2) = 2
+PASS  {5,5/2,3}: Fix(S2) = span(v0,v3)
+PASS  {5,5/2,3}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5,5/2,3}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5,5/2,3}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5,5/2,3}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5,5/2,3}: v0, v3 independent
+PASS  {5,5/2,3}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5,5/2,3}: its order 2q = 10
+PASS  {5,5/2,3}: rotations fixing the plane pointwise = <S2>
+H_0({5,5/2,3}): facet f-vector [ 120, 600, 60 ] (abstract [ 240, 600, 60 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+H_1({5,5/2,3}): facet f-vector [ 120, 600, 60 ] (abstract [ 240, 600, 60 ]); vertex collapse multiplicity 2; stabilisers (v,e,f) match: [ false, true, true ]; polyhedron: false; geometrically regular: false
+PASS  {5,5/2,3}: collapse multiplicity at alpha=0 vs table = 2
+PASS  {5,5/2,3}: collapse multiplicity at alpha=1 vs table = 2
+PASS  {5,5/2,3}: H_0 is a polyhedron iff no vertex collapse
+PASS  {5,5/2,3}: H_1 is a polyhedron iff no vertex collapse
+
+=== {5/2,5,5/2} ===
+PASS  {5/2,5,5/2}: dim Fix(S2) = 2
+PASS  {5/2,5,5/2}: Fix(S2) = span(v0,v3)
+PASS  {5/2,5,5/2}: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5/2,5,5/2}: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5/2,5,5/2}: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5/2,5,5/2}: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5/2,5,5/2}: v0, v3 independent
+PASS  {5/2,5,5/2}: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5/2,5,5/2}: its order 2q = 10
+PASS  {5/2,5,5/2}: rotations fixing the plane pointwise = <S2>
+H_0({5/2,5,5/2}): facet f-vector [ 120, 720, 240 ] (abstract [ 1440, 3600, 480 ]); vertex collapse multiplicity 12; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+H_1({5/2,5,5/2}): facet f-vector [ 120, 720, 240 ] (abstract [ 1440, 3600, 480 ]); vertex collapse multiplicity 12; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+PASS  {5/2,5,5/2}: collapse multiplicity at alpha=0 vs table = 12
+PASS  {5/2,5,5/2}: collapse multiplicity at alpha=1 vs table = 12
+PASS  {5/2,5,5/2}: H_0 is a polyhedron iff no vertex collapse
+PASS  {5/2,5,5/2}: H_1 is a polyhedron iff no vertex collapse
+
+=== {5/2,5,5/2}* ===
+PASS  {5/2,5,5/2}*: dim Fix(S2) = 2
+PASS  {5/2,5,5/2}*: Fix(S2) = span(v0,v3)
+PASS  {5/2,5,5/2}*: dim Fix(S2) cap Fix(S3) = 1
+PASS  {5/2,5,5/2}*: Fix(S2) cap Fix(S3) = span(v0)
+PASS  {5/2,5,5/2}*: in-plane fixed locus of S3 is {b = 0}, i.e. alpha = 0
+PASS  {5/2,5,5/2}*: Fix(S2) cap Fix(R0R1) = span(v3), i.e. alpha = 1 for the dual endpoint
+PASS  {5/2,5,5/2}*: v0, v3 independent
+PASS  {5/2,5,5/2}*: pointwise stabiliser of span(v0,v3) in W is <R1,R2>
+PASS  {5/2,5,5/2}*: its order 2q = 10
+PASS  {5/2,5,5/2}*: rotations fixing the plane pointwise = <S2>
+H_0({5/2,5,5/2}*): facet f-vector [ 120, 720, 240 ] (abstract [ 1440, 3600, 480 ]); vertex collapse multiplicity 12; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+H_1({5/2,5,5/2}*): facet f-vector [ 120, 720, 240 ] (abstract [ 1440, 3600, 480 ]); vertex collapse multiplicity 12; stabilisers (v,e,f) match: [ false, false, false ]; polyhedron: false; geometrically regular: true
+PASS  {5/2,5,5/2}*: collapse multiplicity at alpha=0 vs table = 12
+PASS  {5/2,5,5/2}*: collapse multiplicity at alpha=1 vs table = 12
+PASS  {5/2,5,5/2}*: H_0 is a polyhedron iff no vertex collapse
+PASS  {5/2,5,5/2}*: H_1 is a polyhedron iff no vertex collapse
+
+=== exceptional (geometrically regular) alpha: half-turns in W inverting S1 and S2 ===
+{3,3,3}: elements of W inverting S1 and S2 by conjugation: 1; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{3,3,3}*: elements of W inverting S1 and S2 by conjugation: 1; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{4,3,3}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{3,3,4}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{3,4,3}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{3,4,3}*: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5,3,3}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{3,3,5}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{3,5,5/2}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5/2,5,3}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5,5/2,5}: elements of W inverting S1 and S2 by conjugation: 2; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5,5/2,5}*: elements of W inverting S1 and S2 by conjugation: 2; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5,3,5/2}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5/2,3,5}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{3,3,5/2}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5/2,3,3}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{3,5/2,5}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5,5/2,3}: elements of W inverting S1 and S2 by conjugation: 0; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5/2,5,5/2}: elements of W inverting S1 and S2 by conjugation: 2; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+{5/2,5,5/2}*: elements of W inverting S1 and S2 by conjugation: 2; those fixing a point of the circle -> alpha in [  ] (orders [  ], dets [  ])
+
+alpha-locus.g: 290 passed, 0 failed.
+Done: alpha-locus.g

@@ -1,0 +1,40 @@
+started: 2026-09-09T19:42:29Z
+script sha256: c85b552a76ed4369ee974654d916f7d6873051a08a0893a16127c1e05c7e29cc  xp-audit.g
+Syntax warning: Unbound global variable in xp-audit.g:20
+  c := First(PX.Saved, r -> r.case = rp[2]); S := [c.S1, c.S2, c.X]; V := AU.Orbit(S, c.w); pos := x -> Position(V, x);
+                                                                                                                 ^
+Syntax warning: Unbound global variable in xp-audit.g:21
+  s := List(S, g -> PermList(List(V, v -> pos(v*g)))); P := Group(s);
+                                  ^
+Syntax warning: Unbound global variable in xp-audit.g:21
+  s := List(S, g -> PermList(List(V, v -> pos(v*g)))); P := Group(s);
+                                          ^^^
+Syntax warning: Unbound global variable in xp-audit.g:24
+  Mix := Subgroup(D, List([1..3], i -> Image(e1, s[i])*Image(e2, bar[i])));
+                                             ^^
+Syntax warning: Unbound global variable in xp-audit.g:24
+  Mix := Subgroup(D, List([1..3], i -> Image(e1, s[i])*Image(e2, bar[i])));
+                                                 ^
+Syntax warning: Unbound global variable in xp-audit.g:24
+  Mix := Subgroup(D, List([1..3], i -> Image(e1, s[i])*Image(e2, bar[i])));
+                                                             ^^
+Syntax warning: Unbound global variable in xp-audit.g:24
+  Mix := Subgroup(D, List([1..3], i -> Image(e1, s[i])*Image(e2, bar[i])));
+                                                                 ^^^
+class 1 (Roli) L3-{4,3,3}-6: |Gamma| = 192, |Mix| = 384, |X(P)| = 2 = C2, [Gamma:X] = 96, Gamma/X = (C2 x C2) : S4, |Mix| = |Gamma||X|: true
+AU-PASS  class 1 (Roli): |X(P)| = 2 as claimed
+class 2 ({30,3,3}) L3-{5,3,3}-8: |Gamma| = 7200, |Mix| = 864000, |X(P)| = 120 = SL(2,5), [Gamma:X] = 60, Gamma/X = A5, |Mix| = |Gamma||X|: true
+AU-PASS  class 2 ({30,3,3}): |X(P)| = 120 as claimed
+class 3 (thesis) L3-{5,3,5/2}-16: |Gamma| = 7200, |Mix| = 864000, |X(P)| = 120 = SL(2,5), [Gamma:X] = 60, Gamma/X = A5, |Mix| = |Gamma||X|: true
+AU-PASS  class 3 (thesis): |X(P)| = 120 as claimed
+class 4 ({12,3,3}) L3-{5,3,5/2}-1: |Gamma| = 2880, |Mix| = 2880, |X(P)| = 1 = 1, [Gamma:X] = 2880, Gamma/X = (SL(2,5) : (C2 x C2)) : S3, |Mix| = |Gamma||X|: true
+AU-PASS  class 4 ({12,3,3}): |X(P)| = 1 as claimed
+class 5 ({12,3,4}) L3-{5,3,5/2}-5: |Gamma| = 1152, |Mix| = 9216, |X(P)| = 8 = Q8, [Gamma:X] = 144, Gamma/X = S4 x S3, |Mix| = |Gamma||X|: true
+AU-PASS  class 5 ({12,3,4}): |X(P)| = 8 as claimed
+class 6 ({12,3,5}') L3-{5,3,5/2}-10: |Gamma| = 7200, |Mix| = 864000, |X(P)| = 120 = SL(2,5), [Gamma:X] = 60, Gamma/X = A5, |Mix| = |Gamma||X|: true
+AU-PASS  class 6 ({12,3,5}'): |X(P)| = 120 as claimed
+
+xp-audit.g: 6 passed, 0 failed.
+Done: xp-audit.g
+gap exit: 
+finished: 2026-09-09T19:42:38Z

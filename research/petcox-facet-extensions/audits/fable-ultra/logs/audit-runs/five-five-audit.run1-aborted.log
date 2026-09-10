@@ -1,0 +1,15 @@
+started: 2026-09-09T16:16:22Z
+script sha256: a45316a4997b5e35f79806a74d165c1c1d6f2c04e6d8bb2879744c010ee378cd  five-five-audit.g
+Syntax warning: Unbound global variable in five-five-audit.g:99
+  wpol := List([1..d], i -> t*T.v0[i] + T.v3[i]); w1 := wpol*planes[1].P; w2 := wpol*planes[2].P; d1 := w1*w1; d2 := w2*w2;
+                              ^
+Syntax warning: Unbound global variable in five-five-audit.g:99
+  wpol := List([1..d], i -> t*T.v0[i] + T.v3[i]); w1 := wpol*planes[1].P; w2 := wpol*planes[2].P; d1 := w1*w1; d2 := w2*w2;
+                                        ^
+
+==== row 2 T = {4,3,3} (q = 3, p = 8), target ord(X) = 5, k = 2 ====
+factor of degree 4 with 4 real roots: t^4+(2*E(5)^2+2*E(5)^3)*t^3+(-1/2*E(5)-1/2*E(5)^4)*t^2+(-1/2*E(5)-E(5)^2-E(5)^3-1/2*E(5)^4)*t+(-1/8*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/8*E(5)^4)
+Error, no method found! For debugging hints type ?Recovery from NoMethodFound
+Error, no 1st choice method found for `MinimalPolynomial' on 3 arguments at /private/var/tmp/sage-10.7-current/local/share/gap/lib/methsel2.g:250 called from
+gap exit: 
+finished: 2026-09-09T16:16:28Z

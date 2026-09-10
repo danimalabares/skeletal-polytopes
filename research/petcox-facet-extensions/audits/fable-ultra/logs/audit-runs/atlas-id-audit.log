@@ -1,0 +1,10 @@
+started: 2026-09-09T16:06:13Z
+{4,3,3} cell: |Gamma(P_T)| = 96, IdGroup = [ 96, 193 ] (atlas: [ 96, 193 ]), ord(s0s1s2) = 12 (atlas 12), ord(s0s1s2s1) = 8 (atlas 8), type {8,3}, (V,E,F) = [ 16, 24, 6 ]
+AU-PASS  {4,3,3} cell matches the atlas entry
+{5,3,5/2} cell: |Gamma(P_T)| = 288, IdGroup = [ 288, 847 ] (atlas: [ 288, 847 ]), ord(s0s1s2) = 24 (atlas 24), ord(s0s1s2s1) = 12 (atlas 12), type {12,3}, (V,E,F) = [ 48, 72, 12 ]
+AU-PASS  {5,3,5/2} cell matches the atlas entry
+{3,4,3} cell: |Gamma(P_T)| = 384, IdGroup = [ 384, 18044 ] (atlas: [ 384, 18044 ]), ord(s0s1s2) = 24 (atlas 24), ord(s0s1s2s1) = 8 (atlas 8), type {12,4}, (V,E,F) = [ 48, 96, 16 ]
+AU-PASS  {3,4,3} cell matches the atlas entry
+Done: atlas-id-audit.g
+gap exit: 
+finished: 2026-09-09T16:06:22Z

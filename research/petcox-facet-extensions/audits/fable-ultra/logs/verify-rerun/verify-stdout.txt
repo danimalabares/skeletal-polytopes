@@ -1,0 +1,47 @@
+started: 2026-09-09T15:09:54Z
+cwd: /private/tmp/claude-501/-Users-daniel-github-skeletal-polytopes/ca59fbcf-4fb5-43db-8a4d-093fd6363cb6/scratchpad/frozen/research/petcox-facet-extensions
+commit: 71ef1cda7ca927b090068c796bfdcc10ca097a2c
+Using GAP: /private/var/tmp/sage-10.7-current/local/bin/gap
+GAP command: /private/var/tmp/sage-10.7-current/local/bin/gap -q -A --quitonbreak
+date: 2026-09-09T15:09:54Z
+GAP version: 4.14.0
+GAP architecture: x86_64-apple-darwin24-default64-kv9
+Loaded packages (with -A):
+  gapdoc 1.6.7
+  primgrp 3.4.4
+  smallgrp 1.5.4
+  transgrp 3.6.5
+--- running gap/canonical.g -> logs/canonical.log
+canonical.g: 275 passed, 0 failed.  (syntax warnings: 0)
+--- running gap/alpha-locus.g -> logs/alpha-locus.log
+alpha-locus.g: 290 passed, 0 failed.  (syntax warnings: 0)
+--- running gap/census-audit.g -> logs/census-audit.log
+census-audit.g: 128 passed, 0 failed.  (syntax warnings: 0)
+--- running gap/controls.g -> logs/controls.log
+controls.g: 41 passed, 0 failed.  (syntax warnings: 0)
+--- running gap/alpha-complete.g -> logs/alpha-complete.log
+alpha-complete.g: 226 passed, 0 failed.  (syntax warnings: 0)
+--- running gap/roli-alpha-infinity.g -> logs/roli-alpha-infinity.log
+roli-alpha-infinity.g: 10 passed, 0 failed.  (syntax warnings: 0)
+--- running gap/parent-search.g -> logs/parent-search.log
+parent-search.g: 37 passed, 0 failed.  (syntax warnings: 1)
+--- running gap/compare.g -> logs/compare.log
+compare.g: 7 passed, 0 failed.  (syntax warnings: 2)
+--- running gap/summary.g -> logs/summary.log
+summary.g: 13 passed, 0 failed.  (syntax warnings: 0)
+--- running gap/conder-check.g -> logs/conder-check.log
+conder-check.g: 49 passed, 0 failed.  (syntax warnings: 0)
+--- running gap/chirality-group.g -> logs/chirality-group.log
+chirality-group.g: 11 passed, 0 failed.  (syntax warnings: 0)
+candidate-table.tsv: 106 rows
+  DUPLICATE: 25
+  KNOWN-CONSTRUCTION: 3
+  PROVED-CONSTRUCTION: 21
+  PROVED-OBSTRUCTION-CANONICAL: 15
+  PROVED-OBSTRUCTION-IN-PARENT: 42
+  by level: 1 canonical: 20, 2 parent search: 28, 3 all isometries: 58
+
+verify.sh: 1087 PASS lines, 0 FAIL lines, 3 GAP syntax warnings (harmless).
+verify.sh: ALL RUNS COMPLETED, ALL CHECKS PASSED.
+exit: 0
+finished: 2026-09-09T15:27:14Z

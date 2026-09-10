@@ -1,0 +1,60 @@
+started: 2026-09-09T15:58:42Z
+script sha256: f13062c9c2e7b4e2b0873a27c725d740ab90bcdd85a44551f4d3b203ef88529a  printed-data-audit.g
+p.25 {3,5,5/2} tetrahedron equals p.24 {5,3,3} tetrahedron as printed: true
+mirrors of the p.25 tetrahedron generate a group of order 14400 with Schlaefli marks [ 5, 3, 3 ]
+AU-PASS  D1: the tetrahedron printed for {3,5,5/2} on p.25 is the {5,3,3} tetrahedron (marks {5,3,3}), not a {3,5,5/2} one
+printed p.24/25 S1 = R0R1R3R2 of the tetrahedron [row / transposed]: [ true, false ]
+printed p.24 S2 = R2R1 [row / transposed]: [ true, false ]; printed p.25 S2 = R2R1 [row / transposed]: [ false, false ]
+p.25 S2 orthogonal: false; order (if finite, up to 60): fail
+AU-PASS  D1: the printed p.25 S2 differs from the p.24 S2 in exactly one entry
+true {3,5,5/2}: |<S1,S2>| = 1200, type of S1 rec(
+  p := 20,
+  pairs := [ [ 1, 9 ] ] ), q = 5
+p.26 printed R: row norms^2 (should all be 1): [ 1, 1, 1, -E(5)-1/2*E(5)^2-1/2*E(5)^3-E(5)^4 ] ~ [ 1., 1., 1., 0.1909830056250527 ]
+p.26 printed R orthogonal: false; R^2 = I: false
+AU-PASS  D2: the matrix R printed on p.26 for {5,3,5/2} is not orthogonal as printed
+p.26 {5,3,5/2} tetrahedron: marks [ 5, 3, 5/2 ], |W| = 14400
+AU-PASS  p.26 tetrahedron for {5,3,5/2} has marks {5,3,5/2}
+regular vertex [ 2*E(120)^7+6*E(120)^8+2*E(120)^13+3*E(120)^16-2*E(120)^23+6*E(120)^32+2*E(120)^37-2*E(120)^47-2*E(120)^53+3*E(120)^56+3*E(120)^64-2*E(120)^77+6*E(120)^88+2*E(120)^103+3*E(120)^104+6*E(120)^112, E(5)+E(5)^4, E(5)+E(5)^4, -E(5)-E(5)^4 ]: in span(v0,v3): true; true rho_1 orthogonal true, involution true, preserves the facet vertex set true, equals printed R up to sign/transpose: false
+AU-PASS  p.26: the facet at the printed regular vertex is regular (true rho_1 preserves its vertex set)
+regular vertex [ -2*E(120)^7+6*E(120)^8-2*E(120)^13+3*E(120)^16+2*E(120)^23+6*E(120)^32-2*E(120)^37+2*E(120)^47+2*E(120)^53+3*E(120)^56+3*E(120)^64+2*E(120)^77+6*E(120)^88-2*E(120)^103+3*E(120)^104+6*E(120)^112, E(5)+E(5)^4, E(5)+E(5)^4, -E(5)-E(5)^4 ]: in span(v0,v3): true; true rho_1 orthogonal true, involution true, preserves the facet vertex set true, equals printed R up to sign/transpose: false
+AU-PASS  p.26: the facet at the printed regular vertex is regular (true rho_1 preserves its vertex set)
+{3,3,3}: |G| = 60 (table 60), [Gamma^+(T) : G] = 1 (table column 1), G <= Gamma^+: true
+AU-PASS  H1 {3,3,3}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{4,3,3}: |G| = 48 (table 48), [Gamma^+(T) : G] = 4 (table column 4), G <= Gamma^+: true
+AU-PASS  H1 {4,3,3}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{3,4,3}: |G| = 192 (table 192), [Gamma^+(T) : G] = 3 (table column 3), G <= Gamma^+: true
+AU-PASS  H1 {3,4,3}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{5,3,3}: |G| = 1440 (table 1440), [Gamma^+(T) : G] = 5 (table column 5), G <= Gamma^+: true
+AU-PASS  H1 {5,3,3}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{3,5,5/2}: |G| = 1200 (table 1200), [Gamma^+(T) : G] = 6 (table column 6), G <= Gamma^+: true
+AU-PASS  H1 {3,5,5/2}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{5,5/2,5}: |G| = 7200 (table 7200), [Gamma^+(T) : G] = 1 (table column 1), G <= Gamma^+: true
+AU-PASS  H1 {5,5/2,5}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{5,3,5/2}: |G| = 144 (table 144), [Gamma^+(T) : G] = 50 (table column 50), G <= Gamma^+: true
+AU-PASS  H1 {5,3,5/2}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{3,3,5/2}: |G| = 1440 (table 1440), [Gamma^+(T) : G] = 5 (table column 5), G <= Gamma^+: true
+AU-PASS  H1 {3,3,5/2}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{3,5/2,5}: |G| = 1200 (table 1200), [Gamma^+(T) : G] = 6 (table column 6), G <= Gamma^+: true
+AU-PASS  H1 {3,5/2,5}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+{5/2,5,5/2}: |G| = 7200 (table 7200), [Gamma^+(T) : G] = 1 (table column 1), G <= Gamma^+: true
+AU-PASS  H1 {5/2,5,5/2}: table index column equals [Gamma^+(T):G] (so the header [G:Gamma^+] is reversed)
+coset enumeration of the transcribed presentations: |R97.9| = 2880, |R97.10| = 2880 (census says 2880 for both)
+AU-PASS  transcribed R97.9 and R97.10 presentations both define groups of order 2880
+Syntax warning: Unbound global variable in printed-data-audit.g:93
+  Gfp := F/pair[2]; iso := IsomorphismPermGroup(Gfp); gg := List(GeneratorsOfGroup(Gfp), x -> Image(iso, x));
+                                                                                                    ^^^
+R97.9: rho_i involutions true, (rho0 rho2)^2 = 1: true, ord(rho0 rho1) = 3, ord(rho1 rho2) = 30, Petrie length ord(rho0 rho1 rho2) = 20
+R97.10: rho_i involutions true, (rho0 rho2)^2 = 1: true, ord(rho0 rho1) = 3, ord(rho1 rho2) = 30, Petrie length ord(rho0 rho1 rho2) = 40
+AU-PASS  {30,3} cell: rank-3 mirror automorphism exists (cell combinatorially regular)
+{30,3} cell: |Gamma(P_T)| = 2880, ord(rho0 rho1 rho2) = 40, check rho0 rho1 = S1: true, rho1 rho2 = S2: true
+AU-PASS  {30,3} cell has Petrie length 40
+{30,3} cell satisfies all relators of R97.10 for (R,S) = (S2^-1,S1^-1),(S2,S1^-1),(S2^-1,S1),(S2,S1): [ true, false, false, true ]
+AU-PASS  {30,3} cell satisfies every transcribed relator of R97.10 (some orientation)
+{30,3} cell satisfies all relators of R97.9 for (R,S) = (S2^-1,S1^-1),(S2,S1^-1),(S2^-1,S1),(S2,S1): [ false, false, false, false ]
+AU-PASS  {30,3} cell fails the transcribed relators of R97.9 (every orientation)
+
+printed-data-audit.g: 21 passed, 0 failed.
+Done: printed-data-audit.g
+gap exit: 
+finished: 2026-09-09T15:59:08Z

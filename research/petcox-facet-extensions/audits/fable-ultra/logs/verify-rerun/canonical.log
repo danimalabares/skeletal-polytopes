@@ -1,0 +1,542 @@
+
+
+##########################################################################
+CANONICAL {3,3,3}  (facet H_0({3,3,3}) = H_1({3,3,3}*); PETCOX row 1, endpoint alpha=0 of {3,3,3})
+PASS  {3,3,3}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,3,3}: |Gamma| = 60
+PASS  {3,3,3}: S1 S3^-1 = R0 R1
+PASS  {3,3,3}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,3,3}: |<S1,S2>| = #(G) of the table = 60
+PASS  {3,3,3}: [Gamma^+(T) : G] = index column of the table = 1
+PASS  {3,3,3}: order p of S1 = 5
+PASS  {3,3,3}: twist pair (p1,p2) of S1 equals the table's [ 1, 2 ]
+PASS  {3,3,3}: q = order of S2 = 3
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 4
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 4
+PASS  {3,3,3}: collapse multiplicity equals the intersection defect = 4
+PASS  {3,3,3}: collapse multiplicity equals the table entry = 4
+PASS  {3,3,3}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 4 = vertex-collapse multiplicity of H_0({3,3,3}) (table: 4)
+
+
+##########################################################################
+CANONICAL {3,3,3}*  (facet H_0({3,3,3}*) = H_1({3,3,3}); PETCOX row 1, endpoint alpha=1 of {3,3,3})
+PASS  {3,3,3}*: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,3,3}*: |Gamma| = 60
+PASS  {3,3,3}*: S1 S3^-1 = R0 R1
+PASS  {3,3,3}*: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,3,3}*: |<S1,S2>| = #(G) of the table = 60
+PASS  {3,3,3}*: [Gamma^+(T) : G] = index column of the table = 1
+PASS  {3,3,3}*: order p of S1 = 5
+PASS  {3,3,3}*: twist pair (p1,p2) of S1 equals the table's [ 1, 2 ]
+PASS  {3,3,3}*: q = order of S2 = 3
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 4
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 4
+PASS  {3,3,3}*: collapse multiplicity equals the intersection defect = 4
+PASS  {3,3,3}*: collapse multiplicity equals the table entry = 4
+PASS  {3,3,3}*: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 4 = vertex-collapse multiplicity of H_0({3,3,3}*) (table: 4); self-dual T, same as the alpha=0 endpoint
+
+
+##########################################################################
+CANONICAL {4,3,3}  (facet H_0({4,3,3}) = H_1({3,3,4}); PETCOX row 2, endpoint alpha=0 of {4,3,3})
+PASS  {4,3,3}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {4,3,3}: |Gamma| = 192
+PASS  {4,3,3}: S1 S3^-1 = R0 R1
+PASS  {4,3,3}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {4,3,3}: |<S1,S2>| = #(G) of the table = 48
+PASS  {4,3,3}: [Gamma^+(T) : G] = index column of the table = 4
+PASS  {4,3,3}: order p of S1 = 8
+PASS  {4,3,3}: twist pair (p1,p2) of S1 equals the table's [ 1, 3 ]
+PASS  {4,3,3}: q = order of S2 = 3
+intersection condition: [ true, true, true ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 1
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 1
+PASS  {4,3,3}: collapse multiplicity equals the intersection defect = 1
+PASS  {4,3,3}: collapse multiplicity equals the table entry = 1
+PASS  {4,3,3}: Stab_G(v0) = G cap <S2,S3>
+
+========== CANONICAL {4,3,3}  (facet H_0({4,3,3}) = H_1({3,3,4}); PETCOX row 2, endpoint alpha=0 of {4,3,3}) ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator S1^-1*S2*S3^-1*S1^2*S3*S1^2*S2^-1*S1^-1 mirrors to S1^3*S2*S3^-1*S1^-2*S3*S1^-2*S2^-1*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  {4,3,3}: faithful Wythoff realisation
+PASS  {4,3,3}: skeletal 4-polytope conditions
+PASS  {4,3,3}: abstract f-vector = geometric f-vector
+PASS  {4,3,3}: half-turn candidate exists and is an involutory isometry inverting S1
+PASS  {4,3,3}: geometrically chiral
+PASS  {4,3,3}: facet H_0 is a geometrically chiral polyhedron
+PASS  {4,3,3}: facet is combinatorially regular (rank-3 mirror automorphism exists)
+
+
+##########################################################################
+CANONICAL {3,3,4}  (facet H_0({3,3,4}) = H_1({4,3,3}); PETCOX row 2, endpoint alpha=1 of {4,3,3})
+PASS  {3,3,4}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,3,4}: |Gamma| = 192
+PASS  {3,3,4}: S1 S3^-1 = R0 R1
+PASS  {3,3,4}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,3,4}: |<S1,S2>| = #(G) of the table = 48
+PASS  {3,3,4}: [Gamma^+(T) : G] = index column of the table = 4
+PASS  {3,3,4}: order p of S1 = 8
+PASS  {3,3,4}: twist pair (p1,p2) of S1 equals the table's [ 1, 3 ]
+PASS  {3,3,4}: q = order of S2 = 3
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 2
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 2
+PASS  {3,3,4}: collapse multiplicity equals the intersection defect = 2
+PASS  {3,3,4}: collapse multiplicity equals the table entry = 2
+PASS  {3,3,4}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 2 = vertex-collapse multiplicity of H_0({3,3,4}) (table: 2)
+
+
+##########################################################################
+CANONICAL {3,4,3}  (facet H_0({3,4,3}) = H_1({3,4,3}*); PETCOX row 3, endpoint alpha=0 of {3,4,3})
+PASS  {3,4,3}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,4,3}: |Gamma| = 576
+PASS  {3,4,3}: S1 S3^-1 = R0 R1
+PASS  {3,4,3}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,4,3}: |<S1,S2>| = #(G) of the table = 192
+PASS  {3,4,3}: [Gamma^+(T) : G] = index column of the table = 3
+PASS  {3,4,3}: order p of S1 = 12
+PASS  {3,4,3}: twist pair (p1,p2) of S1 equals the table's [ 1, 5 ]
+PASS  {3,4,3}: q = order of S2 = 4
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 2
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 2
+PASS  {3,4,3}: collapse multiplicity equals the intersection defect = 2
+PASS  {3,4,3}: collapse multiplicity equals the table entry = 2
+PASS  {3,4,3}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 2 = vertex-collapse multiplicity of H_0({3,4,3}) (table: 2)
+
+
+##########################################################################
+CANONICAL {3,4,3}*  (facet H_0({3,4,3}*) = H_1({3,4,3}); PETCOX row 3, endpoint alpha=1 of {3,4,3})
+PASS  {3,4,3}*: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,4,3}*: |Gamma| = 576
+PASS  {3,4,3}*: S1 S3^-1 = R0 R1
+PASS  {3,4,3}*: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,4,3}*: |<S1,S2>| = #(G) of the table = 192
+PASS  {3,4,3}*: [Gamma^+(T) : G] = index column of the table = 3
+PASS  {3,4,3}*: order p of S1 = 12
+PASS  {3,4,3}*: twist pair (p1,p2) of S1 equals the table's [ 1, 5 ]
+PASS  {3,4,3}*: q = order of S2 = 4
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 2
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 2
+PASS  {3,4,3}*: collapse multiplicity equals the intersection defect = 2
+PASS  {3,4,3}*: collapse multiplicity equals the table entry = 2
+PASS  {3,4,3}*: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 2 = vertex-collapse multiplicity of H_0({3,4,3}*) (table: 2); self-dual T, same as the alpha=0 endpoint
+
+
+##########################################################################
+CANONICAL {5,3,3}  (facet H_0({5,3,3}) = H_1({3,3,5}); PETCOX row 4, endpoint alpha=0 of {5,3,3})
+PASS  {5,3,3}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5,3,3}: |Gamma| = 7200
+PASS  {5,3,3}: S1 S3^-1 = R0 R1
+PASS  {5,3,3}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5,3,3}: |<S1,S2>| = #(G) of the table = 1440
+PASS  {5,3,3}: [Gamma^+(T) : G] = index column of the table = 5
+PASS  {5,3,3}: order p of S1 = 30
+PASS  {5,3,3}: twist pair (p1,p2) of S1 equals the table's [ 1, 11 ]
+PASS  {5,3,3}: q = order of S2 = 3
+intersection condition: [ true, true, true ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 1
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 1
+PASS  {5,3,3}: collapse multiplicity equals the intersection defect = 1
+PASS  {5,3,3}: collapse multiplicity equals the table entry = 1
+PASS  {5,3,3}: Stab_G(v0) = G cap <S2,S3>
+
+========== CANONICAL {5,3,3}  (facet H_0({5,3,3}) = H_1({3,3,5}); PETCOX row 4, endpoint alpha=0 of {5,3,3}) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1*S3*S1^-1*(S1^-1*S3)^2*S1^-1*S2^-1*S3 mirrors to S1^-1*S3*S1*(S1*S3)^2*S1*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  {5,3,3}: faithful Wythoff realisation
+PASS  {5,3,3}: skeletal 4-polytope conditions
+PASS  {5,3,3}: abstract f-vector = geometric f-vector
+PASS  {5,3,3}: half-turn candidate exists and is an involutory isometry inverting S1
+PASS  {5,3,3}: geometrically chiral
+PASS  {5,3,3}: facet H_0 is a geometrically chiral polyhedron
+PASS  {5,3,3}: facet is combinatorially regular (rank-3 mirror automorphism exists)
+
+
+##########################################################################
+CANONICAL {3,3,5}  (facet H_0({3,3,5}) = H_1({5,3,3}); PETCOX row 4, endpoint alpha=1 of {5,3,3})
+PASS  {3,3,5}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,3,5}: |Gamma| = 7200
+PASS  {3,3,5}: S1 S3^-1 = R0 R1
+PASS  {3,3,5}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,3,5}: |<S1,S2>| = #(G) of the table = 1440
+PASS  {3,3,5}: [Gamma^+(T) : G] = index column of the table = 5
+PASS  {3,3,5}: order p of S1 = 30
+PASS  {3,3,5}: twist pair (p1,p2) of S1 equals the table's [ 1, 11 ]
+PASS  {3,3,5}: q = order of S2 = 3
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 4
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 4
+PASS  {3,3,5}: collapse multiplicity equals the intersection defect = 4
+PASS  {3,3,5}: collapse multiplicity equals the table entry = 4
+PASS  {3,3,5}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 4 = vertex-collapse multiplicity of H_0({3,3,5}) (table: 4)
+
+
+##########################################################################
+CANONICAL {3,5,5/2}  (facet H_0({3,5,5/2}) = H_1({5/2,5,3}); PETCOX row 5, endpoint alpha=0 of {3,5,5/2})
+PASS  {3,5,5/2}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,5,5/2}: |Gamma| = 7200
+PASS  {3,5,5/2}: S1 S3^-1 = R0 R1
+PASS  {3,5,5/2}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,5,5/2}: |<S1,S2>| = #(G) of the table = 1200
+PASS  {3,5,5/2}: [Gamma^+(T) : G] = index column of the table = 6
+PASS  {3,5,5/2}: order p of S1 = 20
+PASS  {3,5,5/2}: twist pair (p1,p2) of S1 equals the table's [ 1, 9 ]
+PASS  {3,5,5/2}: q = order of S2 = 5
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 2
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 2
+PASS  {3,5,5/2}: collapse multiplicity equals the intersection defect = 2
+PASS  {3,5,5/2}: collapse multiplicity equals the table entry = 2
+PASS  {3,5,5/2}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 2 = vertex-collapse multiplicity of H_0({3,5,5/2}) (table: 2)
+
+
+##########################################################################
+CANONICAL {5/2,5,3}  (facet H_0({5/2,5,3}) = H_1({3,5,5/2}); PETCOX row 5, endpoint alpha=1 of {3,5,5/2})
+PASS  {5/2,5,3}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5/2,5,3}: |Gamma| = 7200
+PASS  {5/2,5,3}: S1 S3^-1 = R0 R1
+PASS  {5/2,5,3}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5/2,5,3}: |<S1,S2>| = #(G) of the table = 1200
+PASS  {5/2,5,3}: [Gamma^+(T) : G] = index column of the table = 6
+PASS  {5/2,5,3}: order p of S1 = 20
+PASS  {5/2,5,3}: twist pair (p1,p2) of S1 equals the table's [ 1, 9 ]
+PASS  {5/2,5,3}: q = order of S2 = 5
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 2
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 2
+PASS  {5/2,5,3}: collapse multiplicity equals the intersection defect = 2
+PASS  {5/2,5,3}: collapse multiplicity equals the table entry = 2
+PASS  {5/2,5,3}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 2 = vertex-collapse multiplicity of H_0({5/2,5,3}) (table: 2)
+
+
+##########################################################################
+CANONICAL {5,5/2,5}  (facet H_0({5,5/2,5}) = H_1({5,5/2,5}*); PETCOX row 6, endpoint alpha=0 of {5,5/2,5})
+PASS  {5,5/2,5}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5,5/2,5}: |Gamma| = 7200
+PASS  {5,5/2,5}: S1 S3^-1 = R0 R1
+PASS  {5,5/2,5}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5,5/2,5}: |<S1,S2>| = #(G) of the table = 7200
+PASS  {5,5/2,5}: [Gamma^+(T) : G] = index column of the table = 1
+PASS  {5,5/2,5}: order p of S1 = 15
+PASS  {5,5/2,5}: twist pair (p1,p2) of S1 equals the table's [ 1, 4 ]
+PASS  {5,5/2,5}: q = order of S2 = 5
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 12
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 12
+PASS  {5,5/2,5}: collapse multiplicity equals the intersection defect = 12
+PASS  {5,5/2,5}: collapse multiplicity equals the table entry = 12
+PASS  {5,5/2,5}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 12 = vertex-collapse multiplicity of H_0({5,5/2,5}) (table: 12)
+
+
+##########################################################################
+CANONICAL {5,5/2,5}*  (facet H_0({5,5/2,5}*) = H_1({5,5/2,5}); PETCOX row 6, endpoint alpha=1 of {5,5/2,5})
+PASS  {5,5/2,5}*: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5,5/2,5}*: |Gamma| = 7200
+PASS  {5,5/2,5}*: S1 S3^-1 = R0 R1
+PASS  {5,5/2,5}*: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5,5/2,5}*: |<S1,S2>| = #(G) of the table = 7200
+PASS  {5,5/2,5}*: [Gamma^+(T) : G] = index column of the table = 1
+PASS  {5,5/2,5}*: order p of S1 = 15
+PASS  {5,5/2,5}*: twist pair (p1,p2) of S1 equals the table's [ 1, 4 ]
+PASS  {5,5/2,5}*: q = order of S2 = 5
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 12
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 12
+PASS  {5,5/2,5}*: collapse multiplicity equals the intersection defect = 12
+PASS  {5,5/2,5}*: collapse multiplicity equals the table entry = 12
+PASS  {5,5/2,5}*: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 12 = vertex-collapse multiplicity of H_0({5,5/2,5}*) (table: 12); self-dual T, same as the alpha=0 endpoint
+
+
+##########################################################################
+CANONICAL {5,3,5/2}  (facet H_0({5,3,5/2}) = H_1({5/2,3,5}); PETCOX row 7, endpoint alpha=0 of {5,3,5/2})
+PASS  {5,3,5/2}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5,3,5/2}: |Gamma| = 7200
+PASS  {5,3,5/2}: S1 S3^-1 = R0 R1
+PASS  {5,3,5/2}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5,3,5/2}: |<S1,S2>| = #(G) of the table = 144
+PASS  {5,3,5/2}: [Gamma^+(T) : G] = index column of the table = 50
+PASS  {5,3,5/2}: order p of S1 = 12
+PASS  {5,3,5/2}: twist pair (p1,p2) of S1 equals the table's [ 1, 5 ]
+PASS  {5,3,5/2}: q = order of S2 = 3
+intersection condition: [ true, true, true ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 1
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 1
+PASS  {5,3,5/2}: collapse multiplicity equals the intersection defect = 1
+PASS  {5,3,5/2}: collapse multiplicity equals the table entry = 1
+PASS  {5,3,5/2}: Stab_G(v0) = G cap <S2,S3>
+
+========== CANONICAL {5,3,5/2}  (facet H_0({5,3,5/2}) = H_1({5/2,3,5}); PETCOX row 7, endpoint alpha=0 of {5,3,5/2}) ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 15; relator S1^2*S3^-2*S1^-2*S2*S1^-1*S3^-1*S2^-1*S3*S2*S3^-1*S2 mirrors to S1^-2*S3^-2*S1^4*S2*S1*S3^-1*S2^-1*S1^-2*S3*S1^2*S2*S3^-1*S1^2*S2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  {5,3,5/2}: faithful Wythoff realisation
+PASS  {5,3,5/2}: skeletal 4-polytope conditions
+PASS  {5,3,5/2}: abstract f-vector = geometric f-vector
+PASS  {5,3,5/2}: half-turn candidate exists and is an involutory isometry inverting S1
+PASS  {5,3,5/2}: geometrically chiral
+PASS  {5,3,5/2}: facet H_0 is a geometrically chiral polyhedron
+PASS  {5,3,5/2}: facet is combinatorially regular (rank-3 mirror automorphism exists)
+
+
+##########################################################################
+CANONICAL {5/2,3,5}  (facet H_0({5/2,3,5}) = H_1({5,3,5/2}); PETCOX row 7, endpoint alpha=1 of {5,3,5/2})
+PASS  {5/2,3,5}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5/2,3,5}: |Gamma| = 7200
+PASS  {5/2,3,5}: S1 S3^-1 = R0 R1
+PASS  {5/2,3,5}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5/2,3,5}: |<S1,S2>| = #(G) of the table = 144
+PASS  {5/2,3,5}: [Gamma^+(T) : G] = index column of the table = 50
+PASS  {5/2,3,5}: order p of S1 = 12
+PASS  {5/2,3,5}: twist pair (p1,p2) of S1 equals the table's [ 1, 5 ]
+PASS  {5/2,3,5}: q = order of S2 = 3
+intersection condition: [ true, true, true ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 1
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 1
+PASS  {5/2,3,5}: collapse multiplicity equals the intersection defect = 1
+PASS  {5/2,3,5}: collapse multiplicity equals the table entry = 1
+PASS  {5/2,3,5}: Stab_G(v0) = G cap <S2,S3>
+
+========== CANONICAL {5/2,3,5}  (facet H_0({5/2,3,5}) = H_1({5,3,5/2}); PETCOX row 7, endpoint alpha=1 of {5,3,5/2}) ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 15; relator S1^2*S3^-2*S1^-2*S2*S1^-1*S3^-1*S2^-1*S3*S2*S3^-1*S2 mirrors to S1^-2*S3^-2*S1^4*S2*S1*S3^-1*S2^-1*S1^-2*S3*S1^2*S2*S3^-1*S1^2*S2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  {5/2,3,5}: faithful Wythoff realisation
+PASS  {5/2,3,5}: skeletal 4-polytope conditions
+PASS  {5/2,3,5}: abstract f-vector = geometric f-vector
+PASS  {5/2,3,5}: half-turn candidate exists and is an involutory isometry inverting S1
+PASS  {5/2,3,5}: geometrically chiral
+PASS  {5/2,3,5}: facet H_0 is a geometrically chiral polyhedron
+PASS  {5/2,3,5}: facet is combinatorially regular (rank-3 mirror automorphism exists)
+
+
+##########################################################################
+CANONICAL {3,3,5/2}  (facet H_0({3,3,5/2}) = H_1({5/2,3,3}); PETCOX row 8, endpoint alpha=0 of {3,3,5/2})
+PASS  {3,3,5/2}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,3,5/2}: |Gamma| = 7200
+PASS  {3,3,5/2}: S1 S3^-1 = R0 R1
+PASS  {3,3,5/2}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,3,5/2}: |<S1,S2>| = #(G) of the table = 1440
+PASS  {3,3,5/2}: [Gamma^+(T) : G] = index column of the table = 5
+PASS  {3,3,5/2}: order p of S1 = 30
+PASS  {3,3,5/2}: twist pair (p1,p2) of S1 equals the table's [ 7, 13 ]
+PASS  {3,3,5/2}: q = order of S2 = 3
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 4
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 4
+PASS  {3,3,5/2}: collapse multiplicity equals the intersection defect = 4
+PASS  {3,3,5/2}: collapse multiplicity equals the table entry = 4
+PASS  {3,3,5/2}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 4 = vertex-collapse multiplicity of H_0({3,3,5/2}) (table: 4)
+
+
+##########################################################################
+CANONICAL {5/2,3,3}  (facet H_0({5/2,3,3}) = H_1({3,3,5/2}); PETCOX row 8, endpoint alpha=1 of {3,3,5/2})
+PASS  {5/2,3,3}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5/2,3,3}: |Gamma| = 7200
+PASS  {5/2,3,3}: S1 S3^-1 = R0 R1
+PASS  {5/2,3,3}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5/2,3,3}: |<S1,S2>| = #(G) of the table = 1440
+PASS  {5/2,3,3}: [Gamma^+(T) : G] = index column of the table = 5
+PASS  {5/2,3,3}: order p of S1 = 30
+PASS  {5/2,3,3}: twist pair (p1,p2) of S1 equals the table's [ 7, 13 ]
+PASS  {5/2,3,3}: q = order of S2 = 3
+intersection condition: [ true, true, true ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 1
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 1
+PASS  {5/2,3,3}: collapse multiplicity equals the intersection defect = 1
+PASS  {5/2,3,3}: collapse multiplicity equals the table entry = 1
+PASS  {5/2,3,3}: Stab_G(v0) = G cap <S2,S3>
+
+========== CANONICAL {5/2,3,3}  (facet H_0({5/2,3,3}) = H_1({3,3,5/2}); PETCOX row 8, endpoint alpha=1 of {3,3,5/2}) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1*S3*S1^-1*(S1^-1*S3)^2*S1^-1*S2^-1*S3 mirrors to S1^-1*S3*S1*(S1*S3)^2*S1*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  {5/2,3,3}: faithful Wythoff realisation
+PASS  {5/2,3,3}: skeletal 4-polytope conditions
+PASS  {5/2,3,3}: abstract f-vector = geometric f-vector
+PASS  {5/2,3,3}: half-turn candidate exists and is an involutory isometry inverting S1
+PASS  {5/2,3,3}: geometrically chiral
+PASS  {5/2,3,3}: facet H_0 is a geometrically chiral polyhedron
+PASS  {5/2,3,3}: facet is combinatorially regular (rank-3 mirror automorphism exists)
+
+
+##########################################################################
+CANONICAL {3,5/2,5}  (facet H_0({3,5/2,5}) = H_1({5,5/2,3}); PETCOX row 9, endpoint alpha=0 of {3,5/2,5})
+PASS  {3,5/2,5}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {3,5/2,5}: |Gamma| = 7200
+PASS  {3,5/2,5}: S1 S3^-1 = R0 R1
+PASS  {3,5/2,5}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {3,5/2,5}: |<S1,S2>| = #(G) of the table = 1200
+PASS  {3,5/2,5}: [Gamma^+(T) : G] = index column of the table = 6
+PASS  {3,5/2,5}: order p of S1 = 20
+PASS  {3,5/2,5}: twist pair (p1,p2) of S1 equals the table's [ 3, 7 ]
+PASS  {3,5/2,5}: q = order of S2 = 5
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 2
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 2
+PASS  {3,5/2,5}: collapse multiplicity equals the intersection defect = 2
+PASS  {3,5/2,5}: collapse multiplicity equals the table entry = 2
+PASS  {3,5/2,5}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 2 = vertex-collapse multiplicity of H_0({3,5/2,5}) (table: 2)
+
+
+##########################################################################
+CANONICAL {5,5/2,3}  (facet H_0({5,5/2,3}) = H_1({3,5/2,5}); PETCOX row 9, endpoint alpha=1 of {3,5/2,5})
+PASS  {5,5/2,3}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5,5/2,3}: |Gamma| = 7200
+PASS  {5,5/2,3}: S1 S3^-1 = R0 R1
+PASS  {5,5/2,3}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5,5/2,3}: |<S1,S2>| = #(G) of the table = 1200
+PASS  {5,5/2,3}: [Gamma^+(T) : G] = index column of the table = 6
+PASS  {5,5/2,3}: order p of S1 = 20
+PASS  {5,5/2,3}: twist pair (p1,p2) of S1 equals the table's [ 3, 7 ]
+PASS  {5,5/2,3}: q = order of S2 = 5
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 2
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 2
+PASS  {5,5/2,3}: collapse multiplicity equals the intersection defect = 2
+PASS  {5,5/2,3}: collapse multiplicity equals the table entry = 2
+PASS  {5,5/2,3}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 2 = vertex-collapse multiplicity of H_0({5,5/2,3}) (table: 2)
+
+
+##########################################################################
+CANONICAL {5/2,5,5/2}  (facet H_0({5/2,5,5/2}) = H_1({5/2,5,5/2}*); PETCOX row 10, endpoint alpha=0 of {5/2,5,5/2})
+PASS  {5/2,5,5/2}: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5/2,5,5/2}: |Gamma| = 7200
+PASS  {5/2,5,5/2}: S1 S3^-1 = R0 R1
+PASS  {5/2,5,5/2}: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5/2,5,5/2}: |<S1,S2>| = #(G) of the table = 7200
+PASS  {5/2,5,5/2}: [Gamma^+(T) : G] = index column of the table = 1
+PASS  {5/2,5,5/2}: order p of S1 = 15
+PASS  {5/2,5,5/2}: twist pair (p1,p2) of S1 equals the table's [ 2, 7 ]
+PASS  {5/2,5,5/2}: q = order of S2 = 5
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 12
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 12
+PASS  {5/2,5,5/2}: collapse multiplicity equals the intersection defect = 12
+PASS  {5/2,5,5/2}: collapse multiplicity equals the table entry = 12
+PASS  {5/2,5,5/2}: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 12 = vertex-collapse multiplicity of H_0({5/2,5,5/2}) (table: 12)
+
+
+##########################################################################
+CANONICAL {5/2,5,5/2}*  (facet H_0({5/2,5,5/2}*) = H_1({5/2,5,5/2}); PETCOX row 10, endpoint alpha=1 of {5/2,5,5/2})
+PASS  {5/2,5,5/2}*: Gamma = <S1,S2,S3> equals the rotation subgroup W^+ of W
+PASS  {5/2,5,5/2}*: |Gamma| = 7200
+PASS  {5/2,5,5/2}*: S1 S3^-1 = R0 R1
+PASS  {5/2,5,5/2}*: (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1
+PASS  {5/2,5,5/2}*: |<S1,S2>| = #(G) of the table = 7200
+PASS  {5/2,5,5/2}*: [Gamma^+(T) : G] = index column of the table = 1
+PASS  {5/2,5,5/2}*: order p of S1 = 15
+PASS  {5/2,5,5/2}*: twist pair (p1,p2) of S1 equals the table's [ 2, 7 ]
+PASS  {5/2,5,5/2}*: q = order of S2 = 5
+intersection condition: [ true, true, false ]  defect |<S1,S2> cap <S2,S3> : <S2>| = 12
+vertex-collapse multiplicity of the facet at alpha=0: |Stab_G(v0)|/q = 12
+PASS  {5/2,5,5/2}*: collapse multiplicity equals the intersection defect = 12
+PASS  {5/2,5,5/2}*: collapse multiplicity equals the table entry = 12
+PASS  {5/2,5,5/2}*: Stab_G(v0) = G cap <S2,S3>
+-> PROVED-OBSTRUCTION-CANONICAL: intersection condition fails: |<S1,S2> cap <S2,S3> : <S2>| = 12 = vertex-collapse multiplicity of H_0({5/2,5,5/2}*) (table: 12); self-dual T, same as the alpha=0 endpoint
+
+
+########## Comparison of the surviving canonical candidates ##########
+survivors: [ "{4,3,3}", "{5,3,3}", "{5,3,5/2}", "{5/2,3,5}", "{5/2,3,3}" ]
+{4,3,3} vs {5,3,3}: abstractly isomorphic (same orientation / mirror): false / false; dual (same / mirror): false / false; edge inner product 1/2 vs 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4; same vertex Gram multiset: false
+{4,3,3} vs {5,3,5/2}: abstractly isomorphic (same orientation / mirror): false / false; dual (same / mirror): false / false; edge inner product 1/2 vs -1/2*E(5)^2-1/2*E(5)^3; same vertex Gram multiset: false
+{4,3,3} vs {5/2,3,5}: abstractly isomorphic (same orientation / mirror): false / false; dual (same / mirror): false / false; edge inner product 1/2 vs -1/2*E(5)-1/2*E(5)^4; same vertex Gram multiset: false
+{4,3,3} vs {5/2,3,3}: abstractly isomorphic (same orientation / mirror): false / false; dual (same / mirror): false / false; edge inner product 1/2 vs -1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/2*E(5)^4; same vertex Gram multiset: false
+{5,3,3} vs {5,3,5/2}: abstractly isomorphic (same orientation / mirror): false / false; dual (same / mirror): false / false; edge inner product 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4 vs -1/2*E(5)^2-1/2*E(5)^3; same vertex Gram multiset: false
+{5,3,3} vs {5/2,3,5}: abstractly isomorphic (same orientation / mirror): false / false; dual (same / mirror): false / false; edge inner product 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4 vs -1/2*E(5)-1/2*E(5)^4; same vertex Gram multiset: false
+{5,3,3} vs {5/2,3,3}: abstractly isomorphic (same orientation / mirror): true / false; dual (same / mirror): false / false; edge inner product 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4 vs -1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/2*E(5)^4; same vertex Gram multiset: true
+{5,3,5/2} vs {5/2,3,5}: abstractly isomorphic (same orientation / mirror): true / false; dual (same / mirror): false / false; edge inner product -1/2*E(5)^2-1/2*E(5)^3 vs -1/2*E(5)-1/2*E(5)^4; same vertex Gram multiset: true
+{5,3,5/2} vs {5/2,3,3}: abstractly isomorphic (same orientation / mirror): false / false; dual (same / mirror): false / false; edge inner product -1/2*E(5)^2-1/2*E(5)^3 vs -1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/2*E(5)^4; same vertex Gram multiset: false
+{5/2,3,5} vs {5/2,3,3}: abstractly isomorphic (same orientation / mirror): false / false; dual (same / mirror): false / false; edge inner product -1/2*E(5)-1/2*E(5)^4 vs -1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/2*E(5)^4; same vertex Gram multiset: false
+
+canonical.g: 275 passed, 0 failed.
+Done: canonical.g

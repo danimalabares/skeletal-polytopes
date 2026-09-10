@@ -1,0 +1,139 @@
+started: 2026-09-09T15:57:04Z
+cwd: /Users/daniel/github/skeletal-polytopes/research/petcox-facet-extensions/audits/fable-ultra/scripts
+script sha256: 6d8fe821a2ae0658fd86d599cf9e2766c42fdc48d759554aa0c270415a82874a  congruence-audit.g
+Level-3 survivors read from logs/alpha-survivors.g: 24
+AU-PASS  number of Level-3 survivors in the producer's survivor file = 24
+
+=== per-realisation data ===
+L3-{4,3,3}-1 | T = {4,3,3} | alpha ~ 0.5 | type [ 8, 3, 3 ] | |Gamma| = 192 | f_coset [ 16, 32, 12, 4 ] f_geom [ 16, 32, 12, 4 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 16/16 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/2 ~ 0.5 | twist [ [ 1, 3 ] ]
+AU-PASS  L3-{4,3,3}-1: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{4,3,3}-1: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{4,3,3}-1: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{4,3,3}-1: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{4,3,3}-2 | T = {4,3,3} | alpha ~ 2. | type [ 8, 3, 3 ] | |Gamma| = 192 | f_coset [ 16, 32, 12, 4 ] f_geom [ 16, 32, 12, 4 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 16/16 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2 ~ -0.5 | twist [ [ 1, 3 ] ]
+AU-PASS  L3-{4,3,3}-2: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{4,3,3}-2: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{4,3,3}-2: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{4,3,3}-2: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{4,3,3}-3 | T = {4,3,3} | alpha ~ infinity | type [ 8, 3, 3 ] | |Gamma| = 192 | f_coset [ 16, 32, 12, 4 ] f_geom [ 16, 32, 12, 4 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 16/16 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2 ~ -0.5 | twist [ [ 1, 3 ] ]
+AU-PASS  L3-{4,3,3}-3: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{4,3,3}-3: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{4,3,3}-3: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{4,3,3}-3: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{4,3,3}-6 | T = {4,3,3} | alpha ~ 0. | type [ 8, 3, 3 ] | |Gamma| = 192 | f_coset [ 16, 32, 12, 4 ] f_geom [ 16, 32, 12, 4 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 16/16 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/2 ~ 0.5 | twist [ [ 1, 3 ] ]
+AU-PASS  L3-{4,3,3}-6: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{4,3,3}-6: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{4,3,3}-6: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{4,3,3}-6: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,3}-3 | T = {5,3,3} | alpha ~ 0.3041135359756636 | type [ 30, 3, 3 ] | |Gamma| = 7200 | f_coset [ 600, 1200, 120, 5 ] f_geom [ 600, 1200, 120, 5 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 480/480 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4 ~ 0.9635254915624212 | twist [ [ 1, 11 ] ]
+AU-PASS  L3-{5,3,3}-3: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,3}-3: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,3}-3: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,3}-3: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,3}-8 | T = {5,3,3} | alpha ~ 0. | type [ 30, 3, 3 ] | |Gamma| = 7200 | f_coset [ 600, 1200, 120, 5 ] f_geom [ 600, 1200, 120, 5 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 480/480 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4 ~ 0.9635254915624212 | twist [ [ 1, 11 ] ]
+AU-PASS  L3-{5,3,3}-8: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,3}-8: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,3}-8: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,3}-8: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-1 | T = {5,3,5/2} | alpha ~ 1.815487037832028 | type [ 12, 3, 3 ] | |Gamma| = 2880 | f_coset [ 240, 480, 120, 20 ] f_geom [ 240, 480, 120, 20 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr true | edge ip 1/4*E(40)^7-1/4*E(40)^13+1/4*E(40)^21+1/4*E(40)^23+1/4*E(40)^29-1/4*E(40)^31-1/4*E(40)^37-1/4*E(40)^39 ~ -0.7905694150420949 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-1: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-1: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-1: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-1: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-2 | T = {5,3,5/2} | alpha ~ -0.07013104533209813 | type [ 12, 3, 3 ] | |Gamma| = 2880 | f_coset [ 240, 480, 120, 20 ] f_geom [ 240, 480, 120, 20 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr true | edge ip -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^21-1/4*E(40)^23-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^37+1/4*E(40)^39 ~ 0.7905694150420949 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-2: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-2: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-2: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-2: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-3 | T = {5,3,5/2} | alpha ~ 0.2038204263767999 | type [ 12, 3, 3 ] | |Gamma| = 2880 | f_coset [ 240, 480, 120, 20 ] f_geom [ 240, 480, 120, 20 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr true | edge ip -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^21-1/4*E(40)^23-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^37+1/4*E(40)^39 ~ 0.7905694150420949 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-3: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-3: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-3: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-3: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-4 | T = {5,3,5/2} | alpha ~ 3.03224755112299 | type [ 12, 3, 3 ] | |Gamma| = 2880 | f_coset [ 240, 480, 120, 20 ] f_geom [ 240, 480, 120, 20 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr true | edge ip 1/4*E(40)^7-1/4*E(40)^13+1/4*E(40)^21+1/4*E(40)^23+1/4*E(40)^29-1/4*E(40)^31-1/4*E(40)^37-1/4*E(40)^39 ~ -0.7905694150420949 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-4: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-4: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-4: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-4: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-5 | T = {5,3,5/2} | alpha ~ 1.492066037647537 | type [ 12, 3, 4 ] | |Gamma| = 1152 | f_coset [ 48, 144, 48, 8 ] f_geom [ 48, 144, 48, 8 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2*E(8)+1/2*E(8)^3 ~ -0.7071067811865475 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-5: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-5: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-5: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-5: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-6 | T = {5,3,5/2} | alpha ~ -0.2559980601477475 | type [ 12, 3, 4 ] | |Gamma| = 1152 | f_coset [ 48, 144, 48, 8 ] f_geom [ 48, 144, 48, 8 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/2*E(8)-1/2*E(8)^3 ~ 0.7071067811865475 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-6: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-6: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-6: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-6: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-7 | T = {5,3,5/2} | alpha ~ 0.3297883774791578 | type [ 12, 3, 4 ] | |Gamma| = 1152 | f_coset [ 48, 144, 48, 8 ] f_geom [ 48, 144, 48, 8 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/2*E(8)-1/2*E(8)^3 ~ 0.7071067811865475 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-7: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-7: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-7: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-7: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-8 | T = {5,3,5/2} | alpha ~ 4.906279600020631 | type [ 12, 3, 4 ] | |Gamma| = 1152 | f_coset [ 48, 144, 48, 8 ] f_geom [ 48, 144, 48, 8 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2*E(8)+1/2*E(8)^3 ~ -0.7071067811865475 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-8: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-8: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-8: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-8: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-9 | T = {5,3,5/2} | alpha ~ 1. | type [ 12, 3, 5 ] | |Gamma| = 7200 | f_coset [ 120, 720, 300, 50 ] f_geom [ 120, 720, 300, 50 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2*E(5)-1/2*E(5)^4 ~ -0.3090169943749473 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-9: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-9: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-9: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-9: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-10 | T = {5,3,5/2} | alpha ~ -1. | type [ 12, 3, 5 ] | |Gamma| = 7200 | f_coset [ 120, 720, 300, 50 ] f_geom [ 120, 720, 300, 50 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/2*E(5)+1/2*E(5)^4 ~ 0.3090169943749473 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-10: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-10: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-10: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-10: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-11 | T = {5,3,5/2} | alpha ~ 0.6180339887498947 | type [ 12, 3, 5 ] | |Gamma| = 7200 | f_coset [ 120, 720, 300, 50 ] f_geom [ 120, 720, 300, 50 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/2*E(5)+1/2*E(5)^4 ~ 0.3090169943749473 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-11: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-11: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-11: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-11: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-12 | T = {5,3,5/2} | alpha ~ -5.854101966249684 | type [ 12, 3, 5 ] | |Gamma| = 7200 | f_coset [ 120, 720, 300, 50 ] f_geom [ 120, 720, 300, 50 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2*E(5)-1/2*E(5)^4 ~ -0.3090169943749473 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-12: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-12: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-12: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-12: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-13 | T = {5,3,5/2} | alpha ~ 2. | type [ 12, 3, 5 ] | |Gamma| = 7200 | f_coset [ 120, 720, 300, 50 ] f_geom [ 120, 720, 300, 50 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/2*E(5)^2+1/2*E(5)^3 ~ -0.8090169943749475 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-13: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-13: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-13: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-13: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-14 | T = {5,3,5/2} | alpha ~ 2.618033988749895 | type [ 12, 3, 5 ] | |Gamma| = 7200 | f_coset [ 120, 720, 300, 50 ] f_geom [ 120, 720, 300, 50 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip 1/2*E(5)^2+1/2*E(5)^3 ~ -0.8090169943749475 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-14: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-14: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-14: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-14: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-15 | T = {5,3,5/2} | alpha ~ 0.1458980337503162 | type [ 12, 3, 5 ] | |Gamma| = 7200 | f_coset [ 120, 720, 300, 50 ] f_geom [ 120, 720, 300, 50 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2*E(5)^2-1/2*E(5)^3 ~ 0.8090169943749475 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-15: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-15: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-15: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-15: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{5,3,5/2}-16 | T = {5,3,5/2} | alpha ~ 0. | type [ 12, 3, 5 ] | |Gamma| = 7200 | f_coset [ 120, 720, 300, 50 ] f_geom [ 120, 720, 300, 50 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 48/48 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2*E(5)^2-1/2*E(5)^3 ~ 0.8090169943749475 | twist [ [ 1, 5 ] ]
+AU-PASS  L3-{5,3,5/2}-16: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{5,3,5/2}-16: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{5,3,5/2}-16: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{5,3,5/2}-16: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{3,3,5/2}-1 | T = {3,3,5/2} | alpha ~ 1. | type [ 30, 3, 3 ] | |Gamma| = 7200 | f_coset [ 600, 1200, 120, 5 ] f_geom [ 600, 1200, 120, 5 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 480/480 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/2*E(5)^4 ~ -0.7135254915624211 | twist [ [ 7, 13 ] ]
+AU-PASS  L3-{3,3,5/2}-1: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{3,3,5/2}-1: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{3,3,5/2}-1: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{3,3,5/2}-1: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+L3-{3,3,5/2}-4 | T = {3,3,5/2} | alpha ~ -6.938527151143623 | type [ 30, 3, 3 ] | |Gamma| = 7200 | f_coset [ 600, 1200, 120, 5 ] f_geom [ 600, 1200, 120, 5 ] | rel true IP true | stab [ true, true, true, true ] diamond [ 2, 2, 2 ] | span 4 2-face span 4 | facet nV 480/480 facet regular false | R0 in Gamma (=S1S2S3) true | dr false | edge ip -1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/2*E(5)^4 ~ -0.7135254915624211 | twist [ [ 7, 13 ] ]
+AU-PASS  L3-{3,3,5/2}-4: relations, IP, faithful, diamond, connected data, ord(X)>=3
+AU-PASS  L3-{3,3,5/2}-4: facet has no vertex collapse and is geometrically chiral
+AU-PASS  L3-{3,3,5/2}-4: 2-face vertices span E^4 (Prop. D1 hypothesis) and the flag-reversing isometry of the 2-face is S1 S2 S3 in Gamma
+AU-PASS  L3-{3,3,5/2}-4: the flag-reversing isometry of the base 2-face does not preserve the vertex set or moves the base cell (so P is not regular)
+
+=== canonical extensions vs Level-3 survivors ===
+C-{4,3,3}: identical/similar to survivor(s) [ "L3-{4,3,3}-6" ]
+AU-PASS  C-{4,3,3}: the canonical extension is one of the 24 Level-3 survivors (up to similarity)
+C-{5,3,3}: identical/similar to survivor(s) [ "L3-{5,3,3}-8" ]
+AU-PASS  C-{5,3,3}: the canonical extension is one of the 24 Level-3 survivors (up to similarity)
+C-{5,3,5/2}: identical/similar to survivor(s) [ "L3-{5,3,5/2}-16" ]
+AU-PASS  C-{5,3,5/2}: the canonical extension is one of the 24 Level-3 survivors (up to similarity)
+C-{5/2,3,5}: identical/similar to survivor(s) [ "L3-{5,3,5/2}-9", "L3-{5,3,5/2}-12" ]
+AU-PASS  C-{5/2,3,5}: the canonical extension is one of the 24 Level-3 survivors (up to similarity)
+gap exit: 
+finished: 2026-09-09T16:17:07Z

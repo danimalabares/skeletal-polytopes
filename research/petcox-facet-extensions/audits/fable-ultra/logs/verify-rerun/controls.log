@@ -1,0 +1,148 @@
+
+############ CONTROL 1: Roli's cube (cube.g / combinatorially-chiral-cube.g) ############
+PASS  Roli: cube.g reflections coincide with the {4,3,3} record
+PASS  Roli: cube.g triple coincides with the canonical triple
+PASS  Roli: base vertex (1,1,1,1) is the record's v0
+
+========== CONTROL Roli's cube ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator S1^-1*S2*S3^-1*S1^2*S3*S1^2*S2^-1*S1^-1 mirrors to S1^3*S2*S3^-1*S1^-2*S3*S1^-2*S2^-1*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  Roli: f-vector (BHP: 16 vertices, 32 edges, 12 octagons, 4 facets) = [ 16, 32, 12, 4 ]
+PASS  Roli: facet f-vector (BHP: each facet {8,3} has 16 vertices, 24 edges, 6 faces) = [ 16, 24, 6 ]
+PASS  Roli: type {8,3,3} = [ 8, 3, 3 ]
+PASS  Roli: BHP twist of a 2-face = 1-step and 3-step 8-fold rotations
+PASS  Roli: geometrically chiral (BHP Theorem 2)
+PASS  Roli: combinatorially chiral (legacy mirror test fails)
+PASS  Roli: facets geometrically chiral but combinatorially regular (BHP Theorem 1)
+
+############ CONTROL 2: {12/(1,5),3,5} (geometric.g, abstract.g) ############
+PASS  thesis: 600-cell reflections coincide with PX.H4.R600
+PASS  thesis: |[3,3,5]| = 14400
+orders of P_{i-1}P_i: [ 5, 3, 5 ]; commuting pairs: [ true, true, true ]
+PASS  thesis: P_i are involutions with string orders (5,3,5) and commuting non-adjacent pairs
+PASS  thesis: <P_i> = [3,3,5]
+PASS  thesis: w0 fixed by P1,P2,P3 and moved by P0
+PASS  thesis: geometric marks of <P_i> with base vertex w0 = [ 5/2, 3, 5 ]
+PASS  thesis: f-vector of {5/2,3,5} = [ 120, 720, 720, 120 ]
+PASS  thesis: (P0,P1,P2,P3) is conjugate in [3,3,5] to the mirrors of the {5/2,3,5} record
+PASS  thesis: the conjugating element maps v0 of the record to +-w0
+
+========== CONTROL {12/(1,5),3,5} (thesis, legacy generators) ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 15; relator (S3*S2*S1*S3)^3 mirrors to (S3*S1^2*S2*S1^-1*S3)^3 of order 10; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  thesis: orders (12,3,5) = [ 12, 3, 5 ]
+PASS  thesis: f-vector (120,720,300,50) = [ 120, 720, 300, 50 ]
+PASS  thesis: |Gamma| = 7200 = 7200
+PASS  thesis: facet group order 144 (H_1({5,3,5/2}) = H_0({5/2,3,5})) = 144
+PASS  thesis: faces are 12-gons of twist type (1,5)
+PASS  thesis: vertex-figures are icosahedra {3,5}
+PASS  thesis: geometrically chiral
+PASS  thesis: combinatorially chiral
+PASS  thesis: geometric stabilisers equal the face groups <S2,S3>, <S1S2,S3>, <S1,S2S3>, <S1,S2>
+
+############ CONTROL 3: {12/(1,5),3,5/2} (dual.g, geometric-dual.g) ############
+PASS  dual thesis: u0 fixed by D1,D2,D3 and moved by D0
+PASS  dual thesis: geometric marks = [ 5, 3, 5/2 ]
+dual.g base vertex [ -1/2*E(5)^2-1/2*E(5)^3, 1/2, 0, -1/2*E(5)-1/2*E(5)^4 ]: fixed by D1,D2,D3: [ true, true, true ]; parallel to the centroid u0: 2
+PASS  dual thesis: dual.g base vertex is fixed by D1,D2,D3 (a legitimate Wythoff point of {5,3,5/2})
+PASS  dual thesis: (D0,D1,D2,D3) conjugate in [3,3,5] to the mirrors of the {5,3,5/2} record
+
+========== CONTROL {12/(1,5),3,5/2} (thesis, legacy dual generators) ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 15; relator (S3*S2*S1*S3)^3 mirrors to (S3*S1^2*S2*S1^-1*S3)^3 of order 10; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  dual thesis: orders (12,3,5) = [ 12, 3, 5 ]
+PASS  dual thesis: f-vector (120,720,300,50) = [ 120, 720, 300, 50 ]
+PASS  dual thesis: geometrically chiral
+PASS  dual thesis: combinatorially chiral
+thesis: the two abstract polytopes: isomorphic (same orientation / mirror) = true / false
+PASS  thesis: {12/(1,5),3,5} and {12/(1,5),3,5/2} are the same abstract polytope (thesis Sec. 6)
+chiral.g base vertex vRS = [ -1/2*E(5)^2-1/2*E(5)^3, -1/2, 0, -1/2*E(5)-1/2*E(5)^4 ]; fixed by P1,P2,P3: [ true, true, true ]
+PASS  chiral.g: its base vertex is a multiple of w0 (same Wythoff point)
+
+############ CONTROL 4: petcox.pdf statements ############
+
+========== CONTROL H_0({5,3,3}) as a facet (petcox.pdf p.25) ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1*S3*S1^-1*(S1^-1*S3)^2*S1^-1*S2^-1*S3 mirrors to S1^-1*S3*S1*(S1*S3)^2*S1*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  petcox p.25: H_0({5,3,3}) is the facet of a chiral 4-polytope (canonical extension)
+PASS  petcox p.25: H_0({5,3,3}) has no vertex collapse (facet vertices 1440/3) = 480
+PASS  petcox p.25: H_1({5,3,3}) = H_0({3,3,5}) has four vertices coming together = 4
+
+controls.g: 41 passed, 0 failed.
+Done: controls.g

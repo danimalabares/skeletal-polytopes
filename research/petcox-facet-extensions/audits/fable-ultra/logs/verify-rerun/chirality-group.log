@@ -1,0 +1,323 @@
+
+==========================================================
+Chirality group of the canonical extension of {5,3,3}
+==========================================================
+|Gamma| = 7200
+IdGroup(Gamma) = fail   StructureDescription(Gamma) = SL(2,5) : A5   (StructureDescription strings are GAP output, not isomorphism invariants)
+orders of (S1,S2,S3) = [ 30, 3, 3 ]   (Schlaefli type {30,3,3})
+ord(S1 S2) = 2, ord(S2 S3) = 2, ord(S1 S2 S3) = 2, ord(S3 S2 S1) = 5
+standard relations (s1s2)^2=(s2s3)^2=(s1s2s3)^2=1 hold: true
+intersection property (rank 4) holds: true
+abstract f-vector (vertices, edges, 2-faces, cells) = [ 600, 1200, 120, 5 ]
+mirror assignment S1->S1^-1, S2->S1^2 S2, S3->S3 extends to an automorphism of Gamma: false
+ord(S1^-1 S3) = 5   versus   ord(S1 S3) = 30
+
+--- Method 1: mirrored relators ---
+presentation on (S1,S2,S3): 9 relators (3 of W^+ first); relators hold in Gamma: true; |<S1,S2,S3 | R>| = |Gamma| by coset enumeration: true
+relators R (as words in S1,S2,S3):
+  r1 = (S1*S2)^2
+  r2 = (S2*S3)^2
+  r3 = (S1*S2*S3)^2
+  r4 = S2^3
+  r5 = (S1^-1*S2^-1)^2
+  r6 = S1^-1*S3*S1*S3^-1*S2
+  r7 = (S1*S3^-1*S2^-1)^2
+  r8 = S1^-1*S3^-1*S2*S3*S1^-1*S3*S2^-1
+  r9 = S1*S3*S1^-1*(S1^-1*S3)^2*S1^-1*S2^-1*S3
+mirrored relators R^{r0} and their values in Gamma (order of the value):
+  r1-bar = (S1*S2)^2   -> order 1
+  r2-bar = (S1^2*S2*S3)^2   -> order 1
+  r3-bar = (S1*S2*S3)^2   -> order 1
+  r4-bar = (S1^2*S2)^3   -> order 1
+  r5-bar = S1*(S2^-1*S1^-1)^2*S1^-1   -> order 1
+  r6-bar = S1*S3*S1^-1*S3^-1*S1^2*S2   -> order 1
+  r7-bar = (S1^-1*S3^-1*S2^-1*S1^-2)^2   -> order 1
+  r8-bar = S1*S3^-1*S1^2*S2*S3*S1*S3*S2^-1*S1^-2   -> order 1
+  r9-bar = S1^-1*S3*S1*(S1*S3)^2*S1*S2^-1*S1^-2*S3   -> order 6
+|X_1| = |normal closure of the mirrored relators| = 120
+greedy sublist of mirrored relators already normally generating X_1: [ "r9-bar" ]
+
+--- Method 2: mix with the enantiomorphic group ---
+|Mix| = |<(S1,S1^-1),(S2,S1^2 S2),(S3,S3)>| = 864000
+|Gamma| * |X_1| = 864000   equal to |Mix|: true
+both projections surjective: true
+|X_2| = |first coordinates of ker(projection onto mirror factor)| = 120
+|X_2-bar| = |second coordinates of ker(projection onto first factor)| = 120
+X_2 = X_1 as subgroups of Gamma: true
+X_2 = X_2-bar as subgroups of Gamma: true
+X_2 = kernel computed via explicit homomorphism Mix -> Gamma-bar: true
+
+--- Method 3: smallest normal subgroup with mirror-invariant quotient ---
+orders of all normal subgroups of Gamma: [ 1, 2, 120, 120, 7200 ]
+orders of those N with Gamma/N admitting the mirror automorphism: [ 120, 7200 ]
+smallest such N has order 120; equals X_1: true
+every such N contains X_1: true;  the set of such N is closed under intersection: true
+orders of normal subgroups containing X_1 whose quotient is NOT mirror-invariant: [  ]
+
+--- The chirality group X(P) ---
+|X(P)| = 120
+X(P) normal in Gamma: true
+[Gamma : X(P)] = 60
+StructureDescription(X(P)) = SL(2,5)
+IdGroup(X(P)) = [ 120, 5 ]
+StructureDescription(Gamma/X(P)) = A5
+IdGroup(Gamma/X(P)) = [ 60, 5 ]
+Gamma/X(P) admits the mirror automorphism: true
+Gamma/X(P) = W^+/M^W: generator orders [ 3, 3, 3 ], string relations hold: true, intersection property: true, coset f-vector [ 5, 10, 10, 5 ]
+Mix = W^+/M_W (smallest regular cover): generator orders [ 30, 3, 3 ], string relations hold: true, mirror automorphism exists: true, intersection property: true, coset f-vector 
+[ 72000, 144000, 14400, 600 ]
+directly regular (X trivial): false
+totally chiral (X = Gamma): false
+
+--- Defect elements ---
+A = (S1 S3)^5  [mirror of the relator (S1^-1 S3)^5]: order 6, |normal closure| = 120, equals X(P): true
+B = (S1^-1 S3)^30  [mirror of the relator (S1 S3)^30]: order 1, |normal closure| = 1, equals X(P): false
+PASS  {5,3,3}: the three methods agree
+PASS  {5,3,3}: X(P) nontrivial (combinatorially chiral)
+
+==========================================================
+Chirality group of the canonical extension of {5/2,3,3}
+==========================================================
+|Gamma| = 7200
+IdGroup(Gamma) = fail   StructureDescription(Gamma) = SL(2,5) : A5   (StructureDescription strings are GAP output, not isomorphism invariants)
+orders of (S1,S2,S3) = [ 30, 3, 3 ]   (Schlaefli type {30,3,3})
+ord(S1 S2) = 2, ord(S2 S3) = 2, ord(S1 S2 S3) = 2, ord(S3 S2 S1) = 5
+standard relations (s1s2)^2=(s2s3)^2=(s1s2s3)^2=1 hold: true
+intersection property (rank 4) holds: true
+abstract f-vector (vertices, edges, 2-faces, cells) = [ 600, 1200, 120, 5 ]
+mirror assignment S1->S1^-1, S2->S1^2 S2, S3->S3 extends to an automorphism of Gamma: false
+ord(S1^-1 S3) = 5   versus   ord(S1 S3) = 30
+
+--- Method 1: mirrored relators ---
+presentation on (S1,S2,S3): 12 relators (3 of W^+ first); relators hold in Gamma: true; |<S1,S2,S3 | R>| = |Gamma| by coset enumeration: true
+relators R (as words in S1,S2,S3):
+  r1 = (S1*S2)^2
+  r2 = (S2*S3)^2
+  r3 = (S1*S2*S3)^2
+  r4 = S2^3
+  r5 = S3^3
+  r6 = (S1*S2)^2
+  r7 = (S2^-1*S3^-1)^2
+  r8 = S2^-1*S3*S1^-1*S3^-1*S1
+  r9 = S1*S3^-1*S1^2*S2^-1*S3^-1*S1^-2*S3*S2
+  r10 = S1^-3*(S1^-2*S2)^2*S1^3*S3^-1*S1^3*S3
+  r11 = (S1^3*S3^-1*S1^3*S2^-1*S1^-1*S3^-1*S1^-1*S2^-1)^2
+  r12 = (S1^3*S3^-1*S1)^2*S3*S2^-1*S1^3*S2^-1*S3^-1*S1^4*S3*S1^3*S3^-1*S1^2*(S1^2*S3*S2)^2*S1^4*S3*S1^3*S3^-1*S1^4*S3*S2
+mirrored relators R^{r0} and their values in Gamma (order of the value):
+  r1-bar = (S1*S2)^2   -> order 1
+  r2-bar = (S1^2*S2*S3)^2   -> order 1
+  r3-bar = (S1*S2*S3)^2   -> order 1
+  r4-bar = (S1^2*S2)^3   -> order 1
+  r5-bar = S3^3   -> order 1
+  r6-bar = (S1*S2)^2   -> order 1
+  r7-bar = (S2^-1*S1^-2*S3^-1)^2   -> order 1
+  r8-bar = S2^-1*S1^-2*S3*S1*S3^-1*S1^-1   -> order 1
+  r9-bar = S1^-1*S3^-1*S1^-2*S2^-1*S1^-2*S3^-1*S1^2*S3*S1^2*S2   -> order 6
+  r10-bar = S1^3*(S1^4*S2)^2*S1^-3*S3^-1*S1^-3*S3   -> order 6
+  r11-bar = (S1^-3*S3^-1*S1^-3*S2^-1*S1^-1*S3^-1*S1*S2^-1*S1^-2)^2   -> order 10
+  r12-bar = (S1^-3*S3^-1*S1^-1)^2*S3*S2^-1*S1^-5*S2^-1*S1^-2*S3^-1*S1^-4*S3*S1^-3*S3^-1*S1^-2*(S1^-2*S3*S1^2*S2)^2*S1^-4*S3*S1^-3*S3^-1*S1^-4*S3*S1^2*S2   -> order 5
+|X_1| = |normal closure of the mirrored relators| = 120
+greedy sublist of mirrored relators already normally generating X_1: [ "r9-bar" ]
+
+--- Method 2: mix with the enantiomorphic group ---
+|Mix| = |<(S1,S1^-1),(S2,S1^2 S2),(S3,S3)>| = 864000
+|Gamma| * |X_1| = 864000   equal to |Mix|: true
+both projections surjective: true
+|X_2| = |first coordinates of ker(projection onto mirror factor)| = 120
+|X_2-bar| = |second coordinates of ker(projection onto first factor)| = 120
+X_2 = X_1 as subgroups of Gamma: true
+X_2 = X_2-bar as subgroups of Gamma: true
+X_2 = kernel computed via explicit homomorphism Mix -> Gamma-bar: true
+
+--- Method 3: smallest normal subgroup with mirror-invariant quotient ---
+orders of all normal subgroups of Gamma: [ 1, 2, 120, 120, 7200 ]
+orders of those N with Gamma/N admitting the mirror automorphism: [ 120, 7200 ]
+smallest such N has order 120; equals X_1: true
+every such N contains X_1: true;  the set of such N is closed under intersection: true
+orders of normal subgroups containing X_1 whose quotient is NOT mirror-invariant: [  ]
+
+--- The chirality group X(P) ---
+|X(P)| = 120
+X(P) normal in Gamma: true
+[Gamma : X(P)] = 60
+StructureDescription(X(P)) = SL(2,5)
+IdGroup(X(P)) = [ 120, 5 ]
+StructureDescription(Gamma/X(P)) = A5
+IdGroup(Gamma/X(P)) = [ 60, 5 ]
+Gamma/X(P) admits the mirror automorphism: true
+Gamma/X(P) = W^+/M^W: generator orders [ 3, 3, 3 ], string relations hold: true, intersection property: true, coset f-vector [ 5, 10, 10, 5 ]
+Mix = W^+/M_W (smallest regular cover): generator orders [ 30, 3, 3 ], string relations hold: true, mirror automorphism exists: true, intersection property: true, coset f-vector 
+[ 72000, 144000, 14400, 600 ]
+directly regular (X trivial): false
+totally chiral (X = Gamma): false
+
+--- Defect elements ---
+A = (S1 S3)^5  [mirror of the relator (S1^-1 S3)^5]: order 6, |normal closure| = 120, equals X(P): true
+B = (S1^-1 S3)^30  [mirror of the relator (S1 S3)^30]: order 1, |normal closure| = 1, equals X(P): false
+PASS  {5/2,3,3}: the three methods agree
+PASS  {5/2,3,3}: X(P) nontrivial (combinatorially chiral)
+
+==========================================================
+Chirality group of the canonical extension of {4,3,3}
+==========================================================
+|Gamma| = 192
+IdGroup(Gamma) = [ 192, 1494 ]   StructureDescription(Gamma) = Q8 : S4   (StructureDescription strings are GAP output, not isomorphism invariants)
+orders of (S1,S2,S3) = [ 8, 3, 3 ]   (Schlaefli type {8,3,3})
+ord(S1 S2) = 2, ord(S2 S3) = 2, ord(S1 S2 S3) = 2, ord(S3 S2 S1) = 4
+standard relations (s1s2)^2=(s2s3)^2=(s1s2s3)^2=1 hold: true
+intersection property (rank 4) holds: true
+abstract f-vector (vertices, edges, 2-faces, cells) = [ 16, 32, 12, 4 ]
+mirror assignment S1->S1^-1, S2->S1^2 S2, S3->S3 extends to an automorphism of Gamma: false
+ord(S1^-1 S3) = 4   versus   ord(S1 S3) = 8
+
+--- Method 1: mirrored relators ---
+presentation on (S1,S2,S3): 9 relators (3 of W^+ first); relators hold in Gamma: true; |<S1,S2,S3 | R>| = |Gamma| by coset enumeration: true
+relators R (as words in S1,S2,S3):
+  r1 = (S1*S2)^2
+  r2 = (S2*S3)^2
+  r3 = (S1*S2*S3)^2
+  r4 = S2^3
+  r5 = (S1^-1*S2^-1)^2
+  r6 = S1^-1*S3*S1*S3^-1*S2
+  r7 = (S2^-1*S1*S3^-1)^2
+  r8 = S2^-1*S1^-1*S3^-2*S1*S2*S3
+  r9 = (S3*S1^-1)^4
+mirrored relators R^{r0} and their values in Gamma (order of the value):
+  r1-bar = (S1*S2)^2   -> order 1
+  r2-bar = (S1^2*S2*S3)^2   -> order 1
+  r3-bar = (S1*S2*S3)^2   -> order 1
+  r4-bar = (S1^2*S2)^3   -> order 1
+  r5-bar = S1*(S2^-1*S1^-1)^2*S1^-1   -> order 1
+  r6-bar = S1*S3*S1^-1*S3^-1*S1^2*S2   -> order 1
+  r7-bar = (S2^-1*S1^-3*S3^-1)^2   -> order 1
+  r8-bar = S2^-1*S1^-1*S3^-2*S1*S2*S3   -> order 1
+  r9-bar = (S3*S1)^4   -> order 2
+|X_1| = |normal closure of the mirrored relators| = 2
+greedy sublist of mirrored relators already normally generating X_1: [ "r9-bar" ]
+
+--- Method 2: mix with the enantiomorphic group ---
+|Mix| = |<(S1,S1^-1),(S2,S1^2 S2),(S3,S3)>| = 384
+|Gamma| * |X_1| = 384   equal to |Mix|: true
+both projections surjective: true
+|X_2| = |first coordinates of ker(projection onto mirror factor)| = 2
+|X_2-bar| = |second coordinates of ker(projection onto first factor)| = 2
+X_2 = X_1 as subgroups of Gamma: true
+X_2 = X_2-bar as subgroups of Gamma: true
+X_2 = kernel computed via explicit homomorphism Mix -> Gamma-bar: true
+
+--- Method 3: smallest normal subgroup with mirror-invariant quotient ---
+orders of all normal subgroups of Gamma: [ 1, 2, 8, 8, 8, 32, 96, 192 ]
+orders of those N with Gamma/N admitting the mirror automorphism: [ 2, 8, 32, 96, 192 ]
+smallest such N has order 2; equals X_1: true
+every such N contains X_1: true;  the set of such N is closed under intersection: true
+orders of normal subgroups containing X_1 whose quotient is NOT mirror-invariant: [ 8, 8 ]
+
+--- The chirality group X(P) ---
+|X(P)| = 2
+X(P) normal in Gamma: true
+[Gamma : X(P)] = 96
+StructureDescription(X(P)) = C2
+IdGroup(X(P)) = [ 2, 1 ]
+StructureDescription(Gamma/X(P)) = (C2 x C2) : S4
+IdGroup(Gamma/X(P)) = [ 96, 227 ]
+Gamma/X(P) admits the mirror automorphism: true
+Gamma/X(P) = W^+/M^W: generator orders [ 4, 3, 3 ], string relations hold: true, intersection property: true, coset f-vector [ 8, 16, 12, 4 ]
+Mix = W^+/M_W (smallest regular cover): generator orders [ 8, 3, 3 ], string relations hold: true, mirror automorphism exists: true, intersection property: true, coset f-vector [ 32, 64, 24, 8 ]
+directly regular (X trivial): false
+totally chiral (X = Gamma): false
+
+--- Defect elements ---
+A = (S1 S3)^4  [mirror of the relator (S1^-1 S3)^4]: order 2, |normal closure| = 2, equals X(P): true
+B = (S1^-1 S3)^8  [mirror of the relator (S1 S3)^8]: order 1, |normal closure| = 1, equals X(P): false
+PASS  {4,3,3}: the three methods agree
+PASS  {4,3,3}: X(P) nontrivial (combinatorially chiral)
+PASS  Roli's cube: |X(P)| (repository result: 2) = 2
+
+==========================================================
+Chirality group of the canonical extension of {5/2,3,5}
+==========================================================
+|Gamma| = 7200
+IdGroup(Gamma) = fail   StructureDescription(Gamma) = SL(2,5) : A5   (StructureDescription strings are GAP output, not isomorphism invariants)
+orders of (S1,S2,S3) = [ 12, 3, 5 ]   (Schlaefli type {12,3,5})
+ord(S1 S2) = 2, ord(S2 S3) = 2, ord(S1 S2 S3) = 2, ord(S3 S2 S1) = 5
+standard relations (s1s2)^2=(s2s3)^2=(s1s2s3)^2=1 hold: true
+intersection property (rank 4) holds: true
+abstract f-vector (vertices, edges, 2-faces, cells) = [ 120, 720, 300, 50 ]
+mirror assignment S1->S1^-1, S2->S1^2 S2, S3->S3 extends to an automorphism of Gamma: false
+ord(S1^-1 S3) = 5   versus   ord(S1 S3) = 15
+
+--- Method 1: mirrored relators ---
+presentation on (S1,S2,S3): 13 relators (3 of W^+ first); relators hold in Gamma: true; |<S1,S2,S3 | R>| = |Gamma| by coset enumeration: true
+relators R (as words in S1,S2,S3):
+  r1 = (S1*S2)^2
+  r2 = (S2*S3)^2
+  r3 = (S1*S2*S3)^2
+  r4 = S2^3
+  r5 = (S2*S3)^2
+  r6 = (S1^-1*S2^-1)^2
+  r7 = S3^5
+  r8 = S2*S3*S1^-1*S3^-1*S2^-1*S1^-1
+  r9 = S2*S1*S3^-1*S1^-1*S3^2*S2^-1*S3*S1^-1*S2*S1^2*S3^-1
+  r10 = S2^-1*S3^-1*S1^-1*S3^2*S2^-1*S1^2*S3*S1^-2*S3*S1^-1*S2*S1
+  r11 = S1^-2*S3*S1^-2*(S2^-1*S1)^2*S1*S3^2*S1*S2^-1*S3^-1*S1*S3^2
+  r12 = S1^-3*S2*S3^-1*S1*S3^2*S1*S3*S2*S1^2*S2*S1^-2*S2^-1*S1*S3^-1*S1^2*S2^-1*S1^-1
+  r13 = S1^2*S3*S2^-1*S1^3*S2^-1*S1^-1*S3^-2*S1^2*S3*S2^-1*S1^4*S2*S3^-2*S1^3*S3^2*S1*S2^-1*S3^-1*S1
+mirrored relators R^{r0} and their values in Gamma (order of the value):
+  r1-bar = (S1*S2)^2   -> order 1
+  r2-bar = (S1^2*S2*S3)^2   -> order 1
+  r3-bar = (S1*S2*S3)^2   -> order 1
+  r4-bar = (S1^2*S2)^3   -> order 1
+  r5-bar = (S1^2*S2*S3)^2   -> order 1
+  r6-bar = S1*(S2^-1*S1^-1)^2*S1^-1   -> order 1
+  r7-bar = S3^5   -> order 1
+  r8-bar = S1^2*S2*S3*S1*S3^-1*S2^-1*S1^-1   -> order 1
+  r9-bar = S1^2*S2*S1^-1*S3^-1*S1*S3^2*S2^-1*S1^-2*S3*S1^3*S2*S1^-2*S3^-1   -> order 3
+  r10-bar = S2^-1*S1^-2*S3^-1*S1*S3^2*S2^-1*S1^-4*(S3*S1^2)^2*S1*S2*S1^-1   -> order 5
+  r11-bar = S1^2*S3*S1^2*(S2^-1*S1^-3)^2*S1^-1*S3^2*S1^-1*S2^-1*S1^-2*S3^-1*S1^-1*S3^2   -> order 10
+  r12-bar = S1^5*S2*S3^-1*S1^-1*S3^2*S1^-1*S3*S1^2*S2^2*S1^2*S2^-1*S1^-3*S3^-1*S1^-2*S2^-1*S1^-1   -> order 5
+  r13-bar = S1^-2*S3*S2^-1*S1^-5*S2^-1*S1^-1*S3^-2*S1^-2*S3*S2^-1*S1^-4*S2*S3^-2*S1^-3*S3^2*S1^-1*S2^-1*S1^-2*S3^-1*S1^-1   -> order 5
+|X_1| = |normal closure of the mirrored relators| = 120
+greedy sublist of mirrored relators already normally generating X_1: [ "r9-bar" ]
+
+--- Method 2: mix with the enantiomorphic group ---
+|Mix| = |<(S1,S1^-1),(S2,S1^2 S2),(S3,S3)>| = 864000
+|Gamma| * |X_1| = 864000   equal to |Mix|: true
+both projections surjective: true
+|X_2| = |first coordinates of ker(projection onto mirror factor)| = 120
+|X_2-bar| = |second coordinates of ker(projection onto first factor)| = 120
+X_2 = X_1 as subgroups of Gamma: true
+X_2 = X_2-bar as subgroups of Gamma: true
+X_2 = kernel computed via explicit homomorphism Mix -> Gamma-bar: true
+
+--- Method 3: smallest normal subgroup with mirror-invariant quotient ---
+orders of all normal subgroups of Gamma: [ 1, 2, 120, 120, 7200 ]
+orders of those N with Gamma/N admitting the mirror automorphism: [ 120, 7200 ]
+smallest such N has order 120; equals X_1: true
+every such N contains X_1: true;  the set of such N is closed under intersection: true
+orders of normal subgroups containing X_1 whose quotient is NOT mirror-invariant: [  ]
+
+--- The chirality group X(P) ---
+|X(P)| = 120
+X(P) normal in Gamma: true
+[Gamma : X(P)] = 60
+StructureDescription(X(P)) = SL(2,5)
+IdGroup(X(P)) = [ 120, 5 ]
+StructureDescription(Gamma/X(P)) = A5
+IdGroup(Gamma/X(P)) = [ 60, 5 ]
+Gamma/X(P) admits the mirror automorphism: true
+Gamma/X(P) = W^+/M^W: generator orders [ 2, 3, 5 ], string relations hold: true, intersection property: false, coset f-vector [ 1, 6, 15, 10 ]
+Mix = W^+/M_W (smallest regular cover): generator orders [ 12, 3, 5 ], string relations hold: true, mirror automorphism exists: true, intersection property: true, coset f-vector 
+[ 14400, 86400, 36000, 6000 ]
+directly regular (X trivial): false
+totally chiral (X = Gamma): false
+
+--- Defect elements ---
+A = (S1 S3)^5  [mirror of the relator (S1^-1 S3)^5]: order 3, |normal closure| = 120, equals X(P): true
+B = (S1^-1 S3)^15  [mirror of the relator (S1 S3)^15]: order 1, |normal closure| = 1, equals X(P): false
+PASS  {5/2,3,5}: the three methods agree
+PASS  {5/2,3,5}: X(P) nontrivial (combinatorially chiral)
+PASS  {12/(1,5),3,5}: |X(P)| (repository result: 120) = 120
+PASS  {5,3,3} and {5/2,3,3}: same |X(P)| (same abstract polytope) = 120
+
+chirality-group.g: 11 passed, 0 failed.
+Done: chirality-group.g

@@ -1,0 +1,52 @@
+candidates X in W({4,3,3}) with a fixed line: [ [ infinity, 3 ], [ 1, 4 ], [ 0, 3 ] ]
+PASS  alpha = infinity candidate exists
+base vertex at alpha = infinity: [ -1/2, -1/2, -1/2, 1/2 ]  (a multiple of [ -1, -1, -1, 1 ])
+PASS  the alpha = infinity base vertex is a vertex of the 4-cube
+X as a word in the reflections: R0^-1*R1^-1*R2^-1*R1^-1*R3^-1*R2^-1*R1^-1*R0^-1*R1^-1*R2^-1
+PASS  both have the 16 cube vertices
+edges: Roli = cube edges: true; alpha=oo polytope = cube edges: false
+edge inner products: Roli [ 2 ], alpha=oo [ -2 ]
+2-faces (as sets of edges): common 0 of 12; 12
+Petrie polygons of the 4-cube: 24 octagons; Roli's faces among them: 12; alpha=oo faces among them: 0
+faces of Roli.R0 among Petrie polygons: 12; equal to alpha=oo faces: false; common with alpha=oo faces: 0
+Roli faces + mirror faces = all Petrie polygons: true
+handedness of base octagon: Roli -1, alpha=oo -1
+elements g of W = [4,3,3] with Roli.g = (alpha=oo polytope): 0
+PASS  the alpha=oo polytope is congruent neither to Roli's cube nor to its mirror image
+elements g of W mapping a cell of Roli onto a cell of the alpha=oo polytope: 0; determinants [  ]
+PASS  the cells of the alpha=oo polytope are NOT congruent to those of Roli's cube: H_oo({4,3,3}) is a different realisation of the same abstract facet
+PASS  both cells are Wythoff polyhedra of the same facet group <S1,S2> with the same distinguished generators
+edge inner products (vertices normalised to |v|^2 = 4): Roli [ 2 ] (cube edges, differing in one coordinate), alpha=oo [ -2 ] (main diagonals of the cubic facets, differing in three coordinates)
+PASS  the alpha=oo edges are the 32 main diagonals of the 8 cubic facets of the 4-cube = 32
+PASS  every alpha=oo edge joins two vertices differing in exactly three coordinates
+abstract: isomorphic same orientation false, mirror true
+PASS  abstractly the enantiomorph of Roli's cube
+
+========== {4,3,3} at alpha = infinity ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S3^-1*S1^2*S3*S2*S1 mirrors to S1^-1*S2^-1*S1^-2*S3^-1*S1^-2*S3*S1^2*S2*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+PASS  alpha=oo polytope is a geometrically and combinatorially chiral skeletal 4-polytope
+neighbours of the base vertex in Roli: [ [ -1, 1, 1, 1 ], [ 1, -1, 1, 1 ], [ 1, 1, -1, 1 ], [ 1, 1, 1, -1 ] ]
+neighbours of the base vertex in alpha=oo: [ [ 1, -1, 1, -1 ], [ 1, 1, -1, -1 ], [ -1, 1, 1, -1 ], [ 1, 1, 1, 1 ] ]
+
+roli-alpha-infinity.g: 10 passed, 0 failed.
+Done: roli-alpha-infinity.g

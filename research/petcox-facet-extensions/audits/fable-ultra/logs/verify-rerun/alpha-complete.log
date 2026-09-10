@@ -1,0 +1,1560 @@
+element orders of [3,3,5]^+ (order 7200): [ 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 ]
+element orders of +-[O x O] (order 1152): [ 1, 2, 3, 4, 6, 8, 12, 24 ]
+
+
+############################################################
+## Level 3 for T = {3,3,3}   (dim 5)
+############################################################
+invariant planes of S1 (order 5): rotation indices k = [ 1, 2 ] of 5  (twist type from the census: {5/(1,2),3})
+PASS  {3,3,3}: S1 has exactly two invariant planes = 2
+PASS  {3,3,3}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {3,3,3}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 1): dimension 0
+PASS  {3,3,3}: the PETCOX circle avoids the invariant plane k = 1 (no planar 2-face)
+circle cap (invariant plane k = 2): dimension 0
+PASS  {3,3,3}: the PETCOX circle avoids the invariant plane k = 2 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 true), deg tau = 4
+q = ord(S2) = 3; admissible orders m = ord(X) by the spherical-triangle condition: [ 3, 4, 5 ] (excluded: [  ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 2 ~ 2.;  polynomial of degree 3
+   factors over Q(sqrt5): [ 1, 1, 1 ]; exact real roots found: 3
+   root t = 0 ~ 0.  ->  alpha = 1 ~ 1.
+   root t = 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4 ~ -0.09549150281252636  ->  alpha = -E(5)^2-E(5)^3 ~ 1.618033988749895
+   root t = 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4 ~ -0.6545084971874737  ->  alpha = -E(5)-E(5)^4 ~ -0.6180339887498947
+
+-- target ord(X) = 4 (k = 1): EXCLUDED a priori: the vertex-figure group would be S4, forcing Gamma <= +-[O x O] (order 1152), which has no element of order 5 = ord(S1)
+PASS  {3,3,3}: octahedral order obstruction applies for m = 4
+
+-- target ord(X) = 5 (k = 1): tr(X) = -2*E(5)-3*E(5)^2-3*E(5)^3-2*E(5)^4 ~ 3.618033988749895;  polynomial of degree 4
+   factors over Q(sqrt5): [ 2, 2 ]; exact real roots found: 0
+   factor of degree 2: (500*E(5)^2+500*E(5)^3)*t^2+(125*E(5)^2+125*E(5)^3)*t+(125/4*E(5)+125/2*E(5)^2+125/2*E(5)^3+125/4*E(5)^4)   [no real roots (discriminant < 0); real roots: 0]
+   factor of degree 2: t^2+(1/4*E(5)+1/4*E(5)^4)*t+(1/16*E(5)+1/16*E(5)^4)   [no real roots (discriminant < 0); real roots: 0]
+
+-- target ord(X) = 5 (k = 2): tr(X) = -3*E(5)-2*E(5)^2-2*E(5)^3-3*E(5)^4 ~ 1.381966011250106;  polynomial of degree 4
+   factors over Q(sqrt5): [ 2, 2 ]; exact real roots found: 0
+   factor of degree 2: (500*E(5)+500*E(5)^4)*t^2+(125*E(5)+125*E(5)^4)*t+(125/2*E(5)+125/4*E(5)^2+125/4*E(5)^3+125/2*E(5)^4)   [two real roots, square root of the discriminant is not cyclotomic; real roots: 2]
+      K(sqrt D)/Q abelian (Kronecker-Weber test on the norm of the discriminant): false
+      tr(g X) = -E(5)^2-E(5)^3 + (-4*E(5)^2-4*E(5)^3) t   -> not in any cyclotomic field, so Gamma is infinite: NO POLYTOPE
+PASS  {3,3,3}: the non-cyclotomic quadratic factor for m = 5 is killed by the Kronecker-Weber trace obstruction
+   factor of degree 2: t^2+(1/4*E(5)^2+1/4*E(5)^3)*t+(1/16*E(5)^2+1/16*E(5)^3)   [two real roots, square root of the discriminant is not cyclotomic; real roots: 2]
+      K(sqrt D)/Q abelian (Kronecker-Weber test on the norm of the discriminant): false
+      tr(g X) = 1 + (0) t   (lies in Q(sqrt5); no information)
+      tr(g X) = -E(5)^2-E(5)^3 + (8*E(5)+4*E(5)^2+4*E(5)^3+8*E(5)^4) t   -> not in any cyclotomic field, so Gamma is infinite: NO POLYTOPE
+PASS  {3,3,3}: the non-cyclotomic quadratic factor for m = 5 is killed by the Kronecker-Weber trace obstruction
+
+-- verification of every candidate base vertex --
+L3-{3,3,3}-1: t = 0, alpha = 1, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,3}-1: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,3}-1: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,3}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 60 (faithful action on 5 vertices spanning E^4)
+   |Gamma| = 60, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+L3-{3,3,3}-2: t = 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, alpha = -E(5)^2-E(5)^3, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,3}-2: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,3}-2: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,3}-2: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{3,3,3}-2: T = {3,3,3}, alpha = -E(5)^2-E(5)^3, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 5, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 60  |<S2,S3>| = 12  |W(T)| = 120  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 5, (p1,p2) in [ [ 1, 2 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 720, 120 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 720, 120 ]; 2-face size 5, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 10, 60 ] vs [ 12, 6, 10, 60 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 20, 30, 12 ], face size 5, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 60, type {5,3}, coset f-vector [ 20, 30, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: false
+L3-{3,3,3}-3: t = 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, alpha = -E(5)-E(5)^4, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,3}-3: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,3}-3: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,3}-3: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{3,3,3}-3: T = {3,3,3}, alpha = -E(5)-E(5)^4, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 5, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 60  |<S2,S3>| = 12  |W(T)| = 120  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 5, (p1,p2) in [ [ 1, 2 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 720, 120 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 720, 120 ]; 2-face size 5, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 10, 60 ] vs [ 12, 6, 10, 60 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 20, 30, 12 ], face size 5, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 60, type {5,3}, coset f-vector [ 20, 30, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: false
+L3-{3,3,3}-4: t = infinity, alpha = 0, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,3}-4: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,3}-4: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 60 (faithful action on 5 vertices spanning E^4)
+   |Gamma| = 60, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+
+
+############################################################
+## Level 3 for T = {4,3,3}   (dim 4)
+############################################################
+invariant planes of S1 (order 8): rotation indices k = [ 1, 3 ] of 8  (twist type from the census: {8/(1,3),3})
+PASS  {4,3,3}: S1 has exactly two invariant planes = 2
+PASS  {4,3,3}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {4,3,3}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 1): dimension 0
+PASS  {4,3,3}: the PETCOX circle avoids the invariant plane k = 1 (no planar 2-face)
+circle cap (invariant plane k = 3): dimension 0
+PASS  {4,3,3}: the PETCOX circle avoids the invariant plane k = 3 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 3; admissible orders m = ord(X) by the spherical-triangle condition: [ 3, 4, 5 ] (excluded: [  ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 3
+   factors over Q(sqrt5): [ 1, 1, 1 ]; exact real roots found: 3
+   root t = 1/2 ~ 0.5  ->  alpha = 1/2 ~ 0.5
+   root t = -1/4 ~ -0.25  ->  alpha = 2 ~ 2.
+   root t = -1/2 ~ -0.5  ->  alpha = infinity
+
+-- target ord(X) = 4 (k = 1): tr(X) = 2 ~ 2.;  polynomial of degree 4
+   factors over Q(sqrt5): [ 1, 1, 1, 1 ]; exact real roots found: 2
+   root t = 0 ~ 0.  ->  alpha = 1 ~ 1.
+   root t = -1 ~ -1.  ->  alpha = -1 ~ -1.
+
+-- target ord(X) = 5 (k = 1): EXCLUDED a priori: the vertex-figure group would be A5, forcing Gamma <= [3,3,5]^+ (order 7200), which has no element of order 8 = ord(S1)
+PASS  {4,3,3}: icosahedral order obstruction applies for m = 5
+
+-- target ord(X) = 5 (k = 2): EXCLUDED a priori: the vertex-figure group would be A5, forcing Gamma <= [3,3,5]^+ (order 7200), which has no element of order 8 = ord(S1)
+PASS  {4,3,3}: icosahedral order obstruction applies for m = 5
+
+-- verification of every candidate base vertex --
+L3-{4,3,3}-1: t = 1/2, alpha = 1/2, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{4,3,3}-1: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{4,3,3}-1: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{4,3,3}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 192 (faithful action on 16 vertices spanning E^4)
+   |Gamma| = 192, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{4,3,3}-1: T = {4,3,3}, alpha = 1/2, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S3^-1*S1^2*S3*S2*S1 mirrors to S1^-1*S2^-1*S1^-2*S3^-1*S1^-2*S3*S1^2*S2*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{4,3,3}-2: t = -1/4, alpha = 2, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{4,3,3}-2: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{4,3,3}-2: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{4,3,3}-2: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 192 (faithful action on 16 vertices spanning E^4)
+   |Gamma| = 192, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{4,3,3}-2: T = {4,3,3}, alpha = 2, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator S1^-1*S2*S3^-1*S1^2*S3*S1^2*S2^-1*S1^-1 mirrors to S1^3*S2*S3^-1*S1^-2*S3*S1^-2*S2^-1*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{4,3,3}-3: t = -1/2, alpha = infinity, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{4,3,3}-3: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{4,3,3}-3: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{4,3,3}-3: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 192 (faithful action on 16 vertices spanning E^4)
+   |Gamma| = 192, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{4,3,3}-3: T = {4,3,3}, alpha = infinity, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 8
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 8 vs ord(S1 S3) = 4; relator S1*S2^-1*S3^-1*S1^2*S3*S2*S1 mirrors to S1^-1*S2^-1*S1^-2*S3^-1*S1^-2*S3*S1^2*S2*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{4,3,3}-4: t = 0, alpha = 1, ord(X) = 4, conditions of E1 all hold: true, det X = 1
+PASS  L3-{4,3,3}-4: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{4,3,3}-4: ord(X) equals the target = 4
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{4,3,3}-4: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 192 (faithful action on 8 vertices spanning E^4)
+   |Gamma| = 192, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{4,3,3}-5: t = -1, alpha = -1, ord(X) = 4, conditions of E1 all hold: true, det X = 1
+PASS  L3-{4,3,3}-5: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{4,3,3}-5: ord(X) equals the target = 4
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{4,3,3}-5: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 192 (faithful action on 8 vertices spanning E^4)
+   |Gamma| = 192, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{4,3,3}-6: t = infinity, alpha = 0, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{4,3,3}-6: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{4,3,3}-6: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 192 (faithful action on 16 vertices spanning E^4)
+   |Gamma| = 192, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{4,3,3}-6: T = {4,3,3}, alpha = 0, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 8, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 4
+|Gamma| = 192  |<S1,S2>| = 48  |<S2,S3>| = 12  |W(T)| = 384  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 8, (p1,p2) in [ [ 1, 3 ] ]
+abstract f-vector (coset indices) = [ 16, 32, 12, 4 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 4 vs ord(S1 S3) = 8; relator S1^-1*S2*S3^-1*S1^2*S3*S1^2*S2^-1*S1^-1 mirrors to S1^3*S2*S3^-1*S1^-2*S3*S1^-2*S2^-1*S1^-1 of order 2; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 16, 32, 12, 4 ]; 2-face size 8, 2-faces per cell 6
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 16, 48 ] vs [ 12, 6, 16, 48 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 16, 24, 6 ], face size 8, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 48, type {8,3}, coset f-vector [ 16, 24, 6 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+
+
+############################################################
+## Level 3 for T = {3,4,3}   (dim 4)
+############################################################
+invariant planes of S1 (order 12): rotation indices k = [ 1, 5 ] of 12  (twist type from the census: {12/(1,5),4})
+PASS  {3,4,3}: S1 has exactly two invariant planes = 2
+PASS  {3,4,3}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {3,4,3}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 1): dimension 0
+PASS  {3,4,3}: the PETCOX circle avoids the invariant plane k = 1 (no planar 2-face)
+circle cap (invariant plane k = 5): dimension 0
+PASS  {3,4,3}: the PETCOX circle avoids the invariant plane k = 5 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 4; admissible orders m = ord(X) by the spherical-triangle condition: [ 3 ] (excluded: [ 4, 5 ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 3
+   factors over Q(sqrt5): [ 1, 1, 1 ]; exact real roots found: 3
+   root t = 0 ~ 0.  ->  alpha = 1 ~ 1.
+   root t = -1/2 ~ -0.5  ->  alpha = 2+E(8)-E(8)^3 ~ 3.414213562373095
+   root t = -1 ~ -1.  ->  alpha = -1-E(8)+E(8)^3 ~ -2.414213562373095
+
+-- target ord(X) = 4 (k = 1): EXCLUDED a priori (1/2 + 1/4 + 1/4 <= 1)
+
+-- target ord(X) = 5 (k = 1): EXCLUDED a priori (1/2 + 1/4 + 1/5 <= 1)
+
+-- target ord(X) = 5 (k = 2): EXCLUDED a priori (1/2 + 1/4 + 1/5 <= 1)
+
+-- verification of every candidate base vertex --
+L3-{3,4,3}-1: t = 0, alpha = 1, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,4,3}-1: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,4,3}-1: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,4,3}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 576 (faithful action on 24 vertices spanning E^4)
+   |Gamma| = 576, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,4,3}-2: t = -1/2, alpha = 2+E(8)-E(8)^3, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,4,3}-2: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,4,3}-2: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,4,3}-2: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 576 (faithful action on 24 vertices spanning E^4)
+   |Gamma| = 576, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,4,3}-3: t = -1, alpha = -1-E(8)+E(8)^3, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,4,3}-3: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,4,3}-3: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,4,3}-3: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 576 (faithful action on 24 vertices spanning E^4)
+   |Gamma| = 576, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,4,3}-4: t = infinity, alpha = 0, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,4,3}-4: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,4,3}-4: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 576 (faithful action on 24 vertices spanning E^4)
+   |Gamma| = 576, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+
+
+############################################################
+## Level 3 for T = {5,3,3}   (dim 4)
+############################################################
+invariant planes of S1 (order 30): rotation indices k = [ 1, 11 ] of 30  (twist type from the census: {30/(1,11),3})
+PASS  {5,3,3}: S1 has exactly two invariant planes = 2
+PASS  {5,3,3}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {5,3,3}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 1): dimension 0
+PASS  {5,3,3}: the PETCOX circle avoids the invariant plane k = 1 (no planar 2-face)
+circle cap (invariant plane k = 11): dimension 0
+PASS  {5,3,3}: the PETCOX circle avoids the invariant plane k = 11 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 3; admissible orders m = ord(X) by the spherical-triangle condition: [ 3, 4, 5 ] (excluded: [  ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 3
+   factors over Q(sqrt5): [ 1, 1, 1 ]; exact real roots found: 3
+   root t = 3/10*E(5)+7/10*E(5)^2+7/10*E(5)^3+3/10*E(5)^4 ~ -0.9472135954999579  ->  alpha = -4*E(40)^7+5*E(40)^8+4*E(40)^13+15*E(40)^16+11*E(40)^21-4*E(40)^23+15*E(40)^24+11*E(40)^29-11*E(40)^31+5*E(40)^32+4*E(40)^37-11*E(40)^39 ~ -42.85491341588649
+   root t = 1/2*E(5)^2+1/2*E(5)^3 ~ -0.8090169943749475  ->  alpha = E(40)^7-E(40)^8-E(40)^13-3*E(40)^16-2*E(40)^21+E(40)^23-3*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^32-E(40)^37+2*E(40)^39 ~ 7.938527151143622
+   root t = -1/2*E(5)-3/2*E(5)^2-3/2*E(5)^3-1/2*E(5)^4 ~ 2.118033988749894  ->  alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39 ~ 0.3041135359756636
+
+-- target ord(X) = 4 (k = 1): EXCLUDED a priori: the vertex-figure group would be S4, forcing Gamma <= +-[O x O] (order 1152), which has no element of order 30 = ord(S1)
+PASS  {5,3,3}: octahedral order obstruction applies for m = 4
+
+-- target ord(X) = 5 (k = 1): tr(X) = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.618033988749895;  polynomial of degree 4
+   factors over Q(sqrt5): [ 1, 1, 1, 1 ]; exact real roots found: 4
+   root t = 0 ~ 0.  ->  alpha = 1 ~ 1.
+   root t = -1/2 ~ -0.5  ->  alpha = -1/3*E(40)^8-E(40)^16-1/3*E(40)^21-E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32+1/3*E(40)^39 ~ 2.174771196256842
+   root t = 1/2*E(5)+3/2*E(5)^2+3/2*E(5)^3+1/2*E(5)^4 ~ -2.118033988749894  ->  alpha = -2*E(40)^7-3*E(40)^8+2*E(40)^13-E(40)^16+E(40)^21-2*E(40)^23-E(40)^24+E(40)^29-E(40)^31-3*E(40)^32+2*E(40)^37-E(40)^39 ~ -0.7762494909752419
+   root t = 1/2*E(5)+E(5)^2+E(5)^3+1/2*E(5)^4 ~ -1.309016994374947  ->  alpha = -1-E(8)+E(8)^3 ~ -2.414213562373095
+
+-- target ord(X) = 5 (k = 2): tr(X) = -2*E(5)-E(5)^2-E(5)^3-2*E(5)^4 ~ 0.3819660112501054;  polynomial of degree 4
+   factors over Q(sqrt5): [ 2, 2 ]; exact real roots found: 0
+   factor of degree 2: (-64/15*E(5)-176/15*E(5)^2-176/15*E(5)^3-64/15*E(5)^4)*t^2+(48/5*E(5)+376/15*E(5)^2+376/15*E(5)^3+48/5*E(5)^4)*t+(188/15*E(5)+164/5*E(5)^2+164/5*E(5)^3+188/15*E(5)^4)   [two real roots, square root of the discriminant is not cyclotomic; real roots: 2]
+      K(sqrt D)/Q abelian (Kronecker-Weber test on the norm of the discriminant): false
+      tr(g X) = -1 + (2*E(5)+2*E(5)^4) t   -> not in any cyclotomic field, so Gamma is infinite: NO POLYTOPE
+PASS  {5,3,3}: the non-cyclotomic quadratic factor for m = 5 is killed by the Kronecker-Weber trace obstruction
+   factor of degree 2: t^2+(3*E(5)+8*E(5)^2+8*E(5)^3+3*E(5)^4)*t+(11/4*E(5)+29/4*E(5)^2+29/4*E(5)^3+11/4*E(5)^4)   [two real roots, square root of the discriminant is not cyclotomic; real roots: 2]
+      K(sqrt D)/Q abelian (Kronecker-Weber test on the norm of the discriminant): false
+      tr(g X) = -3/2 + (3*E(5)+E(5)^2+E(5)^3+3*E(5)^4) t   -> not in any cyclotomic field, so Gamma is infinite: NO POLYTOPE
+PASS  {5,3,3}: the non-cyclotomic quadratic factor for m = 5 is killed by the Kronecker-Weber trace obstruction
+
+-- verification of every candidate base vertex --
+L3-{5,3,3}-1: t = 3/10*E(5)+7/10*E(5)^2+7/10*E(5)^3+3/10*E(5)^4, alpha = -4*E(40)^7+5*E(40)^8+4*E(40)^13+15*E(40)^16+11*E(40)^21-4*E(40)^23+15*E(40)^24+11*E(40)^29-11*E(40)^31+5*E(40)^32+4*E(40)^37-11*E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,3}-1: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,3}-1: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,3}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,3}-1: T = {5,3,3}, alpha = -4*E(40)^7+5*E(40)^8+4*E(40)^13+15*E(40)^16+11*E(40)^21-4*E(40)^23+15*E(40)^24+11*E(40)^29-11*E(40)^31+5*E(40)^32+4*E(40)^37-11*E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1*S3*S1^-1*(S1^-1*S3)^2*S1^-1*S2^-1*S3 mirrors to S1^-1*S3*S1*(S1*S3)^2*S1*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 120, 720, 48 ], face size 30, polyhedron: false, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: true
+L3-{5,3,3}-2: t = 1/2*E(5)^2+1/2*E(5)^3, alpha = E(40)^7-E(40)^8-E(40)^13-3*E(40)^16-2*E(40)^21+E(40)^23-3*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^32-E(40)^37+2*E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,3}-2: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,3}-2: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,3}-2: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,3}-2: T = {5,3,3}, alpha = E(40)^7-E(40)^8-E(40)^13-3*E(40)^16-2*E(40)^21+E(40)^23-3*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^32-E(40)^37+2*E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 5; relator S1^2*S3*S1^-1*S2*S1^-2*S3*S2^-1*S3 mirrors to S1^-2*S3*S1^3*S2*S1^2*S3*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 120, 720, 48 ], face size 30, polyhedron: false, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: true
+L3-{5,3,3}-3: t = -1/2*E(5)-3/2*E(5)^2-3/2*E(5)^3-1/2*E(5)^4, alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,3}-3: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,3}-3: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,3}-3: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 600 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,3}-3: T = {5,3,3}, alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 5; relator S1^2*S3*S1^-1*S2*S1^-2*S3*S2^-1*S3 mirrors to S1^-2*S3*S1^3*S2*S1^2*S3*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,3}-4: t = 0, alpha = 1, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,3}-4: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,3}-4: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,3}-4: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+L3-{5,3,3}-5: t = -1/2, alpha = -1/3*E(40)^8-E(40)^16-1/3*E(40)^21-E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32+1/3*E(40)^39, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,3}-5: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,3}-5: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,3}-5: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+L3-{5,3,3}-6: t = 1/2*E(5)+3/2*E(5)^2+3/2*E(5)^3+1/2*E(5)^4, alpha = -2*E(40)^7-3*E(40)^8+2*E(40)^13-E(40)^16+E(40)^21-2*E(40)^23-E(40)^24+E(40)^29-E(40)^31-3*E(40)^32+2*E(40)^37-E(40)^39, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,3}-6: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,3}-6: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,3}-6: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+L3-{5,3,3}-7: t = 1/2*E(5)+E(5)^2+E(5)^3+1/2*E(5)^4, alpha = -1-E(8)+E(8)^3, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,3}-7: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,3}-7: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,3}-7: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+L3-{5,3,3}-8: t = infinity, alpha = 0, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,3}-8: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,3}-8: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 600 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,3}-8: T = {5,3,3}, alpha = 0, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 1, 11 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1*S3*S1^-1*(S1^-1*S3)^2*S1^-1*S2^-1*S3 mirrors to S1^-1*S3*S1*(S1*S3)^2*S1*S2^-1*S1^-2*S3 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+
+
+############################################################
+## Level 3 for T = {3,5,5/2}   (dim 4)
+############################################################
+invariant planes of S1 (order 20): rotation indices k = [ 1, 9 ] of 20  (twist type from the census: {20/(1,9),5})
+PASS  {3,5,5/2}: S1 has exactly two invariant planes = 2
+PASS  {3,5,5/2}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {3,5,5/2}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 1): dimension 0
+PASS  {3,5,5/2}: the PETCOX circle avoids the invariant plane k = 1 (no planar 2-face)
+circle cap (invariant plane k = 9): dimension 0
+PASS  {3,5,5/2}: the PETCOX circle avoids the invariant plane k = 9 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 5; admissible orders m = ord(X) by the spherical-triangle condition: [ 3 ] (excluded: [ 4, 5 ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 4
+   factors over Q(sqrt5): [ 1, 1, 1, 1 ]; exact real roots found: 4
+   root t = 0 ~ 0.  ->  alpha = 1 ~ 1.
+   root t = -1/2 ~ -0.5  ->  alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.618033988749895
+   root t = -1 ~ -1.  ->  alpha = E(5)+3*E(5)^2+3*E(5)^3+E(5)^4 ~ -4.236067977499789
+   root t = 1/2*E(5)+3/2*E(5)^2+3/2*E(5)^3+1/2*E(5)^4 ~ -2.118033988749894  ->  alpha = -E(5)-E(5)^4 ~ -0.6180339887498947
+
+-- target ord(X) = 4 (k = 1): EXCLUDED a priori (1/2 + 1/5 + 1/4 <= 1)
+
+-- target ord(X) = 5 (k = 1): EXCLUDED a priori (1/2 + 1/5 + 1/5 <= 1)
+
+-- target ord(X) = 5 (k = 2): EXCLUDED a priori (1/2 + 1/5 + 1/5 <= 1)
+
+-- verification of every candidate base vertex --
+L3-{3,5,5/2}-1: t = 0, alpha = 1, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5,5/2}-1: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,5,5/2}-1: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5,5/2}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,5,5/2}-2: t = -1/2, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5,5/2}-2: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,5,5/2}-2: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5,5/2}-2: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,5,5/2}-3: t = -1, alpha = E(5)+3*E(5)^2+3*E(5)^3+E(5)^4, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5,5/2}-3: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,5,5/2}-3: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5,5/2}-3: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,5,5/2}-4: t = 1/2*E(5)+3/2*E(5)^2+3/2*E(5)^3+1/2*E(5)^4, alpha = -E(5)-E(5)^4, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5,5/2}-4: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,5,5/2}-4: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5,5/2}-4: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,5,5/2}-5: t = infinity, alpha = 0, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5,5/2}-5: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5,5/2}-5: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+
+
+############################################################
+## Level 3 for T = {5,5/2,5}   (dim 4)
+############################################################
+invariant planes of S1 (order 15): rotation indices k = [ 1, 4 ] of 15  (twist type from the census: {15/(1,4),5/2})
+PASS  {5,5/2,5}: S1 has exactly two invariant planes = 2
+PASS  {5,5/2,5}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {5,5/2,5}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 1): dimension 0
+PASS  {5,5/2,5}: the PETCOX circle avoids the invariant plane k = 1 (no planar 2-face)
+circle cap (invariant plane k = 4): dimension 0
+PASS  {5,5/2,5}: the PETCOX circle avoids the invariant plane k = 4 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 5; admissible orders m = ord(X) by the spherical-triangle condition: [ 3 ] (excluded: [ 4, 5 ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 4
+   factors over Q(sqrt5): [ 2, 2 ]; exact real roots found: 0
+   factor of degree 2: (-64/15*E(5)-176/15*E(5)^2-176/15*E(5)^3-64/15*E(5)^4)*t^2+(-32/15*E(5)-88/15*E(5)^2-88/15*E(5)^3-32/15*E(5)^4)*t+(28/15*E(5)+24/5*E(5)^2+24/5*E(5)^3+28/15*E(5)^4)   [two real roots, square root of the discriminant is not cyclotomic; real roots: 2]
+      K(sqrt D)/Q abelian (Kronecker-Weber test on the norm of the discriminant): false
+      tr(g X) = -E(5)^2-E(5)^3 + (-2*E(5)^2-2*E(5)^3) t   -> not in any cyclotomic field, so Gamma is infinite: NO POLYTOPE
+PASS  {5,5/2,5}: the non-cyclotomic quadratic factor for m = 3 is killed by the Kronecker-Weber trace obstruction
+   factor of degree 2: t^2+(1/2*E(5)^2+1/2*E(5)^3)*t+(1/4*E(5)+3/4*E(5)^2+3/4*E(5)^3+1/4*E(5)^4)   [two real roots, square root of the discriminant is not cyclotomic; real roots: 2]
+      K(sqrt D)/Q abelian (Kronecker-Weber test on the norm of the discriminant): false
+      tr(g X) = 0 + (0) t   (lies in Q(sqrt5); no information)
+      tr(g X) = 0 + (2*E(5)+2*E(5)^4) t   -> not in any cyclotomic field, so Gamma is infinite: NO POLYTOPE
+PASS  {5,5/2,5}: the non-cyclotomic quadratic factor for m = 3 is killed by the Kronecker-Weber trace obstruction
+
+-- target ord(X) = 4 (k = 1): EXCLUDED a priori (1/2 + 1/5 + 1/4 <= 1)
+
+-- target ord(X) = 5 (k = 1): EXCLUDED a priori (1/2 + 1/5 + 1/5 <= 1)
+
+-- target ord(X) = 5 (k = 2): EXCLUDED a priori (1/2 + 1/5 + 1/5 <= 1)
+
+-- verification of every candidate base vertex --
+L3-{5,5/2,5}-1: t = infinity, alpha = 0, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,5/2,5}-1: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,5/2,5}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 12)
+   -> intersection condition fails, defect 12
+
+
+############################################################
+## Level 3 for T = {5,3,5/2}   (dim 4)
+############################################################
+invariant planes of S1 (order 12): rotation indices k = [ 1, 5 ] of 12  (twist type from the census: {12/(1,5),3})
+PASS  {5,3,5/2}: S1 has exactly two invariant planes = 2
+PASS  {5,3,5/2}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {5,3,5/2}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 1): dimension 0
+PASS  {5,3,5/2}: the PETCOX circle avoids the invariant plane k = 1 (no planar 2-face)
+circle cap (invariant plane k = 5): dimension 0
+PASS  {5,3,5/2}: the PETCOX circle avoids the invariant plane k = 5 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 3; admissible orders m = ord(X) by the spherical-triangle condition: [ 3, 4, 5 ] (excluded: [  ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 4
+   factors over Q(sqrt5): [ 2, 2 ]; exact real roots found: 4
+   root t = E(40)^7+3/2*E(40)^8-E(40)^13+3*E(40)^16-2*E(40)^21+E(40)^23+3*E(40)^24-2*E(40)^29+2*E(40)^31+3/2*E(40)^32-E(40)^37+2*E(40)^39 ~ -0.2245918094810107  ->  alpha = 2/3*E(40)^7-1/3*E(40)^8-2/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-1/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39 ~ 1.815487037832028
+   root t = -E(40)^7+3/2*E(40)^8+E(40)^13+3*E(40)^16+2*E(40)^21-E(40)^23+3*E(40)^24+2*E(40)^29-2*E(40)^31+3/2*E(40)^32+E(40)^37-2*E(40)^39 ~ -7.629510156768675  ->  alpha = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39 ~ -0.07013104533209813
+   root t = -1/2*E(40)^16-1/2*E(40)^21-1/2*E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^39 ~ 1.953139800010316  ->  alpha = -E(40)^7+E(40)^13-E(40)^16+E(40)^21-E(40)^23-E(40)^24+E(40)^29-E(40)^31+E(40)^37-E(40)^39 ~ 0.2038204263767999
+   root t = -1/2*E(40)^16+1/2*E(40)^21-1/2*E(40)^24+1/2*E(40)^29-1/2*E(40)^31-1/2*E(40)^39 ~ -0.3351058112604212  ->  alpha = E(40)^7-E(40)^13-E(40)^16-E(40)^21+E(40)^23-E(40)^24-E(40)^29+E(40)^31-E(40)^37+E(40)^39 ~ 3.03224755112299
+
+-- target ord(X) = 4 (k = 1): tr(X) = 2 ~ 2.;  polynomial of degree 4
+   factors over Q(sqrt5): [ 2, 2 ]; exact real roots found: 4
+   root t = 1/2*E(40)^8+E(40)^16-1/2*E(40)^21+E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^39 ~ -0.1648941887395789  ->  alpha = -E(40)^7+E(40)^8+E(40)^13-E(40)^23+E(40)^32+E(40)^37 ~ 1.492066037647537
+   root t = 1/2*E(40)^8+E(40)^16+1/2*E(40)^21+E(40)^24+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^39 ~ -2.453139800010316  ->  alpha = E(40)^7+E(40)^8-E(40)^13+E(40)^23+E(40)^32-E(40)^37 ~ -0.2559980601477475
+   root t = 1/2*E(40)^7+1/2*E(40)^8-1/2*E(40)^13-1/2*E(40)^21+1/2*E(40)^23-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^37+1/2*E(40)^39 ~ 1.016123775561495  ->  alpha = -E(40)^8-2*E(40)^16+E(40)^21-2*E(40)^24+E(40)^29-E(40)^31-E(40)^32-E(40)^39 ~ 0.3297883774791578
+   root t = -1/2*E(40)^7+1/2*E(40)^8+1/2*E(40)^13+1/2*E(40)^21-1/2*E(40)^23+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^37-1/2*E(40)^39 ~ -0.3980897868116002  ->  alpha = -E(40)^8-2*E(40)^16-E(40)^21-2*E(40)^24-E(40)^29+E(40)^31-E(40)^32+E(40)^39 ~ 4.906279600020631
+
+-- target ord(X) = 5 (k = 1): tr(X) = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.618033988749895;  polynomial of degree 4
+   factors over Q(sqrt5): [ 1, 1, 1, 1 ]; exact real roots found: 4
+   root t = 0 ~ 0.  ->  alpha = 1 ~ 1.
+   root t = -1 ~ -1.  ->  alpha = -1 ~ -1.
+   root t = 1/2*E(5)+1/2*E(5)^4 ~ 0.3090169943749473  ->  alpha = E(5)+E(5)^4 ~ 0.6180339887498947
+   root t = 1/10*E(5)+2/5*E(5)^2+2/5*E(5)^3+1/10*E(5)^4 ~ -0.5854101966249684  ->  alpha = E(5)+4*E(5)^2+4*E(5)^3+E(5)^4 ~ -5.854101966249684
+
+-- target ord(X) = 5 (k = 2): tr(X) = -2*E(5)-E(5)^2-E(5)^3-2*E(5)^4 ~ 0.3819660112501054;  polynomial of degree 3
+   factors over Q(sqrt5): [ 1, 1, 1 ]; exact real roots found: 3
+   root t = -1/4 ~ -0.25  ->  alpha = 2 ~ 2.
+   root t = -1/2*E(5)-1/2*E(5)^4 ~ -0.3090169943749473  ->  alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.618033988749895
+   root t = -1/2*E(5)-2*E(5)^2-2*E(5)^3-1/2*E(5)^4 ~ 2.927050983124842  ->  alpha = -5*E(5)-2*E(5)^2-2*E(5)^3-5*E(5)^4 ~ 0.1458980337503162
+
+-- verification of every candidate base vertex --
+L3-{5,3,5/2}-1: t = E(40)^7+3/2*E(40)^8-E(40)^13+3*E(40)^16-2*E(40)^21+E(40)^23+3*E(40)^24-2*E(40)^29+2*E(40)^31+3/2*E(40)^32-E(40)^37+2*E(40)^39, alpha = 2/3*E(40)^7-1/3*E(40)^8-2/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-1/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-1: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-1: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 2880 (faithful action on 240 vertices spanning E^4)
+   |Gamma| = 2880, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-1: T = {5,3,5/2}, alpha = 2/3*E(40)^7-1/3*E(40)^8-2/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-1/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 12, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 40
+|Gamma| = 2880  |<S1,S2>| = 144  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 240, 480, 120, 20 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 240, 480, 120, 20 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 24, 144 ] vs [ 12, 6, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: false
+L3-{5,3,5/2}-2: t = -E(40)^7+3/2*E(40)^8+E(40)^13+3*E(40)^16+2*E(40)^21-E(40)^23+3*E(40)^24+2*E(40)^29-2*E(40)^31+3/2*E(40)^32+E(40)^37-2*E(40)^39, alpha = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-2: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-2: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-2: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 2880 (faithful action on 240 vertices spanning E^4)
+   |Gamma| = 2880, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-2: T = {5,3,5/2}, alpha = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 12, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 40
+|Gamma| = 2880  |<S1,S2>| = 144  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 240, 480, 120, 20 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 240, 480, 120, 20 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 24, 144 ] vs [ 12, 6, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: false
+L3-{5,3,5/2}-3: t = -1/2*E(40)^16-1/2*E(40)^21-1/2*E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^39, alpha = -E(40)^7+E(40)^13-E(40)^16+E(40)^21-E(40)^23-E(40)^24+E(40)^29-E(40)^31+E(40)^37-E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-3: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-3: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-3: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 2880 (faithful action on 240 vertices spanning E^4)
+   |Gamma| = 2880, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-3: T = {5,3,5/2}, alpha = -E(40)^7+E(40)^13-E(40)^16+E(40)^21-E(40)^23-E(40)^24+E(40)^29-E(40)^31+E(40)^37-E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 12, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 40
+|Gamma| = 2880  |<S1,S2>| = 144  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 240, 480, 120, 20 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 240, 480, 120, 20 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 24, 144 ] vs [ 12, 6, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: false
+L3-{5,3,5/2}-4: t = -1/2*E(40)^16+1/2*E(40)^21-1/2*E(40)^24+1/2*E(40)^29-1/2*E(40)^31-1/2*E(40)^39, alpha = E(40)^7-E(40)^13-E(40)^16-E(40)^21+E(40)^23-E(40)^24-E(40)^29+E(40)^31-E(40)^37+E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-4: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-4: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-4: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 2880 (faithful action on 240 vertices spanning E^4)
+   |Gamma| = 2880, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-4: T = {5,3,5/2}, alpha = E(40)^7-E(40)^13-E(40)^16-E(40)^21+E(40)^23-E(40)^24-E(40)^29+E(40)^31-E(40)^37+E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 12, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 40
+|Gamma| = 2880  |<S1,S2>| = 144  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 240, 480, 120, 20 ]
+mirror assignment extends to a homomorphism: true; bijective: true; involutory: true
+abstract polytope is directly regular: true  => combinatorially chiral: false
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 240, 480, 120, 20 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 24, 144 ] vs [ 12, 6, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: false
+L3-{5,3,5/2}-5: t = 1/2*E(40)^8+E(40)^16-1/2*E(40)^21+E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^39, alpha = -E(40)^7+E(40)^8+E(40)^13-E(40)^23+E(40)^32+E(40)^37, ord(X) = 4, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-5: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-5: ord(X) equals the target = 4
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-5: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 1152 (faithful action on 48 vertices spanning E^4)
+   |Gamma| = 1152, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-5: T = {5,3,5/2}, alpha = -E(40)^7+E(40)^8+E(40)^13-E(40)^23+E(40)^32+E(40)^37, ord(X) = 4 ==========
+orders (S1,S2,S3) = [ 12, 3, 4 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 24
+|Gamma| = 1152  |<S1,S2>| = 144  |<S2,S3>| = 24  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 48, 144, 48, 8 ]
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 24 vs ord(S1 S3) = 12; relator S1^-1*S3*S2^-1*S1*(S3^-1*S1^-1)^2*S3 mirrors to S1*S3*S2^-1*S1^-3*(S3^-1*S1)^2*S3 of order 4; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 48, 144, 48, 8 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 24, 8, 24, 144 ] vs [ 24, 8, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 6, vf-edges 12, vf-faces 8 vs abstract [ 6, 12, 8 ]; type {3,4}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-6: t = 1/2*E(40)^8+E(40)^16+1/2*E(40)^21+E(40)^24+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^39, alpha = E(40)^7+E(40)^8-E(40)^13+E(40)^23+E(40)^32-E(40)^37, ord(X) = 4, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-6: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-6: ord(X) equals the target = 4
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-6: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 1152 (faithful action on 48 vertices spanning E^4)
+   |Gamma| = 1152, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-6: T = {5,3,5/2}, alpha = E(40)^7+E(40)^8-E(40)^13+E(40)^23+E(40)^32-E(40)^37, ord(X) = 4 ==========
+orders (S1,S2,S3) = [ 12, 3, 4 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 24
+|Gamma| = 1152  |<S1,S2>| = 144  |<S2,S3>| = 24  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 48, 144, 48, 8 ]
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 24 vs ord(S1 S3) = 12; relator S1^-1*S3*S2^-1*S1*(S3^-1*S1^-1)^2*S3 mirrors to S1*S3*S2^-1*S1^-3*(S3^-1*S1)^2*S3 of order 4; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 48, 144, 48, 8 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 24, 8, 24, 144 ] vs [ 24, 8, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 6, vf-edges 12, vf-faces 8 vs abstract [ 6, 12, 8 ]; type {3,4}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-7: t = 1/2*E(40)^7+1/2*E(40)^8-1/2*E(40)^13-1/2*E(40)^21+1/2*E(40)^23-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^37+1/2*E(40)^39, alpha = -E(40)^8-2*E(40)^16+E(40)^21-2*E(40)^24+E(40)^29-E(40)^31-E(40)^32-E(40)^39, ord(X) = 4, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-7: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-7: ord(X) equals the target = 4
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-7: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 1152 (faithful action on 48 vertices spanning E^4)
+   |Gamma| = 1152, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-7: T = {5,3,5/2}, alpha = -E(40)^8-2*E(40)^16+E(40)^21-2*E(40)^24+E(40)^29-E(40)^31-E(40)^32-E(40)^39, ord(X) = 4 ==========
+orders (S1,S2,S3) = [ 12, 3, 4 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 12
+|Gamma| = 1152  |<S1,S2>| = 144  |<S2,S3>| = 24  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 48, 144, 48, 8 ]
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 12 vs ord(S1 S3) = 24; relator (S2^-1*S3^-1*S1^2)^2 mirrors to (S2^-1*S1^-2*S3^-1*S1^-2)^2 of order 4; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 48, 144, 48, 8 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 24, 8, 24, 144 ] vs [ 24, 8, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 6, vf-edges 12, vf-faces 8 vs abstract [ 6, 12, 8 ]; type {3,4}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-8: t = -1/2*E(40)^7+1/2*E(40)^8+1/2*E(40)^13+1/2*E(40)^21-1/2*E(40)^23+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^37-1/2*E(40)^39, alpha = -E(40)^8-2*E(40)^16-E(40)^21-2*E(40)^24-E(40)^29+E(40)^31-E(40)^32+E(40)^39, ord(X) = 4, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-8: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-8: ord(X) equals the target = 4
+   vertex-figure group <S2,X>: order 24, S4, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-8: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 1152 (faithful action on 48 vertices spanning E^4)
+   |Gamma| = 1152, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-8: T = {5,3,5/2}, alpha = -E(40)^8-2*E(40)^16-E(40)^21-2*E(40)^24-E(40)^29+E(40)^31-E(40)^32+E(40)^39, ord(X) = 4 ==========
+orders (S1,S2,S3) = [ 12, 3, 4 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 12
+|Gamma| = 1152  |<S1,S2>| = 144  |<S2,S3>| = 24  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 48, 144, 48, 8 ]
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 12 vs ord(S1 S3) = 24; relator (S2^-1*S3^-1*S1^2)^2 mirrors to (S2^-1*S1^-2*S3^-1*S1^-2)^2 of order 4; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 48, 144, 48, 8 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 24, 8, 24, 144 ] vs [ 24, 8, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 6, vf-edges 12, vf-faces 8 vs abstract [ 6, 12, 8 ]; type {3,4}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-9: t = 0, alpha = 1, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-9: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-9: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-9: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-9: T = {5,3,5/2}, alpha = 1, ord(X) = 5 ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 15
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 15 vs ord(S1 S3) = 5; relator S1*(S1*S2^-1)^2*S3^-1*S1^-2*S2*S3^2*S2^-1*S3^2*S2 mirrors to (S1^-2*S2^-1*S1^-1)^2*S1^-1*S3^-1*S1^4*S2*S3^2*S2^-1*S1^-2*S3^2*S1^2*S2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-10: t = -1, alpha = -1, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-10: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-10: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-10: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-10: T = {5,3,5/2}, alpha = -1, ord(X) = 5 ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 10; relator S1^2*S2^-1*(S3^-1*S1)^2*S1*S3*S1^-1*S2^-1*S3^-1 mirrors to S1^-2*S2^-1*S1^-1*(S1^-1*S3^-1)^2*S1^-2*S3*S1*S2^-1*S1^-2*S3^-1 of order 10; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-11: t = 1/2*E(5)+1/2*E(5)^4, alpha = E(5)+E(5)^4, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-11: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-11: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-11: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-11: T = {5,3,5/2}, alpha = E(5)+E(5)^4, ord(X) = 5 ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 10
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 10 vs ord(S1 S3) = 30; relator S1*S3*S1*S2^-1*S1^-1*S3^-1*S2*(S1*S3)^2*S1*S2^-1 mirrors to S1^-1*S3*S1^-1*S2^-1*S1^-1*S3^-1*S1^2*S2*(S1^-1*S3)^2*S1^-1*S2^-1*S1^-2 of order 10; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-12: t = 1/10*E(5)+2/5*E(5)^2+2/5*E(5)^3+1/10*E(5)^4, alpha = E(5)+4*E(5)^2+4*E(5)^3+E(5)^4, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-12: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-12: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-12: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-12: T = {5,3,5/2}, alpha = E(5)+4*E(5)^2+4*E(5)^3+E(5)^4, ord(X) = 5 ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 15; relator S1*S2^-1*S1*S3^-1*S1^2*S3^-1*S1^-1*S3*S2^-1*S3^-2 mirrors to S1^-1*S2^-1*S1^-1*(S1^-2*S3^-1)^2*S1*S3*S2^-1*S1^-2*S3^-2 of order 3; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-13: t = -1/4, alpha = 2, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-13: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-13: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-13: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-13: T = {5,3,5/2}, alpha = 2, ord(X) = 5 ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 10
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 10 vs ord(S1 S3) = 30; relator S1*S3^2*(S1^-1*S2)^2*S1^2*S3^-1*S1^-1*S3^-1*S2 mirrors to S1^-1*S3^2*(S1^3*S2)^2*S1^-2*(S3^-1*S1)^2*S1*S2 of order 10; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-14: t = -1/2*E(5)-1/2*E(5)^4, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-14: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-14: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-14: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-14: T = {5,3,5/2}, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, ord(X) = 5 ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 10; relator S1*S3*S2^-1*(S3*S1^2)^2*S2^-1*S1^-4*S3^2 mirrors to S1^-1*S3*S2^-1*(S1^-2*S3)^2*S1^-2*S2^-1*S1^2*S3^2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-15: t = -1/2*E(5)-2*E(5)^2-2*E(5)^3-1/2*E(5)^4, alpha = -5*E(5)-2*E(5)^2-2*E(5)^3-5*E(5)^4, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-15: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{5,3,5/2}-15: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-15: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-15: T = {5,3,5/2}, alpha = -5*E(5)-2*E(5)^2-2*E(5)^3-5*E(5)^4, ord(X) = 5 ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 15
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+#I  Coset table calculation failed -- trying with bigger table limit
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 15 vs ord(S1 S3) = 5; relator S1^2*S2^-1*(S3^-1*S1)^2*S1*S3*S1^-1*S2^-1*S3^-1 mirrors to S1^-2*S2^-1*S1^-1*(S1^-1*S3^-1)^2*S1^-2*S3*S1*S2^-1*S1^-2*S3^-1 of order 10; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{5,3,5/2}-16: t = infinity, alpha = 0, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5,3,5/2}-16: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5,3,5/2}-16: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{5,3,5/2}-16: T = {5,3,5/2}, alpha = 0, ord(X) = 5 ==========
+orders (S1,S2,S3) = [ 12, 3, 5 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 144  |<S2,S3>| = 60  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 12, (p1,p2) in [ [ 1, 5 ] ]
+abstract f-vector (coset indices) = [ 120, 720, 300, 50 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 15; relator S1^2*S3^-2*S1^-2*S2*S1^-1*S3^-1*S2^-1*S3*S2*S3^-1*S2 mirrors to S1^-2*S3^-2*S1^4*S2*S1*S3^-1*S2^-1*S1^-2*S3*S1^2*S2*S3^-1*S1^2*S2 of order 5; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 720, 300, 50 ]; 2-face size 12, 2-faces per cell 12
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 60, 10, 24, 144 ] vs [ 60, 10, 24, 144 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 12, vf-edges 30, vf-faces 20 vs abstract [ 12, 30, 20 ]; type {3,5}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 48, 72, 12 ], face size 12, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 144, type {12,3}, coset f-vector [ 48, 72, 12 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+
+
+############################################################
+## Level 3 for T = {3,3,5/2}   (dim 4)
+############################################################
+invariant planes of S1 (order 30): rotation indices k = [ 7, 13 ] of 30  (twist type from the census: {30/(7,13),3})
+PASS  {3,3,5/2}: S1 has exactly two invariant planes = 2
+PASS  {3,3,5/2}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {3,3,5/2}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 7): dimension 0
+PASS  {3,3,5/2}: the PETCOX circle avoids the invariant plane k = 7 (no planar 2-face)
+circle cap (invariant plane k = 13): dimension 0
+PASS  {3,3,5/2}: the PETCOX circle avoids the invariant plane k = 13 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 3; admissible orders m = ord(X) by the spherical-triangle condition: [ 3, 4, 5 ] (excluded: [  ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 4
+   factors over Q(sqrt5): [ 1, 1, 1, 1 ]; exact real roots found: 4
+   root t = 0 ~ 0.  ->  alpha = 1 ~ 1.
+   root t = 3/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+3/4*E(5)^4 ~ -0.3454915028125264  ->  alpha = 11*E(40)^7-16*E(40)^8-11*E(40)^13-6*E(40)^16-4*E(40)^21+11*E(40)^23-6*E(40)^24-4*E(40)^29+4*E(40)^31-16*E(40)^32-11*E(40)^37+4*E(40)^39 ~ -0.6417099802900599
+   root t = 3/4*E(5)+1/4*E(5)^2+1/4*E(5)^3+3/4*E(5)^4 ~ 0.05901699437494731  ->  alpha = -2*E(40)^7+2*E(40)^8+2*E(40)^13+E(40)^21-2*E(40)^23+E(40)^29-E(40)^31+2*E(40)^32+2*E(40)^37-E(40)^39 ~ 0.6958864640243366
+   root t = -1/4*E(5)-1/4*E(5)^4 ~ -0.1545084971874737  ->  alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39 ~ -6.938527151143623
+
+-- target ord(X) = 4 (k = 1): EXCLUDED a priori: the vertex-figure group would be S4, forcing Gamma <= +-[O x O] (order 1152), which has no element of order 30 = ord(S1)
+PASS  {3,3,5/2}: octahedral order obstruction applies for m = 4
+
+-- target ord(X) = 5 (k = 1): tr(X) = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.618033988749895;  polynomial of degree 4
+   factors over Q(sqrt5): [ 2, 2 ]; exact real roots found: 0
+   factor of degree 2: (-16*E(5)-16/3*E(5)^2-16/3*E(5)^3-16*E(5)^4)*t^2+(-232/15*E(5)-88/15*E(5)^2-88/15*E(5)^3-232/15*E(5)^4)*t+(6/5*E(5)+7/15*E(5)^2+7/15*E(5)^3+6/5*E(5)^4)   [no real roots (discriminant < 0); real roots: 0]
+   factor of degree 2: t^2+(-1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/2*E(5)^4)*t+(3/16*E(5)+1/16*E(5)^2+1/16*E(5)^3+3/16*E(5)^4)   [no real roots (discriminant < 0); real roots: 0]
+
+-- target ord(X) = 5 (k = 2): tr(X) = -2*E(5)-E(5)^2-E(5)^3-2*E(5)^4 ~ 0.3819660112501054;  polynomial of degree 3
+   factors over Q(sqrt5): [ 1, 1, 1 ]; exact real roots found: 3
+   root t = 5/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+5/4*E(5)^4 ~ -0.03647450843757905  ->  alpha = -1/3*E(40)^7+1/3*E(40)^13-2/3*E(40)^16-1/3*E(40)^23-2/3*E(40)^24+1/3*E(40)^37 ~ 1.370033342132477
+   root t = 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4 ~ -0.09549150281252636  ->  alpha = 2+E(8)-E(8)^3 ~ 3.414213562373095
+   root t = 1/4*E(5)+1/4*E(5)^4 ~ 0.1545084971874737  ->  alpha = E(40)^7-E(40)^13+2*E(40)^16-2*E(40)^21+E(40)^23+2*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^37+2*E(40)^39 ~ 0.4663911961440423
+
+-- verification of every candidate base vertex --
+L3-{3,3,5/2}-1: t = 0, alpha = 1, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,5/2}-1: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,5/2}-1: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,5/2}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 600 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{3,3,5/2}-1: T = {3,3,5/2}, alpha = 1, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 5; relator (S3*S1)^5 mirrors to (S3*S1^-1)^5 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{3,3,5/2}-2: t = 3/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+3/4*E(5)^4, alpha = 11*E(40)^7-16*E(40)^8-11*E(40)^13-6*E(40)^16-4*E(40)^21+11*E(40)^23-6*E(40)^24-4*E(40)^29+4*E(40)^31-16*E(40)^32-11*E(40)^37+4*E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,5/2}-2: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,5/2}-2: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,5/2}-2: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{3,3,5/2}-2: T = {3,3,5/2}, alpha = 11*E(40)^7-16*E(40)^8-11*E(40)^13-6*E(40)^16-4*E(40)^21+11*E(40)^23-6*E(40)^24-4*E(40)^29+4*E(40)^31-16*E(40)^32-11*E(40)^37+4*E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 30
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 30 vs ord(S1 S3) = 5; relator (S3*S1)^5 mirrors to (S3*S1^-1)^5 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 120, 720, 48 ], face size 30, polyhedron: false, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: true
+L3-{3,3,5/2}-3: t = 3/4*E(5)+1/4*E(5)^2+1/4*E(5)^3+3/4*E(5)^4, alpha = -2*E(40)^7+2*E(40)^8+2*E(40)^13+E(40)^21-2*E(40)^23+E(40)^29-E(40)^31+2*E(40)^32+2*E(40)^37-E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,5/2}-3: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,5/2}-3: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,5/2}-3: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{3,3,5/2}-3: T = {3,3,5/2}, alpha = -2*E(40)^7+2*E(40)^8+2*E(40)^13+E(40)^21-2*E(40)^23+E(40)^29-E(40)^31+2*E(40)^32+2*E(40)^37-E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): true
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1^2*S3*S2^-1*S1*S3*S1^-1*S2*S1*S3^-1 mirrors to S1^-2*S3*S2^-1*S1^-3*S3*S1^3*S2*S1^-1*S3^-1 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 120, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ false, true, true, true ]  orders [ 60, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 120, 720, 48 ], face size 30, polyhedron: false, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: false; skeletal 4-polytope: false; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): false; combinatorially chiral: true
+L3-{3,3,5/2}-4: t = -1/4*E(5)-1/4*E(5)^4, alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,5/2}-4: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,5/2}-4: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 12, A4, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,5/2}-4: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 600 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, true ] (defect 1)
+
+========== LEVEL 3 L3-{3,3,5/2}-4: T = {3,3,5/2}, alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39, ord(X) = 3 ==========
+orders (S1,S2,S3) = [ 30, 3, 3 ]; (S1S2)^2=(S2S3)^2=(S1S2S3)^2=1: true; ord(S3S2S1) = 5
+|Gamma| = 7200  |<S1,S2>| = 1440  |<S2,S3>| = 12  |W(T)| = 14400  Gamma inside W(T): false
+intersection condition: <S1>cap<S2> trivial: true; <S2>cap<S3> trivial: true; <S1,S2>cap<S2,S3> = <S2>: true (defect 1)
+twist type of S1: p = 30, (p1,p2) in [ [ 7, 13 ] ]
+abstract f-vector (coset indices) = [ 600, 1200, 120, 5 ]
+mirror assignment extends to a homomorphism: false; obstruction: ord(S1^-1 S3) = 5 vs ord(S1 S3) = 30; relator S1^2*S3*S2^-1*S1*S3*S1^-1*S2*S1*S3^-1 mirrors to S1^-2*S3*S2^-1*S1^-3*S3*S1^3*S2*S1^-1*S3^-1 of order 6; presentation certified: true
+abstract polytope is directly regular: false  => combinatorially chiral: true
+base vertex fixed by (S1,S2,S3): [ false, true, true ]
+geometric f-vector (orbit sizes) = [ 600, 1200, 120, 5 ]; 2-face size 30, 2-faces per cell 48
+dimension of the linear span of the vertex set = 4
+action of Gamma on vertices faithful: true
+geometric stabilisers = abstract face groups (v,e,f,c): [ true, true, true, true ]  orders [ 12, 6, 60, 1440 ] vs [ 12, 6, 60, 1440 ]
+diamond at base flag (edges of f at v, 2-faces of c at e, cells at f) = [ 2, 2, 2 ]; SW orientation F_i.S_i = F'_i for i=1,2,3: [ true, true, true ]
+1-skeleton connected: true
+vertex-figure: neighbours 4, vf-edges 6, vf-faces 4 vs abstract [ 4, 6, 4 ]; type {3,3}; connected: true; each vf-edge in two vf-faces: true; neighbours equidistant: true
+facet polyhedron: f-vector [ 480, 720, 48 ], face size 30, polyhedron: true, span 4, geometrically regular: false
+facet abstract: |G| = 1440, type {30,3}, coset f-vector [ 480, 720, 48 ], rank-3 IP: true, combinatorially regular (directly regular): true
+dimension of the span of the vertices of the base 2-face = 4
+unique isometry R acting on f as the flag-reversing reflection: orthogonal true, involution true, R S1 R = S1^-1: true, det 1, w R = w S1^-1: true
+R = S1 S2 S3: true; R in Gamma: true; R moves the base cell: true; R(c) = c^{S3}: true
+=> faithful realisation: true; skeletal 4-polytope: true; geometrically chiral (2-face vertices span E^4 (Prop. C); witness R = S1S2S3 moves the base cell): true; combinatorially chiral: true
+L3-{3,3,5/2}-5: t = 5/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+5/4*E(5)^4, alpha = -1/3*E(40)^7+1/3*E(40)^13-2/3*E(40)^16-1/3*E(40)^23-2/3*E(40)^24+1/3*E(40)^37, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,5/2}-5: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,5/2}-5: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,5/2}-5: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+L3-{3,3,5/2}-6: t = 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, alpha = 2+E(8)-E(8)^3, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,5/2}-6: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,5/2}-6: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,5/2}-6: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+L3-{3,3,5/2}-7: t = 1/4*E(5)+1/4*E(5)^4, alpha = E(40)^7-E(40)^13+2*E(40)^16-2*E(40)^21+E(40)^23+2*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^37+2*E(40)^39, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,5/2}-7: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,3,5/2}-7: ord(X) equals the target = 5
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,5/2}-7: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+L3-{3,3,5/2}-8: t = infinity, alpha = 0, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,3,5/2}-8: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,3,5/2}-8: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 4)
+   -> intersection condition fails, defect 4
+
+
+############################################################
+## Level 3 for T = {3,5/2,5}   (dim 4)
+############################################################
+invariant planes of S1 (order 20): rotation indices k = [ 3, 7 ] of 20  (twist type from the census: {20/(3,7),5/2})
+PASS  {3,5/2,5}: S1 has exactly two invariant planes = 2
+PASS  {3,5/2,5}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {3,5/2,5}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 3): dimension 0
+PASS  {3,5/2,5}: the PETCOX circle avoids the invariant plane k = 3 (no planar 2-face)
+circle cap (invariant plane k = 7): dimension 0
+PASS  {3,5/2,5}: the PETCOX circle avoids the invariant plane k = 7 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 5; admissible orders m = ord(X) by the spherical-triangle condition: [ 3 ] (excluded: [ 4, 5 ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 4
+   factors over Q(sqrt5): [ 1, 1, 1, 1 ]; exact real roots found: 4
+   root t = 0 ~ 0.  ->  alpha = 1 ~ 1.
+   root t = -1/2 ~ -0.5  ->  alpha = E(5)^2+E(5)^3 ~ -1.618033988749895
+   root t = -1 ~ -1.  ->  alpha = -1/5*E(5)+1/5*E(5)^2+1/5*E(5)^3-1/5*E(5)^4 ~ -0.447213595499958
+   root t = 3/2*E(5)+1/2*E(5)^2+1/2*E(5)^3+3/2*E(5)^4 ~ 0.1180339887498946  ->  alpha = -2/5*E(5)-3/5*E(5)^2-3/5*E(5)^3-2/5*E(5)^4 ~ 0.7236067977499789
+
+-- target ord(X) = 4 (k = 1): EXCLUDED a priori (1/2 + 1/5 + 1/4 <= 1)
+
+-- target ord(X) = 5 (k = 1): EXCLUDED a priori (1/2 + 1/5 + 1/5 <= 1)
+
+-- target ord(X) = 5 (k = 2): EXCLUDED a priori (1/2 + 1/5 + 1/5 <= 1)
+
+-- verification of every candidate base vertex --
+L3-{3,5/2,5}-1: t = 0, alpha = 1, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5/2,5}-1: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,5/2,5}-1: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5/2,5}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,5/2,5}-2: t = -1/2, alpha = E(5)^2+E(5)^3, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5/2,5}-2: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,5/2,5}-2: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5/2,5}-2: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,5/2,5}-3: t = -1, alpha = -1/5*E(5)+1/5*E(5)^2+1/5*E(5)^3-1/5*E(5)^4, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5/2,5}-3: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,5/2,5}-3: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5/2,5}-3: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,5/2,5}-4: t = 3/2*E(5)+1/2*E(5)^2+1/2*E(5)^3+3/2*E(5)^4, alpha = -2/5*E(5)-3/5*E(5)^2-3/5*E(5)^3-2/5*E(5)^4, ord(X) = 3, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5/2,5}-4: the unique X satisfies all conditions of Prop. E1
+PASS  L3-{3,5/2,5}-4: ord(X) equals the target = 3
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5/2,5}-4: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+L3-{3,5/2,5}-5: t = infinity, alpha = 0, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{3,5/2,5}-5: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{3,5/2,5}-5: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 2)
+   -> intersection condition fails, defect 2
+
+
+############################################################
+## Level 3 for T = {5/2,5,5/2}   (dim 4)
+############################################################
+invariant planes of S1 (order 15): rotation indices k = [ 2, 7 ] of 15  (twist type from the census: {15/(2,7),5})
+PASS  {5/2,5,5/2}: S1 has exactly two invariant planes = 2
+PASS  {5/2,5,5/2}: the two rotation angles are distinct and non-opposite (theta2 <> +- theta1)
+PASS  {5/2,5,5/2}: the invariant planes are mutually orthogonal
+circle cap (invariant plane k = 2): dimension 0
+PASS  {5/2,5,5/2}: the PETCOX circle avoids the invariant plane k = 2 (no planar 2-face)
+circle cap (invariant plane k = 7): dimension 0
+PASS  {5/2,5,5/2}: the PETCOX circle avoids the invariant plane k = 7 (no planar 2-face)
+degrees: d1 = 2, d2 = 2
+tr(X(t)) = tau(t)/(d1 d2 false), deg tau = 4
+q = ord(S2) = 5; admissible orders m = ord(X) by the spherical-triangle condition: [ 3 ] (excluded: [ 4, 5 ], because 1/2 + 1/q + 1/m <= 1 makes <S2,X> infinite, contradicting Prop. E2)
+
+-- target ord(X) = 3 (k = 1): tr(X) = 1 ~ 1.;  polynomial of degree 4
+   factors over Q(sqrt5): [ 2, 2 ]; exact real roots found: 0
+   factor of degree 2: (-176/15*E(5)-64/15*E(5)^2-64/15*E(5)^3-176/15*E(5)^4)*t^2+(-88/15*E(5)-32/15*E(5)^2-32/15*E(5)^3-88/15*E(5)^4)*t+(24/5*E(5)+28/15*E(5)^2+28/15*E(5)^3+24/5*E(5)^4)   [no real roots (discriminant < 0); real roots: 0]
+   factor of degree 2: t^2+(1/2*E(5)+1/2*E(5)^4)*t+(3/4*E(5)+1/4*E(5)^2+1/4*E(5)^3+3/4*E(5)^4)   [no real roots (discriminant < 0); real roots: 0]
+
+-- target ord(X) = 4 (k = 1): EXCLUDED a priori (1/2 + 1/5 + 1/4 <= 1)
+
+-- target ord(X) = 5 (k = 1): EXCLUDED a priori (1/2 + 1/5 + 1/5 <= 1)
+
+-- target ord(X) = 5 (k = 2): EXCLUDED a priori (1/2 + 1/5 + 1/5 <= 1)
+
+-- verification of every candidate base vertex --
+L3-{5/2,5,5/2}-1: t = infinity, alpha = 0, ord(X) = 5, conditions of E1 all hold: true, det X = 1
+PASS  L3-{5/2,5,5/2}-1: the unique X satisfies all conditions of Prop. E1
+   vertex-figure group <S2,X>: order 60, A5, polyhedral (A4/S4/A5): true
+PASS  L3-{5/2,5,5/2}-1: the vertex-figure group is A4, S4 or A5 (Prop. E2)
+   |Gamma| = 7200 (faithful action on 120 vertices spanning E^4)
+   |Gamma| = 7200, intersection condition [ true, true, false ] (defect 12)
+   -> intersection condition fails, defect 12
+
+
+############################################################
+## Level 3 summary: every base vertex on every PETCOX circle whose
+## unique third generator has order 3, 4 or 5
+############################################################
+{3,3,3}: candidate base vertices 4 (alphas [ 1, -E(5)^2-E(5)^3, -E(5)-E(5)^4, 0 ]), unresolved factors 2
+{4,3,3}: candidate base vertices 6 (alphas [ 1/2, 2, infinity, 1, -1, 0 ]), unresolved factors 0
+{3,4,3}: candidate base vertices 4 (alphas [ 1, 2+E(8)-E(8)^3, -1-E(8)+E(8)^3, 0 ]), unresolved factors 0
+{5,3,3}: candidate base vertices 8 (alphas [ -4*E(40)^7+5*E(40)^8+4*E(40)^13+15*E(40)^16+11*E(40)^21-4*E(40)^23+15*E(40)^24+11*E(40)^29-11*E(40)^31+5*E(40)^32+4*E(40)^37-11*E(40)^39, E(40)^7-E(40)^8-E(40)^13-3*E(40)^16-2*E(40)^21+E(40)^23-3*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^32-E(40)^37+2*E(40)^39, 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39, 1, -1/3*E(40)^8-E(40)^16-1/3*E(40)^21-E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32+1/3*E(40)^39, -2*E(40)^7-3*E(40)^8+2*E(40)^13-E(40)^16+E(40)^21-2*E(40)^23-E(40)^24+E(40)^29-E(40)^31-3*E(40)^32+2*E(40)^37-E(40)^39, -1-E(8)+E(8)^3, 0 ]), unresolved factors 0
+{3,5,5/2}: candidate base vertices 5 (alphas [ 1, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, E(5)+3*E(5)^2+3*E(5)^3+E(5)^4, -E(5)-E(5)^4, 0 ]), unresolved factors 0
+{5,5/2,5}: candidate base vertices 1 (alphas [ 0 ]), unresolved factors 0
+{5,3,5/2}: candidate base vertices 16 (alphas [ 2/3*E(40)^7-1/3*E(40)^8-2/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-1/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39, -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39, -E(40)^7+E(40)^13-E(40)^16+E(40)^21-E(40)^23-E(40)^24+E(40)^29-E(40)^31+E(40)^37-E(40)^39, E(40)^7-E(40)^13-E(40)^16-E(40)^21+E(40)^23-E(40)^24-E(40)^29+E(40)^31-E(40)^37+E(40)^39, -E(40)^7+E(40)^8+E(40)^13-E(40)^23+E(40)^32+E(40)^37, E(40)^7+E(40)^8-E(40)^13+E(40)^23+E(40)^32-E(40)^37, -E(40)^8-2*E(40)^16+E(40)^21-2*E(40)^24+E(40)^29-E(40)^31-E(40)^32-E(40)^39, -E(40)^8-2*E(40)^16-E(40)^21-2*E(40)^24-E(40)^29+E(40)^31-E(40)^32+E(40)^39, 1, -1, E(5)+E(5)^4, E(5)+4*E(5)^2+4*E(5)^3+E(5)^4, 2, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, -5*E(5)-2*E(5)^2-2*E(5)^3-5*E(5)^4, 0 ]), unresolved factors 0
+{3,3,5/2}: candidate base vertices 8 (alphas [ 1, 11*E(40)^7-16*E(40)^8-11*E(40)^13-6*E(40)^16-4*E(40)^21+11*E(40)^23-6*E(40)^24-4*E(40)^29+4*E(40)^31-16*E(40)^32-11*E(40)^37+4*E(40)^39, -2*E(40)^7+2*E(40)^8+2*E(40)^13+E(40)^21-2*E(40)^23+E(40)^29-E(40)^31+2*E(40)^32+2*E(40)^37-E(40)^39, -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39, -1/3*E(40)^7+1/3*E(40)^13-2/3*E(40)^16-1/3*E(40)^23-2/3*E(40)^24+1/3*E(40)^37, 2+E(8)-E(8)^3, E(40)^7-E(40)^13+2*E(40)^16-2*E(40)^21+E(40)^23+2*E(40)^24-2*E(40)^29+2*E(40)^31-E(40)^37+2*E(40)^39, 0 ]), unresolved factors 2
+{3,5/2,5}: candidate base vertices 5 (alphas [ 1, E(5)^2+E(5)^3, -1/5*E(5)+1/5*E(5)^2+1/5*E(5)^3-1/5*E(5)^4, -2/5*E(5)-3/5*E(5)^2-3/5*E(5)^3-2/5*E(5)^4, 0 ]), unresolved factors 0
+{5/2,5,5/2}: candidate base vertices 1 (alphas [ 0 ]), unresolved factors 2
+
+Surviving faithful skeletal 4-polytopes:
+  L3-{4,3,3}-1: T = {4,3,3}, alpha = 1/2, ord(X) = 3, f-vector [ 16, 32, 12, 4 ], geometrically chiral true, directly regular false
+  L3-{4,3,3}-2: T = {4,3,3}, alpha = 2, ord(X) = 3, f-vector [ 16, 32, 12, 4 ], geometrically chiral true, directly regular false
+  L3-{4,3,3}-3: T = {4,3,3}, alpha = infinity, ord(X) = 3, f-vector [ 16, 32, 12, 4 ], geometrically chiral true, directly regular false
+  L3-{4,3,3}-6: T = {4,3,3}, alpha = 0, ord(X) = 3, f-vector [ 16, 32, 12, 4 ], geometrically chiral true, directly regular false
+  L3-{5,3,3}-3: T = {5,3,3}, alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39, ord(X) = 3, f-vector [ 600, 1200, 120, 5 ], geometrically chiral true, directly regular false
+  L3-{5,3,3}-8: T = {5,3,3}, alpha = 0, ord(X) = 3, f-vector [ 600, 1200, 120, 5 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-1: T = {5,3,5/2}, alpha = 2/3*E(40)^7-1/3*E(40)^8-2/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-1/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39, ord(X) = 3, f-vector [ 240, 480, 120, 20 ], geometrically chiral true, directly regular true
+  L3-{5,3,5/2}-2: T = {5,3,5/2}, alpha = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39, ord(X) = 3, f-vector [ 240, 480, 120, 20 ], geometrically chiral true, directly regular true
+  L3-{5,3,5/2}-3: T = {5,3,5/2}, alpha = -E(40)^7+E(40)^13-E(40)^16+E(40)^21-E(40)^23-E(40)^24+E(40)^29-E(40)^31+E(40)^37-E(40)^39, ord(X) = 3, f-vector [ 240, 480, 120, 20 ], geometrically chiral true, directly regular true
+  L3-{5,3,5/2}-4: T = {5,3,5/2}, alpha = E(40)^7-E(40)^13-E(40)^16-E(40)^21+E(40)^23-E(40)^24-E(40)^29+E(40)^31-E(40)^37+E(40)^39, ord(X) = 3, f-vector [ 240, 480, 120, 20 ], geometrically chiral true, directly regular true
+  L3-{5,3,5/2}-5: T = {5,3,5/2}, alpha = -E(40)^7+E(40)^8+E(40)^13-E(40)^23+E(40)^32+E(40)^37, ord(X) = 4, f-vector [ 48, 144, 48, 8 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-6: T = {5,3,5/2}, alpha = E(40)^7+E(40)^8-E(40)^13+E(40)^23+E(40)^32-E(40)^37, ord(X) = 4, f-vector [ 48, 144, 48, 8 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-7: T = {5,3,5/2}, alpha = -E(40)^8-2*E(40)^16+E(40)^21-2*E(40)^24+E(40)^29-E(40)^31-E(40)^32-E(40)^39, ord(X) = 4, f-vector [ 48, 144, 48, 8 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-8: T = {5,3,5/2}, alpha = -E(40)^8-2*E(40)^16-E(40)^21-2*E(40)^24-E(40)^29+E(40)^31-E(40)^32+E(40)^39, ord(X) = 4, f-vector [ 48, 144, 48, 8 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-9: T = {5,3,5/2}, alpha = 1, ord(X) = 5, f-vector [ 120, 720, 300, 50 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-10: T = {5,3,5/2}, alpha = -1, ord(X) = 5, f-vector [ 120, 720, 300, 50 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-11: T = {5,3,5/2}, alpha = E(5)+E(5)^4, ord(X) = 5, f-vector [ 120, 720, 300, 50 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-12: T = {5,3,5/2}, alpha = E(5)+4*E(5)^2+4*E(5)^3+E(5)^4, ord(X) = 5, f-vector [ 120, 720, 300, 50 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-13: T = {5,3,5/2}, alpha = 2, ord(X) = 5, f-vector [ 120, 720, 300, 50 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-14: T = {5,3,5/2}, alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, ord(X) = 5, f-vector [ 120, 720, 300, 50 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-15: T = {5,3,5/2}, alpha = -5*E(5)-2*E(5)^2-2*E(5)^3-5*E(5)^4, ord(X) = 5, f-vector [ 120, 720, 300, 50 ], geometrically chiral true, directly regular false
+  L3-{5,3,5/2}-16: T = {5,3,5/2}, alpha = 0, ord(X) = 5, f-vector [ 120, 720, 300, 50 ], geometrically chiral true, directly regular false
+  L3-{3,3,5/2}-1: T = {3,3,5/2}, alpha = 1, ord(X) = 3, f-vector [ 600, 1200, 120, 5 ], geometrically chiral true, directly regular false
+  L3-{3,3,5/2}-4: T = {3,3,5/2}, alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39, ord(X) = 3, f-vector [ 600, 1200, 120, 5 ], geometrically chiral true, directly regular false
+
+Unresolved factors with real roots (these would need an algebraic extension):
+  none: every polynomial factor was either solved exactly or proved to have no real roots.
+PASS  number of polynomial factors with real roots that could not be solved exactly = 0
+
+alpha-complete.g: 226 passed, 0 failed.
+Done: alpha-complete.g

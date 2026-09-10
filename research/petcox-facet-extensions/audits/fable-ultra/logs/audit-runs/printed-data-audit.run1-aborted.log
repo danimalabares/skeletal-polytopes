@@ -1,0 +1,30 @@
+started: 2026-09-09T15:58:09Z
+p.25 {3,5,5/2} tetrahedron equals p.24 {5,3,3} tetrahedron as printed: true
+mirrors of the p.25 tetrahedron generate a group of order 14400 with Schlaefli marks [ 5, 3, 3 ]
+AU-PASS  D1: the tetrahedron printed for {3,5,5/2} on p.25 is the {5,3,3} tetrahedron (marks {5,3,3}), not a {3,5,5/2} one
+printed p.24/25 S1 = R0R1R3R2 of the tetrahedron [row / transposed]: [ true, false ]
+printed p.24 S2 = R2R1 [row / transposed]: [ true, false ]; printed p.25 S2 = R2R1 [row / transposed]: [ false, false ]
+p.25 S2 orthogonal: false; order (if finite, up to 60): fail
+AU-PASS  D1: the printed p.25 S2 differs from the p.24 S2 in exactly one entry
+true {3,5,5/2}: |<S1,S2>| = 1200, type of S1 rec(
+  p := 20,
+  pairs := [ [ 1, 9 ] ] ), q = 5
+p.26 printed R: row norms^2 (should all be 1): [ 1, 1, 1, -E(5)-1/2*E(5)^2-1/2*E(5)^3-E(5)^4 ] ~ [ 1., 1., 1., 0.1909830056250527 ]
+p.26 printed R orthogonal: false; R^2 = I: false
+AU-PASS  D2: the matrix R printed on p.26 for {5,3,5/2} is not orthogonal as printed
+p.26 {5,3,5/2} tetrahedron: marks [ 5, 3, 5/2 ], |W| = 14400
+AU-PASS  p.26 tetrahedron for {5,3,5/2} has marks {5,3,5/2}
+Syntax warning: Unbound global variable in printed-data-audit.g:69
+        ", involution ", Rtrue^2 = IdentityMat(4), ", preserves the facet vertex set ", Set(List(Vf, x -> x*Rtrue)) = Set(Vf),
+                                                                                                            ^^^^^
+Syntax warning: Unbound global variable in printed-data-audit.g:71
+  AU.CHECK("p.26: the facet at the printed regular vertex is regular (true rho_1 preserves its vertex set)", Set(List(Vf, x -> x*Rtrue)) = Set(Vf) and Rtrue*TransposedMat(Rtrue) = IdentityMat(4));
+                                                                                                                                 ^^^^^
+regular vertex [ 2*E(120)^7+6*E(120)^8+2*E(120)^13+3*E(120)^16-2*E(120)^23+6*E(120)^32+2*E(120)^37-2*E(120)^47-2*E(120)^53+3*E(120)^56+3*E(120)^64-2*E(120)^77+6*E(120)^88+2*E(120)^103+3*E(120)^104+6*E(120)^112, E(5)+E(5)^4, E(5)+E(5)^4, -E(5)-E(5)^4 ]: in span(v0,v3): true; true rho_1 orthogonal true, involution true, preserves the facet vertex set true, equals printed R up to sign/transpose: false
+AU-PASS  p.26: the facet at the printed regular vertex is regular (true rho_1 preserves its vertex set)
+regular vertex [ -2*E(120)^7+6*E(120)^8-2*E(120)^13+3*E(120)^16+2*E(120)^23+6*E(120)^32-2*E(120)^37+2*E(120)^47+2*E(120)^53+3*E(120)^56+3*E(120)^64+2*E(120)^77+6*E(120)^88-2*E(120)^103+3*E(120)^104+6*E(120)^112, E(5)+E(5)^4, E(5)+E(5)^4, -E(5)-E(5)^4 ]: in span(v0,v3): true; true rho_1 orthogonal true, involution true, preserves the facet vertex set true, equals printed R up to sign/transpose: false
+AU-PASS  p.26: the facet at the printed regular vertex is regular (true rho_1 preserves its vertex set)
+Error, no method found! For debugging hints type ?Recovery from NoMethodFound
+Error, no 1st choice method found for `ListOp' on 2 arguments at /private/var/tmp/sage-10.7-current/local/share/gap/lib/methsel2.g:250 called from
+gap exit: 
+finished: 2026-09-09T15:58:19Z

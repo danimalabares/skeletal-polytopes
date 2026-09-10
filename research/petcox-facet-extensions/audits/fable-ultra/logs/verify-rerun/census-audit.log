@@ -1,0 +1,390 @@
+PASS  sqrt(2+phi) = E(20)+E(20)^-1
+
+=== row 1: {3,3,3} (petcox.pdf p.22) ===
+PASS  audit {3,3,3}: |W| from the printed tetrahedron = 120
+marks of the printed tetrahedron: [ 3, 3, 3 ] (table row says {3,3,3}); f-vector [ 5, 10, 10, 5 ]
+PASS  audit {3,3,3}: printed tetrahedron has the marks of {3,3,3}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {3,3,3}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: 1/4 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 60 (table 60); |Gamma^+(T)|/|G| = 1 (table index column 1)
+PASS  audit {3,3,3}: #(G) = 60
+PASS  audit {3,3,3}: index column = |Gamma^+(T)|/|G| = 1
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ 1/5, 1/5 ]; alpha (paper convention) = 1/2 exact:true; alpha (centroid convention) = 1/2
+   numerically: alpha (paper) = 0.5; alpha (centroid) = 0.5
+PASS  audit {3,3,3}: paper's claimed alpha for regular vertex 1 = 1/2
+   facet H_alpha at this vertex: f-vector [ 20, 30, 12 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,3,3}: facet at printed regular vertex 1 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,3,3}: facet at printed regular vertex 1 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,3,3}: printed R is a symmetry of the facet at regular vertex 1 mapping the base flag to its 1-adjacent flag (Lemma 3)
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ 1, -1 ]; alpha (paper convention) = infinity exact:true; alpha (centroid convention) = infinity
+PASS  audit {3,3,3}: paper's claimed alpha for regular vertex 2 = infinity
+   facet H_alpha at this vertex: f-vector [ 10, 15, 6 ], polyhedron false, geometrically regular (our test) true
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   DISCREPANCY: printed R differs from the true rho_1.  True rho_1 (rows):
+    [ 0, 0, 0, 0, 1 ]
+    [ 0, 0, 1, 0, 0 ]
+    [ 0, 1, 0, 0, 0 ]
+    [ 0, 0, 0, 1, 0 ]
+    [ 1, 0, 0, 0, 0 ]
+   printed R (rows):
+    [ 2/5, 2/5, 2/5, 2/5, -3/5 ]
+    [ 2/5, 2/5, -3/5, 2/5, 2/5 ]
+    [ 2/5, -3/5, 2/5, 2/5, 2/5 ]
+    [ 2/5, 2/5, 2/5, -3/5, 2/5 ]
+    [ -3/5, 2/5, 2/5, 2/5, 2/5 ]
+   entries where they differ (row, col, printed, true): [ [ 1, 1, 2/5, 0 ], [ 1, 2, 2/5, 0 ], [ 1, 3, 2/5, 0 ], [ 1, 4, 2/5, 0 ], [ 1, 5, -3/5, 1 ], [ 2, 1, 2/5, 0 ], [ 2, 2, 2/5, 0 ], [ 2, 3, -3/5, 1 ], [ 2, 4, 2/5, 0 ], [ 2, 5, 2/5, 0 ], [ 3, 1, 2/5, 0 ], [ 3, 2, -3/5, 1 ], [ 3, 3, 2/5, 0 ], [ 3, 4, 2/5, 0 ], [ 3, 5, 2/5, 0 ], [ 4, 1, 2/5, 0 ], [ 4, 2, 2/5, 0 ], [ 4, 3, 2/5, 0 ], [ 4, 4, -3/5, 1 ], [ 4, 5, 2/5, 0 ], [ 5, 1, -3/5, 1 ], [ 5, 2, 2/5, 0 ], [ 5, 3, 2/5, 0 ], [ 5, 4, 2/5, 0 ], [ 5, 5, 2/5, 0 ] ]
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+
+=== row 2: {4,3,3} (petcox.pdf p.23) ===
+PASS  audit {4,3,3}: |W| from the printed tetrahedron = 384
+marks of the printed tetrahedron: [ 4, 3, 3 ] (table row says {4,3,3}); f-vector [ 16, 32, 24, 8 ]
+PASS  audit {4,3,3}: printed tetrahedron has the marks of {4,3,3}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {4,3,3}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: 1 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 48 (table 48); |Gamma^+(T)|/|G| = 4 (table index column 4)
+PASS  audit {4,3,3}: #(G) = 48
+PASS  audit {4,3,3}: index column = |Gamma^+(T)|/|G| = 4
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ 1, E(12)^4-E(12)^7+E(12)^8+E(12)^11 ]; alpha (paper convention) = -2*E(12)^4+E(12)^7-2*E(12)^8-E(12)^11 exact:true; alpha (centroid convention) = -2*E(12)^4+E(12)^7-2*E(12)^8-E(12)^11
+   numerically: alpha (paper) = 0.2679491924311237; alpha (centroid) = 0.2679491924311237
+   facet H_alpha at this vertex: f-vector [ 16, 24, 6 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {4,3,3}: facet at printed regular vertex 1 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {4,3,3}: facet at printed regular vertex 1 is regular via the true rho_1 (Lemma 3)
+PASS  audit {4,3,3}: printed R is a symmetry of the facet at regular vertex 1 mapping the base flag to its 1-adjacent flag (Lemma 3)
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ 1, E(12)^4+E(12)^7+E(12)^8-E(12)^11 ]; alpha (paper convention) = -2*E(12)^4-E(12)^7-2*E(12)^8+E(12)^11 exact:true; alpha (centroid convention) = -2*E(12)^4-E(12)^7-2*E(12)^8+E(12)^11
+   numerically: alpha (paper) = 3.732050807568877; alpha (centroid) = 3.732050807568877
+   facet H_alpha at this vertex: f-vector [ 16, 24, 6 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {4,3,3}: facet at printed regular vertex 2 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {4,3,3}: facet at printed regular vertex 2 is regular via the true rho_1 (Lemma 3)
+PASS  audit {4,3,3}: printed R is a symmetry of the facet at regular vertex 2 mapping the base flag to its 1-adjacent flag (Lemma 3)
+
+=== row 3: {3,4,3} (petcox.pdf p.24) ===
+PASS  audit {3,4,3}: |W| from the printed tetrahedron = 1152
+marks of the printed tetrahedron: [ 3, 4, 3 ] (table row says {3,4,3}); f-vector [ 24, 96, 96, 24 ]
+PASS  audit {3,4,3}: printed tetrahedron has the marks of {3,4,3}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {3,4,3}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: 1/2 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 192 (table 192); |Gamma^+(T)|/|G| = 3 (table index column 3)
+PASS  audit {3,4,3}: #(G) = 192
+PASS  audit {3,4,3}: index column = |Gamma^+(T)|/|G| = 3
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ E(8)-E(8)^3, 1 ]; alpha (paper convention) = 1/2 exact:true; alpha (centroid convention) = 1/2
+   numerically: alpha (paper) = 0.5; alpha (centroid) = 0.5
+PASS  audit {3,4,3}: paper's claimed alpha for regular vertex 1 = 1/2
+   facet H_alpha at this vertex: f-vector [ 48, 96, 16 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,4,3}: facet at printed regular vertex 1 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,4,3}: facet at printed regular vertex 1 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,4,3}: printed R is a symmetry of the facet at regular vertex 1 mapping the base flag to its 1-adjacent flag (Lemma 3)
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ -E(8)+E(8)^3, 1 ]; alpha (paper convention) = infinity exact:true; alpha (centroid convention) = infinity
+PASS  audit {3,4,3}: paper's claimed alpha for regular vertex 2 = infinity
+   facet H_alpha at this vertex: f-vector [ 48, 96, 16 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,4,3}: facet at printed regular vertex 2 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,4,3}: facet at printed regular vertex 2 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,4,3}: printed R is a symmetry of the facet at regular vertex 2 mapping the base flag to its 1-adjacent flag (Lemma 3)
+
+=== row 4: {5,3,3} (petcox.pdf p.24) ===
+PASS  audit {5,3,3}: |W| from the printed tetrahedron = 14400
+marks of the printed tetrahedron: [ 5, 3, 3 ] (table row says {5,3,3}); f-vector [ 600, 1200, 720, 120 ]
+PASS  audit {5,3,3}: printed tetrahedron has the marks of {5,3,3}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {5,3,3}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 1440 (table 1440); |Gamma^+(T)|/|G| = 5 (table index column 5)
+PASS  audit {5,3,3}: #(G) = 1440
+PASS  audit {5,3,3}: index column = |Gamma^+(T)|/|G| = 5
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ E(5)^2+E(5)^3, 2+2*E(8)-2*E(8)^3 ]; alpha (paper convention) = 2*E(40)^7-3*E(40)^8-2*E(40)^13-7*E(40)^16-5*E(40)^21+2*E(40)^23-7*E(40)^24-5*E(40)^29+5*E(40)^31-3*E(40)^32-2*E(40)^37+5*E(40)^39 exact:true; alpha (centroid convention) = 2*E(40)^7-3*E(40)^8-2*E(40)^13-7*E(40)^16-5*E(40)^21+2*E(40)^23-7*E(40)^24-5*E(40)^29+5*E(40)^31-3*E(40)^32-2*E(40)^37+5*E(40)^39
+   numerically: alpha (paper) = 19.16529991355798; alpha (centroid) = 19.16529991355798
+   facet H_alpha at this vertex: f-vector [ 480, 720, 48 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {5,3,3}: facet at printed regular vertex 1 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {5,3,3}: facet at printed regular vertex 1 is regular via the true rho_1 (Lemma 3)
+PASS  audit {5,3,3}: printed R is a symmetry of the facet at regular vertex 1 mapping the base flag to its 1-adjacent flag (Lemma 3)
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ E(5)^2+E(5)^3, 2-2*E(8)+2*E(8)^3 ]; alpha (paper convention) = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-2/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-1/3*E(40)^39 exact:true; alpha (centroid convention) = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-2/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-1/3*E(40)^39
+   numerically: alpha (paper) = 0.1532728288415159; alpha (centroid) = 0.1532728288415159
+   facet H_alpha at this vertex: f-vector [ 480, 720, 48 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {5,3,3}: facet at printed regular vertex 2 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {5,3,3}: facet at printed regular vertex 2 is regular via the true rho_1 (Lemma 3)
+PASS  audit {5,3,3}: printed R is a symmetry of the facet at regular vertex 2 mapping the base flag to its 1-adjacent flag (Lemma 3)
+
+=== row 5: {3,5,5/2} (petcox.pdf p.25) ===
+PASS  audit {3,5,5/2}: |W| from the printed tetrahedron = 14400
+marks of the printed tetrahedron: [ 5, 3, 3 ] (table row says {3,5,5/2}); f-vector [ 600, 1200, 720, 120 ]
+DISCREPANCY: the printed tetrahedron for {3,5,5/2} defines a polytope with marks [ 5, 3, 3 ], f-vector [ 600, 1200, 720, 120 ]
+PASS  audit {3,5,5/2}: DISCREPANCY RECORDED (printed tetrahedron defines a different polytope)
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ false, false ]
+PASS  audit {3,5,5/2}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 1440 (table 1200); |Gamma^+(T)|/|G| = 5 (table index column 6)
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ E(5)^2+E(5)^3, 2+2*E(8)-2*E(8)^3 ]; alpha (paper convention) = 2*E(40)^7-3*E(40)^8-2*E(40)^13-7*E(40)^16-5*E(40)^21+2*E(40)^23-7*E(40)^24-5*E(40)^29+5*E(40)^31-3*E(40)^32-2*E(40)^37+5*E(40)^39 exact:true; alpha (centroid convention) = 2*E(40)^7-3*E(40)^8-2*E(40)^13-7*E(40)^16-5*E(40)^21+2*E(40)^23-7*E(40)^24-5*E(40)^29+5*E(40)^31-3*E(40)^32-2*E(40)^37+5*E(40)^39
+   numerically: alpha (paper) = 19.16529991355798; alpha (centroid) = 19.16529991355798
+   facet H_alpha at this vertex: f-vector [ 480, 720, 48 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,5,5/2}: facet at printed regular vertex 1 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,5,5/2}: facet at printed regular vertex 1 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,5,5/2}: printed R is a symmetry of the facet at regular vertex 1 mapping the base flag to its 1-adjacent flag (Lemma 3)
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ E(5)^2+E(5)^3, 2-2*E(8)+2*E(8)^3 ]; alpha (paper convention) = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-2/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-1/3*E(40)^39 exact:true; alpha (centroid convention) = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-2/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-1/3*E(40)^39
+   numerically: alpha (paper) = 0.1532728288415159; alpha (centroid) = 0.1532728288415159
+   facet H_alpha at this vertex: f-vector [ 480, 720, 48 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,5,5/2}: facet at printed regular vertex 2 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,5,5/2}: facet at printed regular vertex 2 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,5,5/2}: printed R is a symmetry of the facet at regular vertex 2 mapping the base flag to its 1-adjacent flag (Lemma 3)
+
+=== row 6: {5,5/2,5} (petcox.pdf p.26) ===
+PASS  audit {5,5/2,5}: |W| from the printed tetrahedron = 14400
+marks of the printed tetrahedron: [ 5, 5/2, 5 ] (table row says {5,5/2,5}); f-vector [ 120, 720, 720, 120 ]
+PASS  audit {5,5/2,5}: printed tetrahedron has the marks of {5,5/2,5}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {5,5/2,5}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: -1/4*E(5)^2-1/4*E(5)^3 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 7200 (table 7200); |Gamma^+(T)|/|G| = 1 (table index column 1)
+PASS  audit {5,5/2,5}: #(G) = 7200
+PASS  audit {5,5/2,5}: index column = |Gamma^+(T)|/|G| = 1
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ 2, 1 ]; alpha (paper convention) = 1/2 exact:true; alpha (centroid convention) = 1/2
+   numerically: alpha (paper) = 0.5; alpha (centroid) = 0.5
+   facet H_alpha at this vertex: f-vector [ 720, 1800, 240 ], polyhedron false, geometrically regular (our test) true
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ 2, -1 ]; alpha (paper convention) = infinity exact:true; alpha (centroid convention) = infinity
+   facet H_alpha at this vertex: f-vector [ 120, 1800, 240 ], polyhedron false, geometrically regular (our test) true
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+
+=== row 7: {5,3,5/2} (petcox.pdf p.26) ===
+PASS  audit {5,3,5/2}: |W| from the printed tetrahedron = 14400
+marks of the printed tetrahedron: [ 5, 3, 5/2 ] (table row says {5,3,5/2}); f-vector [ 120, 720, 720, 120 ]
+PASS  audit {5,3,5/2}: printed tetrahedron has the marks of {5,3,5/2}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {5,3,5/2}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: 1/4 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 144 (table 144); |Gamma^+(T)|/|G| = 50 (table index column 50)
+PASS  audit {5,3,5/2}: #(G) = 144
+PASS  audit {5,3,5/2}: index column = |Gamma^+(T)|/|G| = 50
+printed R: orthogonal false, involution false, det -1/4*E(5)-1/4*E(5)^4, R S1 R = S1^-1: false, R S2 R = S2^-1: false
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ 2*E(120)^7+6*E(120)^8+2*E(120)^13+4*E(120)^16-2*E(120)^23+6*E(120)^32+2*E(120)^37-2*E(120)^47-2*E(120)^53+4*E(120)^56+4*E(120)^64-2*E(120)^77+6*E(120)^88+2*E(120)^103+4*E(120)^104+6*E(120)^112, E(5)+E(5)^4 ]; alpha (paper convention) = -1/5*E(120)^7+4/5*E(120)^8-1/5*E(120)^13+1/5*E(120)^16+1/5*E(120)^23-1/5*E(120)^29+1/5*E(120)^31+4/5*E(120)^32-1/5*E(120)^37+1/5*E(120)^47+1/5*E(120)^53+1/5*E(120)^56+1/5*E(120)^61+1/5*E(120)^64-1/5*E(120)^71+1/5*E(120)^77+1/5*E(120)^79+4/5*E(120)^88-1/5*E(120)^101-1/5*E(120)^103+1/5*E(120)^104+1/5*E(120)^109+4/5*E(120)^112-1/5*E(120)^119 exact:true; alpha (centroid convention) = -1/5*E(120)^7+4/5*E(120)^8-1/5*E(120)^13+1/5*E(120)^16+1/5*E(120)^23-1/5*E(120)^29+1/5*E(120)^31+4/5*E(120)^32-1/5*E(120)^37+1/5*E(120)^47+1/5*E(120)^53+1/5*E(120)^56+1/5*E(120)^61+1/5*E(120)^64-1/5*E(120)^71+1/5*E(120)^77+1/5*E(120)^79+4/5*E(120)^88-1/5*E(120)^101-1/5*E(120)^103+1/5*E(120)^104+1/5*E(120)^109+4/5*E(120)^112-1/5*E(120)^119
+   numerically: alpha (paper) = 0.07537527823960463; alpha (centroid) = 0.07537527823960463
+   facet H_alpha at this vertex: f-vector [ 48, 72, 12 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {5,3,5/2}: facet at printed regular vertex 1 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   DISCREPANCY: printed R differs from the true rho_1.  True rho_1 (rows):
+    [ 1/4*E(120)^7+1/4*E(120)^13-1/4*E(120)^23+1/4*E(120)^37-1/4*E(120)^47-1/4*E(120)^53-1/4*E(120)^77+1/4*E(120)^103, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ]
+    [ 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/3*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/3*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119 ]
+    [ 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119, 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/3*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/3*E(120)^103+1/4*E(120)^109-1/4*E(120)^119 ]
+    [ -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119, 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/3*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/3*E(120)^103+1/4*E(120)^109-1/4*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19 ]
+   printed R (rows):
+    [ 1/4*E(120)^7+1/4*E(120)^13-1/4*E(120)^23+1/4*E(120)^37-1/4*E(120)^47-1/4*E(120)^53-1/4*E(120)^77+1/4*E(120)^103, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ]
+    [ 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/3*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/3*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119 ]
+    [ 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119, 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/3*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/3*E(120)^103+1/4*E(120)^109-1/4*E(120)^119 ]
+    [ -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119, -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/6*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/6*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19 ]
+   entries where they differ (row, col, printed, true): [ [ 4, 3, -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/6*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/6*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/3*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/3*E(120)^103+1/4*E(120)^109-1/4*E(120)^119 ] ]
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: false
+PASS  audit {5,3,5/2}: facet at printed regular vertex 1 is regular via the true rho_1 (Lemma 3)
+   (printed matrix as transcribed is not a symmetry; recorded as a transcription/typesetting discrepancy)
+PASS  audit {5,3,5/2}: printed R is a symmetry of the facet at regular vertex 1 mapping the base flag to its 1-adjacent flag (Lemma 3)
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ -2*E(120)^7+6*E(120)^8-2*E(120)^13+4*E(120)^16+2*E(120)^23+6*E(120)^32-2*E(120)^37+2*E(120)^47+2*E(120)^53+4*E(120)^56+4*E(120)^64+2*E(120)^77+6*E(120)^88-2*E(120)^103+4*E(120)^104+6*E(120)^112, E(5)+E(5)^4 ]; alpha (paper convention) = 1/5*E(120)^7+4/5*E(120)^8+1/5*E(120)^13+1/5*E(120)^16-1/5*E(120)^23+1/5*E(120)^29-1/5*E(120)^31+4/5*E(120)^32+1/5*E(120)^37-1/5*E(120)^47-1/5*E(120)^53+1/5*E(120)^56-1/5*E(120)^61+1/5*E(120)^64+1/5*E(120)^71-1/5*E(120)^77-1/5*E(120)^79+4/5*E(120)^88+1/5*E(120)^101+1/5*E(120)^103+1/5*E(120)^104-1/5*E(120)^109+4/5*E(120)^112+1/5*E(120)^119 exact:true; alpha (centroid convention) = 1/5*E(120)^7+4/5*E(120)^8+1/5*E(120)^13+1/5*E(120)^16-1/5*E(120)^23+1/5*E(120)^29-1/5*E(120)^31+4/5*E(120)^32+1/5*E(120)^37-1/5*E(120)^47-1/5*E(120)^53+1/5*E(120)^56-1/5*E(120)^61+1/5*E(120)^64+1/5*E(120)^71-1/5*E(120)^77-1/5*E(120)^79+4/5*E(120)^88+1/5*E(120)^101+1/5*E(120)^103+1/5*E(120)^104-1/5*E(120)^109+4/5*E(120)^112+1/5*E(120)^119
+   numerically: alpha (paper) = 2.266265508260268; alpha (centroid) = 2.266265508260268
+   facet H_alpha at this vertex: f-vector [ 48, 72, 12 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {5,3,5/2}: facet at printed regular vertex 2 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   DISCREPANCY: printed R differs from the true rho_1.  True rho_1 (rows):
+    [ -1/4*E(120)^7-1/4*E(120)^13+1/4*E(120)^23-1/4*E(120)^37+1/4*E(120)^47+1/4*E(120)^53+1/4*E(120)^77-1/4*E(120)^103, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119 ]
+    [ -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/3*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/3*E(120)^103+1/4*E(120)^109-1/4*E(120)^119, -1/12*E(24)+1/12*E(24)^11+1/12*E(24)^17-1/12*E(24)^19, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119 ]
+    [ -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, -1/12*E(24)+1/12*E(24)^11+1/12*E(24)^17-1/12*E(24)^19, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/3*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/3*E(120)^103-1/4*E(120)^109+1/4*E(120)^119 ]
+    [ 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/3*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/3*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, -1/12*E(24)+1/12*E(24)^11+1/12*E(24)^17-1/12*E(24)^19 ]
+   printed R (rows):
+    [ 1/4*E(120)^7+1/4*E(120)^13-1/4*E(120)^23+1/4*E(120)^37-1/4*E(120)^47-1/4*E(120)^53-1/4*E(120)^77+1/4*E(120)^103, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ]
+    [ 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/3*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/3*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119 ]
+    [ 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119, 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/3*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/3*E(120)^103+1/4*E(120)^109-1/4*E(120)^119 ]
+    [ -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119, -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/6*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/6*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19 ]
+   entries where they differ (row, col, printed, true): [ [ 1, 1, 1/4*E(120)^7+1/4*E(120)^13-1/4*E(120)^23+1/4*E(120)^37-1/4*E(120)^47-1/4*E(120)^53-1/4*E(120)^77+1/4*E(120)^103, -1/4*E(120)^7-1/4*E(120)^13+1/4*E(120)^23-1/4*E(120)^37+1/4*E(120)^47+1/4*E(120)^53+1/4*E(120)^77-1/4*E(120)^103 ], 
+  [ 1, 2, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ], [ 1, 3, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ], [ 1, 4, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119 ], [ 2, 1, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ], [ 2, 2, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/3*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/3*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/3*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/3*E(120)^103+1/4*E(120)^109-1/4*E(120)^119 ], [ 2, 3, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, -1/12*E(24)+1/12*E(24)^11+1/12*E(24)^17-1/12*E(24)^19 ], [ 2, 4, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119 ], [ 3, 1, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ], [ 3, 2, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, -1/12*E(24)+1/12*E(24)^11+1/12*E(24)^17-1/12*E(24)^19 ], [ 3, 3, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119 ], [ 3, 4, 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/3*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/3*E(120)^103+1/4*E(120)^109-1/4*E(120)^119, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/3*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/3*E(120)^103-1/4*E(120)^109+1/4*E(120)^119 ], 
+  [ 4, 1, -1/12*E(120)^7-1/12*E(120)^13+1/12*E(120)^23+1/6*E(120)^29-1/6*E(120)^31-1/12*E(120)^37+1/12*E(120)^47+1/12*E(120)^53-1/6*E(120)^61+1/6*E(120)^71+1/12*E(120)^77-1/6*E(120)^79+1/6*E(120)^101-1/12*E(120)^103-1/6*E(120)^109+1/6*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23-1/6*E(120)^29+1/6*E(120)^31+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53+1/6*E(120)^61-1/6*E(120)^71-1/12*E(120)^77+1/6*E(120)^79-1/6*E(120)^101+1/12*E(120)^103+1/6*E(120)^109-1/6*E(120)^119 ], [ 4, 2, 1/6*E(120)^29-1/6*E(120)^31-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^79+1/6*E(120)^101-1/6*E(120)^109+1/6*E(120)^119, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119 ], [ 4, 3, -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/6*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/6*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/3*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/3*E(120)^103-1/4*E(120)^109+1/4*E(120)^119 ], [ 4, 4, 1/12*E(24)-1/12*E(24)^11-1/12*E(24)^17+1/12*E(24)^19, -1/12*E(24)+1/12*E(24)^11+1/12*E(24)^17-1/12*E(24)^19 ] ]
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: false
+PASS  audit {5,3,5/2}: facet at printed regular vertex 2 is regular via the true rho_1 (Lemma 3)
+   (printed matrix as transcribed is not a symmetry; recorded as a transcription/typesetting discrepancy)
+PASS  audit {5,3,5/2}: printed R is a symmetry of the facet at regular vertex 2 mapping the base flag to its 1-adjacent flag (Lemma 3)
+
+=== row 8: {3,3,5/2} (petcox.pdf p.26) ===
+PASS  audit {3,3,5/2}: |W| from the printed tetrahedron = 14400
+marks of the printed tetrahedron: [ 3, 3, 5/2 ] (table row says {3,3,5/2}); f-vector [ 120, 720, 1200, 600 ]
+PASS  audit {3,3,5/2}: printed tetrahedron has the marks of {3,3,5/2}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {3,3,5/2}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 1440 (table 1440); |Gamma^+(T)|/|G| = 5 (table index column 5)
+PASS  audit {3,3,5/2}: #(G) = 1440
+PASS  audit {3,3,5/2}: index column = |Gamma^+(T)|/|G| = 5
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ -1+E(8)-E(8)^3, E(5)+E(5)^4 ]; alpha (paper convention) = 5*E(40)^7+6*E(40)^8-5*E(40)^13+2*E(40)^16-2*E(40)^21+5*E(40)^23+2*E(40)^24-2*E(40)^29+2*E(40)^31+6*E(40)^32-5*E(40)^37+2*E(40)^39 exact:true; alpha (centroid convention) = 1/3*E(40)^7-2/3*E(40)^8-1/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+1/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-2/3*E(40)^32-1/3*E(40)^37+2/3*E(40)^39
+   numerically: alpha (paper) = 0.6784669330528412; alpha (centroid) = 1.900819724547944
+   facet H_alpha at this vertex: f-vector [ 480, 720, 48 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,3,5/2}: facet at printed regular vertex 1 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,3,5/2}: facet at printed regular vertex 1 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,3,5/2}: printed R is a symmetry of the facet at regular vertex 1 mapping the base flag to its 1-adjacent flag (Lemma 3)
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ -1-E(8)+E(8)^3, E(5)+E(5)^4 ]; alpha (paper convention) = -1/3*E(40)^7-2/3*E(40)^8+1/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-1/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-2/3*E(40)^32+1/3*E(40)^37-2/3*E(40)^39 exact:true; alpha (centroid convention) = -5*E(40)^7+6*E(40)^8+5*E(40)^13+2*E(40)^16+2*E(40)^21-5*E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+6*E(40)^32+5*E(40)^37-2*E(40)^39
+   numerically: alpha (paper) = -0.5674863912146105; alpha (centroid) = 0.2658049769463149
+   facet H_alpha at this vertex: f-vector [ 480, 720, 48 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,3,5/2}: facet at printed regular vertex 2 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,3,5/2}: facet at printed regular vertex 2 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,3,5/2}: printed R is a symmetry of the facet at regular vertex 2 mapping the base flag to its 1-adjacent flag (Lemma 3)
+
+=== row 9: {3,5/2,5} (petcox.pdf p.27) ===
+PASS  audit {3,5/2,5}: |W| from the printed tetrahedron = 14400
+marks of the printed tetrahedron: [ 3, 5/2, 5 ] (table row says {3,5/2,5}); f-vector [ 120, 720, 1200, 120 ]
+PASS  audit {3,5/2,5}: printed tetrahedron has the marks of {3,5/2,5}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {3,5/2,5}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: 1/2*E(5)+1/2*E(5)^4 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 1200 (table 1200); |Gamma^+(T)|/|G| = 6 (table index column 6)
+PASS  audit {3,5/2,5}: #(G) = 1200
+PASS  audit {3,5/2,5}: index column = |Gamma^+(T)|/|G| = 6
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ E(20)-E(20)^8-E(20)^9-E(20)^12, E(5)^2+E(5)^3 ]; alpha (paper convention) = -1/5*E(20)+1/5*E(20)^9+2/5*E(20)^13-2/5*E(20)^17 exact:true; alpha (centroid convention) = -1/5*E(20)+1/5*E(20)^9+2/5*E(20)^13-2/5*E(20)^17
+   numerically: alpha (paper) = -0.8506508083520399; alpha (centroid) = -0.8506508083520399
+   facet H_alpha at this vertex: f-vector [ 240, 600, 60 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,5/2,5}: facet at printed regular vertex 1 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,5/2,5}: facet at printed regular vertex 1 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,5/2,5}: printed R is a symmetry of the facet at regular vertex 1 mapping the base flag to its 1-adjacent flag (Lemma 3)
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ -E(20)-E(20)^8+E(20)^9-E(20)^12, E(5)^2+E(5)^3 ]; alpha (paper convention) = 1/5*E(20)-1/5*E(20)^9-2/5*E(20)^13+2/5*E(20)^17 exact:true; alpha (centroid convention) = 1/5*E(20)-1/5*E(20)^9-2/5*E(20)^13+2/5*E(20)^17
+   numerically: alpha (paper) = 0.8506508083520399; alpha (centroid) = 0.8506508083520399
+   facet H_alpha at this vertex: f-vector [ 240, 600, 60 ], polyhedron true, geometrically regular (our test) true
+PASS  audit {3,5/2,5}: facet at printed regular vertex 2 is geometrically regular (our test)
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+PASS  audit {3,5/2,5}: facet at printed regular vertex 2 is regular via the true rho_1 (Lemma 3)
+PASS  audit {3,5/2,5}: printed R is a symmetry of the facet at regular vertex 2 mapping the base flag to its 1-adjacent flag (Lemma 3)
+
+=== row 10: {5/2,5,5/2} (petcox.pdf p.27) ===
+PASS  audit {5/2,5,5/2}: |W| from the printed tetrahedron = 14400
+marks of the printed tetrahedron: [ 5/2, 5, 5/2 ] (table row says {5/2,5,5/2}); f-vector [ 120, 720, 720, 120 ]
+PASS  audit {5/2,5,5/2}: printed tetrahedron has the marks of {5/2,5,5/2}
+printed S1 equals computed R0R1R3R2 [row convention, transposed]: [ true, false ]; printed S2 equals R2R1 [row, transposed]: [ true, false ]
+PASS  audit {5/2,5,5/2}: printed S1 is R0R1R3R2 in some convention (or discrepancy recorded)
+centroid of the base cell vs printed v3: 1/2*E(5)+1/2*E(5)^4 (a positive number means printed v3 is the centroid direction; negative: antipode)
+|G| = 7200 (table 7200); |Gamma^+(T)|/|G| = 1 (table index column 1)
+PASS  audit {5/2,5,5/2}: #(G) = 7200
+PASS  audit {5/2,5,5/2}: index column = |Gamma^+(T)|/|G| = 1
+printed R: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+regular vertex 1: (a,b) w.r.t. printed (v0,v3) = [ E(5)+E(5)^4, E(5)+E(5)^4 ]; alpha (paper convention) = 1/2 exact:true; alpha (centroid convention) = 1/2
+   numerically: alpha (paper) = 0.5; alpha (centroid) = 0.5
+   facet H_alpha at this vertex: f-vector [ 120, 1800, 240 ], polyhedron false, geometrically regular (our test) true
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+regular vertex 2: (a,b) w.r.t. printed (v0,v3) = [ -E(5)^2-E(5)^3, E(5)^2+E(5)^3 ]; alpha (paper convention) = infinity exact:true; alpha (centroid convention) = infinity
+   facet H_alpha at this vertex: f-vector [ 720, 1800, 240 ], polyhedron false, geometrically regular (our test) true
+   true rho_1 at this vertex: orthogonal true, involution true, det 1, R S1 R = S1^-1: true, R S2 R = S2^-1: true
+   true rho_1 preserves the facet (V,E,F): [ true, true, true ]
+   printed R equals the true rho_1 (up to sign)
+   a sign/transposition variant of the printed R fixes w, swaps its neighbours in f and preserves the facet: true
+
+=== index column direction ===
+PASS  {3,3,3}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {3,3,3}: |Gamma^+(T)| / |G| equals the printed index = 1
+PASS  {4,3,3}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {4,3,3}: |Gamma^+(T)| / |G| equals the printed index = 4
+PASS  {3,4,3}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {3,4,3}: |Gamma^+(T)| / |G| equals the printed index = 3
+PASS  {5,3,3}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {5,3,3}: |Gamma^+(T)| / |G| equals the printed index = 5
+PASS  {3,5,5/2}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {3,5,5/2}: |Gamma^+(T)| / |G| equals the printed index = 6
+PASS  {5,5/2,5}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {5,5/2,5}: |Gamma^+(T)| / |G| equals the printed index = 1
+PASS  {5,3,5/2}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {5,3,5/2}: |Gamma^+(T)| / |G| equals the printed index = 50
+PASS  {3,3,5/2}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {3,3,5/2}: |Gamma^+(T)| / |G| equals the printed index = 5
+PASS  {3,5/2,5}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {3,5/2,5}: |Gamma^+(T)| / |G| equals the printed index = 6
+PASS  {5/2,5,5/2}: G = <S1,S2> is a subgroup of Gamma^+(T)
+PASS  {5/2,5,5/2}: |Gamma^+(T)| / |G| equals the printed index = 1
+
+=== abstract facets P_T ===
+{3,3,3}: P_T of type {5,3}, |Gamma^+(P_T)| = 60, |Gamma(P_T)| = 120, (V,E,F) = [ 20, 30, 12 ], Euler characteristic 2, genus 0; directly regular (combinatorially regular): true
+PASS  {3,3,3}: abstract facet P_T is combinatorially regular
+{4,3,3}: P_T of type {8,3}, |Gamma^+(P_T)| = 48, |Gamma(P_T)| = 96, (V,E,F) = [ 16, 24, 6 ], Euler characteristic -2, genus 2; directly regular (combinatorially regular): true
+PASS  {4,3,3}: abstract facet P_T is combinatorially regular
+{3,4,3}: P_T of type {12,4}, |Gamma^+(P_T)| = 192, |Gamma(P_T)| = 384, (V,E,F) = [ 48, 96, 16 ], Euler characteristic -32, genus 17; directly regular (combinatorially regular): true
+PASS  {3,4,3}: abstract facet P_T is combinatorially regular
+{5,3,3}: P_T of type {30,3}, |Gamma^+(P_T)| = 1440, |Gamma(P_T)| = 2880, (V,E,F) = [ 480, 720, 48 ], Euler characteristic -192, genus 97; directly regular (combinatorially regular): true
+PASS  {5,3,3}: abstract facet P_T is combinatorially regular
+{3,5,5/2}: P_T of type {20,5}, |Gamma^+(P_T)| = 1200, |Gamma(P_T)| = 2400, (V,E,F) = [ 240, 600, 60 ], Euler characteristic -300, genus 151; directly regular (combinatorially regular): true
+PASS  {3,5,5/2}: abstract facet P_T is combinatorially regular
+{5,5/2,5}: P_T of type {15,5}, |Gamma^+(P_T)| = 7200, |Gamma(P_T)| = 14400, (V,E,F) = [ 1440, 3600, 480 ], Euler characteristic -1680, genus 841; directly regular (combinatorially regular): true
+PASS  {5,5/2,5}: abstract facet P_T is combinatorially regular
+{5,3,5/2}: P_T of type {12,3}, |Gamma^+(P_T)| = 144, |Gamma(P_T)| = 288, (V,E,F) = [ 48, 72, 12 ], Euler characteristic -12, genus 7; directly regular (combinatorially regular): true
+PASS  {5,3,5/2}: abstract facet P_T is combinatorially regular
+{3,3,5/2}: P_T of type {30,3}, |Gamma^+(P_T)| = 1440, |Gamma(P_T)| = 2880, (V,E,F) = [ 480, 720, 48 ], Euler characteristic -192, genus 97; directly regular (combinatorially regular): true
+PASS  {3,3,5/2}: abstract facet P_T is combinatorially regular
+{3,5/2,5}: P_T of type {20,5}, |Gamma^+(P_T)| = 1200, |Gamma(P_T)| = 2400, (V,E,F) = [ 240, 600, 60 ], Euler characteristic -300, genus 151; directly regular (combinatorially regular): true
+PASS  {3,5/2,5}: abstract facet P_T is combinatorially regular
+{5/2,5,5/2}: P_T of type {15,5}, |Gamma^+(P_T)| = 7200, |Gamma(P_T)| = 14400, (V,E,F) = [ 1440, 3600, 480 ], Euler characteristic -1680, genus 841; directly regular (combinatorially regular): true
+PASS  {5/2,5,5/2}: abstract facet P_T is combinatorially regular
+paper p.29: {4,3,3} -> {8,3}*96, {3,4,3} -> {12,4}*384e, {5,3,5/2} -> {12,3}*288 (Hartley atlas; * = |Gamma|);
+            {5,3,3},{3,3,5/2} -> R97.9 of type {30,3}; {3,5,5/2},{3,5/2,5} -> R151.11 of type {20,5} (Conder's list; genus 97, 151).
+
+census-audit.g: 128 passed, 0 failed.
+Done: census-audit.g

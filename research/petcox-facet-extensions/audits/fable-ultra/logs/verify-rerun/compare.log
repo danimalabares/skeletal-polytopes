@@ -1,0 +1,375 @@
+candidates read: 28 from the parent searches, 24 from the Level 3 analysis
+total candidates (skeletal 4-polytopes): 49
+C-{4,3,3}: T = {4,3,3}, parent canonical, alpha = 0, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+C-{5,3,3}: T = {5,3,3}, parent canonical, alpha = 0, type [ 30, 3, 3 ], twist [ [ 1, 11 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+C-{5,3,5/2}: T = {5,3,5/2}, parent canonical, alpha = 0, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+C-{5/2,3,5}: T = {5/2,3,5}, parent canonical, alpha = 0, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+C-{5/2,3,3}: T = {5/2,3,3}, parent canonical, alpha = 0, type [ 30, 3, 3 ], twist [ [ 7, 13 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+P-W-{4,3,3}-1: T = {4,3,3}, parent W(T), alpha = 0, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-W-{4,3,3}-2: T = {4,3,3}, parent W(T), alpha = infinity, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-W-{3,3,4}-1: T = {3,3,4}, parent W(T), alpha = 1, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-W-{3,3,4}-2: T = {3,3,4}, parent W(T), alpha = infinity, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-W-{5,3,3}-1: T = {5,3,3}, parent W(T), alpha = 0, type [ 30, 3, 3 ], twist [ [ 1, 11 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+P-W-{3,3,5}-1: T = {3,3,5}, parent W(T), alpha = 1, type [ 30, 3, 3 ], twist [ [ 1, 11 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+P-W-{5,3,5/2}-1: T = {5,3,5/2}, parent W(T), alpha = 0, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+P-W-{5,3,5/2}-2: T = {5,3,5/2}, parent W(T), alpha = 1, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+P-W-{5/2,3,5}-1: T = {5/2,3,5}, parent W(T), alpha = 0, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+P-W-{5/2,3,5}-2: T = {5/2,3,5}, parent W(T), alpha = 1, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+P-W-{3,3,5/2}-1: T = {3,3,5/2}, parent W(T), alpha = 1, type [ 30, 3, 3 ], twist [ [ 7, 13 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+P-W-{5/2,3,3}-1: T = {5/2,3,3}, parent W(T), alpha = 0, type [ 30, 3, 3 ], twist [ [ 7, 13 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+P-F4-{4,3,3}-1: T = {4,3,3}, parent [3,4,3], alpha = 0, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-F4-{4,3,3}-2: T = {4,3,3}, parent [3,4,3], alpha = infinity, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-FF4-{4,3,3}-1: T = {4,3,3}, parent [[3,4,3]], alpha = 0, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-FF4-{4,3,3}-2: T = {4,3,3}, parent [[3,4,3]], alpha = infinity, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-F4-{3,3,4}-1: T = {3,3,4}, parent [3,4,3], alpha = 1, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-F4-{3,3,4}-2: T = {3,3,4}, parent [3,4,3], alpha = infinity, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-FF4-{3,3,4}-1: T = {3,3,4}, parent [[3,4,3]], alpha = 1, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+P-FF4-{3,3,4}-2: T = {3,3,4}, parent [[3,4,3]], alpha = infinity, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+L3-{4,3,3}-1: T = {4,3,3}, parent O(4) (Level 3), alpha = 1/2, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+L3-{4,3,3}-2: T = {4,3,3}, parent O(4) (Level 3), alpha = 2, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+L3-{4,3,3}-3: T = {4,3,3}, parent O(4) (Level 3), alpha = infinity, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+L3-{4,3,3}-6: T = {4,3,3}, parent O(4) (Level 3), alpha = 0, type [ 8, 3, 3 ], twist [ [ 1, 3 ] ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+L3-{5,3,3}-3: T = {5,3,3}, parent O(4) (Level 3), alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39, type [ 30, 3, 3 ], twist [ [ 1, 11 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,3}-8: T = {5,3,3}, parent O(4) (Level 3), alpha = 0, type [ 30, 3, 3 ], twist [ [ 1, 11 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,5/2}-1: T = {5,3,5/2}, parent O(4) (Level 3), alpha = 2/3*E(40)^7-1/3*E(40)^8-2/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-1/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39, type [ 12, 3, 3 ], twist [ [ 1, 5 ] ], f-vector [ 240, 480, 120, 20 ], |Gamma| = 2880, directly regular: true
+L3-{5,3,5/2}-2: T = {5,3,5/2}, parent O(4) (Level 3), alpha = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39, type [ 12, 3, 3 ], twist [ [ 1, 5 ] ], f-vector [ 240, 480, 120, 20 ], |Gamma| = 2880, directly regular: true
+L3-{5,3,5/2}-3: T = {5,3,5/2}, parent O(4) (Level 3), alpha = -E(40)^7+E(40)^13-E(40)^16+E(40)^21-E(40)^23-E(40)^24+E(40)^29-E(40)^31+E(40)^37-E(40)^39, type [ 12, 3, 3 ], twist [ [ 1, 5 ] ], f-vector [ 240, 480, 120, 20 ], |Gamma| = 2880, directly regular: true
+L3-{5,3,5/2}-4: T = {5,3,5/2}, parent O(4) (Level 3), alpha = E(40)^7-E(40)^13-E(40)^16-E(40)^21+E(40)^23-E(40)^24-E(40)^29+E(40)^31-E(40)^37+E(40)^39, type [ 12, 3, 3 ], twist [ [ 1, 5 ] ], f-vector [ 240, 480, 120, 20 ], |Gamma| = 2880, directly regular: true
+L3-{5,3,5/2}-5: T = {5,3,5/2}, parent O(4) (Level 3), alpha = -E(40)^7+E(40)^8+E(40)^13-E(40)^23+E(40)^32+E(40)^37, type [ 12, 3, 4 ], twist [ [ 1, 5 ] ], f-vector [ 48, 144, 48, 8 ], |Gamma| = 1152, directly regular: false
+L3-{5,3,5/2}-6: T = {5,3,5/2}, parent O(4) (Level 3), alpha = E(40)^7+E(40)^8-E(40)^13+E(40)^23+E(40)^32-E(40)^37, type [ 12, 3, 4 ], twist [ [ 1, 5 ] ], f-vector [ 48, 144, 48, 8 ], |Gamma| = 1152, directly regular: false
+L3-{5,3,5/2}-7: T = {5,3,5/2}, parent O(4) (Level 3), alpha = -E(40)^8-2*E(40)^16+E(40)^21-2*E(40)^24+E(40)^29-E(40)^31-E(40)^32-E(40)^39, type [ 12, 3, 4 ], twist [ [ 1, 5 ] ], f-vector [ 48, 144, 48, 8 ], |Gamma| = 1152, directly regular: false
+L3-{5,3,5/2}-8: T = {5,3,5/2}, parent O(4) (Level 3), alpha = -E(40)^8-2*E(40)^16-E(40)^21-2*E(40)^24-E(40)^29+E(40)^31-E(40)^32+E(40)^39, type [ 12, 3, 4 ], twist [ [ 1, 5 ] ], f-vector [ 48, 144, 48, 8 ], |Gamma| = 1152, directly regular: false
+L3-{5,3,5/2}-9: T = {5,3,5/2}, parent O(4) (Level 3), alpha = 1, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,5/2}-10: T = {5,3,5/2}, parent O(4) (Level 3), alpha = -1, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,5/2}-11: T = {5,3,5/2}, parent O(4) (Level 3), alpha = E(5)+E(5)^4, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,5/2}-12: T = {5,3,5/2}, parent O(4) (Level 3), alpha = E(5)+4*E(5)^2+4*E(5)^3+E(5)^4, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,5/2}-13: T = {5,3,5/2}, parent O(4) (Level 3), alpha = 2, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,5/2}-14: T = {5,3,5/2}, parent O(4) (Level 3), alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,5/2}-15: T = {5,3,5/2}, parent O(4) (Level 3), alpha = -5*E(5)-2*E(5)^2-2*E(5)^3-5*E(5)^4, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+L3-{5,3,5/2}-16: T = {5,3,5/2}, parent O(4) (Level 3), alpha = 0, type [ 12, 3, 5 ], twist [ [ 1, 5 ] ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+L3-{3,3,5/2}-1: T = {3,3,5/2}, parent O(4) (Level 3), alpha = 1, type [ 30, 3, 3 ], twist [ [ 7, 13 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+L3-{3,3,5/2}-4: T = {3,3,5/2}, parent O(4) (Level 3), alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39, type [ 30, 3, 3 ], twist [ [ 7, 13 ] ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+
+=== pairwise comparison ===
+C-{5/2,3,5} vs C-{5,3,5/2}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+C-{5/2,3,3} vs C-{5,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{4,3,3}-1 vs C-{4,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-W-{4,3,3}-2 vs C-{4,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{4,3,3}-2 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,4}-1 vs C-{4,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{3,3,4}-1 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{3,3,4}-1 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,4}-2 vs C-{4,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,4}-2 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,4}-2 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{3,3,4}-2 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5,3,3}-1 vs C-{5,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5,3,3}-1 vs C-{5/2,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,5}-1 vs C-{5,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{3,3,5}-1 vs C-{5/2,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,5}-1 vs P-W-{5,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5,3,5/2}-1 vs C-{5,3,5/2}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5,3,5/2}-1 vs C-{5/2,3,5}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5,3,5/2}-2 vs C-{5,3,5/2}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5,3,5/2}-2 vs C-{5/2,3,5}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5,3,5/2}-2 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,5}-1 vs C-{5,3,5/2}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,5}-1 vs C-{5/2,3,5}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5/2,3,5}-1 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,5}-1 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5/2,3,5}-2 vs C-{5,3,5/2}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5/2,3,5}-2 vs C-{5/2,3,5}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,5}-2 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5/2,3,5}-2 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,5}-2 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,5/2}-1 vs C-{5,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,5/2}-1 vs C-{5/2,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-W-{3,3,5/2}-1 vs P-W-{5,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{3,3,5/2}-1 vs P-W-{3,3,5}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,3}-1 vs C-{5,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,3}-1 vs C-{5/2,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-W-{5/2,3,3}-1 vs P-W-{5,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,3}-1 vs P-W-{3,3,5}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-W-{5/2,3,3}-1 vs P-W-{3,3,5/2}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{4,3,3}-1 vs C-{4,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{4,3,3}-1 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{4,3,3}-1 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{4,3,3}-1 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{4,3,3}-1 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{4,3,3}-2 vs C-{4,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{4,3,3}-2 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{4,3,3}-2 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{4,3,3}-2 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{4,3,3}-2 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{4,3,3}-2 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{4,3,3}-1 vs C-{4,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{4,3,3}-1 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{4,3,3}-1 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{4,3,3}-1 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{4,3,3}-1 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{4,3,3}-1 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{4,3,3}-1 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{4,3,3}-2 vs C-{4,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{4,3,3}-2 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{4,3,3}-2 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{4,3,3}-2 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{4,3,3}-2 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{4,3,3}-2 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{4,3,3}-2 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{4,3,3}-2 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-1 vs C-{4,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-1 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-1 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-1 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-1 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-1 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-1 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-1 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-1 vs P-FF4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-2 vs C-{4,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-2 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-2 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-2 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-2 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-2 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-2 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-2 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-F4-{3,3,4}-2 vs P-FF4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-F4-{3,3,4}-2 vs P-F4-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-1 vs C-{4,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-1 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-1 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-1 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-1 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-1 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-1 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-1 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-1 vs P-FF4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-1 vs P-F4-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-1 vs P-F4-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-2 vs C-{4,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-2 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-2 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-2 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-2 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-2 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-2 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-2 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-2 vs P-FF4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-2 vs P-F4-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+P-FF4-{3,3,4}-2 vs P-F4-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+P-FF4-{3,3,4}-2 vs P-FF4-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-1 vs C-{4,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-FF4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-F4-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-F4-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-FF4-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-1 vs P-FF4-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs C-{4,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-FF4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-F4-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-F4-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-FF4-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs P-FF4-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-2 vs L3-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-3 vs C-{4,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-3 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-3 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-3 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-3 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-3 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-3 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-3 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-3 vs P-FF4-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-3 vs P-F4-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-3 vs P-F4-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-3 vs P-FF4-{3,3,4}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-3 vs P-FF4-{3,3,4}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-3 vs L3-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-3 vs L3-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-6 vs C-{4,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-6 vs P-W-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-6 vs P-W-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-6 vs P-W-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-6 vs P-W-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-6 vs P-F4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-6 vs P-F4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-6 vs P-FF4-{4,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-6 vs P-FF4-{4,3,3}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-6 vs P-F4-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-6 vs P-F4-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-6 vs P-FF4-{3,3,4}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{4,3,3}-6 vs P-FF4-{3,3,4}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{4,3,3}-6 vs L3-{4,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-6 vs L3-{4,3,3}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{4,3,3}-6 vs L3-{4,3,3}-3: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,3}-3 vs C-{5,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,3}-3 vs C-{5/2,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,3}-3 vs P-W-{5,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,3}-3 vs P-W-{3,3,5}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,3}-3 vs P-W-{3,3,5/2}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,3}-3 vs P-W-{5/2,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,3}-8 vs C-{5,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,3}-8 vs C-{5/2,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,3}-8 vs P-W-{5,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,3}-8 vs P-W-{3,3,5}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,3}-8 vs P-W-{3,3,5/2}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,3}-8 vs P-W-{5/2,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,3}-8 vs L3-{5,3,3}-3: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-2 vs L3-{5,3,5/2}-1: abstractly isomorphic (same orientation true, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-3 vs L3-{5,3,5/2}-1: abstractly isomorphic (same orientation true, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-3 vs L3-{5,3,5/2}-2: abstractly isomorphic (same orientation true, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-4 vs L3-{5,3,5/2}-1: abstractly isomorphic (same orientation true, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-4 vs L3-{5,3,5/2}-2: abstractly isomorphic (same orientation true, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-4 vs L3-{5,3,5/2}-3: abstractly isomorphic (same orientation true, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-6 vs L3-{5,3,5/2}-5: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-7 vs L3-{5,3,5/2}-5: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-7 vs L3-{5,3,5/2}-6: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-8 vs L3-{5,3,5/2}-5: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-8 vs L3-{5,3,5/2}-6: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-8 vs L3-{5,3,5/2}-7: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-9 vs C-{5,3,5/2}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-9 vs C-{5/2,3,5}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,5/2}-9 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-9 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,5/2}-9 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,5/2}-9 vs P-W-{5/2,3,5}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-10 vs C-{5,3,5/2}: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-10 vs C-{5/2,3,5}: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-10 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-10 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-10 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-10 vs P-W-{5/2,3,5}-2: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-10 vs L3-{5,3,5/2}-9: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-11 vs C-{5,3,5/2}: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-11 vs C-{5/2,3,5}: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-11 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-11 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-11 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-11 vs P-W-{5/2,3,5}-2: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-11 vs L3-{5,3,5/2}-9: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-11 vs L3-{5,3,5/2}-10: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs C-{5,3,5/2}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs C-{5/2,3,5}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs P-W-{5/2,3,5}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs L3-{5,3,5/2}-9: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs L3-{5,3,5/2}-10: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-12 vs L3-{5,3,5/2}-11: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs C-{5,3,5/2}: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs C-{5/2,3,5}: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs P-W-{5/2,3,5}-2: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs L3-{5,3,5/2}-9: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs L3-{5,3,5/2}-10: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-13 vs L3-{5,3,5/2}-11: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-13 vs L3-{5,3,5/2}-12: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs C-{5,3,5/2}: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs C-{5/2,3,5}: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs P-W-{5/2,3,5}-2: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs L3-{5,3,5/2}-9: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs L3-{5,3,5/2}-10: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs L3-{5,3,5/2}-11: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-14 vs L3-{5,3,5/2}-12: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-14 vs L3-{5,3,5/2}-13: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs C-{5,3,5/2}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs C-{5/2,3,5}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs P-W-{5/2,3,5}-2: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs L3-{5,3,5/2}-9: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs L3-{5,3,5/2}-10: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs L3-{5,3,5/2}-11: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs L3-{5,3,5/2}-12: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-15 vs L3-{5,3,5/2}-13: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-15 vs L3-{5,3,5/2}-14: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-16 vs C-{5,3,5/2}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,5/2}-16 vs C-{5/2,3,5}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-16 vs P-W-{5,3,5/2}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,5/2}-16 vs P-W-{5,3,5/2}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-16 vs P-W-{5/2,3,5}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-16 vs P-W-{5/2,3,5}-2: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{5,3,5/2}-16 vs L3-{5,3,5/2}-9: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{5,3,5/2}-16 vs L3-{5,3,5/2}-10: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-16 vs L3-{5,3,5/2}-11: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-16 vs L3-{5,3,5/2}-12: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-16 vs L3-{5,3,5/2}-13: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-16 vs L3-{5,3,5/2}-14: abstractly isomorphic (same orientation false, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{5,3,5/2}-16 vs L3-{5,3,5/2}-15: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-1 vs C-{5,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{3,3,5/2}-1 vs C-{5/2,3,3}: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{3,3,5/2}-1 vs P-W-{5,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{3,3,5/2}-1 vs P-W-{3,3,5}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{3,3,5/2}-1 vs P-W-{3,3,5/2}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: IDENTICAL geometric polytope
+L3-{3,3,5/2}-1 vs P-W-{5/2,3,3}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: IDENTICAL geometric polytope
+L3-{3,3,5/2}-1 vs L3-{5,3,3}-3: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-1 vs L3-{5,3,3}-8: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{3,3,5/2}-4 vs C-{5,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-4 vs C-{5/2,3,3}: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-4 vs P-W-{5,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-4 vs P-W-{3,3,5}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-4 vs P-W-{3,3,5/2}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-4 vs P-W-{5/2,3,3}-1: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-4 vs L3-{5,3,3}-3: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: same vertex set, different edge/face/cell structure (not identical, not mirror images under R0)
+L3-{3,3,5/2}-4 vs L3-{5,3,3}-8: abstractly isomorphic (same orientation true, mirror false), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+L3-{3,3,5/2}-4 vs L3-{3,3,5/2}-1: abstractly isomorphic (same orientation false, mirror true), dual false; geometry: congruent vertex sets (same Gram invariant); no vertex of b is parallel to a vertex of a, so the vertex sets differ
+
+=== abstract isomorphism classes (up to enantiomorphism) ===
+Syntax warning: Unbound global variable in compare.g:164
+           ForAll(mem, c -> c.fvector = mem[1].fvector and c.orders = mem[1].orders));
+                                        ^^^
+Syntax warning: Unbound global variable in compare.g:164
+           ForAll(mem, c -> c.fvector = mem[1].fvector and c.orders = mem[1].orders));
+                                                                      ^^^
+class 1: [ "C-{4,3,3}", "P-W-{4,3,3}-1", "P-W-{4,3,3}-2", "P-W-{3,3,4}-1", "P-W-{3,3,4}-2", "P-F4-{4,3,3}-1", "P-F4-{4,3,3}-2", "P-FF4-{4,3,3}-1", "P-FF4-{4,3,3}-2", "P-F4-{3,3,4}-1", "P-F4-{3,3,4}-2", "P-FF4-{3,3,4}-1", "P-FF4-{3,3,4}-2", "L3-{4,3,3}-1", "L3-{4,3,3}-2", "L3-{4,3,3}-3", "L3-{4,3,3}-6" ]  type [ 8, 3, 3 ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular: false
+   congruence classes up to enantiomorphism (identical or mirror-image realisations): [ [ "C-{4,3,3}", "P-W-{4,3,3}-1", "P-W-{3,3,4}-1", "P-F4-{4,3,3}-1", "P-FF4-{4,3,3}-1", "P-F4-{3,3,4}-1", "P-FF4-{3,3,4}-1", "L3-{4,3,3}-6" ], [ "P-W-{4,3,3}-2", "P-W-{3,3,4}-2", "P-F4-{4,3,3}-2", "P-FF4-{4,3,3}-2", "P-F4-{3,3,4}-2", "P-FF4-{3,3,4}-2", "L3-{4,3,3}-3" ], [ "L3-{4,3,3}-1" ], [ "L3-{4,3,3}-2" ] ]
+PASS  class 1: all members have the same f-vector and type
+class 2: [ "C-{5,3,3}", "C-{5/2,3,3}", "P-W-{5,3,3}-1", "P-W-{3,3,5}-1", "P-W-{3,3,5/2}-1", "P-W-{5/2,3,3}-1", "L3-{5,3,3}-3", "L3-{5,3,3}-8", "L3-{3,3,5/2}-1", "L3-{3,3,5/2}-4" ]  type [ 30, 3, 3 ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular: false
+   congruence classes up to enantiomorphism (identical or mirror-image realisations): [ [ "C-{5,3,3}", "P-W-{5,3,3}-1", "P-W-{3,3,5}-1", "L3-{5,3,3}-8" ], [ "C-{5/2,3,3}", "P-W-{3,3,5/2}-1", "P-W-{5/2,3,3}-1", "L3-{3,3,5/2}-1" ], [ "L3-{5,3,3}-3" ], [ "L3-{3,3,5/2}-4" ] ]
+PASS  class 2: all members have the same f-vector and type
+class 3: [ "C-{5,3,5/2}", "C-{5/2,3,5}", "P-W-{5,3,5/2}-1", "P-W-{5,3,5/2}-2", "P-W-{5/2,3,5}-1", "P-W-{5/2,3,5}-2", "L3-{5,3,5/2}-9", "L3-{5,3,5/2}-12", "L3-{5,3,5/2}-15", "L3-{5,3,5/2}-16" ]  type [ 12, 3, 5 ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+   congruence classes up to enantiomorphism (identical or mirror-image realisations): [ [ "C-{5,3,5/2}", "P-W-{5,3,5/2}-1", "P-W-{5/2,3,5}-2", "L3-{5,3,5/2}-16" ], [ "C-{5/2,3,5}", "P-W-{5,3,5/2}-2", "P-W-{5/2,3,5}-1", "L3-{5,3,5/2}-9" ], [ "L3-{5,3,5/2}-12" ], [ "L3-{5,3,5/2}-15" ] ]
+PASS  class 3: all members have the same f-vector and type
+class 4: [ "L3-{5,3,5/2}-1", "L3-{5,3,5/2}-2", "L3-{5,3,5/2}-3", "L3-{5,3,5/2}-4" ]  type [ 12, 3, 3 ], f-vector [ 240, 480, 120, 20 ], |Gamma| = 2880, directly regular: true
+   congruence classes up to enantiomorphism (identical or mirror-image realisations): [ [ "L3-{5,3,5/2}-1" ], [ "L3-{5,3,5/2}-2" ], [ "L3-{5,3,5/2}-3" ], [ "L3-{5,3,5/2}-4" ] ]
+PASS  class 4: all members have the same f-vector and type
+class 5: [ "L3-{5,3,5/2}-5", "L3-{5,3,5/2}-6", "L3-{5,3,5/2}-7", "L3-{5,3,5/2}-8" ]  type [ 12, 3, 4 ], f-vector [ 48, 144, 48, 8 ], |Gamma| = 1152, directly regular: false
+   congruence classes up to enantiomorphism (identical or mirror-image realisations): [ [ "L3-{5,3,5/2}-5" ], [ "L3-{5,3,5/2}-6" ], [ "L3-{5,3,5/2}-7" ], [ "L3-{5,3,5/2}-8" ] ]
+PASS  class 5: all members have the same f-vector and type
+class 6: [ "L3-{5,3,5/2}-10", "L3-{5,3,5/2}-11", "L3-{5,3,5/2}-13", "L3-{5,3,5/2}-14" ]  type [ 12, 3, 5 ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular: false
+   congruence classes up to enantiomorphism (identical or mirror-image realisations): [ [ "L3-{5,3,5/2}-10" ], [ "L3-{5,3,5/2}-11" ], [ "L3-{5,3,5/2}-13" ], [ "L3-{5,3,5/2}-14" ] ]
+PASS  class 6: all members have the same f-vector and type
+
+number of abstract isomorphism classes (up to enantiomorphism) among all candidates: 6
+  class 1: type [ 8, 3, 3 ], f-vector [ 16, 32, 12, 4 ], |Gamma| = 192, directly regular false, 17 candidate(s)
+  class 2: type [ 30, 3, 3 ], f-vector [ 600, 1200, 120, 5 ], |Gamma| = 7200, directly regular false, 10 candidate(s)
+  class 3: type [ 12, 3, 5 ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular false, 10 candidate(s)
+  class 4: type [ 12, 3, 3 ], f-vector [ 240, 480, 120, 20 ], |Gamma| = 2880, directly regular true, 4 candidate(s)
+  class 5: type [ 12, 3, 4 ], f-vector [ 48, 144, 48, 8 ], |Gamma| = 1152, directly regular false, 4 candidate(s)
+  class 6: type [ 12, 3, 5 ], f-vector [ 120, 720, 300, 50 ], |Gamma| = 7200, directly regular false, 4 candidate(s)
+PASS  every candidate falls into one of the abstract classes
+
+compare.g: 7 passed, 0 failed.
+Done: compare.g

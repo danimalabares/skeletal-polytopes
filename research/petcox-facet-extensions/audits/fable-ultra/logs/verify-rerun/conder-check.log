@@ -1,0 +1,143 @@
+=== Petrie polygon lengths of the abstract cells P_T ===
+(r = 2 * ord(S1^2 S2^2); Conder writes the length as the subscript of the type)
+  {3,3,3}: cell type {5,3}, |G| = 60, Petrie length r = 10
+  {4,3,3}: cell type {8,3}, |G| = 48, Petrie length r = 12
+  {3,4,3}: cell type {12,4}, |G| = 192, Petrie length r = 24
+  {5,3,3}: cell type {30,3}, |G| = 1440, Petrie length r = 40
+  {3,5,5/2}: cell type {20,5}, |G| = 1200, Petrie length r = 60
+  {5,5/2,5}: cell type {15,5}, |G| = 7200, Petrie length r = 30
+  {5,3,5/2}: cell type {12,3}, |G| = 144, Petrie length r = 24
+  {3,3,5/2}: cell type {30,3}, |G| = 1440, Petrie length r = 40
+  {3,5/2,5}: cell type {20,5}, |G| = 1200, Petrie length r = 60
+  {5/2,5,5/2}: cell type {15,5}, |G| = 7200, Petrie length r = 30
+
+independent check in the full automorphism group Gamma(P_T) = G . <rho0>:
+PASS  {3,3,3}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {3,3,3}: |Gamma(P_T)| = 120, ord(rho0 rho1 rho2) = 10 (formula 2*ord(S1^2 S2^2) gives 10)
+PASS  {3,3,3}: the two computations of the Petrie length agree = 10
+PASS  {3,3,3}: |Gamma(P_T)| = 2|G| = 120
+PASS  {4,3,3}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {4,3,3}: |Gamma(P_T)| = 96, ord(rho0 rho1 rho2) = 12 (formula 2*ord(S1^2 S2^2) gives 12)
+PASS  {4,3,3}: the two computations of the Petrie length agree = 12
+PASS  {4,3,3}: |Gamma(P_T)| = 2|G| = 96
+PASS  {3,4,3}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {3,4,3}: |Gamma(P_T)| = 384, ord(rho0 rho1 rho2) = 24 (formula 2*ord(S1^2 S2^2) gives 24)
+PASS  {3,4,3}: the two computations of the Petrie length agree = 24
+PASS  {3,4,3}: |Gamma(P_T)| = 2|G| = 384
+PASS  {5,3,3}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {5,3,3}: |Gamma(P_T)| = 2880, ord(rho0 rho1 rho2) = 40 (formula 2*ord(S1^2 S2^2) gives 40)
+PASS  {5,3,3}: the two computations of the Petrie length agree = 40
+PASS  {5,3,3}: |Gamma(P_T)| = 2|G| = 2880
+PASS  {3,5,5/2}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {3,5,5/2}: |Gamma(P_T)| = 2400, ord(rho0 rho1 rho2) = 60 (formula 2*ord(S1^2 S2^2) gives 60)
+PASS  {3,5,5/2}: the two computations of the Petrie length agree = 60
+PASS  {3,5,5/2}: |Gamma(P_T)| = 2|G| = 2400
+PASS  {5,5/2,5}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {5,5/2,5}: |Gamma(P_T)| = 14400, ord(rho0 rho1 rho2) = 30 (formula 2*ord(S1^2 S2^2) gives 30)
+PASS  {5,5/2,5}: the two computations of the Petrie length agree = 30
+PASS  {5,5/2,5}: |Gamma(P_T)| = 2|G| = 14400
+PASS  {5,3,5/2}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {5,3,5/2}: |Gamma(P_T)| = 288, ord(rho0 rho1 rho2) = 24 (formula 2*ord(S1^2 S2^2) gives 24)
+PASS  {5,3,5/2}: the two computations of the Petrie length agree = 24
+PASS  {5,3,5/2}: |Gamma(P_T)| = 2|G| = 288
+PASS  {3,3,5/2}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {3,3,5/2}: |Gamma(P_T)| = 2880, ord(rho0 rho1 rho2) = 40 (formula 2*ord(S1^2 S2^2) gives 40)
+PASS  {3,3,5/2}: the two computations of the Petrie length agree = 40
+PASS  {3,3,5/2}: |Gamma(P_T)| = 2|G| = 2880
+PASS  {3,5/2,5}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {3,5/2,5}: |Gamma(P_T)| = 2400, ord(rho0 rho1 rho2) = 60 (formula 2*ord(S1^2 S2^2) gives 60)
+PASS  {3,5/2,5}: the two computations of the Petrie length agree = 60
+PASS  {3,5/2,5}: |Gamma(P_T)| = 2|G| = 2400
+PASS  {5/2,5,5/2}: rho0, rho1, rho2 are involutions with rho0rho1 = S1 and rho1rho2 = S2
+  {5/2,5,5/2}: |Gamma(P_T)| = 14400, ord(rho0 rho1 rho2) = 30 (formula 2*ord(S1^2 S2^2) gives 30)
+PASS  {5/2,5,5/2}: the two computations of the Petrie length agree = 30
+PASS  {5/2,5,5/2}: |Gamma(P_T)| = 2|G| = 14400
+PASS  Petrie length of the {8,3} cell (Hartley {8,3}*96 says 'Order of s0 s1 s2: 12'; Conder R2.1 is {3,8}_12) = 12
+PASS  Petrie length of the {12,3} cell (Hartley {12,3}*288 says 24; Conder R7.2 is {3,12}_24) = 24
+PASS  Petrie length of the {12,4} cell (Hartley {12,4}*384e says 24) = 24
+PASS  Petrie length of the {5,3} cell (the dodecahedron has Petrie hexagons... 10) = 10
+
+Conder's census of regular orientable maps prints R97.9 as 'Type {3,30}_20', i.e. Petrie length 20,
+and R97.10 (the other genus-97 candidate) has a different Petrie length; the value computed above
+for the {30,3} cell of rows 4 and 8 therefore identifies the entry.
+PASS  the two {30,3} cells (rows 4 and 8) have the same Petrie length = 40
+PASS  the two {20,5} cells (rows 5 and 9) have the same Petrie length = 60
+PASS  the two {15,5} cells (rows 6 and 10) have the same Petrie length = 30
+
+=== identification of the cells from Conder's defining relations ===
+cell of row 4 ({5,3,3}), type {30,3}, |G| = 1440, genus 97:
+   {5,3,3} vs R97.10 (Type {3,30}_40, Order 2880) [R=S2^-1,S=S1^-1]: relators trivial? [ true, true, true, true, true, true ] -> all: true
+   {5,3,3} vs R97.10 (Type {3,30}_40, Order 2880) [R=S2,   S=S1^-1]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {5,3,3} vs R97.10 (Type {3,30}_40, Order 2880) [R=S2^-1,S=S1   ]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {5,3,3} vs R97.10 (Type {3,30}_40, Order 2880) [R=S2,   S=S1   ]: relators trivial? [ true, true, true, true, true, true ] -> all: true
+   |Gamma(P_T)| = 2880
+   {5,3,3} vs R97.9  (Type {3,30}_20, Order 2880) [R=S2^-1,S=S1^-1]: relators trivial? [ true, true, true, true, true, true, false ] -> all: false
+   {5,3,3} vs R97.9  (Type {3,30}_20, Order 2880) [R=S2,   S=S1^-1]: relators trivial? [ true, true, false, true, true, false, false ] -> all: false
+   {5,3,3} vs R97.9  (Type {3,30}_20, Order 2880) [R=S2^-1,S=S1   ]: relators trivial? [ true, true, false, true, true, false, false ] -> all: false
+   {5,3,3} vs R97.9  (Type {3,30}_20, Order 2880) [R=S2,   S=S1   ]: relators trivial? [ true, true, true, true, true, true, false ] -> all: false
+   |Gamma(P_T)| = 2880
+PASS  {5,3,3}: the {30,3} cell satisfies EVERY relator of Conder R97.10
+PASS  {5,3,3}: the {30,3} cell does NOT satisfy every relator of Conder R97.9, so it is not R97.9 (correcting PETCOX p.29)
+cell of row 8 ({3,3,5/2}), type {30,3}, |G| = 1440, genus 97:
+   {3,3,5/2} vs R97.10 (Type {3,30}_40, Order 2880) [R=S2^-1,S=S1^-1]: relators trivial? [ true, true, true, true, true, true ] -> all: true
+   {3,3,5/2} vs R97.10 (Type {3,30}_40, Order 2880) [R=S2,   S=S1^-1]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,3,5/2} vs R97.10 (Type {3,30}_40, Order 2880) [R=S2^-1,S=S1   ]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,3,5/2} vs R97.10 (Type {3,30}_40, Order 2880) [R=S2,   S=S1   ]: relators trivial? [ true, true, true, true, true, true ] -> all: true
+   |Gamma(P_T)| = 2880
+   {3,3,5/2} vs R97.9  (Type {3,30}_20, Order 2880) [R=S2^-1,S=S1^-1]: relators trivial? [ true, true, true, true, true, true, false ] -> all: false
+   {3,3,5/2} vs R97.9  (Type {3,30}_20, Order 2880) [R=S2,   S=S1^-1]: relators trivial? [ true, true, false, true, true, false, false ] -> all: false
+   {3,3,5/2} vs R97.9  (Type {3,30}_20, Order 2880) [R=S2^-1,S=S1   ]: relators trivial? [ true, true, false, true, true, false, false ] -> all: false
+   {3,3,5/2} vs R97.9  (Type {3,30}_20, Order 2880) [R=S2,   S=S1   ]: relators trivial? [ true, true, true, true, true, true, false ] -> all: false
+   |Gamma(P_T)| = 2880
+PASS  {3,3,5/2}: the {30,3} cell satisfies EVERY relator of Conder R97.10
+PASS  {3,3,5/2}: the {30,3} cell does NOT satisfy every relator of Conder R97.9, so it is not R97.9 (correcting PETCOX p.29)
+cell of row 5 ({3,5,5/2}), type {20,5}, |G| = 1200, genus 151:
+   {3,5,5/2} vs R151.11 (Type {5,20}_60, Order 2400) [R=S2^-1,S=S1^-1]: relators trivial? [ true, true, true, true, true, true ] -> all: true
+   {3,5,5/2} vs R151.11 (Type {5,20}_60, Order 2400) [R=S2,   S=S1^-1]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,5,5/2} vs R151.11 (Type {5,20}_60, Order 2400) [R=S2^-1,S=S1   ]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,5,5/2} vs R151.11 (Type {5,20}_60, Order 2400) [R=S2,   S=S1   ]: relators trivial? [ true, true, true, true, true, true ] -> all: true
+   |Gamma(P_T)| = 2400
+   {3,5,5/2} vs R151.10 (Type {5,20}_12, Order 2400) [R=S2^-1,S=S1^-1]: relators trivial? [ true, true, true, true, true, false ] -> all: false
+   {3,5,5/2} vs R151.10 (Type {5,20}_12, Order 2400) [R=S2,   S=S1^-1]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,5,5/2} vs R151.10 (Type {5,20}_12, Order 2400) [R=S2^-1,S=S1   ]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,5,5/2} vs R151.10 (Type {5,20}_12, Order 2400) [R=S2,   S=S1   ]: relators trivial? [ true, true, true, true, true, false ] -> all: false
+   |Gamma(P_T)| = 2400
+PASS  {3,5,5/2}: the {20,5} cell satisfies EVERY relator of Conder R151.11 (confirming PETCOX p.29)
+PASS  {3,5,5/2}: the {20,5} cell does NOT satisfy every relator of Conder R151.10
+cell of row 9 ({3,5/2,5}), type {20,5}, |G| = 1200, genus 151:
+   {3,5/2,5} vs R151.11 (Type {5,20}_60, Order 2400) [R=S2^-1,S=S1^-1]: relators trivial? [ true, true, true, true, true, true ] -> all: true
+   {3,5/2,5} vs R151.11 (Type {5,20}_60, Order 2400) [R=S2,   S=S1^-1]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,5/2,5} vs R151.11 (Type {5,20}_60, Order 2400) [R=S2^-1,S=S1   ]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,5/2,5} vs R151.11 (Type {5,20}_60, Order 2400) [R=S2,   S=S1   ]: relators trivial? [ true, true, true, true, true, true ] -> all: true
+   |Gamma(P_T)| = 2400
+   {3,5/2,5} vs R151.10 (Type {5,20}_12, Order 2400) [R=S2^-1,S=S1^-1]: relators trivial? [ true, true, true, true, true, false ] -> all: false
+   {3,5/2,5} vs R151.10 (Type {5,20}_12, Order 2400) [R=S2,   S=S1^-1]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,5/2,5} vs R151.10 (Type {5,20}_12, Order 2400) [R=S2^-1,S=S1   ]: relators trivial? [ true, true, false, true, true, false ] -> all: false
+   {3,5/2,5} vs R151.10 (Type {5,20}_12, Order 2400) [R=S2,   S=S1   ]: relators trivial? [ true, true, true, true, true, false ] -> all: false
+   |Gamma(P_T)| = 2400
+PASS  {3,5/2,5}: the {20,5} cell satisfies EVERY relator of Conder R151.11 (confirming PETCOX p.29)
+PASS  {3,5/2,5}: the {20,5} cell does NOT satisfy every relator of Conder R151.10
+
+=== identification against Conder's chiral polytopes with up to 4000 flags ===
+Conder [3,3,8] entry, order from coset enumeration: 192 (file says 192)
+PASS  Conder's [3,3,8] presentation has order 192 = 192
+Conder [4,3,12] entry, order from coset enumeration: 1152 (file says 1152)
+PASS  Conder's [4,3,12] presentation has order 1152 = 1152
+class 1 (Roli's cube, type {8,3,3}, |Gamma| = 192):
+   class 1: variant 'identity' with generator orders [ 8, 3, 3 ] does not satisfy the relators
+   class 1: variant 'mirror' with generator orders [ 8, 3, 3 ] does not satisfy the relators
+   class 1: variant 'dual' with generator orders [ 3, 3, 8 ] does not satisfy the relators
+   class 1: variant 'dual+mirror' with generator orders [ 3, 3, 8 ] satisfies every Conder relator; |<triple>| = 192 and |Conder group| = 192 -> isomorphic: true
+PASS  Roli's cube matches Conder's [3,3,8] entry of order 192 (some variant satisfies every relator and the orders agree)
+class 5 (type {12,3,4}, |Gamma| = 1152, case L3-{5,3,5/2}-5):
+   class 5: variant 'identity' with generator orders [ 12, 3, 4 ] does not satisfy the relators
+   class 5: variant 'mirror' with generator orders [ 12, 3, 4 ] does not satisfy the relators
+   class 5: variant 'dual' with generator orders [ 4, 3, 12 ] does not satisfy the relators
+   class 5: variant 'dual+mirror' with generator orders [ 4, 3, 12 ] satisfies every Conder relator; |<triple>| = 1152 and |Conder group| = 1152 -> isomorphic: true
+PASS  the {12,3,4} polytope matches Conder's [4,3,12] entry of order 1152
+
+classes 2, 3, 4 and 6 have |Gamma| = 7200, 7200, 2880, 7200, i.e. 14400, 14400, 5760, 14400 flags,
+beyond the 4000-flag (group order 2000) limit of Conder's census, so that census cannot contain them.
+
+conder-check.g: 49 passed, 0 failed.
+Done: conder-check.g
