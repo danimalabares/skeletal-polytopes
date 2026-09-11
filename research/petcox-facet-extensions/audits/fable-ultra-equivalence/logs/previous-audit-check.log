@@ -1,0 +1,233 @@
+records: 24; previous-audit certificates: 12
+Syntax warning: Unbound global variable in previous-audit-check.g:62
+  Chk(ForAll([a.S1, a.S2, a.X], S -> InGamma(Pb, g^-1*S*g)), "g^-1 {S1,S2,X_a} g in Gamma_b");
+                                             ^^
+Syntax warning: Unbound global variable in previous-audit-check.g:62
+  Chk(ForAll([a.S1, a.S2, a.X], S -> InGamma(Pb, g^-1*S*g)), "g^-1 {S1,S2,X_a} g in Gamma_b");
+                                                 ^
+Syntax warning: Unbound global variable in previous-audit-check.g:62
+  Chk(ForAll([a.S1, a.S2, a.X], S -> InGamma(Pb, g^-1*S*g)), "g^-1 {S1,S2,X_a} g in Gamma_b");
+                                                        ^
+Syntax warning: Unbound global variable in previous-audit-check.g:65
+    eqs := List(basis, B -> Concatenation(Vec(B*a.S1 - a.S1^-1*B), Vec(B*a.S2 - a.S2^-1*B)));
+                                                ^
+Syntax warning: Unbound global variable in previous-audit-check.g:65
+    eqs := List(basis, B -> Concatenation(Vec(B*a.S1 - a.S1^-1*B), Vec(B*a.S2 - a.S2^-1*B)));
+                                                       ^
+Syntax warning: Unbound global variable in previous-audit-check.g:65
+    eqs := List(basis, B -> Concatenation(Vec(B*a.S1 - a.S1^-1*B), Vec(B*a.S2 - a.S2^-1*B)));
+                                                                         ^
+Syntax warning: Unbound global variable in previous-audit-check.g:65
+    eqs := List(basis, B -> Concatenation(Vec(B*a.S1 - a.S1^-1*B), Vec(B*a.S2 - a.S2^-1*B)));
+                                                                                ^
+Syntax warning: Unbound global variable in previous-audit-check.g:68
+    M0s.(a.T) := Sum([1..16], i -> N[1][i]*basis[i]);
+                                   ^
+Syntax warning: Unbound global variable in previous-audit-check.g:71
+  k := First([1..4], i -> b.w[i] <> 0); c := (a.w*M0)[k]/b.w[k];
+                          ^
+Syntax warning: Unbound global variable in previous-audit-check.g:78
+  Print("      g is a scalar multiple of M0: ", ForAny([1..4], i -> ForAny([1..4], j -> M0[i][j] <> 0 and g = (g[i][j]/M0[i][j])*M0)), "\n");
+                                                                                        ^^
+Syntax warning: Unbound global variable in previous-audit-check.g:78
+  Print("      g is a scalar multiple of M0: ", ForAny([1..4], i -> ForAny([1..4], j -> M0[i][j] <> 0 and g = (g[i][j]/M0[i][j])*M0)), "\n");
+                                                                                                          ^
+Syntax warning: Unbound global variable in previous-audit-check.g:78
+  Print("      g is a scalar multiple of M0: ", ForAny([1..4], i -> ForAny([1..4], j -> M0[i][j] <> 0 and g = (g[i][j]/M0[i][j])*M0)), "\n");
+                                                                                                               ^
+Syntax warning: Unbound global variable in previous-audit-check.g:78
+  Print("      g is a scalar multiple of M0: ", ForAny([1..4], i -> ForAny([1..4], j -> M0[i][j] <> 0 and g = (g[i][j]/M0[i][j])*M0)), "\n");
+                                                                                                                       ^^
+Syntax warning: Unbound global variable in previous-audit-check.g:78
+  Print("      g is a scalar multiple of M0: ", ForAny([1..4], i -> ForAny([1..4], j -> M0[i][j] <> 0 and g = (g[i][j]/M0[i][j])*M0)), "\n");
+                                                                                                                                 ^^
+
+== previous-audit certificate L3-{4,3,3}-3 -> L3-{4,3,3}-2  (printed lambda = 3/4, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = 3/4
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  row {4,3,3}: the space of matrices inverting S1 and S2 is one-dimensional
+PASS  w_a M0 = c w_b with c = -2
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{4,3,3}-6 -> L3-{4,3,3}-1  (printed lambda = 3/4, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = 3/4
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  w_a M0 = c w_b with c = 2
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,3}-8 -> L3-{5,3,3}-3  (printed lambda = -5/2*E(5)-13/2*E(5)^2-13/2*E(5)^3-5/2*E(5)^4, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = -5/2*E(5)-13/2*E(5)^2-13/2*E(5)^3-5/2*E(5)^4
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  row {5,3,3}: the space of matrices inverting S1 and S2 is one-dimensional
+PASS  w_a M0 = c w_b with c = 8*E(5)+4*E(5)^2+4*E(5)^3+8*E(5)^4
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{3,3,5/2}-4 -> L3-{3,3,5/2}-1  (printed lambda = 1/2, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = 1/2
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  row {3,3,5/2}: the space of matrices inverting S1 and S2 is one-dimensional
+PASS  w_a M0 = c w_b with c = -4
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,5/2}-3 -> L3-{5,3,5/2}-2  (printed lambda = 4/3*E(40)^7-8/3*E(40)^8-4/3*E(40)^13-14/3*E(40)^16-8/3*E(40)^21+4/3*E(40)^23-14/3*E(40)^24-8/3*E(40)^29+8/3*E(40)^31-8/3*E(40)^32-4/3*E(40)^37+8/3*E(40)^39, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = 4/3*E(40)^7-8/3*E(40)^8-4/3*E(40)^13-14/3*E(40)^16-8/3*E(40)^21+4/3*E(40)^23-14/3*E(40)^24-8/3*E(40)^29+8/3*E(40)^31-8/3*E(40)^32-4/3*E(40)^37+8/3*E(40)^39
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  row {5,3,5/2}: the space of matrices inverting S1 and S2 is one-dimensional
+PASS  w_a M0 = c w_b with c = 2/5*E(40)^7-2/5*E(40)^8-2/5*E(40)^13-8/5*E(40)^16+2/5*E(40)^21+2/5*E(40)^23-8/5*E(40)^24+2/5*E(40)^29-2/5*E(40)^31-2/5*E(40)^32-2/5*E(40)^37-2/5*E(40)^39
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,5/2}-4 -> L3-{5,3,5/2}-1  (printed lambda = -4/3*E(40)^7-8/3*E(40)^8+4/3*E(40)^13-14/3*E(40)^16+8/3*E(40)^21-4/3*E(40)^23-14/3*E(40)^24+8/3*E(40)^29-8/3*E(40)^31-8/3*E(40)^32+4/3*E(40)^37-8/3*E(40)^39, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = -4/3*E(40)^7-8/3*E(40)^8+4/3*E(40)^13-14/3*E(40)^16+8/3*E(40)^21-4/3*E(40)^23-14/3*E(40)^24+8/3*E(40)^29-8/3*E(40)^31-8/3*E(40)^32+4/3*E(40)^37-8/3*E(40)^39
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  w_a M0 = c w_b with c = -2/5*E(40)^7-2/5*E(40)^8+2/5*E(40)^13-8/5*E(40)^16-2/5*E(40)^21-2/5*E(40)^23-8/5*E(40)^24-2/5*E(40)^29+2/5*E(40)^31-2/5*E(40)^32+2/5*E(40)^37+2/5*E(40)^39
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,5/2}-7 -> L3-{5,3,5/2}-6  (printed lambda = 2/3*E(40)^7-4/3*E(40)^8-2/3*E(40)^13-5/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-5/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-4/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = 2/3*E(40)^7-4/3*E(40)^8-2/3*E(40)^13-5/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-5/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-4/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  w_a M0 = c w_b with c = -6/5*E(40)^7-8/5*E(40)^8+6/5*E(40)^13-12/5*E(40)^16+4/5*E(40)^21-6/5*E(40)^23-12/5*E(40)^24+4/5*E(40)^29-4/5*E(40)^31-8/5*E(40)^32+6/5*E(40)^37-4/5*E(40)^39
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,5/2}-8 -> L3-{5,3,5/2}-5  (printed lambda = -2/3*E(40)^7-4/3*E(40)^8+2/3*E(40)^13-5/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-5/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-4/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = -2/3*E(40)^7-4/3*E(40)^8+2/3*E(40)^13-5/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-5/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-4/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  w_a M0 = c w_b with c = 6/5*E(40)^7-8/5*E(40)^8-6/5*E(40)^13-12/5*E(40)^16-4/5*E(40)^21+6/5*E(40)^23-12/5*E(40)^24-4/5*E(40)^29+4/5*E(40)^31-8/5*E(40)^32-6/5*E(40)^37+4/5*E(40)^39
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-9  (printed lambda = 5/6, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = 5/6
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  w_a M0 = c w_b with c = -12/5*E(5)^2-12/5*E(5)^3
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-15  (printed lambda = -3*E(5)-15/2*E(5)^2-15/2*E(5)^3-3*E(5)^4, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = -3*E(5)-15/2*E(5)^2-15/2*E(5)^3-3*E(5)^4
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  w_a M0 = c w_b with c = 12/5*E(5)+8/5*E(5)^2+8/5*E(5)^3+12/5*E(5)^4
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-10  (printed lambda = 3/2, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = 3/2
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  w_a M0 = c w_b with c = -8/5*E(5)-12/5*E(5)^2-12/5*E(5)^3-8/5*E(5)^4
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+== previous-audit certificate L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-13  (printed lambda = -3/8*E(5)-3/4*E(5)^2-3/4*E(5)^3-3/8*E(5)^4, handedness PROPER)
+PASS  both cases exist and lie in the same row
+PASS  g g^T = lambda I with lambda = |w_b|^2/|w_a|^2 = -3/8*E(5)-3/4*E(5)^2-3/4*E(5)^3-3/8*E(5)^4
+PASS  printed lambda equals |w_b|^2/|w_a|^2
+PASS  lambda <> 1: the stored coordinate sets are NOT congruent, only similar
+PASS  det g = +lambda^2 (proper similarity)
+PASS  printed det agrees
+PASS  w_a g = w_b
+PASS  g carries vertices, edges, 2-faces and cells of a onto those of b
+PASS  g^-1 {S1,S2,X_a} g in Gamma_b
+PASS  w_a M0 = c w_b with c = 8/5*E(5)-8/5*E(5)^2-8/5*E(5)^3+8/5*E(5)^4
+PASS  M0/c is a proper similarity with the same lambda
+PASS  MECHANISM: g = (M0/c) * gamma with gamma in Gamma_b, i.e. the previous audit's certificate lies in the coset of the rho_1-type half-turn M0 (the previous audit tested only g = scalar * M0, which is false)
+      g is a scalar multiple of M0: false
+
+previous-audit certificates re-verified: 12; lying in the coset (M0/c) Gamma_b: 12
+PASS  all twelve previous-audit certificates are exact proper similarities with lambda <> 1 and all lie in the half-turn coset
+
+Failures: 0
+Done: previous-audit-check.g

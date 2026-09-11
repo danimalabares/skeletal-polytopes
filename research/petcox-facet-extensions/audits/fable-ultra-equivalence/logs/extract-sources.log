@@ -1,0 +1,39 @@
+petcox: 32 pages, 62401 characters
+chiral-4-polytope: 7 pages, 14223 characters
+schulte-asia-chiral: 24 pages, 64094 characters
+PASS  petcox.pdf has 32 pages
+PASS  chiral-4-polytope.pdf has 7 pages
+PASS  schulte-asia-chiral.pdf has 24 pages
+petcox-fixed-clean.txt: 13883 characters
+PASS  PETCOX p.19: 'isomorphic and have the same symmetry group'
+PASS  PETCOX p.20: 'denote the normalization of x'
+PASS  PETCOX p.19: 'we rst project it to S3'
+PASS  PETCOX p.20: 'we linearize the meaning of the parameter'
+PASS  PETCOX p.10: 'continuous family of dierent P'
+PASS  PETCOX p.28: 'isometry groups of the chiral polyhedra'
+PASS  PETCOX p.29: 'regular member of the family'
+PASS  PETCOX p.23: regular vertices of {4,3,3} '(1,1,1,sqrt3)' present in glyph pass
+PASS  PETCOX p.22: '{3,3,3} is regular' for alpha = 1/2, infinity
+PASS  PETCOX: word 'congruen' absent
+PASS  PETCOX: word 'enantiomorph' absent
+PASS  PETCOX: word 'mirror' absent
+PASS  BHP p.801: 'chiral colourings are enantiomorphic'
+PASS  BHP p.803: 'two enantiomorphic forms of Q'
+PASS  BHP p.803: 'sharing the same geometric symmetry group'
+PASS  BHP p.805: 'Wythoff space of chiral realizations is of dimension 2'
+PASS  BHP p.803: 'in the sphere S3 subset R4'
+PASS  BHP: word 'congruen' absent
+PASS  BHP: word 'mirror' absent
+PASS  SW: word 'enantiomorph' absent
+PASS  SW: word 'mirror' absent
+PASS  SW p.496: 'replacing a sigma by its inverse'
+PASS  SW p.495: 'chiral (or irreflexible)'
+PASS  SW p.511: 'two ways how chiral n-polytopes can occur'
+PASS  Thesis: 'same as the (abstract) one constructed before'
+PASS  Thesis: symmetry = isometry of E^4
+PASS  Thesis: word 'congruen' absent
+PASS  Thesis: word 'enantiomorph' absent
+PASS  Thesis: 'mirror' occurs once, in 'The mirror of the [newline] reflection $P_i$' (L495-496)
+
+extract-sources.py: 0 failed checks
+Done: extract-sources.py

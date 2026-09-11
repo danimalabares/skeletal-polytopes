@@ -1,0 +1,191 @@
+[ok]   method2-classes.tsv lists 24 distinct cases
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-1 -> L3-{4,3,3}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-1 -> L3-{4,3,3}-2 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-1 -> L3-{4,3,3}-3 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{4,3,3}-1 -> L3-{4,3,3}-6 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-1 -> L3-{4,3,3}-6 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-2 -> L3-{4,3,3}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-2 -> L3-{4,3,3}-2 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{4,3,3}-2 -> L3-{4,3,3}-3 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-2 -> L3-{4,3,3}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-2 -> L3-{4,3,3}-6 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-3 -> L3-{4,3,3}-1 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{4,3,3}-3 -> L3-{4,3,3}-2 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-3 -> L3-{4,3,3}-2 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-3 -> L3-{4,3,3}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-3 -> L3-{4,3,3}-6 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{4,3,3}-6 -> L3-{4,3,3}-1 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-6 -> L3-{4,3,3}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-6 -> L3-{4,3,3}-2 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-6 -> L3-{4,3,3}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{4,3,3}-6 -> L3-{4,3,3}-6 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,3}-3 -> L3-{5,3,3}-3 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,3}-3 -> L3-{5,3,3}-8 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,3}-3 -> L3-{5,3,3}-8 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,3}-3 -> L3-{3,3,5/2}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,3}-3 -> L3-{3,3,5/2}-4 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,3}-8 -> L3-{5,3,3}-3 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,3}-8 -> L3-{5,3,3}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,3}-8 -> L3-{5,3,3}-8 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,3}-8 -> L3-{3,3,5/2}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,3}-8 -> L3-{3,3,5/2}-4 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-1 -> L3-{5,3,5/2}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-1 -> L3-{5,3,5/2}-2 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-1 -> L3-{5,3,5/2}-3 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-1 -> L3-{5,3,5/2}-4 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-1 -> L3-{5,3,5/2}-4 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-2 -> L3-{5,3,5/2}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-2 -> L3-{5,3,5/2}-2 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-2 -> L3-{5,3,5/2}-3 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-2 -> L3-{5,3,5/2}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-2 -> L3-{5,3,5/2}-4 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-3 -> L3-{5,3,5/2}-1 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-3 -> L3-{5,3,5/2}-2 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-3 -> L3-{5,3,5/2}-2 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-3 -> L3-{5,3,5/2}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-3 -> L3-{5,3,5/2}-4 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-4 -> L3-{5,3,5/2}-1 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-4 -> L3-{5,3,5/2}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-4 -> L3-{5,3,5/2}-2 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-4 -> L3-{5,3,5/2}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-4 -> L3-{5,3,5/2}-4 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-5 -> L3-{5,3,5/2}-5 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-5 -> L3-{5,3,5/2}-6 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-5 -> L3-{5,3,5/2}-7 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-5 -> L3-{5,3,5/2}-8 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-5 -> L3-{5,3,5/2}-8 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-6 -> L3-{5,3,5/2}-5 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-6 -> L3-{5,3,5/2}-6 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-6 -> L3-{5,3,5/2}-7 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-6 -> L3-{5,3,5/2}-7 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-6 -> L3-{5,3,5/2}-8 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-7 -> L3-{5,3,5/2}-5 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-7 -> L3-{5,3,5/2}-6 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-7 -> L3-{5,3,5/2}-6 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-7 -> L3-{5,3,5/2}-7 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-7 -> L3-{5,3,5/2}-8 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-8 -> L3-{5,3,5/2}-5 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-8 -> L3-{5,3,5/2}-5 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-8 -> L3-{5,3,5/2}-6 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-8 -> L3-{5,3,5/2}-7 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-8 -> L3-{5,3,5/2}-8 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-9 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-10 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-11 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-12 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-12 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-13 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-14 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-15 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-9 -> L3-{5,3,5/2}-16 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-9 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-10 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-11 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-11 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-12 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-13 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-14 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-15 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-10 -> L3-{5,3,5/2}-16 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-9 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-10 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-10 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-11 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-12 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-13 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-14 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-15 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-16 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-9 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-9 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-10 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-11 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-12 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-13 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-14 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-15 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-16 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-9 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-10 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-11 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-12 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-13 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-14 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-14 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-15 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-13 -> L3-{5,3,5/2}-16 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-9 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-10 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-11 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-12 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-13 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-13 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-14 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-15 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-16 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-9 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-10 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-11 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-12 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-13 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-14 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-15 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-16 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-15 -> L3-{5,3,5/2}-16 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-9 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-10 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-11 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-12 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-13 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-14 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-15 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-15 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-16 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{3,3,5/2}-1 -> L3-{5,3,3}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{3,3,5/2}-1 -> L3-{5,3,3}-8 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{3,3,5/2}-1 -> L3-{3,3,5/2}-1 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{3,3,5/2}-1 -> L3-{3,3,5/2}-4 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{3,3,5/2}-1 -> L3-{3,3,5/2}-4 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{3,3,5/2}-4 -> L3-{5,3,3}-3 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{3,3,5/2}-4 -> L3-{5,3,3}-8 is 0 or |Gamma_b|
+[ok]   Method 1: all similarities L3-{3,3,5/2}-4 -> L3-{3,3,5/2}-1 are proper (det signs {+1})
+[ok]   Method 1: exhaustive similarity count for L3-{3,3,5/2}-4 -> L3-{3,3,5/2}-1 is 0 or |Gamma_b|
+[ok]   Method 1: exhaustive similarity count for L3-{3,3,5/2}-4 -> L3-{3,3,5/2}-4 is 0 or |Gamma_b|
+[ok]   Method 2: no two stored vertex sets coincide exactly (R1)
+[ok]   Method 2: no two stored structures coincide exactly (R1)
+[ok]   Method 2: every exhibited similarity certificate is proper
+[ok]   author check: 12 pairs, each carried exactly onto its partner, none an isometry as stored
+[ok]   author check: every certificate has det > 0
+[ok]   R5 partition: Method 1 = Method 2 = author check
+[ok]   R4 partition: Method 1 = Method 2
+[ok]   R4 = R5 on these data (every similarity is proper)
+[ok]   R3 partition: Method 1 = Method 2
+[ok]   R2 = R3 on these data
+[ok]   R3 has 24 classes (no two stored realisations congruent)
+[ok]   R5 has 12 classes
+[ok]   every R5 class has exactly two members
+[ok]   lambda present in Method 2 for L3-{4,3,3}-1,L3-{4,3,3}-6
+[ok]   lambda present in Method 2 for L3-{4,3,3}-2,L3-{4,3,3}-3
+[ok]   lambda present in Method 2 for L3-{5,3,3}-3,L3-{5,3,3}-8
+[ok]   lambda present in Method 2 for L3-{5,3,5/2}-1,L3-{5,3,5/2}-4
+[ok]   lambda present in Method 2 for L3-{5,3,5/2}-2,L3-{5,3,5/2}-3
+[ok]   lambda present in Method 2 for L3-{5,3,5/2}-5,L3-{5,3,5/2}-8
+[ok]   lambda present in Method 2 for L3-{5,3,5/2}-6,L3-{5,3,5/2}-7
+[ok]   lambda present in Method 2 for L3-{5,3,5/2}-9,L3-{5,3,5/2}-12
+[ok]   lambda present in Method 2 for L3-{5,3,5/2}-10,L3-{5,3,5/2}-11
+[ok]   lambda present in Method 2 for L3-{5,3,5/2}-13,L3-{5,3,5/2}-14
+[ok]   lambda present in Method 2 for L3-{5,3,5/2}-15,L3-{5,3,5/2}-16
+[ok]   lambda present in Method 2 for L3-{3,3,5/2}-1,L3-{3,3,5/2}-4
+[ok]   R6 (normalised congruence) = R5
+[ok]   R7 (up to enantiomorphism) = R6
+[ok]   Method 3 pairing (24 records) = author/Method 1/Method 2 pairing
+[ok]   Method 3: every pair similarity proper, structure map verified, M0^-1 X_a M0 in Gamma_b
+[ok]   Method 3: in all 4 rows dim commutant = dim anti-space = 1, det M0 > 0, reflection of the PETCOX circle
+[ok]   Method 3: fixed points of the circle reflection agree with PETCOX's regular alpha values in all 4 rows
+[ok]   Method 4: all 96 Method-1 certificates re-verified in pure Python (96 lines, 0 with a failed check)
+[ok]   Method 4: no nontrivial certificate is an isometry (lambda != 1)
+[ok]   Method 4: every certificate has det > 0
+[ok]   Method 4: all 80 non-certified equal-f-vector ordered pairs have differing exact scale-free invariants
+wrote /Users/daniel/github/skeletal-polytopes/research/petcox-facet-extensions/audits/fable-ultra-equivalence/EQUIVALENCE-TABLE.tsv
+class counts: R1 24, R2 24, R3 24, R4 12, R5 12, R6 12, R7 12
+Done: make-table.py

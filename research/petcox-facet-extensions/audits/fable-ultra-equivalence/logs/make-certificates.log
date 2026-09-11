@@ -1,0 +1,5 @@
+[ok]   the three certificate sources certify the same 12 pairs
+[ok]   12 certified pairs
+[ok]   40 non-similar unordered pairs with equal f-vector (found 40)
+wrote /Users/daniel/github/skeletal-polytopes/research/petcox-facet-extensions/audits/fable-ultra-equivalence/CERTIFICATES.md
+Done: make-certificates.py

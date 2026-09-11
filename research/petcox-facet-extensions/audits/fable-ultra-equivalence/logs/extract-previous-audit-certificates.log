@@ -1,0 +1,15 @@
+source: /Users/daniel/github/skeletal-polytopes/research/petcox-facet-extensions/audits/fable-ultra/logs/audit-runs/congruence-certify.log
+extracted 12 certificates -> /Users/daniel/github/skeletal-polytopes/research/petcox-facet-extensions/audits/fable-ultra-equivalence/logs/previous-audit-certificates.g
+  L3-{4,3,3}-3 -> L3-{4,3,3}-2  (12 similarities, lambda = 3/4, PROPER)
+  L3-{4,3,3}-6 -> L3-{4,3,3}-1  (12 similarities, lambda = 3/4, PROPER)
+  L3-{5,3,3}-8 -> L3-{5,3,3}-3  (12 similarities, lambda = -5/2*E(5)-13/2*E(5)^2-13/2*E(5)^3-5/2*E(5)^4, PROPER)
+  L3-{3,3,5/2}-4 -> L3-{3,3,5/2}-1  (12 similarities, lambda = 1/2, PROPER)
+  L3-{5,3,5/2}-3 -> L3-{5,3,5/2}-2  (12 similarities, lambda = 4/3*E(40)^7-8/3*E(40)^8-4/3*E(40)^13-14/3*E(40)^16-8/3*E(40)^21+4/3*E(40)^23-14/3*E(40)^24-8/3*E(40)^29+8/3*E(40)^31-8/3*E(40)^32-4/3*E(40)^37+8/3*E(40)^39, PROPER)
+  L3-{5,3,5/2}-4 -> L3-{5,3,5/2}-1  (12 similarities, lambda = -4/3*E(40)^7-8/3*E(40)^8+4/3*E(40)^13-14/3*E(40)^16+8/3*E(40)^21-4/3*E(40)^23-14/3*E(40)^24+8/3*E(40)^29-8/3*E(40)^31-8/3*E(40)^32+4/3*E(40)^37-8/3*E(40)^39, PROPER)
+  L3-{5,3,5/2}-7 -> L3-{5,3,5/2}-6  (24 similarities, lambda = 2/3*E(40)^7-4/3*E(40)^8-2/3*E(40)^13-5/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-5/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-4/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39, PROPER)
+  L3-{5,3,5/2}-8 -> L3-{5,3,5/2}-5  (24 similarities, lambda = -2/3*E(40)^7-4/3*E(40)^8+2/3*E(40)^13-5/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-5/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-4/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39, PROPER)
+  L3-{5,3,5/2}-12 -> L3-{5,3,5/2}-9  (60 similarities, lambda = 5/6, PROPER)
+  L3-{5,3,5/2}-16 -> L3-{5,3,5/2}-15  (60 similarities, lambda = -3*E(5)-15/2*E(5)^2-15/2*E(5)^3-3*E(5)^4, PROPER)
+  L3-{5,3,5/2}-11 -> L3-{5,3,5/2}-10  (60 similarities, lambda = 3/2, PROPER)
+  L3-{5,3,5/2}-14 -> L3-{5,3,5/2}-13  (60 similarities, lambda = -3/8*E(5)-3/4*E(5)^2-3/4*E(5)^3-3/8*E(5)^4, PROPER)
+Done: extract-previous-audit-certificates.py

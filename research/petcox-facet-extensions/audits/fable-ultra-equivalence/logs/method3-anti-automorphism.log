@@ -1,0 +1,1428 @@
+method3-anti-automorphism.g  --  GAP 4.14.0
+DATA = /Users/daniel/github/skeletal-polytopes/research/petcox-facet-extensions/audits/fable-ultra-equivalence/build/producer/research/petcox-facet-extensions/logs/alpha-survivors.g
+records loaded: 24
+
+==================== STEP 0: realisations and f-vectors ====================
+  [ok]   L3-{4,3,3}-1: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{4,3,3}-1: S1, S2, X orthogonal
+  L3-{4,3,3}-1  |Gamma|=192 |G|=48  f-vector [ 16, 32, 12, 4 ]  |w|^2=3
+  [ok]   L3-{4,3,3}-1: f-vector = expected [ 16, 32, 12, 4 ]
+  [ok]   L3-{4,3,3}-1: Gamma acts faithfully on V
+  [ok]   L3-{4,3,3}-1: base 2-face has p=8 distinct vertices
+  [ok]   L3-{4,3,3}-1: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{4,3,3}-1: every 2-face lies in exactly 2 cells
+  [ok]   L3-{4,3,3}-2: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{4,3,3}-2: S1, S2, X orthogonal
+  L3-{4,3,3}-2  |Gamma|=192 |G|=48  f-vector [ 16, 32, 12, 4 ]  |w|^2=3/4
+  [ok]   L3-{4,3,3}-2: f-vector = expected [ 16, 32, 12, 4 ]
+  [ok]   L3-{4,3,3}-2: Gamma acts faithfully on V
+  [ok]   L3-{4,3,3}-2: base 2-face has p=8 distinct vertices
+  [ok]   L3-{4,3,3}-2: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{4,3,3}-2: every 2-face lies in exactly 2 cells
+  [ok]   L3-{4,3,3}-3: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{4,3,3}-3: S1, S2, X orthogonal
+  L3-{4,3,3}-3  |Gamma|=192 |G|=48  f-vector [ 16, 32, 12, 4 ]  |w|^2=1
+  [ok]   L3-{4,3,3}-3: f-vector = expected [ 16, 32, 12, 4 ]
+  [ok]   L3-{4,3,3}-3: Gamma acts faithfully on V
+  [ok]   L3-{4,3,3}-3: base 2-face has p=8 distinct vertices
+  [ok]   L3-{4,3,3}-3: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{4,3,3}-3: every 2-face lies in exactly 2 cells
+  [ok]   L3-{4,3,3}-6: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{4,3,3}-6: S1, S2, X orthogonal
+  L3-{4,3,3}-6  |Gamma|=192 |G|=48  f-vector [ 16, 32, 12, 4 ]  |w|^2=4
+  [ok]   L3-{4,3,3}-6: f-vector = expected [ 16, 32, 12, 4 ]
+  [ok]   L3-{4,3,3}-6: Gamma acts faithfully on V
+  [ok]   L3-{4,3,3}-6: base 2-face has p=8 distinct vertices
+  [ok]   L3-{4,3,3}-6: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{4,3,3}-6: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,3}-3: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,3}-3: S1, S2, X orthogonal
+  L3-{5,3,3}-3  |Gamma|=7200 |G|=1440  f-vector [ 600, 1200, 120, 5 ]  |w|^2=-136*E(5)-356*E(5)^2-356*E(5)^3-136*E(5)^4
+  [ok]   L3-{5,3,3}-3: f-vector = expected [ 600, 1200, 120, 5 ]
+  [ok]   L3-{5,3,3}-3: Gamma acts faithfully on V
+  [ok]   L3-{5,3,3}-3: base 2-face has p=30 distinct vertices
+  [ok]   L3-{5,3,3}-3: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{5,3,3}-3: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,3}-8: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,3}-8: S1, S2, X orthogonal
+  L3-{5,3,3}-8  |Gamma|=7200 |G|=1440  f-vector [ 600, 1200, 120, 5 ]  |w|^2=-16*E(5)-40*E(5)^2-40*E(5)^3-16*E(5)^4
+  [ok]   L3-{5,3,3}-8: f-vector = expected [ 600, 1200, 120, 5 ]
+  [ok]   L3-{5,3,3}-8: Gamma acts faithfully on V
+  [ok]   L3-{5,3,3}-8: base 2-face has p=30 distinct vertices
+  [ok]   L3-{5,3,3}-8: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{5,3,3}-8: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-1: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-1: S1, S2, X orthogonal
+  L3-{5,3,5/2}-1  |Gamma|=2880 |G|=144  f-vector [ 240, 480, 120, 20 ]  |w|^2=-56*E(40)^7-80*E(40)^8+56*E(40)^13-208*E(40)^16+146*E(40)^21-56*E(40)^23-208*E(40)^24+146*E(40)^29-146*E(40)^31-80*E(40)^32+56*E(40)^37-146*E(40)^39
+  [ok]   L3-{5,3,5/2}-1: f-vector = expected [ 240, 480, 120, 20 ]
+  [ok]   L3-{5,3,5/2}-1: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-1: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-1: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-1: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-2: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-2: S1, S2, X orthogonal
+  L3-{5,3,5/2}-2  |Gamma|=2880 |G|=144  f-vector [ 240, 480, 120, 20 ]  |w|^2=56*E(40)^7-80*E(40)^8-56*E(40)^13-208*E(40)^16-146*E(40)^21+56*E(40)^23-208*E(40)^24-146*E(40)^29+146*E(40)^31-80*E(40)^32-56*E(40)^37+146*E(40)^39
+  [ok]   L3-{5,3,5/2}-2: f-vector = expected [ 240, 480, 120, 20 ]
+  [ok]   L3-{5,3,5/2}-2: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-2: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-2: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-2: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-3: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-3: S1, S2, X orthogonal
+  L3-{5,3,5/2}-3  |Gamma|=2880 |G|=144  f-vector [ 240, 480, 120, 20 ]  |w|^2=5*E(40)^7-8*E(40)^8-5*E(40)^13-20*E(40)^16-13*E(40)^21+5*E(40)^23-20*E(40)^24-13*E(40)^29+13*E(40)^31-8*E(40)^32-5*E(40)^37+13*E(40)^39
+  [ok]   L3-{5,3,5/2}-3: f-vector = expected [ 240, 480, 120, 20 ]
+  [ok]   L3-{5,3,5/2}-3: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-3: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-3: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-3: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-4: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-4: S1, S2, X orthogonal
+  L3-{5,3,5/2}-4  |Gamma|=2880 |G|=144  f-vector [ 240, 480, 120, 20 ]  |w|^2=-5*E(40)^7-8*E(40)^8+5*E(40)^13-20*E(40)^16+13*E(40)^21-5*E(40)^23-20*E(40)^24+13*E(40)^29-13*E(40)^31-8*E(40)^32+5*E(40)^37-13*E(40)^39
+  [ok]   L3-{5,3,5/2}-4: f-vector = expected [ 240, 480, 120, 20 ]
+  [ok]   L3-{5,3,5/2}-4: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-4: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-4: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-4: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-5: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-5: S1, S2, X orthogonal
+  L3-{5,3,5/2}-5  |Gamma|=1152 |G|=144  f-vector [ 48, 144, 48, 8 ]  |w|^2=-5*E(40)^7-8*E(40)^8+5*E(40)^13-20*E(40)^16+13*E(40)^21-5*E(40)^23-20*E(40)^24+13*E(40)^29-13*E(40)^31-8*E(40)^32+5*E(40)^37-13*E(40)^39
+  [ok]   L3-{5,3,5/2}-5: f-vector = expected [ 48, 144, 48, 8 ]
+  [ok]   L3-{5,3,5/2}-5: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-5: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-5: every edge lies in the same number (4) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-5: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-6: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-6: S1, S2, X orthogonal
+  L3-{5,3,5/2}-6  |Gamma|=1152 |G|=144  f-vector [ 48, 144, 48, 8 ]  |w|^2=5*E(40)^7-8*E(40)^8-5*E(40)^13-20*E(40)^16-13*E(40)^21+5*E(40)^23-20*E(40)^24-13*E(40)^29+13*E(40)^31-8*E(40)^32-5*E(40)^37+13*E(40)^39
+  [ok]   L3-{5,3,5/2}-6: f-vector = expected [ 48, 144, 48, 8 ]
+  [ok]   L3-{5,3,5/2}-6: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-6: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-6: every edge lies in the same number (4) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-6: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-7: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-7: S1, S2, X orthogonal
+  L3-{5,3,5/2}-7  |Gamma|=1152 |G|=144  f-vector [ 48, 144, 48, 8 ]  |w|^2=E(40)^7-4*E(40)^8-E(40)^13-8*E(40)^16-4*E(40)^21+E(40)^23-8*E(40)^24-4*E(40)^29+4*E(40)^31-4*E(40)^32-E(40)^37+4*E(40)^39
+  [ok]   L3-{5,3,5/2}-7: f-vector = expected [ 48, 144, 48, 8 ]
+  [ok]   L3-{5,3,5/2}-7: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-7: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-7: every edge lies in the same number (4) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-7: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-8: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-8: S1, S2, X orthogonal
+  L3-{5,3,5/2}-8  |Gamma|=1152 |G|=144  f-vector [ 48, 144, 48, 8 ]  |w|^2=-E(40)^7-4*E(40)^8+E(40)^13-8*E(40)^16+4*E(40)^21-E(40)^23-8*E(40)^24+4*E(40)^29-4*E(40)^31-4*E(40)^32+E(40)^37-4*E(40)^39
+  [ok]   L3-{5,3,5/2}-8: f-vector = expected [ 48, 144, 48, 8 ]
+  [ok]   L3-{5,3,5/2}-8: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-8: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-8: every edge lies in the same number (4) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-8: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-9: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-9: S1, S2, X orthogonal
+  L3-{5,3,5/2}-9  |Gamma|=7200 |G|=144  f-vector [ 120, 720, 300, 50 ]  |w|^2=-E(5)-2*E(5)^2-2*E(5)^3-E(5)^4
+  [ok]   L3-{5,3,5/2}-9: f-vector = expected [ 120, 720, 300, 50 ]
+  [ok]   L3-{5,3,5/2}-9: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-9: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-9: every edge lies in the same number (5) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-9: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-10: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-10: S1, S2, X orthogonal
+  L3-{5,3,5/2}-10  |Gamma|=7200 |G|=144  f-vector [ 120, 720, 300, 50 ]  |w|^2=-3*E(5)-6*E(5)^2-6*E(5)^3-3*E(5)^4
+  [ok]   L3-{5,3,5/2}-10: f-vector = expected [ 120, 720, 300, 50 ]
+  [ok]   L3-{5,3,5/2}-10: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-10: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-10: every edge lies in the same number (5) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-10: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-11: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-11: S1, S2, X orthogonal
+  L3-{5,3,5/2}-11  |Gamma|=7200 |G|=144  f-vector [ 120, 720, 300, 50 ]  |w|^2=-2*E(5)-4*E(5)^2-4*E(5)^3-2*E(5)^4
+  [ok]   L3-{5,3,5/2}-11: f-vector = expected [ 120, 720, 300, 50 ]
+  [ok]   L3-{5,3,5/2}-11: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-11: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-11: every edge lies in the same number (5) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-11: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-12: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-12: S1, S2, X orthogonal
+  L3-{5,3,5/2}-12  |Gamma|=7200 |G|=144  f-vector [ 120, 720, 300, 50 ]  |w|^2=-6/5*E(5)-12/5*E(5)^2-12/5*E(5)^3-6/5*E(5)^4
+  [ok]   L3-{5,3,5/2}-12: f-vector = expected [ 120, 720, 300, 50 ]
+  [ok]   L3-{5,3,5/2}-12: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-12: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-12: every edge lies in the same number (5) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-12: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-13: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-13: S1, S2, X orthogonal
+  L3-{5,3,5/2}-13  |Gamma|=7200 |G|=144  f-vector [ 120, 720, 300, 50 ]  |w|^2=-3/4*E(5)-3/2*E(5)^2-3/2*E(5)^3-3/4*E(5)^4
+  [ok]   L3-{5,3,5/2}-13: f-vector = expected [ 120, 720, 300, 50 ]
+  [ok]   L3-{5,3,5/2}-13: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-13: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-13: every edge lies in the same number (5) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-13: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-14: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-14: S1, S2, X orthogonal
+  L3-{5,3,5/2}-14  |Gamma|=7200 |G|=144  f-vector [ 120, 720, 300, 50 ]  |w|^2=2
+  [ok]   L3-{5,3,5/2}-14: f-vector = expected [ 120, 720, 300, 50 ]
+  [ok]   L3-{5,3,5/2}-14: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-14: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-14: every edge lies in the same number (5) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-14: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-15: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-15: S1, S2, X orthogonal
+  L3-{5,3,5/2}-15  |Gamma|=7200 |G|=144  f-vector [ 120, 720, 300, 50 ]  |w|^2=-30*E(5)-78*E(5)^2-78*E(5)^3-30*E(5)^4
+  [ok]   L3-{5,3,5/2}-15: f-vector = expected [ 120, 720, 300, 50 ]
+  [ok]   L3-{5,3,5/2}-15: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-15: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-15: every edge lies in the same number (5) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-15: every 2-face lies in exactly 2 cells
+  [ok]   L3-{5,3,5/2}-16: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{5,3,5/2}-16: S1, S2, X orthogonal
+  L3-{5,3,5/2}-16  |Gamma|=7200 |G|=144  f-vector [ 120, 720, 300, 50 ]  |w|^2=-4*E(5)-8*E(5)^2-8*E(5)^3-4*E(5)^4
+  [ok]   L3-{5,3,5/2}-16: f-vector = expected [ 120, 720, 300, 50 ]
+  [ok]   L3-{5,3,5/2}-16: Gamma acts faithfully on V
+  [ok]   L3-{5,3,5/2}-16: base 2-face has p=12 distinct vertices
+  [ok]   L3-{5,3,5/2}-16: every edge lies in the same number (5) of 2-faces, at least 2
+  [ok]   L3-{5,3,5/2}-16: every 2-face lies in exactly 2 cells
+  [ok]   L3-{3,3,5/2}-1: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{3,3,5/2}-1: S1, S2, X orthogonal
+  L3-{3,3,5/2}-1  |Gamma|=7200 |G|=1440  f-vector [ 600, 1200, 120, 5 ]  |w|^2=-13/2*E(5)-5/2*E(5)^2-5/2*E(5)^3-13/2*E(5)^4
+  [ok]   L3-{3,3,5/2}-1: f-vector = expected [ 600, 1200, 120, 5 ]
+  [ok]   L3-{3,3,5/2}-1: Gamma acts faithfully on V
+  [ok]   L3-{3,3,5/2}-1: base 2-face has p=30 distinct vertices
+  [ok]   L3-{3,3,5/2}-1: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{3,3,5/2}-1: every 2-face lies in exactly 2 cells
+  [ok]   L3-{3,3,5/2}-4: ab[2] = 1 (t = ab[1])
+  [ok]   L3-{3,3,5/2}-4: S1, S2, X orthogonal
+  L3-{3,3,5/2}-4  |Gamma|=7200 |G|=1440  f-vector [ 600, 1200, 120, 5 ]  |w|^2=-13*E(5)-5*E(5)^2-5*E(5)^3-13*E(5)^4
+  [ok]   L3-{3,3,5/2}-4: f-vector = expected [ 600, 1200, 120, 5 ]
+  [ok]   L3-{3,3,5/2}-4: Gamma acts faithfully on V
+  [ok]   L3-{3,3,5/2}-4: base 2-face has p=30 distinct vertices
+  [ok]   L3-{3,3,5/2}-4: every edge lies in the same number (3) of 2-faces, at least 2
+  [ok]   L3-{3,3,5/2}-4: every 2-face lies in exactly 2 cells
+Syntax warning: Unbound global variable in method3-anti-automorphism.g:549
+    B := List([0..3], j -> u*S1^j); Cm := List([0..3], j -> u*S1^-j);
+                           ^
+Syntax warning: Unbound global variable in method3-anti-automorphism.g:549
+    B := List([0..3], j -> u*S1^j); Cm := List([0..3], j -> u*S1^-j);
+                                                            ^
+Syntax warning: Unbound global variable in method3-anti-automorphism.g:631
+          "  (w S1^k) R = w S1^-k for all k<p: ", ForAll([0..p-1], k -> r.w*S1^k*R = r.w*S1^-k), "\n");
+                                                                                 ^
+
+
+############################################################################
+##  ROW {4,3,3}
+############################################################################
+records: [ "L3-{4,3,3}-1", "L3-{4,3,3}-2", "L3-{4,3,3}-3", "L3-{4,3,3}-6" ]
+  [ok]   all records of the row share S1, S2
+Order(S1)=8 Order(S2)=3 Order(S1*S2)=2 |G|=48
+S1 = [ [ 0, 0, -1, 0 ], [ 1, 0, 0, 0 ], [ 0, 0, 0, 1 ], [ 0, 1, 0, 0 ] ]
+S2 = [ [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 1, 0, 0, 0 ], [ 0, 0, 0, 1 ] ]
+  [ok]   the t-values of the records of the row are pairwise distinct
+
+--- Step 1: commutant of G ---
+dim {M : M S1 = S1 M, M S2 = S2 M} = 1   basis: [ [ [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ] ] ]
+  [ok]   commutant is 1-dimensional (only scalars centralise G; the only isometries are +-I)
+
+--- Step 2: anti-space {M : M S1 = S1^-1 M, M S2 = S2^-1 M} ---
+dim anti-space = 1
+  [ok]   anti-space is 1-dimensional
+M0 (raw basis vector, semi-echelon normalised) = [ [ 0, -1, 1, 1 ], [ -1, 1, 0, 1 ], [ 1, 0, -1, 1 ], [ 1, 1, 1, 0 ] ]
+  [ok]   M0 M0^T = mu I with mu = 3 ~ 3.
+  [ok]   mu > 0
+M0^2 / mu = [ [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ] ]
+  [ok]   M0^2 = +-mu I
+M0 symmetric: true   skew: false
+det M0 / mu^2 = 1
+  [ok]   det M0 = +-mu^2
+exact sqrt(mu) = -E(12)^7+E(12)^11 ~ 1.7320508075688767  (conductor 12)
+  [ok]   sqrt(mu)^2 = mu, sqrt(mu) > 0
+M0 (normalised) = [ [ 0, 1/3*E(12)^7-1/3*E(12)^11, -1/3*E(12)^7+1/3*E(12)^11, -1/3*E(12)^7+1/3*E(12)^11 ], [ 1/3*E(12)^7-1/3*E(12)^11, -1/3*E(12)^7+1/3*E(12)^11, 0, -1/3*E(12)^7+1/3*E(12)^11 ], [ -1/3*E(12)^7+1/3*E(12)^11, 0, 1/3*E(12)^7-1/3*E(12)^11, -1/3*E(12)^7+1/3*E(12)^11 ], [ -1/3*E(12)^7+1/3*E(12)^11, -1/3*E(12)^7+1/3*E(12)^11, -1/3*E(12)^7+1/3*E(12)^11, 0 ] ]
+  [ok]   M0 M0^T = I exactly (M0 is an isometry)
+  [ok]   M0^2 = +-I
+M0^2 = +I
+  [ok]   det M0 = +-1 exactly
+det M0 = 1  -> +1 (proper)
+M0^-1 S1 M0 = [ [ 0, 1, 0, 0 ], [ 0, 0, 0, 1 ], [ -1, 0, 0, 0 ], [ 0, 0, 1, 0 ] ]
+S1^-1        = [ [ 0, 1, 0, 0 ], [ 0, 0, 0, 1 ], [ -1, 0, 0, 0 ], [ 0, 0, 1, 0 ] ]
+M0^-1 S2 M0 = [ [ 0, 0, 1, 0 ], [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 0, 1 ] ]
+S2^-1        = [ [ 0, 0, 1, 0 ], [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 0, 1 ] ]
+  [ok]   M0^-1 S1 M0 = S1^-1 and M0^-1 S2 M0 = S2^-1 (M0 normalises G, inverting both generators)
+M0 normalises Gamma of each record?  (M0^-1 X M0 in Gamma = <S1,S2,X>)
+   L3-{4,3,3}-1: false
+   L3-{4,3,3}-2: false
+   L3-{4,3,3}-3: false
+   L3-{4,3,3}-6: false
+
+--- Step 3: the PETCOX circle Pi = Fix(S2) ---
+basis of Pi: [ [ 1, 1, 1, 0 ], [ 0, 0, 0, 1 ] ]
+  [ok]   dim Pi = 2
+  [ok]   every stored w of the row lies in Pi
+  [ok]   every stored w is fixed by S2
+  [ok]   exactly one record with t = infinity, and it has alpha = 0
+v0 := w of L3-{4,3,3}-6 = [ 1, 1, 1, 1 ]
+   L3-{4,3,3}-1: t = 1/2  w - t v0 = [ 0, 0, 0, 1 ]
+   L3-{4,3,3}-2: t = -1/4  w - t v0 = [ 0, 0, 0, 1 ]
+   L3-{4,3,3}-3: t = -1/2  w - t v0 = [ 0, 0, 0, 1 ]
+  [ok]   w - t v0 is the same vector v3 for all finite-t records of the row
+v0 = [ 1, 1, 1, 1 ]  |v0|^2 = 4 ~ 4.
+v3 = [ 0, 0, 0, 1 ]  |v3|^2 = 1 ~ 1.
+v0.v3 = 1 ~ 1.
+  [ok]   v0, v3 form a basis of Pi
+  [ok]   a record with finite t <> 0 and alpha not in {0,1,infinity} exists
+rho recovered from L3-{4,3,3}-1: rho = 2 ~ 2.
+  [ok]   rho > 0
+  [ok]   rho^2 = (v0.v0)/(v3.v3) exactly
+  [ok]   alpha = 1/(1 + t rho) reproduces the stored alpha of every record exactly
+
+--- Step 4: action of M0 on Pi ---
+  [ok]   Pi is M0-invariant
+  [ok]   M0 restricted to Pi expressed in the basis (v0, v3)
+M0|Pi in basis (v0,v3) (rows = images):  v0 M0 = -1/3*E(12)^7+1/3*E(12)^11 v0 + -2/3*E(12)^7+2/3*E(12)^11 v3 ;  v3 M0 = -1/3*E(12)^7+1/3*E(12)^11 v0 + 1/3*E(12)^7-1/3*E(12)^11 v3
+A = [ [ -1/3*E(12)^7+1/3*E(12)^11, -2/3*E(12)^7+2/3*E(12)^11 ], [ -1/3*E(12)^7+1/3*E(12)^11, 1/3*E(12)^7-1/3*E(12)^11 ] ]
+trace(A) = 0   det(A) = -1 ~ -1.
+M0|Pi is a reflection
+  [ok]   M0 acts on Pi as a reflection (trace 0, determinant -1)
+Moebius map on the projective parameter t:  t' = (-1/3*E(12)^7+1/3*E(12)^11)*t + (-1/3*E(12)^7+1/3*E(12)^11)  /  (-2/3*E(12)^7+2/3*E(12)^11)*t + (1/3*E(12)^7-1/3*E(12)^11)
+   floats: t' = (0.57735026918962551 t + 0.57735026918962551) / (1.154700538379251 t + -0.57735026918962551)
+Moebius map on alpha:  alpha' = (4/3*E(12)^7-4/3*E(12)^11)*alpha + (-2/3*E(12)^7+2/3*E(12)^11)  /  (2/3*E(12)^7-2/3*E(12)^11)*alpha + (-4/3*E(12)^7+4/3*E(12)^11)
+   floats: alpha' = (-2.309401076758502 alpha + 1.154700538379251) / (-1.154700538379251 alpha + 2.309401076758502)
+  [ok]   alpha-Moebius map agrees with alpha(Moebius(t)) on all records
+  [ok]   the Moebius map is an involution on the stored t-values
+fixed points: -2/3*E(12)^7+2/3*E(12)^11 t^2 + (2/3*E(12)^7-2/3*E(12)^11) t + (1/3*E(12)^7-1/3*E(12)^11) = 0,   discriminant = 4 ~ 4.
+  [ok]   quadratic (b <> 0): infinity is not a fixed point
+  [ok]   discriminant > 0: two real fixed points (M0|Pi is a reflection with two eigen-lines)
+  [ok]   exact cyclotomic square root of the discriminant found
+sqrt(disc) = 2 ~ 2.
+  [ok]   both fixed t satisfy the quadratic exactly
+  [ok]   both fixed t are fixed by the Moebius map exactly
+fixed point 1:  t* = -1/2*E(12)^4+1/2*E(12)^7-1/2*E(12)^8-1/2*E(12)^11 ~ -0.36602540378443826    alpha* = -2*E(12)^4-E(12)^7-2*E(12)^8+E(12)^11 ~ 3.7320508075688772
+   agrees with a PETCOX regular value [ 0.26795, 3.73205 ] to 5 significant digits: true
+fixed point 2:  t* = -1/2*E(12)^4-1/2*E(12)^7-1/2*E(12)^8+1/2*E(12)^11 ~ 1.3660254037844384    alpha* = -2*E(12)^4+E(12)^7-2*E(12)^8-E(12)^11 ~ 0.2679491924311237
+   agrees with a PETCOX regular value [ 0.26795, 3.73205 ] to 5 significant digits: true
+  [ok]   both fixed alphas coincide (5 sig. digits) with the geometrically regular values of PETCOX for {4,3,3}
+  [ok]   fixed alphas equal exactly [ -2*E(12)^4+E(12)^7-2*E(12)^8-E(12)^11, -2*E(12)^4-E(12)^7-2*E(12)^8+E(12)^11 ]
+structural check at the fixed points: H_u = Wythoff polyhedron of G at u = t* v0 + v3
+  fixed point 1: |V(H)|=16 |E(H)|=24 |F(H)|=6
+  [ok]     u is an eigenvector of M0 with eigenvalue +-1 (u M0 = [ -1 ] u)
+  +M0 preserves H_u: V=true E=true F=true    -M0 preserves H_u: V=true E=true F=true 
+  [ok]     H_u at the fixed point is mapped onto itself by +M0 or -M0 (geometrically regular there)
+  [ok]     u S1^k, k=0..3 are linearly independent
+  [ok]     the reversing map R_u (u S1^k -> u S1^-k) equals +-M0
+  [ok]     R_u preserves H_u (vertices, edges, faces)
+  fixed point 2: |V(H)|=16 |E(H)|=24 |F(H)|=6
+  [ok]     u is an eigenvector of M0 with eigenvalue +-1 (u M0 = [ 1 ] u)
+  +M0 preserves H_u: V=true E=true F=true    -M0 preserves H_u: V=true E=true F=true 
+  [ok]     H_u at the fixed point is mapped onto itself by +M0 or -M0 (geometrically regular there)
+  [ok]     u S1^k, k=0..3 are linearly independent
+  [ok]     the reversing map R_u (u S1^k -> u S1^-k) equals +-M0
+  [ok]     R_u preserves H_u (vertices, edges, faces)
+the same isometries +-M0 applied to the cells H_w of the stored records (expected: NOT preserved):
+  L3-{4,3,3}-1: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{4,3,3}-1: neither +M0 nor -M0 preserves the cell H_w
+  L3-{4,3,3}-2: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{4,3,3}-2: neither +M0 nor -M0 preserves the cell H_w
+  L3-{4,3,3}-3: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{4,3,3}-3: neither +M0 nor -M0 preserves the cell H_w
+  L3-{4,3,3}-6: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{4,3,3}-6: neither +M0 nor -M0 preserves the cell H_w
+
+--- Step 5: predicted pairing via the Moebius map, and direct verification ---
+  L3-{4,3,3}-1: t = 1/2 ~ 0.5  alpha = 1/2 ~ 0.5
+       image t' = infinity ~ infinity  alpha' = 0 ~ 0.
+       -> paired with L3-{4,3,3}-6 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = -1/2*E(12)^7+1/2*E(12)^11 ~ 0.86602540378443837
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 4/3 ~ 1.3333333333333333
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 16/9 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{4,3,3}-1 onto L3-{4,3,3}-6:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{4,3,3}-1 onto V,E,F,C of L3-{4,3,3}-6
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 0, 0, 0, 1 ], [ 1, 0, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 1, 0, 0 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{4,3,3}-2: t = -1/4 ~ -0.25  alpha = 2 ~ 2.
+       image t' = -1/2 ~ -0.5  alpha' = infinity ~ infinity
+       -> paired with L3-{4,3,3}-3 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/2*E(12)^7-1/2*E(12)^11 ~ -0.86602540378443837
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 4/3 ~ 1.3333333333333333
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 16/9 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{4,3,3}-2 onto L3-{4,3,3}-3:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{4,3,3}-2 onto V,E,F,C of L3-{4,3,3}-3
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 1, 0, 0, 0 ], [ 0, 0, 0, -1 ], [ 0, 1, 0, 0 ], [ 0, 0, -1, 0 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{4,3,3}-3: t = -1/2 ~ -0.5  alpha = infinity ~ infinity
+       image t' = -1/4 ~ -0.25  alpha' = 2 ~ 2.
+       -> paired with L3-{4,3,3}-2 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 2/3*E(12)^7-2/3*E(12)^11 ~ -1.154700538379251
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 3/4 ~ 0.75
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 9/16 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{4,3,3}-3 onto L3-{4,3,3}-2:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{4,3,3}-3 onto V,E,F,C of L3-{4,3,3}-2
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 0, -2/3, 2/3, -1/3 ], [ -1/3, 2/3, 2/3, 0 ], [ -2/3, 0, -1/3, -2/3 ], [ -2/3, -1/3, 0, 2/3 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{4,3,3}-6: t = infinity ~ infinity  alpha = 0 ~ 0.
+       image t' = 1/2 ~ 0.5  alpha' = 1/2 ~ 0.5
+       -> paired with L3-{4,3,3}-1 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = -2/3*E(12)^7+2/3*E(12)^11 ~ 1.154700538379251
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 3/4 ~ 0.75
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 9/16 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{4,3,3}-6 onto L3-{4,3,3}-1:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{4,3,3}-6 onto V,E,F,C of L3-{4,3,3}-1
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -1/3, 2/3, 2/3, 0 ], [ 0, 2/3, -2/3, 1/3 ], [ -2/3, -1/3, 0, 2/3 ], [ 2/3, 0, 1/3, 2/3 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+
+--- Step 6: symmetry group of the cells; flag structure ---
+  [ok]   L3-{4,3,3}-1: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{4,3,3}-1: R = [ [ -2/3, -1/3, 0, 2/3 ], [ -1/3, 2/3, 2/3, 0 ], [ 0, 2/3, -2/3, 1/3 ], [ 2/3, 0, 1/3, 2/3 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{4,3,3}-1: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=true E=false F=false 
+  [ok]   L3-{4,3,3}-1: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{4,3,3}-1: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 16, 24, 6 ]
+  [ok]   L3-{4,3,3}-2: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{4,3,3}-2: R = [ [ -2/3, 0, -1/3, -2/3 ], [ 0, -2/3, 2/3, -1/3 ], [ -1/3, 2/3, 2/3, 0 ], [ -2/3, -1/3, 0, 2/3 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{4,3,3}-2: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=true E=false F=false 
+  [ok]   L3-{4,3,3}-2: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{4,3,3}-2: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 16, 24, 6 ]
+  [ok]   L3-{4,3,3}-3: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{4,3,3}-3: R = [ [ 0, 1, 0, 0 ], [ 1, 0, 0, 0 ], [ 0, 0, 0, -1 ], [ 0, 0, -1, 0 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{4,3,3}-3: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=true E=false F=false 
+  [ok]   L3-{4,3,3}-3: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{4,3,3}-3: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 16, 24, 6 ]
+  [ok]   L3-{4,3,3}-6: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{4,3,3}-6: R = [ [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ], [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{4,3,3}-6: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=true E=false F=false 
+  [ok]   L3-{4,3,3}-6: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{4,3,3}-6: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 16, 24, 6 ]
+  flag structure of H_w for L3-{4,3,3}-1:
+  [ok]       every edge of H_w lies in exactly 2 faces (H_w is a polyhedron)
+    number of flags = 96  2|G| = 96
+  [ok]       H_w has exactly 2|G| flags
+  [ok]       G acts faithfully on V(H_w)
+  [ok]       G acts freely on the flags: |Fl0 G| = |G|
+  [ok]       the 2-adjacent flag Fl0^2 is not in the G-orbit of Fl0 (two flag orbits)
+  [ok]       |Fl0^2 G| = |G|, so Fl0 G and Fl0^2 G exhaust the 2|G| flags
+  [ok]       S1 maps Fl0 to (Fl0^1)^0
+  [ok]       S2 maps Fl0 to (Fl0^2)^1
+  [ok]       the second face at the base edge is f S2
+  [ok]       S2^-1 S1^-1 S2 maps Fl0^2 to ((Fl0^2)^1)^0  (distinguished sigma_1 of Fl0^2)
+  [ok]       S2^-1 maps Fl0^2 to ((Fl0^2)^2)^1  (distinguished sigma_2 of Fl0^2)
+  [ok]       (Fl0^2)^2 = Fl0
+
+
+############################################################################
+##  ROW {5,3,3}
+############################################################################
+records: [ "L3-{5,3,3}-3", "L3-{5,3,3}-8" ]
+  [ok]   all records of the row share S1, S2
+Order(S1)=30 Order(S2)=3 Order(S1*S2)=2 |G|=1440
+S1 = [ [ -1/2*E(5)^2-1/2*E(5)^3, 1/2*E(5)+1/2*E(5)^4, -1/2, 0 ], [ -1/2*E(5)-1/2*E(5)^4, 0, -1/2, 1/2*E(5)^2+1/2*E(5)^3 ], [ -1/2, 1/2, -1/2, 1/2 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, -1/2, 1/2*E(5)+1/2*E(5)^4 ] ]
+S2 = [ [ 1, 0, 0, 0 ], [ 0, -1/2, -1/2*E(5)-1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3 ], [ 0, 1/2*E(5)+1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, 1/2 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, 1/2, -1/2*E(5)-1/2*E(5)^4 ] ]
+  [ok]   the t-values of the records of the row are pairwise distinct
+
+--- Step 1: commutant of G ---
+dim {M : M S1 = S1 M, M S2 = S2 M} = 1   basis: [ [ [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ] ] ]
+  [ok]   commutant is 1-dimensional (only scalars centralise G; the only isometries are +-I)
+
+--- Step 2: anti-space {M : M S1 = S1^-1 M, M S2 = S2^-1 M} ---
+dim anti-space = 1
+  [ok]   anti-space is 1-dimensional
+M0 (raw basis vector, semi-echelon normalised) = [ [ 2*E(5)+3*E(5)^2+3*E(5)^3+2*E(5)^4, 0, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, 1 ], [ 0, -E(5)-E(5)^4, -E(5)^2-E(5)^3, E(5)+3*E(5)^2+3*E(5)^3+E(5)^4 ], [ -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, -E(5)^2-E(5)^3, -2*E(5)^2-2*E(5)^3, 1 ], [ 1, E(5)+3*E(5)^2+3*E(5)^3+E(5)^4, 1, 1 ] ]
+  [ok]   M0 M0^T = mu I with mu = -8*E(5)-16*E(5)^2-16*E(5)^3-8*E(5)^4 ~ 20.944271909999159
+  [ok]   mu > 0
+M0^2 / mu = [ [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ] ]
+  [ok]   M0^2 = +-mu I
+M0 symmetric: true   skew: false
+det M0 / mu^2 = 1
+  [ok]   det M0 = +-mu^2
+exact sqrt(mu) = -2*E(40)^21-2*E(40)^29+2*E(40)^31+2*E(40)^39 ~ 4.576491222541474  (conductor 40)
+  [ok]   sqrt(mu)^2 = mu, sqrt(mu) > 0
+M0 (normalised) = [ [ 1/4*E(40)^7-1/4*E(40)^13+1/4*E(40)^21+1/4*E(40)^23+1/4*E(40)^29-1/4*E(40)^31-1/4*E(40)^37-1/4*E(40)^39, 0, -1/4*E(40)^21-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^39, -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37 ], [ 0, -1/2*E(40)^7+1/2*E(40)^13+1/4*E(40)^21-1/2*E(40)^23+1/4*E(40)^29-1/4*E(40)^31+1/2*E(40)^37-1/4*E(40)^39, 1/4*E(8)-1/4*E(8)^3, -1/4*E(40)^7+1/4*E(40)^13+1/2*E(40)^21-1/4*E(40)^23+1/2*E(40)^29-1/2*E(40)^31+1/4*E(40)^37-1/2*E(40)^39 ], [ -1/4*E(40)^21-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^39, 1/4*E(8)-1/4*E(8)^3, 1/2*E(8)-1/2*E(8)^3, -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37 ], [ -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37, -1/4*E(40)^7+1/4*E(40)^13+1/2*E(40)^21-1/4*E(40)^23+1/2*E(40)^29-1/2*E(40)^31+1/4*E(40)^37-1/2*E(40)^39, -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37, -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37 ] ]
+  [ok]   M0 M0^T = I exactly (M0 is an isometry)
+  [ok]   M0^2 = +-I
+M0^2 = +I
+  [ok]   det M0 = +-1 exactly
+det M0 = 1  -> +1 (proper)
+M0^-1 S1 M0 = [ [ -1/2*E(5)^2-1/2*E(5)^3, -1/2*E(5)-1/2*E(5)^4, -1/2, 0 ], [ 1/2*E(5)+1/2*E(5)^4, 0, 1/2, 1/2*E(5)^2+1/2*E(5)^3 ], [ -1/2, -1/2, -1/2, -1/2 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, 1/2, 1/2*E(5)+1/2*E(5)^4 ] ]
+S1^-1        = [ [ -1/2*E(5)^2-1/2*E(5)^3, -1/2*E(5)-1/2*E(5)^4, -1/2, 0 ], [ 1/2*E(5)+1/2*E(5)^4, 0, 1/2, 1/2*E(5)^2+1/2*E(5)^3 ], [ -1/2, -1/2, -1/2, -1/2 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, 1/2, 1/2*E(5)+1/2*E(5)^4 ] ]
+M0^-1 S2 M0 = [ [ 1, 0, 0, 0 ], [ 0, -1/2, 1/2*E(5)+1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ 0, -1/2*E(5)-1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, 1/2 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, 1/2, -1/2*E(5)-1/2*E(5)^4 ] ]
+S2^-1        = [ [ 1, 0, 0, 0 ], [ 0, -1/2, 1/2*E(5)+1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ 0, -1/2*E(5)-1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, 1/2 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, 1/2, -1/2*E(5)-1/2*E(5)^4 ] ]
+  [ok]   M0^-1 S1 M0 = S1^-1 and M0^-1 S2 M0 = S2^-1 (M0 normalises G, inverting both generators)
+M0 normalises Gamma of each record?  (M0^-1 X M0 in Gamma = <S1,S2,X>)
+   L3-{5,3,3}-3: false
+   L3-{5,3,3}-8: false
+
+--- Step 3: the PETCOX circle Pi = Fix(S2) ---
+basis of Pi: [ [ 1, 0, 0, 0 ], [ 0, 0, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, 1 ] ]
+  [ok]   dim Pi = 2
+  [ok]   every stored w of the row lies in Pi
+  [ok]   every stored w is fixed by S2
+  [ok]   exactly one record with t = infinity, and it has alpha = 0
+v0 := w of L3-{5,3,3}-8 = [ 2*E(5)+5*E(5)^2+5*E(5)^3+2*E(5)^4, 0, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, 1 ]
+   L3-{5,3,3}-3: t = -1/2*E(5)-3/2*E(5)^2-3/2*E(5)^3-1/2*E(5)^4  w - t v0 = [ 2*E(5)+5*E(5)^2+5*E(5)^3+2*E(5)^4, 0, 0, 0 ]
+  [ok]   w - t v0 is the same vector v3 for all finite-t records of the row
+v0 = [ 2*E(5)+5*E(5)^2+5*E(5)^3+2*E(5)^4, 0, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, 1 ]  |v0|^2 = -16*E(5)-40*E(5)^2-40*E(5)^3-16*E(5)^4 ~ 54.832815729997478
+v3 = [ 2*E(5)+5*E(5)^2+5*E(5)^3+2*E(5)^4, 0, 0, 0 ]  |v3|^2 = -13*E(5)-34*E(5)^2-34*E(5)^3-13*E(5)^4 ~ 46.978713763747791
+v0.v3 = -13*E(5)-34*E(5)^2-34*E(5)^3-13*E(5)^4 ~ 46.978713763747791
+  [ok]   v0, v3 form a basis of Pi
+  [ok]   a record with finite t <> 0 and alpha not in {0,1,infinity} exists
+rho recovered from L3-{5,3,3}-3: rho = 4*E(40)^7-4*E(40)^13-2*E(40)^21+4*E(40)^23-2*E(40)^29+2*E(40)^31-4*E(40)^37+2*E(40)^39 ~ 1.0803630269509055
+  [ok]   rho > 0
+  [ok]   rho^2 = (v0.v0)/(v3.v3) exactly
+  [ok]   alpha = 1/(1 + t rho) reproduces the stored alpha of every record exactly
+
+--- Step 4: action of M0 on Pi ---
+  [ok]   Pi is M0-invariant
+  [ok]   M0 restricted to Pi expressed in the basis (v0, v3)
+M0|Pi in basis (v0,v3) (rows = images):  v0 M0 = -1/2*E(8)+1/2*E(8)^3 v0 + 3*E(40)^7-3*E(40)^13-E(40)^21+3*E(40)^23-E(40)^29+E(40)^31-3*E(40)^37+E(40)^39 v3 ;  v3 M0 = -1/4*E(40)^7+1/4*E(40)^13+3/4*E(40)^21-1/4*E(40)^23+3/4*E(40)^29-3/4*E(40)^31+1/4*E(40)^37-3/4*E(40)^39 v0 + 1/2*E(8)-1/2*E(8)^3 v3
+A = [ [ -1/2*E(8)+1/2*E(8)^3, 3*E(40)^7-3*E(40)^13-E(40)^21+3*E(40)^23-E(40)^29+E(40)^31-3*E(40)^37+E(40)^39 ], [ -1/4*E(40)^7+1/4*E(40)^13+3/4*E(40)^21-1/4*E(40)^23+3/4*E(40)^29-3/4*E(40)^31+1/4*E(40)^37-3/4*E(40)^39, 1/2*E(8)-1/2*E(8)^3 ] ]
+trace(A) = 0   det(A) = -1 ~ -1.
+M0|Pi is a reflection
+  [ok]   M0 acts on Pi as a reflection (trace 0, determinant -1)
+Moebius map on the projective parameter t:  t' = (-1/2*E(8)+1/2*E(8)^3)*t + (-1/4*E(40)^7+1/4*E(40)^13+3/4*E(40)^21-1/4*E(40)^23+3/4*E(40)^29-3/4*E(40)^31+1/4*E(40)^37-3/4*E(40)^39)  /  (3*E(40)^7-3*E(40)^13-E(40)^21+3*E(40)^23-E(40)^29+E(40)^31-3*E(40)^37+E(40)^39)*t + (1/2*E(8)-1/2*E(8)^3)
+   floats: t' = (-0.70710678118654746 t + -1.4976761962286422) / (-0.33385053542218934 t + 0.70710678118654746)
+Moebius map on alpha:  alpha' = (-3*E(40)^7-4*E(40)^8+3*E(40)^13-2*E(40)^16+E(40)^21-3*E(40)^23-2*E(40)^24+E(40)^29-E(40)^31-4*E(40)^32+3*E(40)^37-E(40)^39)*alpha + (3*E(40)^7-3*E(40)^13-E(40)^21+3*E(40)^23-E(40)^29+E(40)^31-3*E(40)^37+E(40)^39)  /  (-E(40)^7-8*E(40)^8+E(40)^13-4*E(40)^16+E(40)^21-E(40)^23-4*E(40)^24+E(40)^29-E(40)^31-8*E(40)^32+E(40)^37-E(40)^39)*alpha + (3*E(40)^7+4*E(40)^8-3*E(40)^13+2*E(40)^16-E(40)^21+3*E(40)^23+2*E(40)^24-E(40)^29+E(40)^31+4*E(40)^32-3*E(40)^37+E(40)^39)
+   floats: alpha' = (1.0977825579224008 alpha + -0.33385053542218934) / (0.11365048262732647 alpha + -1.0977825579224008)
+  [ok]   alpha-Moebius map agrees with alpha(Moebius(t)) on all records
+  [ok]   the Moebius map is an involution on the stored t-values
+fixed points: 3*E(40)^7-3*E(40)^13-E(40)^21+3*E(40)^23-E(40)^29+E(40)^31-3*E(40)^37+E(40)^39 t^2 + (E(8)-E(8)^3) t + (1/4*E(40)^7-1/4*E(40)^13-3/4*E(40)^21+1/4*E(40)^23-3/4*E(40)^29+3/4*E(40)^31-1/4*E(40)^37+3/4*E(40)^39) = 0,   discriminant = 4 ~ 4.
+  [ok]   quadratic (b <> 0): infinity is not a fixed point
+  [ok]   discriminant > 0: two real fixed points (M0|Pi is a reflection with two eigen-lines)
+  [ok]   exact cyclotomic square root of the discriminant found
+sqrt(disc) = 2 ~ 2.
+  [ok]   both fixed t satisfy the quadratic exactly
+  [ok]   both fixed t are fixed by the Moebius map exactly
+fixed point 1:  t* = 1/2*E(40)^7-1/2*E(40)^8-1/2*E(40)^13-3/2*E(40)^16-3/2*E(40)^21+1/2*E(40)^23-3/2*E(40)^24-3/2*E(40)^29+3/2*E(40)^31-1/2*E(40)^32-1/2*E(40)^37+3/2*E(40)^39 ~ 5.1133863812071798    alpha* = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-2/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-1/3*E(40)^39 ~ 0.15327282884151594
+   agrees with a PETCOX regular value [ 0.15327, 19.1653 ] to 5 significant digits: true
+fixed point 2:  t* = -1/2*E(40)^7-1/2*E(40)^8+1/2*E(40)^13-3/2*E(40)^16+3/2*E(40)^21-1/2*E(40)^23-3/2*E(40)^24+3/2*E(40)^29-3/2*E(40)^31-1/2*E(40)^32+1/2*E(40)^37-3/2*E(40)^39 ~ -0.87731840370738956    alpha* = 2*E(40)^7-3*E(40)^8-2*E(40)^13-7*E(40)^16-5*E(40)^21+2*E(40)^23-7*E(40)^24-5*E(40)^29+5*E(40)^31-3*E(40)^32-2*E(40)^37+5*E(40)^39 ~ 19.165299913557977
+   agrees with a PETCOX regular value [ 0.15327, 19.1653 ] to 5 significant digits: true
+  [ok]   both fixed alphas coincide (5 sig. digits) with the geometrically regular values of PETCOX for {5,3,3}
+structural check at the fixed points: H_u = Wythoff polyhedron of G at u = t* v0 + v3
+  fixed point 1: |V(H)|=480 |E(H)|=720 |F(H)|=48
+  [ok]     u is an eigenvector of M0 with eigenvalue +-1 (u M0 = [ -1 ] u)
+  +M0 preserves H_u: V=true E=true F=true    -M0 preserves H_u: V=true E=true F=true 
+  [ok]     H_u at the fixed point is mapped onto itself by +M0 or -M0 (geometrically regular there)
+  [ok]     u S1^k, k=0..3 are linearly independent
+  [ok]     the reversing map R_u (u S1^k -> u S1^-k) equals +-M0
+  [ok]     R_u preserves H_u (vertices, edges, faces)
+  fixed point 2: |V(H)|=480 |E(H)|=720 |F(H)|=48
+  [ok]     u is an eigenvector of M0 with eigenvalue +-1 (u M0 = [ 1 ] u)
+  +M0 preserves H_u: V=true E=true F=true    -M0 preserves H_u: V=true E=true F=true 
+  [ok]     H_u at the fixed point is mapped onto itself by +M0 or -M0 (geometrically regular there)
+  [ok]     u S1^k, k=0..3 are linearly independent
+  [ok]     the reversing map R_u (u S1^k -> u S1^-k) equals +-M0
+  [ok]     R_u preserves H_u (vertices, edges, faces)
+the same isometries +-M0 applied to the cells H_w of the stored records (expected: NOT preserved):
+  L3-{5,3,3}-3: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,3}-3: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,3}-8: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,3}-8: neither +M0 nor -M0 preserves the cell H_w
+
+--- Step 5: predicted pairing via the Moebius map, and direct verification ---
+  L3-{5,3,3}-3: t = -1/2*E(5)-3/2*E(5)^2-3/2*E(5)^3-1/2*E(5)^4 ~ 2.1180339887498945  alpha = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39 ~ 0.3041135359756636
+       image t' = infinity ~ infinity  alpha' = 0 ~ 0.
+       -> paired with L3-{5,3,3}-8 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = -1/2*E(40)^7+1/2*E(40)^13+3/2*E(40)^21-1/2*E(40)^23+3/2*E(40)^29-3/2*E(40)^31+1/2*E(40)^37-3/2*E(40)^39 ~ -2.9953523924572845
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -26*E(5)-10*E(5)^2-10*E(5)^3-26*E(5)^4 ~ 0.11145618000168511
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -932*E(5)-356*E(5)^2-356*E(5)^3-932*E(5)^4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,3}-3 onto L3-{5,3,3}-8:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,3}-3 onto V,E,F,C of L3-{5,3,3}-8
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -1/2*E(5)^2-1/2*E(5)^3, 1/2*E(5)+1/2*E(5)^4, -1/2, 0 ], [ 0, 1/2, 1/2*E(5)+1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ -1/2*E(5)-1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, 0, 1/2 ], [ -1/2, 0, 1/2*E(5)^2+1/2*E(5)^3, -1/2*E(5)-1/2*E(5)^4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,3}-8: t = infinity ~ infinity  alpha = 0 ~ 0.
+       image t' = -1/2*E(5)-3/2*E(5)^2-3/2*E(5)^3-1/2*E(5)^4 ~ 2.1180339887498945  alpha' = 2*E(40)^7-3*E(40)^8-2*E(40)^13-E(40)^16-E(40)^21+2*E(40)^23-E(40)^24-E(40)^29+E(40)^31-3*E(40)^32-2*E(40)^37+E(40)^39 ~ 0.3041135359756636
+       -> paired with L3-{5,3,3}-3 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 3*E(40)^7-3*E(40)^13-E(40)^21+3*E(40)^23-E(40)^29+E(40)^31-3*E(40)^37+E(40)^39 ~ -0.33385053542218934
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -5/2*E(5)-13/2*E(5)^2-13/2*E(5)^3-5/2*E(5)^4 ~ 8.9721359549995796
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -89/4*E(5)-233/4*E(5)^2-233/4*E(5)^3-89/4*E(5)^4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,3}-8 onto L3-{5,3,3}-3:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,3}-8 onto V,E,F,C of L3-{5,3,3}-3
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -1/2*E(5)-3/4*E(5)^2-3/4*E(5)^3-1/2*E(5)^4, -1/4*E(5)-1/4*E(5)^4, -1/4, -1/2*E(5)-1/2*E(5)^4 ], [ 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, -1/4*E(5)-1/4*E(5)^4, -1/4*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/4*E(5)^4 ], [ 1/4*E(5)^2+1/4*E(5)^3, -1/4*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/4*E(5)^4, -1/2*E(5)-1/2*E(5)^4, 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4 ], [ -1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/2*E(5)^4, 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, -1/2*E(5)-3/4*E(5)^2-3/4*E(5)^3-1/2*E(5)^4, 1/4*E(5)^2+1/4*E(5)^3 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+
+--- Step 6: symmetry group of the cells; flag structure ---
+  [ok]   L3-{5,3,3}-3: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,3}-3: R = [ [ -1/2*E(5)-3/4*E(5)^2-3/4*E(5)^3-1/2*E(5)^4, -1/4*E(5)-1/4*E(5)^4, -1/4, -1/2*E(5)-1/2*E(5)^4 ], [ -1/4*E(5)-1/4*E(5)^4, -1/2, -3/4, -1/4*E(5)^2-1/4*E(5)^3 ], [ -1/4, -3/4, 1/4, -1/4*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/4*E(5)^4 ], [ -1/2*E(5)-1/2*E(5)^4, -1/4*E(5)^2-1/4*E(5)^3, -1/4*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/4*E(5)^4, 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,3}-3: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,3}-3: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,3}-3: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 480, 720, 48 ]
+  [ok]   L3-{5,3,3}-8: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,3}-8: R = [ [ -1/2*E(5)^2-1/2*E(5)^3, 1/2*E(5)+1/2*E(5)^4, -1/2, 0 ], [ 1/2*E(5)+1/2*E(5)^4, 0, 1/2, -1/2*E(5)^2-1/2*E(5)^3 ], [ -1/2, 1/2, -1/2, 1/2 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, 1/2, -1/2*E(5)-1/2*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,3}-8: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,3}-8: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,3}-8: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 480, 720, 48 ]
+  flag structure of H_w for L3-{5,3,3}-3:
+  [ok]       every edge of H_w lies in exactly 2 faces (H_w is a polyhedron)
+    number of flags = 2880  2|G| = 2880
+  [ok]       H_w has exactly 2|G| flags
+  [ok]       G acts faithfully on V(H_w)
+  [ok]       G acts freely on the flags: |Fl0 G| = |G|
+  [ok]       the 2-adjacent flag Fl0^2 is not in the G-orbit of Fl0 (two flag orbits)
+  [ok]       |Fl0^2 G| = |G|, so Fl0 G and Fl0^2 G exhaust the 2|G| flags
+  [ok]       S1 maps Fl0 to (Fl0^1)^0
+  [ok]       S2 maps Fl0 to (Fl0^2)^1
+  [ok]       the second face at the base edge is f S2
+  [ok]       S2^-1 S1^-1 S2 maps Fl0^2 to ((Fl0^2)^1)^0  (distinguished sigma_1 of Fl0^2)
+  [ok]       S2^-1 maps Fl0^2 to ((Fl0^2)^2)^1  (distinguished sigma_2 of Fl0^2)
+  [ok]       (Fl0^2)^2 = Fl0
+
+
+############################################################################
+##  ROW {5,3,5/2}
+############################################################################
+records: [ "L3-{5,3,5/2}-1", "L3-{5,3,5/2}-2", "L3-{5,3,5/2}-3", "L3-{5,3,5/2}-4", "L3-{5,3,5/2}-5", "L3-{5,3,5/2}-6", "L3-{5,3,5/2}-7", "L3-{5,3,5/2}-8", "L3-{5,3,5/2}-9", "L3-{5,3,5/2}-10", "L3-{5,3,5/2}-11", "L3-{5,3,5/2}-12", "L3-{5,3,5/2}-13", "L3-{5,3,5/2}-14", "L3-{5,3,5/2}-15", "L3-{5,3,5/2}-16" ]
+  [ok]   all records of the row share S1, S2
+Order(S1)=12 Order(S2)=3 Order(S1*S2)=2 |G|=144
+S1 = [ [ -1/2*E(5)-1/2*E(5)^4, 1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ -1/2, -1/2*E(5)-1/2*E(5)^4, 0, 1/2*E(5)^2+1/2*E(5)^3 ], [ 1/2*E(5)^2+1/2*E(5)^3, 0, 1/2*E(5)+1/2*E(5)^4, 1/2 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, -1/2, 1/2*E(5)+1/2*E(5)^4 ] ]
+S2 = [ [ 1, 0, 0, 0 ], [ 0, -1/2, -1/2*E(5)-1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3 ], [ 0, 1/2*E(5)+1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, 1/2 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, 1/2, -1/2*E(5)-1/2*E(5)^4 ] ]
+  [ok]   the t-values of the records of the row are pairwise distinct
+
+--- Step 1: commutant of G ---
+dim {M : M S1 = S1 M, M S2 = S2 M} = 1   basis: [ [ [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ] ] ]
+  [ok]   commutant is 1-dimensional (only scalars centralise G; the only isometries are +-I)
+
+--- Step 2: anti-space {M : M S1 = S1^-1 M, M S2 = S2^-1 M} ---
+dim anti-space = 1
+  [ok]   anti-space is 1-dimensional
+M0 (raw basis vector, semi-echelon normalised) = [ [ 3/5*E(5)-3/5*E(5)^2-3/5*E(5)^3+3/5*E(5)^4, 0, -4/5*E(5)-11/5*E(5)^2-11/5*E(5)^3-4/5*E(5)^4, -1/5*E(5)-4/5*E(5)^2-4/5*E(5)^3-1/5*E(5)^4 ], [ 0, -3/5*E(5)+3/5*E(5)^2+3/5*E(5)^3-3/5*E(5)^4, -1/5*E(5)-4/5*E(5)^2-4/5*E(5)^3-1/5*E(5)^4, 4/5*E(5)+11/5*E(5)^2+11/5*E(5)^3+4/5*E(5)^4 ], [ -4/5*E(5)-11/5*E(5)^2-11/5*E(5)^3-4/5*E(5)^4, -1/5*E(5)-4/5*E(5)^2-4/5*E(5)^3-1/5*E(5)^4, -1, -2/5*E(5)+2/5*E(5)^2+2/5*E(5)^3-2/5*E(5)^4 ], [ -1/5*E(5)-4/5*E(5)^2-4/5*E(5)^3-1/5*E(5)^4, 4/5*E(5)+11/5*E(5)^2+11/5*E(5)^3+4/5*E(5)^4, -2/5*E(5)+2/5*E(5)^2+2/5*E(5)^3-2/5*E(5)^4, 1 ] ]
+  [ok]   M0 M0^T = mu I with mu = -24/5*E(5)-48/5*E(5)^2-48/5*E(5)^3-24/5*E(5)^4 ~ 12.566563145999494
+  [ok]   mu > 0
+M0^2 / mu = [ [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ] ]
+  [ok]   M0^2 = +-mu I
+M0 symmetric: true   skew: false
+det M0 / mu^2 = 1
+  [ok]   det M0 = +-mu^2
+exact sqrt(mu) = 6/5*E(120)^7+6/5*E(120)^13-6/5*E(120)^23-4/5*E(120)^29+4/5*E(120)^31+6/5*E(120)^37-6/5*E(120)^47-6/5*E(120)^53+4/5*E(120)^61-4/5*E(120)^71-6/5*E(120)^77+4/5*E(120)^79-4/5*E(120)^101+6/5*E(120)^103+4/5*E(120)^109-4/5*E(120)^119 ~ 3.5449348577935105  (conductor 120)
+  [ok]   sqrt(mu)^2 = mu, sqrt(mu) > 0
+M0 (normalised) = [ [ 1/4*E(120)^29-1/4*E(120)^31-1/4*E(120)^61+1/4*E(120)^71-1/4*E(120)^79+1/4*E(120)^101-1/4*E(120)^109+1/4*E(120)^119, 0, 1/4*E(120)^7+1/4*E(120)^13-1/4*E(120)^23-1/12*E(120)^29+1/12*E(120)^31+1/4*E(120)^37-1/4*E(120)^47-1/4*E(120)^53+1/12*E(120)^61-1/12*E(120)^71-1/4*E(120)^77+1/12*E(120)^79-1/12*E(120)^101+1/4*E(120)^103+1/12*E(120)^109-1/12*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53-1/12*E(120)^77+1/12*E(120)^103 ], [ 0, -1/4*E(120)^29+1/4*E(120)^31+1/4*E(120)^61-1/4*E(120)^71+1/4*E(120)^79-1/4*E(120)^101+1/4*E(120)^109-1/4*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53-1/12*E(120)^77+1/12*E(120)^103, -1/4*E(120)^7-1/4*E(120)^13+1/4*E(120)^23+1/12*E(120)^29-1/12*E(120)^31-1/4*E(120)^37+1/4*E(120)^47+1/4*E(120)^53-1/12*E(120)^61+1/12*E(120)^71+1/4*E(120)^77-1/12*E(120)^79+1/12*E(120)^101-1/4*E(120)^103-1/12*E(120)^109+1/12*E(120)^119 ], [ 1/4*E(120)^7+1/4*E(120)^13-1/4*E(120)^23-1/12*E(120)^29+1/12*E(120)^31+1/4*E(120)^37-1/4*E(120)^47-1/4*E(120)^53+1/12*E(120)^61-1/12*E(120)^71-1/4*E(120)^77+1/12*E(120)^79-1/12*E(120)^101+1/4*E(120)^103+1/12*E(120)^109-1/12*E(120)^119, 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53-1/12*E(120)^77+1/12*E(120)^103, -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23+1/4*E(120)^29-1/4*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53-1/4*E(120)^61+1/4*E(120)^71+1/6*E(120)^77-1/4*E(120)^79+1/4*E(120)^101-1/6*E(120)^103-1/4*E(120)^109+1/4*E(120)^119, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119 ], [ 1/12*E(120)^7+1/12*E(120)^13-1/12*E(120)^23+1/12*E(120)^37-1/12*E(120)^47-1/12*E(120)^53-1/12*E(120)^77+1/12*E(120)^103, -1/4*E(120)^7-1/4*E(120)^13+1/4*E(120)^23+1/12*E(120)^29-1/12*E(120)^31-1/4*E(120)^37+1/4*E(120)^47+1/4*E(120)^53-1/12*E(120)^61+1/12*E(120)^71+1/4*E(120)^77-1/12*E(120)^79+1/12*E(120)^101-1/4*E(120)^103-1/12*E(120)^109+1/12*E(120)^119, -1/6*E(120)^29+1/6*E(120)^31+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^79-1/6*E(120)^101+1/6*E(120)^109-1/6*E(120)^119, 1/6*E(120)^7+1/6*E(120)^13-1/6*E(120)^23-1/4*E(120)^29+1/4*E(120)^31+1/6*E(120)^37-1/6*E(120)^47-1/6*E(120)^53+1/4*E(120)^61-1/4*E(120)^71-1/6*E(120)^77+1/4*E(120)^79-1/4*E(120)^101+1/6*E(120)^103+1/4*E(120)^109-1/4*E(120)^119 ] ]
+  [ok]   M0 M0^T = I exactly (M0 is an isometry)
+  [ok]   M0^2 = +-I
+M0^2 = +I
+  [ok]   det M0 = +-1 exactly
+det M0 = 1  -> +1 (proper)
+M0^-1 S1 M0 = [ [ -1/2*E(5)-1/2*E(5)^4, -1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ 1/2, -1/2*E(5)-1/2*E(5)^4, 0, 1/2*E(5)^2+1/2*E(5)^3 ], [ 1/2*E(5)^2+1/2*E(5)^3, 0, 1/2*E(5)+1/2*E(5)^4, -1/2 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, 1/2, 1/2*E(5)+1/2*E(5)^4 ] ]
+S1^-1        = [ [ -1/2*E(5)-1/2*E(5)^4, -1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ 1/2, -1/2*E(5)-1/2*E(5)^4, 0, 1/2*E(5)^2+1/2*E(5)^3 ], [ 1/2*E(5)^2+1/2*E(5)^3, 0, 1/2*E(5)+1/2*E(5)^4, -1/2 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, 1/2, 1/2*E(5)+1/2*E(5)^4 ] ]
+M0^-1 S2 M0 = [ [ 1, 0, 0, 0 ], [ 0, -1/2, 1/2*E(5)+1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ 0, -1/2*E(5)-1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, 1/2 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, 1/2, -1/2*E(5)-1/2*E(5)^4 ] ]
+S2^-1        = [ [ 1, 0, 0, 0 ], [ 0, -1/2, 1/2*E(5)+1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ 0, -1/2*E(5)-1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, 1/2 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, 1/2, -1/2*E(5)-1/2*E(5)^4 ] ]
+  [ok]   M0^-1 S1 M0 = S1^-1 and M0^-1 S2 M0 = S2^-1 (M0 normalises G, inverting both generators)
+M0 normalises Gamma of each record?  (M0^-1 X M0 in Gamma = <S1,S2,X>)
+   L3-{5,3,5/2}-1: false
+   L3-{5,3,5/2}-2: false
+   L3-{5,3,5/2}-3: false
+   L3-{5,3,5/2}-4: false
+   L3-{5,3,5/2}-5: false
+   L3-{5,3,5/2}-6: false
+   L3-{5,3,5/2}-7: false
+   L3-{5,3,5/2}-8: false
+   L3-{5,3,5/2}-9: false
+   L3-{5,3,5/2}-10: false
+   L3-{5,3,5/2}-11: false
+   L3-{5,3,5/2}-12: false
+   L3-{5,3,5/2}-13: false
+   L3-{5,3,5/2}-14: false
+   L3-{5,3,5/2}-15: false
+   L3-{5,3,5/2}-16: false
+
+--- Step 3: the PETCOX circle Pi = Fix(S2) ---
+basis of Pi: [ [ 1, 0, 0, 0 ], [ 0, 0, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, 1 ] ]
+  [ok]   dim Pi = 2
+  [ok]   every stored w of the row lies in Pi
+  [ok]   every stored w is fixed by S2
+  [ok]   exactly one record with t = infinity, and it has alpha = 0
+v0 := w of L3-{5,3,5/2}-16 = [ E(5)^2+E(5)^3, 0, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, 1 ]
+   L3-{5,3,5/2}-1: t = E(40)^7+3/2*E(40)^8-E(40)^13+3*E(40)^16-2*E(40)^21+E(40)^23+3*E(40)^24-2*E(40)^29+2*E(40)^31+3/2*E(40)^32-E(40)^37+2*E(40)^39  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-2: t = -E(40)^7+3/2*E(40)^8+E(40)^13+3*E(40)^16+2*E(40)^21-E(40)^23+3*E(40)^24+2*E(40)^29-2*E(40)^31+3/2*E(40)^32+E(40)^37-2*E(40)^39  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-3: t = -1/2*E(40)^16-1/2*E(40)^21-1/2*E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^39  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-4: t = -1/2*E(40)^16+1/2*E(40)^21-1/2*E(40)^24+1/2*E(40)^29-1/2*E(40)^31-1/2*E(40)^39  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-5: t = 1/2*E(40)^8+E(40)^16-1/2*E(40)^21+E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^39  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-6: t = 1/2*E(40)^8+E(40)^16+1/2*E(40)^21+E(40)^24+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^39  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-7: t = 1/2*E(40)^7+1/2*E(40)^8-1/2*E(40)^13-1/2*E(40)^21+1/2*E(40)^23-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^37+1/2*E(40)^39  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-8: t = -1/2*E(40)^7+1/2*E(40)^8+1/2*E(40)^13+1/2*E(40)^21-1/2*E(40)^23+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^37-1/2*E(40)^39  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-9: t = 0  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-10: t = -1  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-11: t = 1/2*E(5)+1/2*E(5)^4  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-12: t = 1/10*E(5)+2/5*E(5)^2+2/5*E(5)^3+1/10*E(5)^4  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-13: t = -1/4  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-14: t = -1/2*E(5)-1/2*E(5)^4  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+   L3-{5,3,5/2}-15: t = -1/2*E(5)-2*E(5)^2-2*E(5)^3-1/2*E(5)^4  w - t v0 = [ E(5)^2+E(5)^3, 0, 0, 0 ]
+  [ok]   w - t v0 is the same vector v3 for all finite-t records of the row
+v0 = [ E(5)^2+E(5)^3, 0, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, 1 ]  |v0|^2 = -4*E(5)-8*E(5)^2-8*E(5)^3-4*E(5)^4 ~ 10.47213595499958
+v3 = [ E(5)^2+E(5)^3, 0, 0, 0 ]  |v3|^2 = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.6180339887498949
+v0.v3 = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.6180339887498949
+  [ok]   v0, v3 form a basis of Pi
+  [ok]   a record with finite t <> 0 and alpha not in {0,1,infinity} exists
+rho recovered from L3-{5,3,5/2}-1: rho = 2 ~ 2.
+  [ok]   rho > 0
+  [ok]   rho^2 = (v0.v0)/(v3.v3) exactly
+  [ok]   alpha = 1/(1 + t rho) reproduces the stored alpha of every record exactly
+
+--- Step 4: action of M0 on Pi ---
+  [ok]   Pi is M0-invariant
+  [ok]   M0 restricted to Pi expressed in the basis (v0, v3)
+M0|Pi in basis (v0,v3) (rows = images):  v0 M0 = -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23-1/6*E(120)^29+1/6*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^77+1/6*E(120)^79-1/6*E(120)^101-1/6*E(120)^103+1/6*E(120)^109-1/6*E(120)^119 v0 + -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+2/3*E(120)^29-2/3*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-2/3*E(120)^61+2/3*E(120)^71+1/3*E(120)^77-2/3*E(120)^79+2/3*E(120)^101-1/3*E(120)^103-2/3*E(120)^109+2/3*E(120)^119 v3 ;  v3 M0 = -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23+1/12*E(120)^29-1/12*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53-1/12*E(120)^61+1/12*E(120)^71+1/6*E(120)^77-1/12*E(120)^79+1/12*E(120)^101-1/6*E(120)^103-1/12*E(120)^109+1/12*E(120)^119 v0 + 1/6*E(120)^7+1/6*E(120)^13-1/6*E(120)^23+1/6*E(120)^29-1/6*E(120)^31+1/6*E(120)^37-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^77-1/6*E(120)^79+1/6*E(120)^101+1/6*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 v3
+A = [ [ -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23-1/6*E(120)^29+1/6*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^77+1/6*E(120)^79-1/6*E(120)^101-1/6*E(120)^103+1/6*E(120)^109-1/6*E(120)^119, -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+2/3*E(120)^29-2/3*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-2/3*E(120)^61+2/3*E(120)^71+1/3*E(120)^77-2/3*E(120)^79+2/3*E(120)^101-1/3*E(120)^103-2/3*E(120)^109+2/3*E(120)^119 ], [ -1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23+1/12*E(120)^29-1/12*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53-1/12*E(120)^61+1/12*E(120)^71+1/6*E(120)^77-1/12*E(120)^79+1/12*E(120)^101-1/6*E(120)^103-1/12*E(120)^109+1/12*E(120)^119, 1/6*E(120)^7+1/6*E(120)^13-1/6*E(120)^23+1/6*E(120)^29-1/6*E(120)^31+1/6*E(120)^37-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^77-1/6*E(120)^79+1/6*E(120)^101+1/6*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ] ]
+trace(A) = 0   det(A) = -1 ~ -1.
+M0|Pi is a reflection
+  [ok]   M0 acts on Pi as a reflection (trace 0, determinant -1)
+Moebius map on the projective parameter t:  t' = (-1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23-1/6*E(120)^29+1/6*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53+1/6*E(120)^61-1/6*E(120)^71+1/6*E(120)^77+1/6*E(120)^79-1/6*E(120)^101-1/6*E(120)^103+1/6*E(120)^109-1/6*E(120)^119)*t + (-1/6*E(120)^7-1/6*E(120)^13+1/6*E(120)^23+1/12*E(120)^29-1/12*E(120)^31-1/6*E(120)^37+1/6*E(120)^47+1/6*E(120)^53-1/12*E(120)^61+1/12*E(120)^71+1/6*E(120)^77-1/12*E(120)^79+1/12*E(120)^101-1/6*E(120)^103-1/12*E(120)^109+1/12*E(120)^119)  /  (-1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+2/3*E(120)^29-2/3*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-2/3*E(120)^61+2/3*E(120)^71+1/3*E(120)^77-2/3*E(120)^79+2/3*E(120)^101-1/3*E(120)^103-2/3*E(120)^109+2/3*E(120)^119)*t + (1/6*E(120)^7+1/6*E(120)^13-1/6*E(120)^23+1/6*E(120)^29-1/6*E(120)^31+1/6*E(120)^37-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^77-1/6*E(120)^79+1/6*E(120)^101+1/6*E(120)^103-1/6*E(120)^109+1/6*E(120)^119)
+   floats: t' = (-0.91287092917527668 t + -0.53440395014171649) / (-0.31187394221631248 t + 0.91287092917527668)
+Moebius map on alpha:  alpha' = (2/3*E(120)^7+2/3*E(120)^13-2/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+2/3*E(120)^37-2/3*E(120)^47-2/3*E(120)^53+1/3*E(120)^61-1/3*E(120)^71-2/3*E(120)^77+1/3*E(120)^79-1/3*E(120)^101+2/3*E(120)^103+1/3*E(120)^109-1/3*E(120)^119)*alpha + (-1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+2/3*E(120)^29-2/3*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-2/3*E(120)^61+2/3*E(120)^71+1/3*E(120)^77-2/3*E(120)^79+2/3*E(120)^101-1/3*E(120)^103-2/3*E(120)^109+2/3*E(120)^119)  /  (1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23+1/3*E(120)^29-1/3*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53-1/3*E(120)^61+1/3*E(120)^71-1/3*E(120)^77-1/3*E(120)^79+1/3*E(120)^101+1/3*E(120)^103-1/3*E(120)^109+1/3*E(120)^119)*alpha + (-2/3*E(120)^7-2/3*E(120)^13+2/3*E(120)^23+1/3*E(120)^29-1/3*E(120)^31-2/3*E(120)^37+2/3*E(120)^47+2/3*E(120)^53-1/3*E(120)^61+1/3*E(120)^71+2/3*E(120)^77-1/3*E(120)^79+1/3*E(120)^101-2/3*E(120)^103-1/3*E(120)^109+1/3*E(120)^119)
+   floats: alpha' = (2.137615800566866 alpha + -0.31187394221631248) / (1.8257418583505534 alpha + -2.137615800566866)
+  [ok]   alpha-Moebius map agrees with alpha(Moebius(t)) on all records
+  [ok]   the Moebius map is an involution on the stored t-values
+fixed points: -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+2/3*E(120)^29-2/3*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-2/3*E(120)^61+2/3*E(120)^71+1/3*E(120)^77-2/3*E(120)^79+2/3*E(120)^101-1/3*E(120)^103-2/3*E(120)^109+2/3*E(120)^119 t^2 + (1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^23+1/3*E(120)^29-1/3*E(120)^31+1/3*E(120)^37-1/3*E(120)^47-1/3*E(120)^53-1/3*E(120)^61+1/3*E(120)^71-1/3*E(120)^77-1/3*E(120)^79+1/3*E(120)^101+1/3*E(120)^103-1/3*E(120)^109+1/3*E(120)^119) t + (1/6*E(120)^7+1/6*E(120)^13-1/6*E(120)^23-1/12*E(120)^29+1/12*E(120)^31+1/6*E(120)^37-1/6*E(120)^47-1/6*E(120)^53+1/12*E(120)^61-1/12*E(120)^71-1/6*E(120)^77+1/12*E(120)^79-1/12*E(120)^101+1/6*E(120)^103+1/12*E(120)^109-1/12*E(120)^119) = 0,   discriminant = 4 ~ 4.
+  [ok]   quadratic (b <> 0): infinity is not a fixed point
+  [ok]   discriminant > 0: two real fixed points (M0|Pi is a reflection with two eigen-lines)
+  [ok]   exact cyclotomic square root of the discriminant found
+sqrt(disc) = 2 ~ 2.
+  [ok]   both fixed t satisfy the quadratic exactly
+  [ok]   both fixed t are fixed by the Moebius map exactly
+fixed point 1:  t* = E(120)^7+2*E(120)^8+E(120)^13+1/2*E(120)^16-E(120)^23-1/2*E(120)^29+1/2*E(120)^31+2*E(120)^32+E(120)^37-E(120)^47-E(120)^53+1/2*E(120)^56+1/2*E(120)^61+1/2*E(120)^64-1/2*E(120)^71-E(120)^77+1/2*E(120)^79+2*E(120)^88-1/2*E(120)^101+E(120)^103+1/2*E(120)^104+1/2*E(120)^109+2*E(120)^112-1/2*E(120)^119 ~ 6.1334746839751411    alpha* = -1/5*E(120)^7+4/5*E(120)^8-1/5*E(120)^13+1/5*E(120)^16+1/5*E(120)^23-1/5*E(120)^29+1/5*E(120)^31+4/5*E(120)^32-1/5*E(120)^37+1/5*E(120)^47+1/5*E(120)^53+1/5*E(120)^56+1/5*E(120)^61+1/5*E(120)^64-1/5*E(120)^71+1/5*E(120)^77+1/5*E(120)^79+4/5*E(120)^88-1/5*E(120)^101-1/5*E(120)^103+1/5*E(120)^104+1/5*E(120)^109+4/5*E(120)^112-1/5*E(120)^119 ~ 0.075375278239604632
+   agrees with a PETCOX regular value [ 0.075375, 2.26627 ] to 5 significant digits: true
+fixed point 2:  t* = -E(120)^7+2*E(120)^8-E(120)^13+1/2*E(120)^16+E(120)^23+1/2*E(120)^29-1/2*E(120)^31+2*E(120)^32-E(120)^37+E(120)^47+E(120)^53+1/2*E(120)^56-1/2*E(120)^61+1/2*E(120)^64+1/2*E(120)^71+E(120)^77-1/2*E(120)^79+2*E(120)^88+1/2*E(120)^101-E(120)^103+1/2*E(120)^104-1/2*E(120)^109+2*E(120)^112+1/2*E(120)^119 ~ -0.27937271772545785    alpha* = 1/5*E(120)^7+4/5*E(120)^8+1/5*E(120)^13+1/5*E(120)^16-1/5*E(120)^23+1/5*E(120)^29-1/5*E(120)^31+4/5*E(120)^32+1/5*E(120)^37-1/5*E(120)^47-1/5*E(120)^53+1/5*E(120)^56-1/5*E(120)^61+1/5*E(120)^64+1/5*E(120)^71-1/5*E(120)^77-1/5*E(120)^79+4/5*E(120)^88+1/5*E(120)^101+1/5*E(120)^103+1/5*E(120)^104-1/5*E(120)^109+4/5*E(120)^112+1/5*E(120)^119 ~ 2.2662655082602683
+   agrees with a PETCOX regular value [ 0.075375, 2.26627 ] to 5 significant digits: true
+  [ok]   both fixed alphas coincide (5 sig. digits) with the geometrically regular values of PETCOX for {5,3,5/2}
+structural check at the fixed points: H_u = Wythoff polyhedron of G at u = t* v0 + v3
+  fixed point 1: |V(H)|=48 |E(H)|=72 |F(H)|=12
+  [ok]     u is an eigenvector of M0 with eigenvalue +-1 (u M0 = [ -1 ] u)
+  +M0 preserves H_u: V=true E=true F=true    -M0 preserves H_u: V=true E=true F=true 
+  [ok]     H_u at the fixed point is mapped onto itself by +M0 or -M0 (geometrically regular there)
+  [ok]     u S1^k, k=0..3 are linearly independent
+  [ok]     the reversing map R_u (u S1^k -> u S1^-k) equals +-M0
+  [ok]     R_u preserves H_u (vertices, edges, faces)
+  fixed point 2: |V(H)|=48 |E(H)|=72 |F(H)|=12
+  [ok]     u is an eigenvector of M0 with eigenvalue +-1 (u M0 = [ 1 ] u)
+  +M0 preserves H_u: V=true E=true F=true    -M0 preserves H_u: V=true E=true F=true 
+  [ok]     H_u at the fixed point is mapped onto itself by +M0 or -M0 (geometrically regular there)
+  [ok]     u S1^k, k=0..3 are linearly independent
+  [ok]     the reversing map R_u (u S1^k -> u S1^-k) equals +-M0
+  [ok]     R_u preserves H_u (vertices, edges, faces)
+the same isometries +-M0 applied to the cells H_w of the stored records (expected: NOT preserved):
+  L3-{5,3,5/2}-1: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-1: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-2: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-2: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-3: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-3: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-4: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-4: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-5: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-5: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-6: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-6: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-7: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-7: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-8: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-8: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-9: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-9: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-10: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-10: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-11: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-11: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-12: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-12: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-13: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-13: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-14: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-14: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-15: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-15: neither +M0 nor -M0 preserves the cell H_w
+  L3-{5,3,5/2}-16: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{5,3,5/2}-16: neither +M0 nor -M0 preserves the cell H_w
+
+--- Step 5: predicted pairing via the Moebius map, and direct verification ---
+  L3-{5,3,5/2}-1: t = E(40)^7+3/2*E(40)^8-E(40)^13+3*E(40)^16-2*E(40)^21+E(40)^23+3*E(40)^24-2*E(40)^29+2*E(40)^31+3/2*E(40)^32-E(40)^37+2*E(40)^39 ~ -0.22459180948101065  alpha = 2/3*E(40)^7-1/3*E(40)^8-2/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-1/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39 ~ 1.8154870378320278
+       image t' = -1/2*E(40)^16+1/2*E(40)^21-1/2*E(40)^24+1/2*E(40)^29-1/2*E(40)^31-1/2*E(40)^39 ~ -0.33510581126042116  alpha' = E(40)^7-E(40)^13-E(40)^16-E(40)^21+E(40)^23-E(40)^24-E(40)^29+E(40)^31-E(40)^37+E(40)^39 ~ 3.0322475511229903
+       -> paired with L3-{5,3,5/2}-4 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 2/3*E(120)^7+2/3*E(120)^13+2/3*E(120)^14-2/3*E(120)^22-2/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+2/3*E(120)^37+2/3*E(120)^38-2/3*E(120)^46-2/3*E(120)^47-2/3*E(120)^53+1/3*E(120)^61+2/3*E(120)^62-1/3*E(120)^71-2/3*E(120)^77+1/3*E(120)^79+2/3*E(120)^86-2/3*E(120)^94-1/3*E(120)^101+2/3*E(120)^103+1/3*E(120)^109-2/3*E(120)^118-1/3*E(120)^119 ~ 0.98291526218761427
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 1/3*E(40)^7-5/6*E(40)^8-1/3*E(40)^13-2/3*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-2/3*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-5/6*E(40)^32-1/3*E(40)^37+1/3*E(40)^39 ~ 1.035065522666049
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 5/9*E(40)^7-17/18*E(40)^8-5/9*E(40)^13-25/36*E(40)^16-4/9*E(40)^21+5/9*E(40)^23-25/36*E(40)^24-4/9*E(40)^29+4/9*E(40)^31-17/18*E(40)^32-5/9*E(40)^37+4/9*E(40)^39 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-1 onto L3-{5,3,5/2}-4:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-1 onto V,E,F,C of L3-{5,3,5/2}-4
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 1/3*E(40)^7-1/3*E(40)^8-1/3*E(40)^13-1/3*E(40)^16-1/6*E(40)^21+1/3*E(40)^23-1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/3*E(40)^32-1/3*E(40)^37+1/6*E(40)^39, 1/3*E(40)^7+1/3*E(40)^8-1/3*E(40)^13+1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23+1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/3*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/6*E(40)^32-1/6*E(40)^37+1/3*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/3*E(40)^16-1/6*E(40)^21+1/6*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/6*E(40)^39 ], [ -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13+1/6*E(40)^16+1/6*E(40)^21-1/6*E(40)^23+1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16+1/6*E(40)^21+1/6*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32-1/6*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/6*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/6*E(40)^16-1/6*E(40)^21-1/6*E(40)^23+1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^37+1/6*E(40)^39 ], [ -1/6*E(40)^8-1/3*E(40)^21-1/3*E(40)^29+1/3*E(40)^31-1/6*E(40)^32+1/3*E(40)^39, 1/6*E(40)^7-1/6*E(40)^13+1/3*E(40)^16+1/6*E(40)^23+1/3*E(40)^24-1/6*E(40)^37, -1/3*E(40)^7-1/6*E(40)^8+1/3*E(40)^13-1/6*E(40)^16+1/6*E(40)^21-1/3*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32+1/3*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7-1/3*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/6*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/3*E(40)^32-1/6*E(40)^37+1/6*E(40)^39 ], [ 1/6*E(40)^7-1/6*E(40)^13-1/6*E(40)^16+1/6*E(40)^23-1/6*E(40)^24-1/6*E(40)^37, 1/6*E(40)^8-1/6*E(40)^21-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^39, -1/3*E(40)^7+1/6*E(40)^8+1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/6*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -1/6*E(40)^7-1/3*E(40)^8+1/6*E(40)^13-1/3*E(40)^16-1/6*E(40)^21-1/6*E(40)^23-1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/3*E(40)^32+1/6*E(40)^37+1/6*E(40)^39 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-2: t = -E(40)^7+3/2*E(40)^8+E(40)^13+3*E(40)^16+2*E(40)^21-E(40)^23+3*E(40)^24+2*E(40)^29-2*E(40)^31+3/2*E(40)^32+E(40)^37-2*E(40)^39 ~ -7.6295101567686752  alpha = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39 ~ -0.07013104533209813
+       image t' = -1/2*E(40)^16-1/2*E(40)^21-1/2*E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^39 ~ 1.953139800010316  alpha' = -E(40)^7+E(40)^13-E(40)^16+E(40)^21-E(40)^23-E(40)^24+E(40)^29-E(40)^31+E(40)^37-E(40)^39 ~ 0.20382042637679987
+       -> paired with L3-{5,3,5/2}-3 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 2/3*E(120)^7+2/3*E(120)^13-2/3*E(120)^14+2/3*E(120)^22-2/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+2/3*E(120)^37-2/3*E(120)^38+2/3*E(120)^46-2/3*E(120)^47-2/3*E(120)^53+1/3*E(120)^61-2/3*E(120)^62-1/3*E(120)^71-2/3*E(120)^77+1/3*E(120)^79-2/3*E(120)^86+2/3*E(120)^94-1/3*E(120)^101+2/3*E(120)^103+1/3*E(120)^109+2/3*E(120)^118-1/3*E(120)^119 ~ 3.2923163389461179
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -1/3*E(40)^7-5/6*E(40)^8+1/3*E(40)^13-2/3*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-2/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-5/6*E(40)^32+1/3*E(40)^37-1/3*E(40)^39 ~ 0.092256481083985986
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -5/9*E(40)^7-17/18*E(40)^8+5/9*E(40)^13-25/36*E(40)^16+4/9*E(40)^21-5/9*E(40)^23-25/36*E(40)^24+4/9*E(40)^29-4/9*E(40)^31-17/18*E(40)^32+5/9*E(40)^37-4/9*E(40)^39 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-2 onto L3-{5,3,5/2}-3:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-2 onto V,E,F,C of L3-{5,3,5/2}-3
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -1/3*E(40)^7-1/3*E(40)^8+1/3*E(40)^13-1/3*E(40)^16+1/6*E(40)^21-1/3*E(40)^23-1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/3*E(40)^32+1/3*E(40)^37-1/6*E(40)^39, -1/3*E(40)^7+1/3*E(40)^8+1/3*E(40)^13+1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23+1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/3*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/6*E(40)^32+1/6*E(40)^37-1/3*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/3*E(40)^16+1/6*E(40)^21-1/6*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/6*E(40)^39 ], [ 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13+1/6*E(40)^16-1/6*E(40)^21+1/6*E(40)^23+1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16-1/6*E(40)^21-1/6*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32+1/6*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/6*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/6*E(40)^16+1/6*E(40)^21+1/6*E(40)^23+1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^37-1/6*E(40)^39 ], [ -1/6*E(40)^8+1/3*E(40)^21+1/3*E(40)^29-1/3*E(40)^31-1/6*E(40)^32-1/3*E(40)^39, -1/6*E(40)^7+1/6*E(40)^13+1/3*E(40)^16-1/6*E(40)^23+1/3*E(40)^24+1/6*E(40)^37, 1/3*E(40)^7-1/6*E(40)^8-1/3*E(40)^13-1/6*E(40)^16-1/6*E(40)^21+1/3*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32-1/3*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7-1/3*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/6*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/3*E(40)^32+1/6*E(40)^37-1/6*E(40)^39 ], [ -1/6*E(40)^7+1/6*E(40)^13-1/6*E(40)^16-1/6*E(40)^23-1/6*E(40)^24+1/6*E(40)^37, 1/6*E(40)^8+1/6*E(40)^21+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^39, 1/3*E(40)^7+1/6*E(40)^8-1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/6*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, 1/6*E(40)^7-1/3*E(40)^8-1/6*E(40)^13-1/3*E(40)^16+1/6*E(40)^21+1/6*E(40)^23-1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/3*E(40)^32-1/6*E(40)^37-1/6*E(40)^39 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-3: t = -1/2*E(40)^16-1/2*E(40)^21-1/2*E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^39 ~ 1.953139800010316  alpha = -E(40)^7+E(40)^13-E(40)^16+E(40)^21-E(40)^23-E(40)^24+E(40)^29-E(40)^31+E(40)^37-E(40)^39 ~ 0.20382042637679987
+       image t' = -E(40)^7+3/2*E(40)^8+E(40)^13+3*E(40)^16+2*E(40)^21-E(40)^23+3*E(40)^24+2*E(40)^29-2*E(40)^31+3/2*E(40)^32+E(40)^37-2*E(40)^39 ~ -7.6295101567686752  alpha' = -2/3*E(40)^7-1/3*E(40)^8+2/3*E(40)^13-2/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-2/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-1/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39 ~ -0.07013104533209813
+       -> paired with L3-{5,3,5/2}-2 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/6*E(120)^7+1/6*E(120)^13-1/3*E(120)^14-1/6*E(120)^23+1/6*E(120)^37+1/3*E(120)^46-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^77-1/3*E(120)^86+1/3*E(120)^94+1/6*E(120)^103 ~ 0.30373752004648014
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 4/3*E(40)^7-8/3*E(40)^8-4/3*E(40)^13-14/3*E(40)^16-8/3*E(40)^21+4/3*E(40)^23-14/3*E(40)^24-8/3*E(40)^29+8/3*E(40)^31-8/3*E(40)^32-4/3*E(40)^37+8/3*E(40)^39 ~ 10.839346875691565
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 112/9*E(40)^7-164/9*E(40)^8-112/9*E(40)^13-392/9*E(40)^16-272/9*E(40)^21+112/9*E(40)^23-392/9*E(40)^24-272/9*E(40)^29+272/9*E(40)^31-164/9*E(40)^32-112/9*E(40)^37+272/9*E(40)^39 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-3 onto L3-{5,3,5/2}-2:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-3 onto V,E,F,C of L3-{5,3,5/2}-2
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -5/12*E(40)^7-1/3*E(40)^8+5/12*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-5/12*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+5/12*E(40)^37-1/3*E(40)^39, 1/3*E(40)^7-5/12*E(40)^8-1/3*E(40)^13-1/3*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/3*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-5/12*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, -1/12*E(40)^7+1/12*E(40)^13+1/12*E(40)^16+1/4*E(40)^21-1/12*E(40)^23+1/12*E(40)^24+1/4*E(40)^29-1/4*E(40)^31+1/12*E(40)^37-1/4*E(40)^39, -1/12*E(40)^8-1/4*E(40)^16+1/12*E(40)^21-1/4*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/12*E(40)^32-1/12*E(40)^39 ], [ -1/6*E(40)^7+1/12*E(40)^8+1/6*E(40)^13-1/12*E(40)^16+1/6*E(40)^21-1/6*E(40)^23-1/12*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/12*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, -1/12*E(40)^7-1/6*E(40)^8+1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^21-1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/6*E(40)^32+1/12*E(40)^37+1/12*E(40)^39, -1/4*E(40)^7+1/6*E(40)^8+1/4*E(40)^13+1/4*E(40)^16-1/6*E(40)^21-1/4*E(40)^23+1/4*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32+1/4*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7-1/4*E(40)^8+1/6*E(40)^13+1/6*E(40)^16+1/4*E(40)^21-1/6*E(40)^23+1/6*E(40)^24+1/4*E(40)^29-1/4*E(40)^31-1/4*E(40)^32+1/6*E(40)^37-1/4*E(40)^39 ], [ -1/4*E(40)^7+1/4*E(40)^8+1/4*E(40)^13+1/4*E(40)^21-1/4*E(40)^23+1/4*E(40)^29-1/4*E(40)^31+1/4*E(40)^32+1/4*E(40)^37-1/4*E(40)^39, -1/4*E(40)^7-1/4*E(40)^8+1/4*E(40)^13-1/4*E(40)^16-1/4*E(40)^23-1/4*E(40)^24-1/4*E(40)^32+1/4*E(40)^37, 1/6*E(40)^7-1/3*E(40)^8-1/6*E(40)^13-5/12*E(40)^16-1/6*E(40)^21+1/6*E(40)^23-5/12*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/3*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, 1/3*E(40)^7+1/6*E(40)^8-1/3*E(40)^13+1/6*E(40)^16-5/12*E(40)^21+1/3*E(40)^23+1/6*E(40)^24-5/12*E(40)^29+5/12*E(40)^31+1/6*E(40)^32-1/3*E(40)^37+5/12*E(40)^39 ], [ 1/4*E(40)^16+1/4*E(40)^21+1/4*E(40)^24+1/4*E(40)^29-1/4*E(40)^31-1/4*E(40)^39, -1/4*E(40)^16+1/4*E(40)^21-1/4*E(40)^24+1/4*E(40)^29-1/4*E(40)^31-1/4*E(40)^39, -1/6*E(40)^7-1/3*E(40)^8+1/6*E(40)^13-1/12*E(40)^16+1/12*E(40)^21-1/6*E(40)^23-1/12*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/3*E(40)^32+1/6*E(40)^37-1/12*E(40)^39, 1/3*E(40)^7-1/6*E(40)^8-1/3*E(40)^13-1/12*E(40)^16-1/12*E(40)^21+1/3*E(40)^23-1/12*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/6*E(40)^32-1/3*E(40)^37+1/12*E(40)^39 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-4: t = -1/2*E(40)^16+1/2*E(40)^21-1/2*E(40)^24+1/2*E(40)^29-1/2*E(40)^31-1/2*E(40)^39 ~ -0.33510581126042116  alpha = E(40)^7-E(40)^13-E(40)^16-E(40)^21+E(40)^23-E(40)^24-E(40)^29+E(40)^31-E(40)^37+E(40)^39 ~ 3.0322475511229903
+       image t' = E(40)^7+3/2*E(40)^8-E(40)^13+3*E(40)^16-2*E(40)^21+E(40)^23+3*E(40)^24-2*E(40)^29+2*E(40)^31+3/2*E(40)^32-E(40)^37+2*E(40)^39 ~ -0.22459180948101065  alpha' = 2/3*E(40)^7-1/3*E(40)^8-2/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-1/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39 ~ 1.8154870378320278
+       -> paired with L3-{5,3,5/2}-1 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/6*E(120)^7+1/6*E(120)^13+1/3*E(120)^14-1/6*E(120)^23+1/6*E(120)^37-1/3*E(120)^46-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^77+1/3*E(120)^86-1/3*E(120)^94+1/6*E(120)^103 ~ 1.0173816995926594
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -4/3*E(40)^7-8/3*E(40)^8+4/3*E(40)^13-14/3*E(40)^16+8/3*E(40)^21-4/3*E(40)^23-14/3*E(40)^24+8/3*E(40)^29-8/3*E(40)^31-8/3*E(40)^32+4/3*E(40)^37-8/3*E(40)^39 ~ 0.96612241264134813
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -112/9*E(40)^7-164/9*E(40)^8+112/9*E(40)^13-392/9*E(40)^16+272/9*E(40)^21-112/9*E(40)^23-392/9*E(40)^24+272/9*E(40)^29-272/9*E(40)^31-164/9*E(40)^32+112/9*E(40)^37-272/9*E(40)^39 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-4 onto L3-{5,3,5/2}-1:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-4 onto V,E,F,C of L3-{5,3,5/2}-1
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 5/12*E(40)^7-1/3*E(40)^8-5/12*E(40)^13-1/3*E(40)^16-1/3*E(40)^21+5/12*E(40)^23-1/3*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32-5/12*E(40)^37+1/3*E(40)^39, -1/3*E(40)^7-5/12*E(40)^8+1/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-5/12*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, 1/12*E(40)^7-1/12*E(40)^13+1/12*E(40)^16-1/4*E(40)^21+1/12*E(40)^23+1/12*E(40)^24-1/4*E(40)^29+1/4*E(40)^31-1/12*E(40)^37+1/4*E(40)^39, -1/12*E(40)^8-1/4*E(40)^16-1/12*E(40)^21-1/4*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/12*E(40)^32+1/12*E(40)^39 ], [ 1/6*E(40)^7+1/12*E(40)^8-1/6*E(40)^13-1/12*E(40)^16-1/6*E(40)^21+1/6*E(40)^23-1/12*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/12*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, 1/12*E(40)^7-1/6*E(40)^8-1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^21+1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/6*E(40)^32-1/12*E(40)^37-1/12*E(40)^39, 1/4*E(40)^7+1/6*E(40)^8-1/4*E(40)^13+1/4*E(40)^16+1/6*E(40)^21+1/4*E(40)^23+1/4*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32-1/4*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7-1/4*E(40)^8-1/6*E(40)^13+1/6*E(40)^16-1/4*E(40)^21+1/6*E(40)^23+1/6*E(40)^24-1/4*E(40)^29+1/4*E(40)^31-1/4*E(40)^32-1/6*E(40)^37+1/4*E(40)^39 ], [ 1/4*E(40)^7+1/4*E(40)^8-1/4*E(40)^13-1/4*E(40)^21+1/4*E(40)^23-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^32-1/4*E(40)^37+1/4*E(40)^39, 1/4*E(40)^7-1/4*E(40)^8-1/4*E(40)^13-1/4*E(40)^16+1/4*E(40)^23-1/4*E(40)^24-1/4*E(40)^32-1/4*E(40)^37, -1/6*E(40)^7-1/3*E(40)^8+1/6*E(40)^13-5/12*E(40)^16+1/6*E(40)^21-1/6*E(40)^23-5/12*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/3*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, -1/3*E(40)^7+1/6*E(40)^8+1/3*E(40)^13+1/6*E(40)^16+5/12*E(40)^21-1/3*E(40)^23+1/6*E(40)^24+5/12*E(40)^29-5/12*E(40)^31+1/6*E(40)^32+1/3*E(40)^37-5/12*E(40)^39 ], [ 1/4*E(40)^16-1/4*E(40)^21+1/4*E(40)^24-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^39, -1/4*E(40)^16-1/4*E(40)^21-1/4*E(40)^24-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^39, 1/6*E(40)^7-1/3*E(40)^8-1/6*E(40)^13-1/12*E(40)^16-1/12*E(40)^21+1/6*E(40)^23-1/12*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/3*E(40)^32-1/6*E(40)^37+1/12*E(40)^39, -1/3*E(40)^7-1/6*E(40)^8+1/3*E(40)^13-1/12*E(40)^16+1/12*E(40)^21-1/3*E(40)^23-1/12*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/6*E(40)^32+1/3*E(40)^37-1/12*E(40)^39 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-5: t = 1/2*E(40)^8+E(40)^16-1/2*E(40)^21+E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^39 ~ -0.1648941887395789  alpha = -E(40)^7+E(40)^8+E(40)^13-E(40)^23+E(40)^32+E(40)^37 ~ 1.492066037647537
+       image t' = -1/2*E(40)^7+1/2*E(40)^8+1/2*E(40)^13+1/2*E(40)^21-1/2*E(40)^23+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^37-1/2*E(40)^39 ~ -0.39808978681160018  alpha' = -E(40)^8-2*E(40)^16-E(40)^21-2*E(40)^24-E(40)^29+E(40)^31-E(40)^32+E(40)^39 ~ 4.906279600020631
+       -> paired with L3-{5,3,5/2}-8 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^14-1/3*E(120)^23+1/3*E(120)^37+1/3*E(120)^46-1/3*E(120)^47-1/3*E(120)^53-1/3*E(120)^77-1/3*E(120)^86+1/3*E(120)^94+1/3*E(120)^103 ~ 0.96429712986604987
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 4/3*E(40)^7-7/3*E(40)^8-4/3*E(40)^13-4/3*E(40)^16-2/3*E(40)^21+4/3*E(40)^23-4/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-7/3*E(40)^32-4/3*E(40)^37+2/3*E(40)^39 ~ 1.0754203535670737
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 68/9*E(40)^7-98/9*E(40)^8-68/9*E(40)^13-41/9*E(40)^16-28/9*E(40)^21+68/9*E(40)^23-41/9*E(40)^24-28/9*E(40)^29+28/9*E(40)^31-98/9*E(40)^32-68/9*E(40)^37+28/9*E(40)^39 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-5 onto L3-{5,3,5/2}-8:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-5 onto V,E,F,C of L3-{5,3,5/2}-8
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -1/6*E(40)^7-2/3*E(40)^8+1/6*E(40)^13-2/3*E(40)^16+1/12*E(40)^21-1/6*E(40)^23-2/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-2/3*E(40)^32+1/6*E(40)^37-1/12*E(40)^39, 1/3*E(40)^7-1/3*E(40)^8-1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, 1/12*E(40)^7-1/6*E(40)^8-1/12*E(40)^13-1/6*E(40)^16-1/6*E(40)^21+1/12*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32-1/12*E(40)^37+1/6*E(40)^39, 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13+1/3*E(40)^16-1/12*E(40)^21+1/12*E(40)^23+1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/12*E(40)^39 ], [ -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/3*E(40)^16+1/6*E(40)^21-1/6*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, -1/12*E(40)^7-1/3*E(40)^8+1/12*E(40)^13-1/3*E(40)^16+1/6*E(40)^21-1/12*E(40)^23-1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/3*E(40)^32+1/12*E(40)^37-1/6*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16-1/12*E(40)^21-1/6*E(40)^23-1/6*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32+1/6*E(40)^37+1/12*E(40)^39, -1/12*E(40)^7-1/3*E(40)^8+1/12*E(40)^13+1/6*E(40)^16-1/12*E(40)^21-1/12*E(40)^23+1/6*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/3*E(40)^32+1/12*E(40)^37+1/12*E(40)^39 ], [ -1/12*E(40)^7+1/3*E(40)^8+1/12*E(40)^13+1/6*E(40)^16-1/6*E(40)^21-1/12*E(40)^23+1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/3*E(40)^32+1/12*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13+1/3*E(40)^16+1/12*E(40)^21-1/6*E(40)^23+1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/6*E(40)^32+1/6*E(40)^37-1/12*E(40)^39, 1/2, 1/4*E(8)-1/4*E(8)^3 ], [ 1/12*E(40)^7-1/6*E(40)^8-1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^21+1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/6*E(40)^32-1/12*E(40)^37-1/12*E(40)^39, 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^21+1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/12*E(40)^39, 1/2-1/4*E(8)+1/4*E(8)^3, 1/2+1/4*E(8)-1/4*E(8)^3 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-6: t = 1/2*E(40)^8+E(40)^16+1/2*E(40)^21+E(40)^24+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^39 ~ -2.4531398000103155  alpha = E(40)^7+E(40)^8-E(40)^13+E(40)^23+E(40)^32-E(40)^37 ~ -0.25599806014774751
+       image t' = 1/2*E(40)^7+1/2*E(40)^8-1/2*E(40)^13-1/2*E(40)^21+1/2*E(40)^23-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^37+1/2*E(40)^39 ~ 1.0161237755614949  alpha' = -E(40)^8-2*E(40)^16+E(40)^21-2*E(40)^24+E(40)^29-E(40)^31-E(40)^32-E(40)^39 ~ 0.32978837747915779
+       -> paired with L3-{5,3,5/2}-7 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/3*E(120)^7+1/3*E(120)^13+1/3*E(120)^14-1/3*E(120)^23+1/3*E(120)^37-1/3*E(120)^46-1/3*E(120)^47-1/3*E(120)^53-1/3*E(120)^77+1/3*E(120)^86-1/3*E(120)^94+1/3*E(120)^103 ~ 1.6779413094122293
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -4/3*E(40)^7-7/3*E(40)^8+4/3*E(40)^13-4/3*E(40)^16+2/3*E(40)^21-4/3*E(40)^23-4/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-7/3*E(40)^32+4/3*E(40)^37-2/3*E(40)^39 ~ 0.35517833559980372
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -68/9*E(40)^7-98/9*E(40)^8+68/9*E(40)^13-41/9*E(40)^16+28/9*E(40)^21-68/9*E(40)^23-41/9*E(40)^24+28/9*E(40)^29-28/9*E(40)^31-98/9*E(40)^32+68/9*E(40)^37-28/9*E(40)^39 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-6 onto L3-{5,3,5/2}-7:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-6 onto V,E,F,C of L3-{5,3,5/2}-7
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 1/6*E(40)^7-2/3*E(40)^8-1/6*E(40)^13-2/3*E(40)^16-1/12*E(40)^21+1/6*E(40)^23-2/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-2/3*E(40)^32-1/6*E(40)^37+1/12*E(40)^39, -1/3*E(40)^7-1/3*E(40)^8+1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -1/12*E(40)^7-1/6*E(40)^8+1/12*E(40)^13-1/6*E(40)^16+1/6*E(40)^21-1/12*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32+1/12*E(40)^37-1/6*E(40)^39, -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13+1/3*E(40)^16+1/12*E(40)^21-1/12*E(40)^23+1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/12*E(40)^39 ], [ 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/3*E(40)^16-1/6*E(40)^21+1/6*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, 1/12*E(40)^7-1/3*E(40)^8-1/12*E(40)^13-1/3*E(40)^16-1/6*E(40)^21+1/12*E(40)^23-1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/3*E(40)^32-1/12*E(40)^37+1/6*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16+1/12*E(40)^21+1/6*E(40)^23-1/6*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32-1/6*E(40)^37-1/12*E(40)^39, 1/12*E(40)^7-1/3*E(40)^8-1/12*E(40)^13+1/6*E(40)^16+1/12*E(40)^21+1/12*E(40)^23+1/6*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/3*E(40)^32-1/12*E(40)^37-1/12*E(40)^39 ], [ 1/12*E(40)^7+1/3*E(40)^8-1/12*E(40)^13+1/6*E(40)^16+1/6*E(40)^21+1/12*E(40)^23+1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/3*E(40)^32-1/12*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13+1/3*E(40)^16-1/12*E(40)^21+1/6*E(40)^23+1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/6*E(40)^32-1/6*E(40)^37+1/12*E(40)^39, 1/2, -1/4*E(8)+1/4*E(8)^3 ], [ -1/12*E(40)^7-1/6*E(40)^8+1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^21-1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/6*E(40)^32+1/12*E(40)^37+1/12*E(40)^39, -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^21-1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/12*E(40)^39, 1/2+1/4*E(8)-1/4*E(8)^3, 1/2-1/4*E(8)+1/4*E(8)^3 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-7: t = 1/2*E(40)^7+1/2*E(40)^8-1/2*E(40)^13-1/2*E(40)^21+1/2*E(40)^23-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^37+1/2*E(40)^39 ~ 1.0161237755614949  alpha = -E(40)^8-2*E(40)^16+E(40)^21-2*E(40)^24+E(40)^29-E(40)^31-E(40)^32-E(40)^39 ~ 0.32978837747915779
+       image t' = 1/2*E(40)^8+E(40)^16+1/2*E(40)^21+E(40)^24+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32-1/2*E(40)^39 ~ -2.4531398000103155  alpha' = E(40)^7+E(40)^8-E(40)^13+E(40)^23+E(40)^32-E(40)^37 ~ -0.25599806014774751
+       -> paired with L3-{5,3,5/2}-6 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/3*E(120)^7+1/3*E(120)^13+2/3*E(120)^14-1/3*E(120)^22-1/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+1/3*E(120)^37+1/3*E(120)^38-2/3*E(120)^46-1/3*E(120)^47-1/3*E(120)^53+1/3*E(120)^61+1/3*E(120)^62-1/3*E(120)^71-1/3*E(120)^77+1/3*E(120)^79+2/3*E(120)^86-2/3*E(120)^94-1/3*E(120)^101+1/3*E(120)^103+1/3*E(120)^109-1/3*E(120)^118-1/3*E(120)^119 ~ 0.59596840151118946
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 2/3*E(40)^7-4/3*E(40)^8-2/3*E(40)^13-5/3*E(40)^16-2/3*E(40)^21+2/3*E(40)^23-5/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-4/3*E(40)^32-2/3*E(40)^37+2/3*E(40)^39 ~ 2.8154870378320278
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 16/9*E(40)^7-25/9*E(40)^8-16/9*E(40)^13-34/9*E(40)^16-20/9*E(40)^21+16/9*E(40)^23-34/9*E(40)^24-20/9*E(40)^29+20/9*E(40)^31-25/9*E(40)^32-16/9*E(40)^37+20/9*E(40)^39 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-7 onto L3-{5,3,5/2}-6:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-7 onto V,E,F,C of L3-{5,3,5/2}-6
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 1/12*E(40)^7-2/3*E(40)^8-1/12*E(40)^13-2/3*E(40)^16+1/12*E(40)^21+1/12*E(40)^23-2/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-2/3*E(40)^32-1/12*E(40)^37-1/12*E(40)^39, 1/3*E(40)^7+1/6*E(40)^8-1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/6*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, -1/6*E(40)^8+1/12*E(40)^21+1/12*E(40)^29-1/12*E(40)^31-1/6*E(40)^32-1/12*E(40)^39, 1/12*E(40)^7-1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^37 ], [ -1/6*E(40)^7-1/3*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/6*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/3*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7-1/3*E(40)^8-1/6*E(40)^13-1/3*E(40)^16-1/12*E(40)^21+1/6*E(40)^23-1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/3*E(40)^32-1/6*E(40)^37+1/12*E(40)^39, 1/12*E(40)^7+1/2*E(40)^8-1/12*E(40)^13+1/3*E(40)^16-1/4*E(40)^21+1/12*E(40)^23+1/3*E(40)^24-1/4*E(40)^29+1/4*E(40)^31+1/2*E(40)^32-1/12*E(40)^37+1/4*E(40)^39, -1/4*E(40)^7+1/6*E(40)^8+1/4*E(40)^13+1/2*E(40)^16+1/6*E(40)^21-1/4*E(40)^23+1/2*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/4*E(40)^37-1/6*E(40)^39 ], [ -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/12*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/6*E(40)^32+1/6*E(40)^37-1/12*E(40)^39, 1/12*E(40)^7-1/3*E(40)^8-1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^21+1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/3*E(40)^32-1/12*E(40)^37+1/12*E(40)^39, -1/6*E(40)^7-1/2*E(40)^8+1/6*E(40)^13-2/3*E(40)^16-1/6*E(40)^23-2/3*E(40)^24-1/2*E(40)^32+1/6*E(40)^37, 1/4*E(40)^7-1/3*E(40)^8-1/4*E(40)^13-1/3*E(40)^21+1/4*E(40)^23-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32-1/4*E(40)^37+1/3*E(40)^39 ], [ 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13+1/3*E(40)^16+1/6*E(40)^21+1/12*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32-1/12*E(40)^37-1/6*E(40)^39, -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13-1/3*E(40)^16+1/6*E(40)^21-1/12*E(40)^23-1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/6*E(40)^39, -1/4*E(40)^7+1/6*E(40)^8+1/4*E(40)^13+1/6*E(40)^21-1/4*E(40)^23+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/4*E(40)^37-1/6*E(40)^39, -1/12*E(40)^7-1/2*E(40)^8+1/12*E(40)^13-1/3*E(40)^16-1/12*E(40)^23-1/3*E(40)^24-1/2*E(40)^32+1/12*E(40)^37 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-8: t = -1/2*E(40)^7+1/2*E(40)^8+1/2*E(40)^13+1/2*E(40)^21-1/2*E(40)^23+1/2*E(40)^29-1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^37-1/2*E(40)^39 ~ -0.39808978681160018  alpha = -E(40)^8-2*E(40)^16-E(40)^21-2*E(40)^24-E(40)^29+E(40)^31-E(40)^32+E(40)^39 ~ 4.906279600020631
+       image t' = 1/2*E(40)^8+E(40)^16-1/2*E(40)^21+E(40)^24-1/2*E(40)^29+1/2*E(40)^31+1/2*E(40)^32+1/2*E(40)^39 ~ -0.1648941887395789  alpha' = -E(40)^7+E(40)^8+E(40)^13-E(40)^23+E(40)^32+E(40)^37 ~ 1.492066037647537
+       -> paired with L3-{5,3,5/2}-5 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/3*E(120)^7+1/3*E(120)^13-2/3*E(120)^14+1/3*E(120)^22-1/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+1/3*E(120)^37-1/3*E(120)^38+2/3*E(120)^46-1/3*E(120)^47-1/3*E(120)^53+1/3*E(120)^61-1/3*E(120)^62-1/3*E(120)^71-1/3*E(120)^77+1/3*E(120)^79-2/3*E(120)^86+2/3*E(120)^94-1/3*E(120)^101+1/3*E(120)^103+1/3*E(120)^109+1/3*E(120)^118-1/3*E(120)^119 ~ 1.0370247603442622
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -2/3*E(40)^7-4/3*E(40)^8+2/3*E(40)^13-5/3*E(40)^16+2/3*E(40)^21-2/3*E(40)^23-5/3*E(40)^24+2/3*E(40)^29-2/3*E(40)^31-4/3*E(40)^32+2/3*E(40)^37-2/3*E(40)^39 ~ 0.92986895466790154
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -16/9*E(40)^7-25/9*E(40)^8+16/9*E(40)^13-34/9*E(40)^16+20/9*E(40)^21-16/9*E(40)^23-34/9*E(40)^24+20/9*E(40)^29-20/9*E(40)^31-25/9*E(40)^32+16/9*E(40)^37-20/9*E(40)^39 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-8 onto L3-{5,3,5/2}-5:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-8 onto V,E,F,C of L3-{5,3,5/2}-5
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -1/12*E(40)^7-2/3*E(40)^8+1/12*E(40)^13-2/3*E(40)^16-1/12*E(40)^21-1/12*E(40)^23-2/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-2/3*E(40)^32+1/12*E(40)^37+1/12*E(40)^39, -1/3*E(40)^7+1/6*E(40)^8+1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/6*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -1/6*E(40)^8-1/12*E(40)^21-1/12*E(40)^29+1/12*E(40)^31-1/6*E(40)^32+1/12*E(40)^39, -1/12*E(40)^7+1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^37 ], [ 1/6*E(40)^7-1/3*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/6*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/3*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7-1/3*E(40)^8+1/6*E(40)^13-1/3*E(40)^16+1/12*E(40)^21-1/6*E(40)^23-1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/3*E(40)^32+1/6*E(40)^37-1/12*E(40)^39, -1/12*E(40)^7+1/2*E(40)^8+1/12*E(40)^13+1/3*E(40)^16+1/4*E(40)^21-1/12*E(40)^23+1/3*E(40)^24+1/4*E(40)^29-1/4*E(40)^31+1/2*E(40)^32+1/12*E(40)^37-1/4*E(40)^39, 1/4*E(40)^7+1/6*E(40)^8-1/4*E(40)^13+1/2*E(40)^16-1/6*E(40)^21+1/4*E(40)^23+1/2*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/4*E(40)^37+1/6*E(40)^39 ], [ 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/12*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/6*E(40)^32-1/6*E(40)^37+1/12*E(40)^39, -1/12*E(40)^7-1/3*E(40)^8+1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^21-1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/3*E(40)^32+1/12*E(40)^37-1/12*E(40)^39, 1/6*E(40)^7-1/2*E(40)^8-1/6*E(40)^13-2/3*E(40)^16+1/6*E(40)^23-2/3*E(40)^24-1/2*E(40)^32-1/6*E(40)^37, -1/4*E(40)^7-1/3*E(40)^8+1/4*E(40)^13+1/3*E(40)^21-1/4*E(40)^23+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+1/4*E(40)^37-1/3*E(40)^39 ], [ -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13+1/3*E(40)^16-1/6*E(40)^21-1/12*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32+1/12*E(40)^37+1/6*E(40)^39, 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13-1/3*E(40)^16-1/6*E(40)^21+1/12*E(40)^23-1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/6*E(40)^39, 1/4*E(40)^7+1/6*E(40)^8-1/4*E(40)^13-1/6*E(40)^21+1/4*E(40)^23-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/4*E(40)^37+1/6*E(40)^39, 1/12*E(40)^7-1/2*E(40)^8-1/12*E(40)^13-1/3*E(40)^16+1/12*E(40)^23-1/3*E(40)^24-1/2*E(40)^32-1/12*E(40)^37 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-9: t = 0 ~ 0.  alpha = 1 ~ 1.
+       image t' = 1/10*E(5)+2/5*E(5)^2+2/5*E(5)^3+1/10*E(5)^4 ~ -0.5854101966249684  alpha' = E(5)+4*E(5)^2+4*E(5)^3+E(5)^4 ~ -5.8541019662496838
+       -> paired with L3-{5,3,5/2}-12 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/6*E(120)^7+1/6*E(120)^13-1/6*E(120)^23+1/6*E(120)^29-1/6*E(120)^31+1/6*E(120)^37-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^77-1/6*E(120)^79+1/6*E(120)^101+1/6*E(120)^103-1/6*E(120)^109+1/6*E(120)^119 ~ 0.91287092917527668
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 6/5 ~ 1.2
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 36/25 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-9 onto L3-{5,3,5/2}-12:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-9 onto V,E,F,C of L3-{5,3,5/2}-12
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -11/12*E(5)-5/6*E(5)^2-5/6*E(5)^3-11/12*E(5)^4, -1/6*E(5)-5/12*E(5)^2-5/12*E(5)^3-1/6*E(5)^4, 1/6, -1/12*E(5)+1/12*E(5)^2+1/12*E(5)^3-1/12*E(5)^4 ], [ 1/12*E(5)+1/3*E(5)^2+1/3*E(5)^3+1/12*E(5)^4, -7/12*E(5)-5/12*E(5)^2-5/12*E(5)^3-7/12*E(5)^4, -1/3*E(5)-5/12*E(5)^2-5/12*E(5)^3-1/3*E(5)^4, -2/3 ], [ -1/12*E(5)-1/6*E(5)^2-1/6*E(5)^3-1/12*E(5)^4, -1/3*E(5)+1/6*E(5)^2+1/6*E(5)^3-1/3*E(5)^4, 1/4*E(5)-5/12*E(5)^2-5/12*E(5)^3+1/4*E(5)^4, -1/3*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/3*E(5)^4 ], [ -1/12*E(5)+1/6*E(5)^2+1/6*E(5)^3-1/12*E(5)^4, 1/12*E(5)-1/3*E(5)^2-1/3*E(5)^3+1/12*E(5)^4, 5/12*E(5)+5/12*E(5)^4, 1/4*E(5)-1/3*E(5)^2-1/3*E(5)^3+1/4*E(5)^4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-10: t = -1 ~ -1.  alpha = -1 ~ -1.
+       image t' = 1/2*E(5)+1/2*E(5)^4 ~ 0.30901699437494734  alpha' = E(5)+E(5)^4 ~ 0.61803398874989468
+       -> paired with L3-{5,3,5/2}-11 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/2*E(24)-1/2*E(24)^11-1/2*E(24)^17+1/2*E(24)^19 ~ 1.2247448713915887
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 2/3 ~ 0.66666666666666663
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 4/9 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-10 onto L3-{5,3,5/2}-11:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-10 onto V,E,F,C of L3-{5,3,5/2}-11
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4, 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 0, -1/4 ], [ -1/4*E(5)-1/4*E(5)^4, 1/4*E(5)-1/4*E(5)^2-1/4*E(5)^3+1/4*E(5)^4, 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ -1/4*E(5)-1/4*E(5)^4, -1/2, 3/4, 1/4*E(5)^2+1/4*E(5)^3 ], [ 1/4*E(5)+1/4*E(5)^4, -1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/4*E(5)^4, -1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/4*E(5)^4, -3/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-3/4*E(5)^4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-11: t = 1/2*E(5)+1/2*E(5)^4 ~ 0.30901699437494734  alpha = E(5)+E(5)^4 ~ 0.61803398874989468
+       image t' = -1 ~ -1.  alpha' = -1 ~ -1.
+       -> paired with L3-{5,3,5/2}-10 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/3*E(24)-1/3*E(24)^11-1/3*E(24)^17+1/3*E(24)^19 ~ 0.8164965809277257
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 3/2 ~ 1.5
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 9/4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-11 onto L3-{5,3,5/2}-10:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-11 onto V,E,F,C of L3-{5,3,5/2}-10
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 1/3*E(5)-1/3*E(5)^2-1/3*E(5)^3+1/3*E(5)^4, 2/3, 0, 0 ], [ -1/3, 1/6*E(5)-1/6*E(5)^2-1/6*E(5)^3+1/6*E(5)^4, 1/2*E(5)+1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ 1/3*E(5)+1/3*E(5)^4, 1/2*E(5)+1/3*E(5)^2+1/3*E(5)^3+1/2*E(5)^4, -2/3*E(5)-5/6*E(5)^2-5/6*E(5)^3-2/3*E(5)^4, 1/6 ], [ 1/3*E(5)^2+1/3*E(5)^3, -1/3*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/3*E(5)^4, 1/6, -5/6*E(5)-2/3*E(5)^2-2/3*E(5)^3-5/6*E(5)^4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-12: t = 1/10*E(5)+2/5*E(5)^2+2/5*E(5)^3+1/10*E(5)^4 ~ -0.5854101966249684  alpha = E(5)+4*E(5)^2+4*E(5)^3+E(5)^4 ~ -5.8541019662496838
+       image t' = 0 ~ 0.  alpha' = 1 ~ 1.
+       -> paired with L3-{5,3,5/2}-9 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/5*E(120)^7+1/5*E(120)^13-1/5*E(120)^23+1/5*E(120)^29-1/5*E(120)^31+1/5*E(120)^37-1/5*E(120)^47-1/5*E(120)^53-1/5*E(120)^61+1/5*E(120)^71-1/5*E(120)^77-1/5*E(120)^79+1/5*E(120)^101+1/5*E(120)^103-1/5*E(120)^109+1/5*E(120)^119 ~ 1.0954451150103321
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 5/6 ~ 0.83333333333333337
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 25/36 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-12 onto L3-{5,3,5/2}-9:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-12 onto V,E,F,C of L3-{5,3,5/2}-9
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ 1, 0, 0, 0 ], [ 0, 1/2, -1/2*E(5)-1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ 0, -1/2*E(5)-1/2*E(5)^4, -1/2*E(5)^2-1/2*E(5)^3, -1/2 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, 1/2, 1/2*E(5)+1/2*E(5)^4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-13: t = -1/4 ~ -0.25  alpha = 2 ~ 2.
+       image t' = -1/2*E(5)-1/2*E(5)^4 ~ -0.30901699437494734  alpha' = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.6180339887498949
+       -> paired with L3-{5,3,5/2}-14 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 1/4*E(120)^7+1/4*E(120)^13-1/4*E(120)^23+1/4*E(120)^37-1/4*E(120)^47-1/4*E(120)^53-1/4*E(120)^77+1/4*E(120)^103 ~ 0.99083941472935477
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -16/3*E(5)-8/3*E(5)^2-8/3*E(5)^3-16/3*E(5)^4 ~ 1.0185760300002809
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -320/9*E(5)-128/9*E(5)^2-128/9*E(5)^3-320/9*E(5)^4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-13 onto L3-{5,3,5/2}-14:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-13 onto V,E,F,C of L3-{5,3,5/2}-14
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -3/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-3/4*E(5)^4, 1/4, -1/2*E(5)-3/4*E(5)^2-3/4*E(5)^3-1/2*E(5)^4, 0 ], [ 1/4*E(5)^2+1/4*E(5)^3, -1/4*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/4*E(5)^4, 1/2*E(5)+1/2*E(5)^4, -1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/4*E(5)^4 ], [ -1/2*E(5)^2-1/2*E(5)^3, -1/4*E(5)+1/4*E(5)^2+1/4*E(5)^3-1/4*E(5)^4, -1/4*E(5)-1/4*E(5)^4, -1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/2*E(5)^4 ], [ 1/4, 1/4*E(5)-1/4*E(5)^2-1/4*E(5)^3+1/4*E(5)^4, -1/4, 3/4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-14: t = -1/2*E(5)-1/2*E(5)^4 ~ -0.30901699437494734  alpha = -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4 ~ 2.6180339887498949
+       image t' = -1/4 ~ -0.25  alpha' = 2 ~ 2.
+       -> paired with L3-{5,3,5/2}-13 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = 2/3*E(120)^29-2/3*E(120)^31-2/3*E(120)^61+2/3*E(120)^71-2/3*E(120)^79+2/3*E(120)^101-2/3*E(120)^109+2/3*E(120)^119 ~ 1.0092452774228273
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -3/8*E(5)-3/4*E(5)^2-3/4*E(5)^3-3/8*E(5)^4 ~ 0.98176274578121059
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -9/32*E(5)-45/64*E(5)^2-45/64*E(5)^3-9/32*E(5)^4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-14 onto L3-{5,3,5/2}-13:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-14 onto V,E,F,C of L3-{5,3,5/2}-13
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -5/6*E(5)-2/3*E(5)^2-2/3*E(5)^3-5/6*E(5)^4, -1/6, -1/3*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/3*E(5)^4, -1/3*E(5)^2-1/3*E(5)^3 ], [ 1/3, -1/6*E(5)+1/6*E(5)^2+1/6*E(5)^3-1/6*E(5)^4, 1/2*E(5)+2/3*E(5)^2+2/3*E(5)^3+1/2*E(5)^4, -2/3*E(5)-1/2*E(5)^2-1/2*E(5)^3-2/3*E(5)^4 ], [ -1/6*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/6*E(5)^4, -1/2*E(5)-1/6*E(5)^2-1/6*E(5)^3-1/2*E(5)^4, -1/2*E(5)-1/6*E(5)^2-1/6*E(5)^3-1/2*E(5)^4, 1/6*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/6*E(5)^4 ], [ -1/6*E(5)^2-1/6*E(5)^3, 1/6*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/6*E(5)^4, -1/3*E(5)-1/3*E(5)^4, -1/2*E(5)-1/3*E(5)^2-1/3*E(5)^3-1/2*E(5)^4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-15: t = -1/2*E(5)-2*E(5)^2-2*E(5)^3-1/2*E(5)^4 ~ 2.9270509831248419  alpha = -5*E(5)-2*E(5)^2-2*E(5)^3-5*E(5)^4 ~ 0.14589803375031618
+       image t' = infinity ~ infinity  alpha' = 0 ~ 0.
+       -> paired with L3-{5,3,5/2}-16 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = -E(120)^7-E(120)^13+E(120)^23+1/2*E(120)^29-1/2*E(120)^31-E(120)^37+E(120)^47+E(120)^53-1/2*E(120)^61+1/2*E(120)^71+E(120)^77-1/2*E(120)^79+1/2*E(120)^101-E(120)^103-1/2*E(120)^109+1/2*E(120)^119 ~ -3.2064237008502978
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -10/3*E(5)-4/3*E(5)^2-4/3*E(5)^3-10/3*E(5)^4 ~ 0.097265355833543898
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -136/9*E(5)-52/9*E(5)^2-52/9*E(5)^3-136/9*E(5)^4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-15 onto L3-{5,3,5/2}-16:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-15 onto V,E,F,C of L3-{5,3,5/2}-16
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -1/2*E(5)-1/2*E(5)^4, 1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ 0, 1/2, 1/2*E(5)+1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3 ], [ -1/2, 1/2, 1/2, 1/2 ], [ 1/2*E(5)^2+1/2*E(5)^3, -1/2, 0, -1/2*E(5)-1/2*E(5)^4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{5,3,5/2}-16: t = infinity ~ infinity  alpha = 0 ~ 0.
+       image t' = -1/2*E(5)-2*E(5)^2-2*E(5)^3-1/2*E(5)^4 ~ 2.9270509831248419  alpha' = -5*E(5)-2*E(5)^2-2*E(5)^3-5*E(5)^4 ~ 0.14589803375031618
+       -> paired with L3-{5,3,5/2}-15 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+2/3*E(120)^29-2/3*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-2/3*E(120)^61+2/3*E(120)^71+1/3*E(120)^77-2/3*E(120)^79+2/3*E(120)^101-1/3*E(120)^103-2/3*E(120)^109+2/3*E(120)^119 ~ -0.31187394221631248
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = -3*E(5)-15/2*E(5)^2-15/2*E(5)^3-3*E(5)^4 ~ 10.281152949374528
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = -117/4*E(5)-153/2*E(5)^2-153/2*E(5)^3-117/4*E(5)^4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{5,3,5/2}-16 onto L3-{5,3,5/2}-15:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{5,3,5/2}-16 onto V,E,F,C of L3-{5,3,5/2}-15
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -7/12*E(5)-1/6*E(5)^2-1/6*E(5)^3-7/12*E(5)^4, -5/12, 5/12*E(5)^2+5/12*E(5)^3, 1/3*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/3*E(5)^4 ], [ -1/3*E(5)-1/12*E(5)^2-1/12*E(5)^3-1/3*E(5)^4, -5/12*E(5)-7/12*E(5)^2-7/12*E(5)^3-5/12*E(5)^4, 1/3*E(5)+1/3*E(5)^4, -1/4*E(5)+1/3*E(5)^2+1/3*E(5)^3-1/4*E(5)^4 ], [ 1/6*E(5)+2/3*E(5)^2+2/3*E(5)^3+1/6*E(5)^4, -5/12*E(5)-1/12*E(5)^2-1/12*E(5)^3-5/12*E(5)^4, -7/12*E(5)-1/3*E(5)^2-1/3*E(5)^3-7/12*E(5)^4, -1/6*E(5)-1/12*E(5)^2-1/12*E(5)^3-1/6*E(5)^4 ], [ 1/12*E(5)-1/12*E(5)^2-1/12*E(5)^3+1/12*E(5)^4, -7/12, -5/12*E(5)-7/12*E(5)^2-7/12*E(5)^3-5/12*E(5)^4, -5/12*E(5)+1/12*E(5)^2+1/12*E(5)^3-5/12*E(5)^4 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+
+--- Step 6: symmetry group of the cells; flag structure ---
+  [ok]   L3-{5,3,5/2}-1: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-1: R = [ [ 5/12*E(40)^7-1/3*E(40)^8-5/12*E(40)^13-1/3*E(40)^16-1/3*E(40)^21+5/12*E(40)^23-1/3*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32-5/12*E(40)^37+1/3*E(40)^39, -1/3*E(40)^7-5/12*E(40)^8+1/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-5/12*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, 1/12*E(40)^7-1/12*E(40)^13+1/12*E(40)^16-1/4*E(40)^21+1/12*E(40)^23+1/12*E(40)^24-1/4*E(40)^29+1/4*E(40)^31-1/12*E(40)^37+1/4*E(40)^39, -1/12*E(40)^8-1/4*E(40)^16-1/12*E(40)^21-1/4*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/12*E(40)^32+1/12*E(40)^39 ], [ -1/3*E(40)^7-5/12*E(40)^8+1/3*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-5/12*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -5/12*E(40)^7+1/3*E(40)^8+5/12*E(40)^13+1/3*E(40)^16+1/3*E(40)^21-5/12*E(40)^23+1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/3*E(40)^32+5/12*E(40)^37-1/3*E(40)^39, -1/12*E(40)^8-1/4*E(40)^16-1/12*E(40)^21-1/4*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/12*E(40)^32+1/12*E(40)^39, -1/12*E(40)^7+1/12*E(40)^13-1/12*E(40)^16+1/4*E(40)^21-1/12*E(40)^23-1/12*E(40)^24+1/4*E(40)^29-1/4*E(40)^31+1/12*E(40)^37-1/4*E(40)^39 ], [ 1/12*E(40)^7-1/12*E(40)^13+1/12*E(40)^16-1/4*E(40)^21+1/12*E(40)^23+1/12*E(40)^24-1/4*E(40)^29+1/4*E(40)^31-1/12*E(40)^37+1/4*E(40)^39, -1/12*E(40)^8-1/4*E(40)^16-1/12*E(40)^21-1/4*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/12*E(40)^32+1/12*E(40)^39, 5/12*E(40)^7-1/6*E(40)^8-5/12*E(40)^13-1/3*E(40)^16-1/6*E(40)^21+5/12*E(40)^23-1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32-5/12*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7-5/12*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-5/12*E(40)^32+1/6*E(40)^37-1/3*E(40)^39 ], [ -1/12*E(40)^8-1/4*E(40)^16-1/12*E(40)^21-1/4*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/12*E(40)^32+1/12*E(40)^39, -1/12*E(40)^7+1/12*E(40)^13-1/12*E(40)^16+1/4*E(40)^21-1/12*E(40)^23-1/12*E(40)^24+1/4*E(40)^29-1/4*E(40)^31+1/12*E(40)^37-1/4*E(40)^39, -1/6*E(40)^7-5/12*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-5/12*E(40)^32+1/6*E(40)^37-1/3*E(40)^39, -5/12*E(40)^7+1/6*E(40)^8+5/12*E(40)^13+1/3*E(40)^16+1/6*E(40)^21-5/12*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+5/12*E(40)^37-1/6*E(40)^39 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-1: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-1: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-1: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-2: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-2: R = [ [ -5/12*E(40)^7-1/3*E(40)^8+5/12*E(40)^13-1/3*E(40)^16+1/3*E(40)^21-5/12*E(40)^23-1/3*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+5/12*E(40)^37-1/3*E(40)^39, 1/3*E(40)^7-5/12*E(40)^8-1/3*E(40)^13-1/3*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/3*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-5/12*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, -1/12*E(40)^7+1/12*E(40)^13+1/12*E(40)^16+1/4*E(40)^21-1/12*E(40)^23+1/12*E(40)^24+1/4*E(40)^29-1/4*E(40)^31+1/12*E(40)^37-1/4*E(40)^39, -1/12*E(40)^8-1/4*E(40)^16+1/12*E(40)^21-1/4*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/12*E(40)^32-1/12*E(40)^39 ], [ 1/3*E(40)^7-5/12*E(40)^8-1/3*E(40)^13-1/3*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/3*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-5/12*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, 5/12*E(40)^7+1/3*E(40)^8-5/12*E(40)^13+1/3*E(40)^16-1/3*E(40)^21+5/12*E(40)^23+1/3*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/3*E(40)^32-5/12*E(40)^37+1/3*E(40)^39, -1/12*E(40)^8-1/4*E(40)^16+1/12*E(40)^21-1/4*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/12*E(40)^32-1/12*E(40)^39, 1/12*E(40)^7-1/12*E(40)^13-1/12*E(40)^16-1/4*E(40)^21+1/12*E(40)^23-1/12*E(40)^24-1/4*E(40)^29+1/4*E(40)^31-1/12*E(40)^37+1/4*E(40)^39 ], [ -1/12*E(40)^7+1/12*E(40)^13+1/12*E(40)^16+1/4*E(40)^21-1/12*E(40)^23+1/12*E(40)^24+1/4*E(40)^29-1/4*E(40)^31+1/12*E(40)^37-1/4*E(40)^39, -1/12*E(40)^8-1/4*E(40)^16+1/12*E(40)^21-1/4*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/12*E(40)^32-1/12*E(40)^39, -5/12*E(40)^7-1/6*E(40)^8+5/12*E(40)^13-1/3*E(40)^16+1/6*E(40)^21-5/12*E(40)^23-1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32+5/12*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7-5/12*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-5/12*E(40)^32-1/6*E(40)^37+1/3*E(40)^39 ], [ -1/12*E(40)^8-1/4*E(40)^16+1/12*E(40)^21-1/4*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/12*E(40)^32-1/12*E(40)^39, 1/12*E(40)^7-1/12*E(40)^13-1/12*E(40)^16-1/4*E(40)^21+1/12*E(40)^23-1/12*E(40)^24-1/4*E(40)^29+1/4*E(40)^31-1/12*E(40)^37+1/4*E(40)^39, 1/6*E(40)^7-5/12*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-5/12*E(40)^32-1/6*E(40)^37+1/3*E(40)^39, 5/12*E(40)^7+1/6*E(40)^8-5/12*E(40)^13+1/3*E(40)^16-1/6*E(40)^21+5/12*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-5/12*E(40)^37+1/6*E(40)^39 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-2: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-2: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-2: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-3: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-3: R = [ [ -1/3*E(40)^7-1/3*E(40)^8+1/3*E(40)^13-1/3*E(40)^16+1/6*E(40)^21-1/3*E(40)^23-1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/3*E(40)^32+1/3*E(40)^37-1/6*E(40)^39, -1/3*E(40)^7+1/3*E(40)^8+1/3*E(40)^13+1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23+1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/3*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/6*E(40)^32+1/6*E(40)^37-1/3*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/3*E(40)^16+1/6*E(40)^21-1/6*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/6*E(40)^39 ], [ -1/3*E(40)^7+1/3*E(40)^8+1/3*E(40)^13+1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23+1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/3*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, 1/3*E(40)^7+1/3*E(40)^8-1/3*E(40)^13+1/3*E(40)^16-1/6*E(40)^21+1/3*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/3*E(40)^32-1/3*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/3*E(40)^16+1/6*E(40)^21-1/6*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/6*E(40)^16-1/3*E(40)^21+1/6*E(40)^23+1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/3*E(40)^39 ], [ -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/6*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/6*E(40)^32+1/6*E(40)^37-1/3*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/3*E(40)^16+1/6*E(40)^21-1/6*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, 1/3*E(40)^8-1/6*E(40)^21-1/6*E(40)^29+1/6*E(40)^31+1/3*E(40)^32+1/6*E(40)^39, 1/3*E(40)^7-1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^37 ], [ -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/3*E(40)^16+1/6*E(40)^21-1/6*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/6*E(40)^16-1/3*E(40)^21+1/6*E(40)^23+1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/3*E(40)^39, 1/3*E(40)^7-1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^37, -1/3*E(40)^8+1/6*E(40)^21+1/6*E(40)^29-1/6*E(40)^31-1/3*E(40)^32-1/6*E(40)^39 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-3: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-3: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-3: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-4: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-4: R = [ [ 1/3*E(40)^7-1/3*E(40)^8-1/3*E(40)^13-1/3*E(40)^16-1/6*E(40)^21+1/3*E(40)^23-1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/3*E(40)^32-1/3*E(40)^37+1/6*E(40)^39, 1/3*E(40)^7+1/3*E(40)^8-1/3*E(40)^13+1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23+1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/3*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/6*E(40)^32-1/6*E(40)^37+1/3*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/3*E(40)^16-1/6*E(40)^21+1/6*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/6*E(40)^39 ], [ 1/3*E(40)^7+1/3*E(40)^8-1/3*E(40)^13+1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23+1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/3*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, -1/3*E(40)^7+1/3*E(40)^8+1/3*E(40)^13+1/3*E(40)^16+1/6*E(40)^21-1/3*E(40)^23+1/3*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/3*E(40)^32+1/3*E(40)^37-1/6*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/3*E(40)^16-1/6*E(40)^21+1/6*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/6*E(40)^16+1/3*E(40)^21-1/6*E(40)^23+1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/3*E(40)^39 ], [ 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/6*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/6*E(40)^32-1/6*E(40)^37+1/3*E(40)^39, 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/3*E(40)^16-1/6*E(40)^21+1/6*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, 1/3*E(40)^8+1/6*E(40)^21+1/6*E(40)^29-1/6*E(40)^31+1/3*E(40)^32-1/6*E(40)^39, -1/3*E(40)^7+1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^37 ], [ 1/6*E(40)^7+1/6*E(40)^8-1/6*E(40)^13+1/3*E(40)^16-1/6*E(40)^21+1/6*E(40)^23+1/3*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/6*E(40)^37+1/6*E(40)^39, -1/6*E(40)^7+1/6*E(40)^8+1/6*E(40)^13+1/6*E(40)^16+1/3*E(40)^21-1/6*E(40)^23+1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/6*E(40)^32+1/6*E(40)^37-1/3*E(40)^39, -1/3*E(40)^7+1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^37, -1/3*E(40)^8-1/6*E(40)^21-1/6*E(40)^29+1/6*E(40)^31-1/3*E(40)^32+1/6*E(40)^39 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-4: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-4: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-4: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-5: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-5: R = [ [ -1/12*E(40)^7-2/3*E(40)^8+1/12*E(40)^13-2/3*E(40)^16-1/12*E(40)^21-1/12*E(40)^23-2/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-2/3*E(40)^32+1/12*E(40)^37+1/12*E(40)^39, -1/3*E(40)^7+1/6*E(40)^8+1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/6*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -1/6*E(40)^8-1/12*E(40)^21-1/12*E(40)^29+1/12*E(40)^31-1/6*E(40)^32+1/12*E(40)^39, -1/12*E(40)^7+1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^37 ], [ -1/3*E(40)^7+1/6*E(40)^8+1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31+1/6*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, 1/12*E(40)^7+2/3*E(40)^8-1/12*E(40)^13+2/3*E(40)^16+1/12*E(40)^21+1/12*E(40)^23+2/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+2/3*E(40)^32-1/12*E(40)^37-1/12*E(40)^39, -1/12*E(40)^7+1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^37, 1/6*E(40)^8+1/12*E(40)^21+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32-1/12*E(40)^39 ], [ -1/6*E(40)^8-1/12*E(40)^21-1/12*E(40)^29+1/12*E(40)^31-1/6*E(40)^32+1/12*E(40)^39, -1/12*E(40)^7+1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^37, 1/12*E(40)^7+1/3*E(40)^8-1/12*E(40)^13-1/3*E(40)^16-1/12*E(40)^21+1/12*E(40)^23-1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+1/3*E(40)^32-1/12*E(40)^37+1/12*E(40)^39, 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16+1/6*E(40)^21+1/6*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32-1/6*E(40)^37-1/6*E(40)^39 ], [ -1/12*E(40)^7+1/12*E(40)^13-1/6*E(40)^16-1/12*E(40)^23-1/6*E(40)^24+1/12*E(40)^37, 1/6*E(40)^8+1/12*E(40)^21+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32-1/12*E(40)^39, 1/6*E(40)^7-1/6*E(40)^8-1/6*E(40)^13-1/6*E(40)^16+1/6*E(40)^21+1/6*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32-1/6*E(40)^37-1/6*E(40)^39, -1/12*E(40)^7-1/3*E(40)^8+1/12*E(40)^13+1/3*E(40)^16+1/12*E(40)^21-1/12*E(40)^23+1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-1/3*E(40)^32+1/12*E(40)^37-1/12*E(40)^39 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-5: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=true E=false F=false 
+  [ok]   L3-{5,3,5/2}-5: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-5: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-6: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-6: R = [ [ 1/12*E(40)^7-2/3*E(40)^8-1/12*E(40)^13-2/3*E(40)^16+1/12*E(40)^21+1/12*E(40)^23-2/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-2/3*E(40)^32-1/12*E(40)^37-1/12*E(40)^39, 1/3*E(40)^7+1/6*E(40)^8-1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/6*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, -1/6*E(40)^8+1/12*E(40)^21+1/12*E(40)^29-1/12*E(40)^31-1/6*E(40)^32-1/12*E(40)^39, 1/12*E(40)^7-1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^37 ], [ 1/3*E(40)^7+1/6*E(40)^8-1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31+1/6*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, -1/12*E(40)^7+2/3*E(40)^8+1/12*E(40)^13+2/3*E(40)^16-1/12*E(40)^21-1/12*E(40)^23+2/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+2/3*E(40)^32+1/12*E(40)^37+1/12*E(40)^39, 1/12*E(40)^7-1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^37, 1/6*E(40)^8-1/12*E(40)^21-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32+1/12*E(40)^39 ], [ -1/6*E(40)^8+1/12*E(40)^21+1/12*E(40)^29-1/12*E(40)^31-1/6*E(40)^32-1/12*E(40)^39, 1/12*E(40)^7-1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^37, -1/12*E(40)^7+1/3*E(40)^8+1/12*E(40)^13-1/3*E(40)^16+1/12*E(40)^21-1/12*E(40)^23-1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+1/3*E(40)^32+1/12*E(40)^37-1/12*E(40)^39, -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16-1/6*E(40)^21-1/6*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32+1/6*E(40)^37+1/6*E(40)^39 ], [ 1/12*E(40)^7-1/12*E(40)^13-1/6*E(40)^16+1/12*E(40)^23-1/6*E(40)^24-1/12*E(40)^37, 1/6*E(40)^8-1/12*E(40)^21-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32+1/12*E(40)^39, -1/6*E(40)^7-1/6*E(40)^8+1/6*E(40)^13-1/6*E(40)^16-1/6*E(40)^21-1/6*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32+1/6*E(40)^37+1/6*E(40)^39, 1/12*E(40)^7-1/3*E(40)^8-1/12*E(40)^13+1/3*E(40)^16-1/12*E(40)^21+1/12*E(40)^23+1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-1/3*E(40)^32-1/12*E(40)^37+1/12*E(40)^39 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-6: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=true E=false F=false 
+  [ok]   L3-{5,3,5/2}-6: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-6: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-7: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-7: R = [ [ 1/6*E(40)^7-2/3*E(40)^8-1/6*E(40)^13-2/3*E(40)^16-1/12*E(40)^21+1/6*E(40)^23-2/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31-2/3*E(40)^32-1/6*E(40)^37+1/12*E(40)^39, -1/3*E(40)^7-1/3*E(40)^8+1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -1/12*E(40)^7-1/6*E(40)^8+1/12*E(40)^13-1/6*E(40)^16+1/6*E(40)^21-1/12*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32+1/12*E(40)^37-1/6*E(40)^39, -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13+1/3*E(40)^16+1/12*E(40)^21-1/12*E(40)^23+1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/12*E(40)^39 ], [ -1/3*E(40)^7-1/3*E(40)^8+1/3*E(40)^13-1/6*E(40)^16+1/3*E(40)^21-1/3*E(40)^23-1/6*E(40)^24+1/3*E(40)^29-1/3*E(40)^31-1/3*E(40)^32+1/3*E(40)^37-1/3*E(40)^39, -1/6*E(40)^7+2/3*E(40)^8+1/6*E(40)^13+2/3*E(40)^16+1/12*E(40)^21-1/6*E(40)^23+2/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+2/3*E(40)^32+1/6*E(40)^37-1/12*E(40)^39, -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13+1/3*E(40)^16+1/12*E(40)^21-1/12*E(40)^23+1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/12*E(40)^39, 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13+1/6*E(40)^16-1/6*E(40)^21+1/12*E(40)^23+1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/6*E(40)^39 ], [ -1/12*E(40)^7-1/6*E(40)^8+1/12*E(40)^13-1/6*E(40)^16+1/6*E(40)^21-1/12*E(40)^23-1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-1/6*E(40)^32+1/12*E(40)^37-1/6*E(40)^39, -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13+1/3*E(40)^16+1/12*E(40)^21-1/12*E(40)^23+1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/12*E(40)^39, 1/3*E(40)^7-1/3*E(40)^13-1/3*E(40)^16-1/4*E(40)^21+1/3*E(40)^23-1/3*E(40)^24-1/4*E(40)^29+1/4*E(40)^31-1/3*E(40)^37+1/4*E(40)^39, -2/3*E(40)^8-1/2*E(40)^16+1/6*E(40)^21-1/2*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-2/3*E(40)^32-1/6*E(40)^39 ], [ -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13+1/3*E(40)^16+1/12*E(40)^21-1/12*E(40)^23+1/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/12*E(40)^39, 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13+1/6*E(40)^16-1/6*E(40)^21+1/12*E(40)^23+1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/6*E(40)^39, -2/3*E(40)^8-1/2*E(40)^16+1/6*E(40)^21-1/2*E(40)^24+1/6*E(40)^29-1/6*E(40)^31-2/3*E(40)^32-1/6*E(40)^39, -1/3*E(40)^7+1/3*E(40)^13+1/3*E(40)^16+1/4*E(40)^21-1/3*E(40)^23+1/3*E(40)^24+1/4*E(40)^29-1/4*E(40)^31+1/3*E(40)^37-1/4*E(40)^39 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-7: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=true E=false F=false 
+  [ok]   L3-{5,3,5/2}-7: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-7: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-8: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-8: R = [ [ -1/6*E(40)^7-2/3*E(40)^8+1/6*E(40)^13-2/3*E(40)^16+1/12*E(40)^21-1/6*E(40)^23-2/3*E(40)^24+1/12*E(40)^29-1/12*E(40)^31-2/3*E(40)^32+1/6*E(40)^37-1/12*E(40)^39, 1/3*E(40)^7-1/3*E(40)^8-1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, 1/12*E(40)^7-1/6*E(40)^8-1/12*E(40)^13-1/6*E(40)^16-1/6*E(40)^21+1/12*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32-1/12*E(40)^37+1/6*E(40)^39, 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13+1/3*E(40)^16-1/12*E(40)^21+1/12*E(40)^23+1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/12*E(40)^39 ], [ 1/3*E(40)^7-1/3*E(40)^8-1/3*E(40)^13-1/6*E(40)^16-1/3*E(40)^21+1/3*E(40)^23-1/6*E(40)^24-1/3*E(40)^29+1/3*E(40)^31-1/3*E(40)^32-1/3*E(40)^37+1/3*E(40)^39, 1/6*E(40)^7+2/3*E(40)^8-1/6*E(40)^13+2/3*E(40)^16-1/12*E(40)^21+1/6*E(40)^23+2/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+2/3*E(40)^32-1/6*E(40)^37+1/12*E(40)^39, 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13+1/3*E(40)^16-1/12*E(40)^21+1/12*E(40)^23+1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/12*E(40)^39, -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13+1/6*E(40)^16+1/6*E(40)^21-1/12*E(40)^23+1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/6*E(40)^39 ], [ 1/12*E(40)^7-1/6*E(40)^8-1/12*E(40)^13-1/6*E(40)^16-1/6*E(40)^21+1/12*E(40)^23-1/6*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-1/6*E(40)^32-1/12*E(40)^37+1/6*E(40)^39, 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13+1/3*E(40)^16-1/12*E(40)^21+1/12*E(40)^23+1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/12*E(40)^39, -1/3*E(40)^7+1/3*E(40)^13-1/3*E(40)^16+1/4*E(40)^21-1/3*E(40)^23-1/3*E(40)^24+1/4*E(40)^29-1/4*E(40)^31+1/3*E(40)^37-1/4*E(40)^39, -2/3*E(40)^8-1/2*E(40)^16-1/6*E(40)^21-1/2*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-2/3*E(40)^32+1/6*E(40)^39 ], [ 1/12*E(40)^7+1/6*E(40)^8-1/12*E(40)^13+1/3*E(40)^16-1/12*E(40)^21+1/12*E(40)^23+1/3*E(40)^24-1/12*E(40)^29+1/12*E(40)^31+1/6*E(40)^32-1/12*E(40)^37+1/12*E(40)^39, -1/12*E(40)^7+1/6*E(40)^8+1/12*E(40)^13+1/6*E(40)^16+1/6*E(40)^21-1/12*E(40)^23+1/6*E(40)^24+1/6*E(40)^29-1/6*E(40)^31+1/6*E(40)^32+1/12*E(40)^37-1/6*E(40)^39, -2/3*E(40)^8-1/2*E(40)^16-1/6*E(40)^21-1/2*E(40)^24-1/6*E(40)^29+1/6*E(40)^31-2/3*E(40)^32+1/6*E(40)^39, 1/3*E(40)^7-1/3*E(40)^13+1/3*E(40)^16-1/4*E(40)^21+1/3*E(40)^23+1/3*E(40)^24-1/4*E(40)^29+1/4*E(40)^31-1/3*E(40)^37+1/4*E(40)^39 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-8: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=true E=false F=false 
+  [ok]   L3-{5,3,5/2}-8: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-8: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-9: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-9: R = [ [ 1, 0, 0, 0 ], [ 0, -1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, -1 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-9: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-9: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-9: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-10: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-10: R = [ [ 1/3*E(5)-1/3*E(5)^2-1/3*E(5)^3+1/3*E(5)^4, 2/3, 0, 0 ], [ 2/3, -1/3*E(5)+1/3*E(5)^2+1/3*E(5)^3-1/3*E(5)^4, 0, 0 ], [ 0, 0, 1/3*E(5)-1/3*E(5)^2-1/3*E(5)^3+1/3*E(5)^4, 2/3 ], [ 0, 0, 2/3, -1/3*E(5)+1/3*E(5)^2+1/3*E(5)^3-1/3*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-10: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-10: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-10: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-11: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-11: R = [ [ 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4, 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 0, -1/4 ], [ 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, -1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3-1/4*E(5)^4, -1/4, 0 ], [ 0, -1/4, 1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3+1/4*E(5)^4, -1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/2*E(5)^4 ], [ -1/4, 0, -1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/2*E(5)^4, -1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3-1/4*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-11: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-11: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-11: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-12: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-12: R = [ [ -11/12*E(5)-5/6*E(5)^2-5/6*E(5)^3-11/12*E(5)^4, -1/6*E(5)-5/12*E(5)^2-5/12*E(5)^3-1/6*E(5)^4, 1/6, -1/12*E(5)+1/12*E(5)^2+1/12*E(5)^3-1/12*E(5)^4 ], [ -1/6*E(5)-5/12*E(5)^2-5/12*E(5)^3-1/6*E(5)^4, 11/12*E(5)+5/6*E(5)^2+5/6*E(5)^3+11/12*E(5)^4, -1/12*E(5)+1/12*E(5)^2+1/12*E(5)^3-1/12*E(5)^4, -1/6 ], [ 1/6, -1/12*E(5)+1/12*E(5)^2+1/12*E(5)^3-1/12*E(5)^4, -1/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/4*E(5)^4, 1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3+1/2*E(5)^4 ], [ -1/12*E(5)+1/12*E(5)^2+1/12*E(5)^3-1/12*E(5)^4, -1/6, 1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3+1/2*E(5)^4, 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-12: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-12: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-12: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-13: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-13: R = [ [ -5/6*E(5)-2/3*E(5)^2-2/3*E(5)^3-5/6*E(5)^4, -1/6, -1/3*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/3*E(5)^4, -1/3*E(5)^2-1/3*E(5)^3 ], [ -1/6, 5/6*E(5)+2/3*E(5)^2+2/3*E(5)^3+5/6*E(5)^4, -1/3*E(5)^2-1/3*E(5)^3, 1/3*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/3*E(5)^4 ], [ -1/3*E(5)-1/2*E(5)^2-1/2*E(5)^3-1/3*E(5)^4, -1/3*E(5)^2-1/3*E(5)^3, 1/6*E(5)+1/6*E(5)^4, -1/2*E(5)+1/6*E(5)^2+1/6*E(5)^3-1/2*E(5)^4 ], [ -1/3*E(5)^2-1/3*E(5)^3, 1/3*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/3*E(5)^4, -1/2*E(5)+1/6*E(5)^2+1/6*E(5)^3-1/2*E(5)^4, -1/6*E(5)-1/6*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-13: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-13: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-13: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-14: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-14: R = [ [ -3/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-3/4*E(5)^4, 1/4, -1/2*E(5)-3/4*E(5)^2-3/4*E(5)^3-1/2*E(5)^4, 0 ], [ 1/4, 3/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+3/4*E(5)^4, 0, 1/2*E(5)+3/4*E(5)^2+3/4*E(5)^3+1/2*E(5)^4 ], [ -1/2*E(5)-3/4*E(5)^2-3/4*E(5)^3-1/2*E(5)^4, 0, 3/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+3/4*E(5)^4, 1/4 ], [ 0, 1/2*E(5)+3/4*E(5)^2+3/4*E(5)^3+1/2*E(5)^4, 1/4, -3/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-3/4*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-14: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-14: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-14: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-15: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-15: R = [ [ -7/12*E(5)-1/6*E(5)^2-1/6*E(5)^3-7/12*E(5)^4, -5/12, 5/12*E(5)^2+5/12*E(5)^3, 1/3*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/3*E(5)^4 ], [ -5/12, 7/12*E(5)+1/6*E(5)^2+1/6*E(5)^3+7/12*E(5)^4, 1/3*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/3*E(5)^4, -5/12*E(5)^2-5/12*E(5)^3 ], [ 5/12*E(5)^2+5/12*E(5)^3, 1/3*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/3*E(5)^4, 1/4*E(5)-1/6*E(5)^2-1/6*E(5)^3+1/4*E(5)^4, -7/12*E(5)-1/4*E(5)^2-1/4*E(5)^3-7/12*E(5)^4 ], [ 1/3*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/3*E(5)^4, -5/12*E(5)^2-5/12*E(5)^3, -7/12*E(5)-1/4*E(5)^2-1/4*E(5)^3-7/12*E(5)^4, -1/4*E(5)+1/6*E(5)^2+1/6*E(5)^3-1/4*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-15: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-15: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-15: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  [ok]   L3-{5,3,5/2}-16: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{5,3,5/2}-16: R = [ [ -1/2*E(5)-1/2*E(5)^4, 1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ 1/2, 1/2*E(5)+1/2*E(5)^4, 0, -1/2*E(5)^2-1/2*E(5)^3 ], [ 1/2*E(5)^2+1/2*E(5)^3, 0, 1/2*E(5)+1/2*E(5)^4, 1/2 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, 1/2, -1/2*E(5)-1/2*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{5,3,5/2}-16: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{5,3,5/2}-16: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{5,3,5/2}-16: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 48, 72, 12 ]
+  flag structure of H_w for L3-{5,3,5/2}-1:
+  [ok]       every edge of H_w lies in exactly 2 faces (H_w is a polyhedron)
+    number of flags = 288  2|G| = 288
+  [ok]       H_w has exactly 2|G| flags
+  [ok]       G acts faithfully on V(H_w)
+  [ok]       G acts freely on the flags: |Fl0 G| = |G|
+  [ok]       the 2-adjacent flag Fl0^2 is not in the G-orbit of Fl0 (two flag orbits)
+  [ok]       |Fl0^2 G| = |G|, so Fl0 G and Fl0^2 G exhaust the 2|G| flags
+  [ok]       S1 maps Fl0 to (Fl0^1)^0
+  [ok]       S2 maps Fl0 to (Fl0^2)^1
+  [ok]       the second face at the base edge is f S2
+  [ok]       S2^-1 S1^-1 S2 maps Fl0^2 to ((Fl0^2)^1)^0  (distinguished sigma_1 of Fl0^2)
+  [ok]       S2^-1 maps Fl0^2 to ((Fl0^2)^2)^1  (distinguished sigma_2 of Fl0^2)
+  [ok]       (Fl0^2)^2 = Fl0
+
+
+############################################################################
+##  ROW {3,3,5/2}
+############################################################################
+records: [ "L3-{3,3,5/2}-1", "L3-{3,3,5/2}-4" ]
+  [ok]   all records of the row share S1, S2
+Order(S1)=30 Order(S2)=3 Order(S1*S2)=2 |G|=1440
+S1 = [ [ -1/2*E(5)-1/2*E(5)^4, 1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ 0, 1/2*E(5)^2+1/2*E(5)^3, -1/2, -1/2*E(5)-1/2*E(5)^4 ], [ 1/2, 1/2*E(5)+1/2*E(5)^4, 0, 1/2*E(5)^2+1/2*E(5)^3 ], [ 1/2*E(5)^2+1/2*E(5)^3, 0, 1/2*E(5)+1/2*E(5)^4, -1/2 ] ]
+S2 = [ [ -1/2*E(5)-1/2*E(5)^4, 0, 1/2, -1/2*E(5)^2-1/2*E(5)^3 ], [ -1/2, -1/2*E(5)^2-1/2*E(5)^3, -1/2*E(5)-1/2*E(5)^4, 0 ], [ 1/2*E(5)^2+1/2*E(5)^3, -1/2, 0, -1/2*E(5)-1/2*E(5)^4 ], [ 0, -1/2*E(5)-1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3, 1/2 ] ]
+  [ok]   the t-values of the records of the row are pairwise distinct
+
+--- Step 1: commutant of G ---
+dim {M : M S1 = S1 M, M S2 = S2 M} = 1   basis: [ [ [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ] ] ]
+  [ok]   commutant is 1-dimensional (only scalars centralise G; the only isometries are +-I)
+
+--- Step 2: anti-space {M : M S1 = S1^-1 M, M S2 = S2^-1 M} ---
+dim anti-space = 1
+  [ok]   anti-space is 1-dimensional
+M0 (raw basis vector, semi-echelon normalised) = [ [ -2, 1, E(5)+E(5)^4, -E(5)^2-E(5)^3 ], [ 1, E(5)^2+E(5)^3, E(5)+E(5)^4, 2 ], [ E(5)+E(5)^4, E(5)+E(5)^4, -E(5)-2*E(5)^2-2*E(5)^3-E(5)^4, -E(5)-E(5)^4 ], [ -E(5)^2-E(5)^3, 2, -E(5)-E(5)^4, 1 ] ]
+  [ok]   M0 M0^T = mu I with mu = 8 ~ 8.
+  [ok]   mu > 0
+M0^2 / mu = [ [ 1, 0, 0, 0 ], [ 0, 1, 0, 0 ], [ 0, 0, 1, 0 ], [ 0, 0, 0, 1 ] ]
+  [ok]   M0^2 = +-mu I
+M0 symmetric: true   skew: false
+det M0 / mu^2 = 1
+  [ok]   det M0 = +-mu^2
+exact sqrt(mu) = 2*E(8)-2*E(8)^3 ~ 2.8284271247461898  (conductor 8)
+  [ok]   sqrt(mu)^2 = mu, sqrt(mu) > 0
+M0 (normalised) = [ [ -1/2*E(8)+1/2*E(8)^3, 1/4*E(8)-1/4*E(8)^3, -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37, -1/4*E(40)^21-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^39 ], [ 1/4*E(8)-1/4*E(8)^3, 1/4*E(40)^21+1/4*E(40)^29-1/4*E(40)^31-1/4*E(40)^39, -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37, 1/2*E(8)-1/2*E(8)^3 ], [ -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37, -1/4*E(40)^7+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^37, 1/4*E(40)^7-1/4*E(40)^13-1/2*E(40)^21+1/4*E(40)^23-1/2*E(40)^29+1/2*E(40)^31-1/4*E(40)^37+1/2*E(40)^39, 1/4*E(40)^7-1/4*E(40)^13+1/4*E(40)^23-1/4*E(40)^37 ], [ -1/4*E(40)^21-1/4*E(40)^29+1/4*E(40)^31+1/4*E(40)^39, 1/2*E(8)-1/2*E(8)^3, 1/4*E(40)^7-1/4*E(40)^13+1/4*E(40)^23-1/4*E(40)^37, 1/4*E(8)-1/4*E(8)^3 ] ]
+  [ok]   M0 M0^T = I exactly (M0 is an isometry)
+  [ok]   M0^2 = +-I
+M0^2 = +I
+  [ok]   det M0 = +-1 exactly
+det M0 = 1  -> +1 (proper)
+M0^-1 S1 M0 = [ [ -1/2*E(5)-1/2*E(5)^4, 0, 1/2, 1/2*E(5)^2+1/2*E(5)^3 ], [ 1/2, 1/2*E(5)^2+1/2*E(5)^3, 1/2*E(5)+1/2*E(5)^4, 0 ], [ 1/2*E(5)^2+1/2*E(5)^3, -1/2, 0, 1/2*E(5)+1/2*E(5)^4 ], [ 0, -1/2*E(5)-1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3, -1/2 ] ]
+S1^-1        = [ [ -1/2*E(5)-1/2*E(5)^4, 0, 1/2, 1/2*E(5)^2+1/2*E(5)^3 ], [ 1/2, 1/2*E(5)^2+1/2*E(5)^3, 1/2*E(5)+1/2*E(5)^4, 0 ], [ 1/2*E(5)^2+1/2*E(5)^3, -1/2, 0, 1/2*E(5)+1/2*E(5)^4 ], [ 0, -1/2*E(5)-1/2*E(5)^4, 1/2*E(5)^2+1/2*E(5)^3, -1/2 ] ]
+M0^-1 S2 M0 = [ [ -1/2*E(5)-1/2*E(5)^4, -1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, -1/2, -1/2*E(5)-1/2*E(5)^4 ], [ 1/2, -1/2*E(5)-1/2*E(5)^4, 0, 1/2*E(5)^2+1/2*E(5)^3 ], [ -1/2*E(5)^2-1/2*E(5)^3, 0, -1/2*E(5)-1/2*E(5)^4, 1/2 ] ]
+S2^-1        = [ [ -1/2*E(5)-1/2*E(5)^4, -1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ 0, -1/2*E(5)^2-1/2*E(5)^3, -1/2, -1/2*E(5)-1/2*E(5)^4 ], [ 1/2, -1/2*E(5)-1/2*E(5)^4, 0, 1/2*E(5)^2+1/2*E(5)^3 ], [ -1/2*E(5)^2-1/2*E(5)^3, 0, -1/2*E(5)-1/2*E(5)^4, 1/2 ] ]
+  [ok]   M0^-1 S1 M0 = S1^-1 and M0^-1 S2 M0 = S2^-1 (M0 normalises G, inverting both generators)
+M0 normalises Gamma of each record?  (M0^-1 X M0 in Gamma = <S1,S2,X>)
+   L3-{3,3,5/2}-1: false
+   L3-{3,3,5/2}-4: false
+
+--- Step 3: the PETCOX circle Pi = Fix(S2) ---
+basis of Pi: [ [ -2*E(5)-E(5)^2-E(5)^3-2*E(5)^4, E(5)+2*E(5)^2+2*E(5)^3+E(5)^4, 1, 0 ], [ E(5)+E(5)^4, E(5)^2+E(5)^3, 0, 1 ] ]
+  [ok]   dim Pi = 2
+  [ok]   every stored w of the row lies in Pi
+  [ok]   every stored w is fixed by S2
+no record with t = infinity in this row; recovering v0, v3 from two finite records
+  [ok]   at least two finite-t records
+v0 = (w_L3-{3,3,5/2}-1 - w_L3-{3,3,5/2}-4)/(t1 - t2) = [ -2*E(5)-E(5)^2-E(5)^3-2*E(5)^4, 0, -E(5)-E(5)^4, 1 ]
+v3 = [ -2*E(5)-3/4*E(5)^2-3/4*E(5)^3-2*E(5)^4, 1/4*E(5)+1/4*E(5)^4, -3/4*E(5)-1/4*E(5)^2-1/4*E(5)^3-3/4*E(5)^4, 0 ]
+  [ok]   w = t v0 + v3 for all records of the row
+v0 = [ -2*E(5)-E(5)^2-E(5)^3-2*E(5)^4, 0, -E(5)-E(5)^4, 1 ]  |v0|^2 = -8*E(5)-4*E(5)^2-4*E(5)^3-8*E(5)^4 ~ 1.5278640450004217
+v3 = [ -2*E(5)-3/4*E(5)^2-3/4*E(5)^3-2*E(5)^4, 1/4*E(5)+1/4*E(5)^4, -3/4*E(5)-1/4*E(5)^2-1/4*E(5)^3-3/4*E(5)^4, 0 ]  |v3|^2 = -13/2*E(5)-5/2*E(5)^2-5/2*E(5)^3-13/2*E(5)^4 ~ 0.027864045000421278
+v0.v3 = -13/2*E(5)-5/2*E(5)^2-5/2*E(5)^3-13/2*E(5)^4 ~ 0.027864045000421278
+  [ok]   v0, v3 form a basis of Pi
+  [ok]   a record with finite t <> 0 and alpha not in {0,1,infinity} exists
+rho recovered from L3-{3,3,5/2}-4: rho = 2*E(40)^7-2*E(40)^13-4*E(40)^21+2*E(40)^23-4*E(40)^29+4*E(40)^31-2*E(40)^37+4*E(40)^39 ~ 7.4049183472876638
+  [ok]   rho > 0
+  [ok]   rho^2 = (v0.v0)/(v3.v3) exactly
+  [ok]   alpha = 1/(1 + t rho) reproduces the stored alpha of every record exactly
+
+--- Step 4: action of M0 on Pi ---
+  [ok]   Pi is M0-invariant
+  [ok]   M0 restricted to Pi expressed in the basis (v0, v3)
+M0|Pi in basis (v0,v3) (rows = images):  v0 M0 = 1/2*E(8)-1/2*E(8)^3 v0 + -2*E(40)^21-2*E(40)^29+2*E(40)^31+2*E(40)^39 v3 ;  v3 M0 = -1/8*E(40)^7+1/8*E(40)^13-1/8*E(40)^23+1/8*E(40)^37 v0 + -1/2*E(8)+1/2*E(8)^3 v3
+A = [ [ 1/2*E(8)-1/2*E(8)^3, -2*E(40)^21-2*E(40)^29+2*E(40)^31+2*E(40)^39 ], [ -1/8*E(40)^7+1/8*E(40)^13-1/8*E(40)^23+1/8*E(40)^37, -1/2*E(8)+1/2*E(8)^3 ] ]
+trace(A) = 0   det(A) = -1 ~ -1.
+M0|Pi is a reflection
+  [ok]   M0 acts on Pi as a reflection (trace 0, determinant -1)
+Moebius map on the projective parameter t:  t' = (1/2*E(8)-1/2*E(8)^3)*t + (-1/8*E(40)^7+1/8*E(40)^13-1/8*E(40)^23+1/8*E(40)^37)  /  (-2*E(40)^21-2*E(40)^29+2*E(40)^31+2*E(40)^39)*t + (-1/2*E(8)+1/2*E(8)^3)
+   floats: t' = (0.70710678118654746 t + 0.10925400611220527) / (4.576491222541474 t + -0.70710678118654746)
+Moebius map on alpha:  alpha' = (2*E(40)^8+4*E(40)^16+2*E(40)^21+4*E(40)^24+2*E(40)^29-2*E(40)^31+2*E(40)^32-2*E(40)^39)*alpha + (-2*E(40)^21-2*E(40)^29+2*E(40)^31+2*E(40)^39)  /  (E(40)^7+4*E(40)^8-E(40)^13+8*E(40)^16-E(40)^21+E(40)^23+8*E(40)^24-E(40)^29+E(40)^31+4*E(40)^32-E(40)^37+E(40)^39)*alpha + (-2*E(40)^8-4*E(40)^16-2*E(40)^21-4*E(40)^24-2*E(40)^29+2*E(40)^31-2*E(40)^32+2*E(40)^39)
+   floats: alpha' = (-9.812559200041262 alpha + 4.576491222541474) / (-9.057922392626482 alpha + 9.812559200041262)
+  [ok]   alpha-Moebius map agrees with alpha(Moebius(t)) on all records
+  [ok]   the Moebius map is an involution on the stored t-values
+fixed points: -2*E(40)^21-2*E(40)^29+2*E(40)^31+2*E(40)^39 t^2 + (-E(8)+E(8)^3) t + (1/8*E(40)^7-1/8*E(40)^13+1/8*E(40)^23-1/8*E(40)^37) = 0,   discriminant = 4 ~ 4.
+  [ok]   quadratic (b <> 0): infinity is not a fixed point
+  [ok]   discriminant > 0: two real fixed points (M0|Pi is a reflection with two eigen-lines)
+  [ok]   exact cyclotomic square root of the discriminant found
+sqrt(disc) = 2 ~ 2.
+  [ok]   both fixed t satisfy the quadratic exactly
+  [ok]   both fixed t are fixed by the Moebius map exactly
+fixed point 1:  t* = -1/4*E(40)^7+1/4*E(40)^8+1/4*E(40)^13-1/4*E(40)^23+1/4*E(40)^32+1/4*E(40)^37 ~ 0.37301650941188425    alpha* = -5*E(40)^7+6*E(40)^8+5*E(40)^13+2*E(40)^16+2*E(40)^21-5*E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+6*E(40)^32+5*E(40)^37-2*E(40)^39 ~ 0.26580497694631489
+   agrees with a PETCOX regular value [ 0.2658, 1.90082 ] to 5 significant digits: true
+fixed point 2:  t* = 1/4*E(40)^7+1/4*E(40)^8-1/4*E(40)^13+1/4*E(40)^23+1/4*E(40)^32-1/4*E(40)^37 ~ -0.063999515036936877    alpha* = 1/3*E(40)^7-2/3*E(40)^8-1/3*E(40)^13-2/3*E(40)^16-2/3*E(40)^21+1/3*E(40)^23-2/3*E(40)^24-2/3*E(40)^29+2/3*E(40)^31-2/3*E(40)^32-1/3*E(40)^37+2/3*E(40)^39 ~ 1.9008197245479439
+   agrees with a PETCOX regular value [ 0.2658, 1.90082 ] to 5 significant digits: true
+  [ok]   both fixed alphas coincide (5 sig. digits) with the geometrically regular values of PETCOX for {3,3,5/2}
+structural check at the fixed points: H_u = Wythoff polyhedron of G at u = t* v0 + v3
+  fixed point 1: |V(H)|=480 |E(H)|=720 |F(H)|=48
+  [ok]     u is an eigenvector of M0 with eigenvalue +-1 (u M0 = [ 1 ] u)
+  +M0 preserves H_u: V=true E=true F=true    -M0 preserves H_u: V=true E=true F=true 
+  [ok]     H_u at the fixed point is mapped onto itself by +M0 or -M0 (geometrically regular there)
+  [ok]     u S1^k, k=0..3 are linearly independent
+  [ok]     the reversing map R_u (u S1^k -> u S1^-k) equals +-M0
+  [ok]     R_u preserves H_u (vertices, edges, faces)
+  fixed point 2: |V(H)|=480 |E(H)|=720 |F(H)|=48
+  [ok]     u is an eigenvector of M0 with eigenvalue +-1 (u M0 = [ -1 ] u)
+  +M0 preserves H_u: V=true E=true F=true    -M0 preserves H_u: V=true E=true F=true 
+  [ok]     H_u at the fixed point is mapped onto itself by +M0 or -M0 (geometrically regular there)
+  [ok]     u S1^k, k=0..3 are linearly independent
+  [ok]     the reversing map R_u (u S1^k -> u S1^-k) equals +-M0
+  [ok]     R_u preserves H_u (vertices, edges, faces)
+the same isometries +-M0 applied to the cells H_w of the stored records (expected: NOT preserved):
+  L3-{3,3,5/2}-1: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{3,3,5/2}-1: neither +M0 nor -M0 preserves the cell H_w
+  L3-{3,3,5/2}-4: +M0: V=false E=false F=false   -M0: V=false E=false F=false 
+  [ok]     L3-{3,3,5/2}-4: neither +M0 nor -M0 preserves the cell H_w
+
+--- Step 5: predicted pairing via the Moebius map, and direct verification ---
+  L3-{3,3,5/2}-1: t = 0 ~ 0.  alpha = 1 ~ 1.
+       image t' = -1/4*E(5)-1/4*E(5)^4 ~ -0.15450849718747367  alpha' = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39 ~ -6.9385271511436226
+       -> paired with L3-{3,3,5/2}-4 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = -1/2*E(8)+1/2*E(8)^3 ~ -0.70710678118654746
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 2 ~ 2.
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{3,3,5/2}-1 onto L3-{3,3,5/2}-4:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{3,3,5/2}-1 onto V,E,F,C of L3-{3,3,5/2}-4
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -3/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-3/4*E(5)^4, 1/4*E(5)^2+1/4*E(5)^3, 1/2*E(5)^2+1/2*E(5)^3, -1/4 ], [ 1/2*E(5)^2+1/2*E(5)^3, 1/4, 3/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+3/4*E(5)^4, 1/4*E(5)^2+1/4*E(5)^3 ], [ 1/4, -1/2*E(5)^2-1/2*E(5)^3, 1/4*E(5)^2+1/4*E(5)^3, -3/4*E(5)-1/2*E(5)^2-1/2*E(5)^3-3/4*E(5)^4 ], [ 1/4*E(5)^2+1/4*E(5)^3, 3/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+3/4*E(5)^4, -1/4, -1/2*E(5)^2-1/2*E(5)^3 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+  L3-{3,3,5/2}-4: t = -1/4*E(5)-1/4*E(5)^4 ~ -0.15450849718747367  alpha = -E(40)^7+E(40)^13+2*E(40)^16+2*E(40)^21-E(40)^23+2*E(40)^24+2*E(40)^29-2*E(40)^31+E(40)^37-2*E(40)^39 ~ -6.9385271511436226
+       image t' = 0 ~ 0.  alpha' = 1 ~ 1.
+       -> paired with L3-{3,3,5/2}-1 (t_b = t' exactly; alpha_b = alpha': true)
+  [ok]          alpha of the partner equals the image alpha
+  [ok]          partner is a different record (stored records are not at fixed points)
+  [ok]          w_a M0 = s w_b exactly with s = -E(8)+E(8)^3 ~ -1.4142135623730949
+  [ok]          N = M0/s is a similarity with N N^T = lambda I, lambda = 1/2 ~ 0.5
+  [ok]          lambda = |w_b|^2/|w_a|^2 exactly
+  [ok]          det N = +-lambda^2 exactly
+       det N = 1/4 = + (proper) lambda^2
+  [ok]          w_a N = w_b
+       N carries realisation L3-{3,3,5/2}-4 onto L3-{3,3,5/2}-1:  V=true E=true F=true C=true 
+  [ok]          N maps V,E,F,C of L3-{3,3,5/2}-4 onto V,E,F,C of L3-{3,3,5/2}-1
+       M0^-1 X_a M0 in Gamma_b = <S1,S2,X_b>: true   (M0^-1 X_a M0 = [ [ -1/2*E(5)-1/2*E(5)^4, 0, 1/2, 1/2*E(5)^2+1/2*E(5)^3 ], [ 0, 1, 0, 0 ], [ 1/2, 0, -1/2*E(5)^2-1/2*E(5)^3, 1/2*E(5)+1/2*E(5)^4 ], [ -1/2*E(5)^2-1/2*E(5)^3, 0, -1/2*E(5)-1/2*E(5)^4, -1/2 ] ])
+  [ok]          M0^-1 X_a M0 lies in Gamma_b (M0 conjugates Gamma_a onto Gamma_b)
+  [ok]          <S1,S2,M0^-1 X_a M0> = Gamma_b as matrix groups
+
+--- Step 6: symmetry group of the cells; flag structure ---
+  [ok]   L3-{3,3,5/2}-1: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{3,3,5/2}-1: R = [ [ -1/2*E(5)-1/2*E(5)^4, -1/2, 1/2*E(5)^2+1/2*E(5)^3, 0 ], [ -1/2, -1/2*E(5)^2-1/2*E(5)^3, -1/2*E(5)-1/2*E(5)^4, 0 ], [ 1/2*E(5)^2+1/2*E(5)^3, -1/2*E(5)-1/2*E(5)^4, 1/2, 0 ], [ 0, 0, 0, -1 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{3,3,5/2}-1: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{3,3,5/2}-1: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{3,3,5/2}-1: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 480, 720, 48 ]
+  [ok]   L3-{3,3,5/2}-4: w S1^k, k=0..3 span E^4 (skew polygon)
+  L3-{3,3,5/2}-4: R = [ [ -1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/2*E(5)^4, 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, 3/4, 0 ], [ 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 0, -3/4 ], [ 3/4, 0, 1/2*E(5)+1/4*E(5)^2+1/4*E(5)^3+1/2*E(5)^4, 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4 ], [ 0, -3/4, 1/4*E(5)+1/2*E(5)^2+1/2*E(5)^3+1/4*E(5)^4, -1/2*E(5)-1/4*E(5)^2-1/4*E(5)^3-1/2*E(5)^4 ] ]
+       R orthogonal: true  R^2 = I: true  det R = 1  (w S1^k) R = w S1^-k for all k<p: true
+  [ok]   L3-{3,3,5/2}-4: R is orthogonal (a genuine isometry candidate)
+       R preserves H_w: V=false E=false F=false 
+  [ok]   L3-{3,3,5/2}-4: R does NOT preserve the edge set of H_w  =>  Sym(H_w) = G, the cell is geometrically chiral
+  [ok]   L3-{3,3,5/2}-4: H_w has |G|/3 vertices, |G|/2 edges, |G|/p faces: [ 480, 720, 48 ]
+  flag structure of H_w for L3-{3,3,5/2}-1:
+  [ok]       every edge of H_w lies in exactly 2 faces (H_w is a polyhedron)
+    number of flags = 2880  2|G| = 2880
+  [ok]       H_w has exactly 2|G| flags
+  [ok]       G acts faithfully on V(H_w)
+  [ok]       G acts freely on the flags: |Fl0 G| = |G|
+  [ok]       the 2-adjacent flag Fl0^2 is not in the G-orbit of Fl0 (two flag orbits)
+  [ok]       |Fl0^2 G| = |G|, so Fl0 G and Fl0^2 G exhaust the 2|G| flags
+  [ok]       S1 maps Fl0 to (Fl0^1)^0
+  [ok]       S2 maps Fl0 to (Fl0^2)^1
+  [ok]       the second face at the base edge is f S2
+  [ok]       S2^-1 S1^-1 S2 maps Fl0^2 to ((Fl0^2)^1)^0  (distinguished sigma_1 of Fl0^2)
+  [ok]       S2^-1 maps Fl0^2 to ((Fl0^2)^2)^1  (distinguished sigma_2 of Fl0^2)
+  [ok]       (Fl0^2)^2 = Fl0
+
+
+==================== similarity invariant of the base 2-face (all 24 records) ====================
+inv(r) = ( |w - w S1^k|^2 / |w|^2 )_{k=1..p/2}; equal invariants are necessary for similarity.
+  L3-{4,3,3}-1: invariant ~ [ 1., 2., 3., 4. ]   other records with the same invariant: [ "L3-{4,3,3}-6" ]
+  L3-{4,3,3}-2: invariant ~ [ 3., 2., 1., 4. ]   other records with the same invariant: [ "L3-{4,3,3}-3" ]
+  L3-{4,3,3}-3: invariant ~ [ 3., 2., 1., 4. ]   other records with the same invariant: [ "L3-{4,3,3}-2" ]
+  L3-{4,3,3}-6: invariant ~ [ 1., 2., 3., 4. ]   other records with the same invariant: [ "L3-{4,3,3}-1" ]
+  L3-{5,3,3}-3: invariant ~ [ 0.07294901687515809, 0.1909830056250527, 0.3819660112501054, 0.6909830056250529, 1., 1.381966011250106, 1.809016994374948, 2.190983005625053, 2.618033988749895, 3., 3.309016994374947, 3.618033988749895, 3.809016994374948, 3.927050983124842, 4. ]   other records with the same invariant: [ "L3-{5,3,3}-8" ]
+  L3-{5,3,3}-8: invariant ~ [ 0.07294901687515809, 0.1909830056250527, 0.3819660112501054, 0.6909830056250529, 1., 1.381966011250106, 1.809016994374948, 2.190983005625053, 2.618033988749895, 3., 3.309016994374947, 3.618033988749895, 3.809016994374948, 3.927050983124842, 4. ]   other records with the same invariant: [ "L3-{5,3,3}-3" ]
+  L3-{5,3,5/2}-1: invariant ~ [ 3.58113883008419, 1., 2., 3., 0.4188611699158105, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-4" ]
+  L3-{5,3,5/2}-2: invariant ~ [ 0.4188611699158105, 1., 2., 3., 3.58113883008419, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-3" ]
+  L3-{5,3,5/2}-3: invariant ~ [ 0.4188611699158105, 1., 2., 3., 3.58113883008419, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-2" ]
+  L3-{5,3,5/2}-4: invariant ~ [ 3.58113883008419, 1., 2., 3., 0.4188611699158105, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-1" ]
+  L3-{5,3,5/2}-5: invariant ~ [ 3.414213562373095, 1., 2., 3., 0.5857864376269051, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-8" ]
+  L3-{5,3,5/2}-6: invariant ~ [ 0.5857864376269051, 1., 2., 3., 3.414213562373095, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-7" ]
+  L3-{5,3,5/2}-7: invariant ~ [ 0.5857864376269051, 1., 2., 3., 3.414213562373095, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-6" ]
+  L3-{5,3,5/2}-8: invariant ~ [ 3.414213562373095, 1., 2., 3., 0.5857864376269051, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-5" ]
+  L3-{5,3,5/2}-9: invariant ~ [ 2.618033988749895, 1., 2., 3., 1.381966011250106, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-12" ]
+  L3-{5,3,5/2}-10: invariant ~ [ 1.381966011250106, 1., 2., 3., 2.618033988749895, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-11" ]
+  L3-{5,3,5/2}-11: invariant ~ [ 1.381966011250106, 1., 2., 3., 2.618033988749895, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-10" ]
+  L3-{5,3,5/2}-12: invariant ~ [ 2.618033988749895, 1., 2., 3., 1.381966011250106, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-9" ]
+  L3-{5,3,5/2}-13: invariant ~ [ 3.618033988749895, 1., 2., 3., 0.3819660112501054, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-14" ]
+  L3-{5,3,5/2}-14: invariant ~ [ 3.618033988749895, 1., 2., 3., 0.3819660112501054, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-13" ]
+  L3-{5,3,5/2}-15: invariant ~ [ 0.3819660112501054, 1., 2., 3., 3.618033988749895, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-16" ]
+  L3-{5,3,5/2}-16: invariant ~ [ 0.3819660112501054, 1., 2., 3., 3.618033988749895, 4. ]   other records with the same invariant: [ "L3-{5,3,5/2}-15" ]
+  L3-{3,3,5/2}-1: invariant ~ [ 3.427050983124842, 1.309016994374947, 2.618033988749895, 1.809016994374948, 1., 3.618033988749895, 0.6909830056250529, 3.309016994374947, 0.3819660112501054, 3., 2.190983005625053, 1.381966011250106, 2.690983005625053, 0.5729490168751581, 4. ]   other records with the same invariant: [ "L3-{3,3,5/2}-4" ]
+  L3-{3,3,5/2}-4: invariant ~ [ 3.427050983124842, 1.309016994374947, 2.618033988749895, 1.809016994374948, 1., 3.618033988749895, 0.6909830056250529, 3.309016994374947, 0.3819660112501054, 3., 2.190983005625053, 1.381966011250106, 2.690983005625053, 0.5729490168751581, 4. ]   other records with the same invariant: [ "L3-{3,3,5/2}-1" ]
+  [ok]   pair L3-{4,3,3}-1 ~ L3-{4,3,3}-6: equal face invariants
+  [ok]   pair L3-{4,3,3}-2 ~ L3-{4,3,3}-3: equal face invariants
+  [ok]   pair L3-{5,3,3}-3 ~ L3-{5,3,3}-8: equal face invariants
+  [ok]   pair L3-{5,3,5/2}-1 ~ L3-{5,3,5/2}-4: equal face invariants
+  [ok]   pair L3-{5,3,5/2}-2 ~ L3-{5,3,5/2}-3: equal face invariants
+  [ok]   pair L3-{5,3,5/2}-5 ~ L3-{5,3,5/2}-8: equal face invariants
+  [ok]   pair L3-{5,3,5/2}-6 ~ L3-{5,3,5/2}-7: equal face invariants
+  [ok]   pair L3-{5,3,5/2}-9 ~ L3-{5,3,5/2}-12: equal face invariants
+  [ok]   pair L3-{5,3,5/2}-10 ~ L3-{5,3,5/2}-11: equal face invariants
+  [ok]   pair L3-{5,3,5/2}-13 ~ L3-{5,3,5/2}-14: equal face invariants
+  [ok]   pair L3-{5,3,5/2}-15 ~ L3-{5,3,5/2}-16: equal face invariants
+  [ok]   pair L3-{3,3,5/2}-1 ~ L3-{3,3,5/2}-4: equal face invariants
+  [ok]   the face invariant separates at least as many classes as predicted
+
+
+==================== SUMMARY ====================
+Row {4,3,3}: dim commutant = 1, dim anti-space = 1, det M0 = +1 (proper), M0^2 = +I, M0|Pi = reflection, fixed alphas ~ [ 3.732050807568877, 0.2679491924311237 ] (PETCOX [ 0.26795, 3.73205 ], agree [ true, true ])
+    L3-{4,3,3}-1  alpha ~ 0.5  ->  alpha' ~ 0.   partner: L3-{4,3,3}-6   s = -1/2*E(12)^7+1/2*E(12)^11   structure map verified: true
+    L3-{4,3,3}-2  alpha ~ 2.  ->  alpha' ~ infinity   partner: L3-{4,3,3}-3   s = 1/2*E(12)^7-1/2*E(12)^11   structure map verified: true
+    L3-{4,3,3}-3  alpha ~ infinity  ->  alpha' ~ 2.   partner: L3-{4,3,3}-2   s = 2/3*E(12)^7-2/3*E(12)^11   structure map verified: true
+    L3-{4,3,3}-6  alpha ~ 0.  ->  alpha' ~ 0.5   partner: L3-{4,3,3}-1   s = -2/3*E(12)^7+2/3*E(12)^11   structure map verified: true
+Row {5,3,3}: dim commutant = 1, dim anti-space = 1, det M0 = +1 (proper), M0^2 = +I, M0|Pi = reflection, fixed alphas ~ [ 0.1532728288415159, 19.16529991355798 ] (PETCOX [ 0.15327, 19.1653 ], agree [ true, true ])
+    L3-{5,3,3}-3  alpha ~ 0.3041135359756636  ->  alpha' ~ 0.   partner: L3-{5,3,3}-8   s = -1/2*E(40)^7+1/2*E(40)^13+3/2*E(40)^21-1/2*E(40)^23+3/2*E(40)^29-3/2*E(40)^31+1/2*E(40)^37-3/2*E(40)^39   structure map verified: true
+    L3-{5,3,3}-8  alpha ~ 0.  ->  alpha' ~ 0.3041135359756636   partner: L3-{5,3,3}-3   s = 3*E(40)^7-3*E(40)^13-E(40)^21+3*E(40)^23-E(40)^29+E(40)^31-3*E(40)^37+E(40)^39   structure map verified: true
+Row {5,3,5/2}: dim commutant = 1, dim anti-space = 1, det M0 = +1 (proper), M0^2 = +I, M0|Pi = reflection, fixed alphas ~ [ 0.07537527823960463, 2.266265508260268 ] (PETCOX [ 0.075375, 2.26627 ], agree [ true, true ])
+    L3-{5,3,5/2}-1  alpha ~ 1.8154870378320278  ->  alpha' ~ 3.0322475511229903   partner: L3-{5,3,5/2}-4   s = 2/3*E(120)^7+2/3*E(120)^13+2/3*E(120)^14-2/3*E(120)^22-2/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+2/3*E(120)^37+2/3*E(120)^38-2/3*E(120)^46-2/3*E(120)^47-2/3*E(120)^53+1/3*E(120)^61+2/3*E(120)^62-1/3*E(120)^71-2/3*E(120)^77+1/3*E(120)^79+2/3*E(120)^86-2/3*E(120)^94-1/3*E(120)^101+2/3*E(120)^103+1/3*E(120)^109-2/3*E(120)^118-1/3*E(120)^119   structure map verified: true
+    L3-{5,3,5/2}-2  alpha ~ -0.07013104533209813  ->  alpha' ~ 0.20382042637679987   partner: L3-{5,3,5/2}-3   s = 2/3*E(120)^7+2/3*E(120)^13-2/3*E(120)^14+2/3*E(120)^22-2/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+2/3*E(120)^37-2/3*E(120)^38+2/3*E(120)^46-2/3*E(120)^47-2/3*E(120)^53+1/3*E(120)^61-2/3*E(120)^62-1/3*E(120)^71-2/3*E(120)^77+1/3*E(120)^79-2/3*E(120)^86+2/3*E(120)^94-1/3*E(120)^101+2/3*E(120)^103+1/3*E(120)^109+2/3*E(120)^118-1/3*E(120)^119   structure map verified: true
+    L3-{5,3,5/2}-3  alpha ~ 0.20382042637679987  ->  alpha' ~ -0.07013104533209813   partner: L3-{5,3,5/2}-2   s = 1/6*E(120)^7+1/6*E(120)^13-1/3*E(120)^14-1/6*E(120)^23+1/6*E(120)^37+1/3*E(120)^46-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^77-1/3*E(120)^86+1/3*E(120)^94+1/6*E(120)^103   structure map verified: true
+    L3-{5,3,5/2}-4  alpha ~ 3.0322475511229903  ->  alpha' ~ 1.8154870378320278   partner: L3-{5,3,5/2}-1   s = 1/6*E(120)^7+1/6*E(120)^13+1/3*E(120)^14-1/6*E(120)^23+1/6*E(120)^37-1/3*E(120)^46-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^77+1/3*E(120)^86-1/3*E(120)^94+1/6*E(120)^103   structure map verified: true
+    L3-{5,3,5/2}-5  alpha ~ 1.492066037647537  ->  alpha' ~ 4.906279600020631   partner: L3-{5,3,5/2}-8   s = 1/3*E(120)^7+1/3*E(120)^13-1/3*E(120)^14-1/3*E(120)^23+1/3*E(120)^37+1/3*E(120)^46-1/3*E(120)^47-1/3*E(120)^53-1/3*E(120)^77-1/3*E(120)^86+1/3*E(120)^94+1/3*E(120)^103   structure map verified: true
+    L3-{5,3,5/2}-6  alpha ~ -0.25599806014774751  ->  alpha' ~ 0.32978837747915779   partner: L3-{5,3,5/2}-7   s = 1/3*E(120)^7+1/3*E(120)^13+1/3*E(120)^14-1/3*E(120)^23+1/3*E(120)^37-1/3*E(120)^46-1/3*E(120)^47-1/3*E(120)^53-1/3*E(120)^77+1/3*E(120)^86-1/3*E(120)^94+1/3*E(120)^103   structure map verified: true
+    L3-{5,3,5/2}-7  alpha ~ 0.32978837747915779  ->  alpha' ~ -0.25599806014774751   partner: L3-{5,3,5/2}-6   s = 1/3*E(120)^7+1/3*E(120)^13+2/3*E(120)^14-1/3*E(120)^22-1/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+1/3*E(120)^37+1/3*E(120)^38-2/3*E(120)^46-1/3*E(120)^47-1/3*E(120)^53+1/3*E(120)^61+1/3*E(120)^62-1/3*E(120)^71-1/3*E(120)^77+1/3*E(120)^79+2/3*E(120)^86-2/3*E(120)^94-1/3*E(120)^101+1/3*E(120)^103+1/3*E(120)^109-1/3*E(120)^118-1/3*E(120)^119   structure map verified: true
+    L3-{5,3,5/2}-8  alpha ~ 4.906279600020631  ->  alpha' ~ 1.492066037647537   partner: L3-{5,3,5/2}-5   s = 1/3*E(120)^7+1/3*E(120)^13-2/3*E(120)^14+1/3*E(120)^22-1/3*E(120)^23-1/3*E(120)^29+1/3*E(120)^31+1/3*E(120)^37-1/3*E(120)^38+2/3*E(120)^46-1/3*E(120)^47-1/3*E(120)^53+1/3*E(120)^61-1/3*E(120)^62-1/3*E(120)^71-1/3*E(120)^77+1/3*E(120)^79-2/3*E(120)^86+2/3*E(120)^94-1/3*E(120)^101+1/3*E(120)^103+1/3*E(120)^109+1/3*E(120)^118-1/3*E(120)^119   structure map verified: true
+    L3-{5,3,5/2}-9  alpha ~ 1.  ->  alpha' ~ -5.8541019662496838   partner: L3-{5,3,5/2}-12   s = 1/6*E(120)^7+1/6*E(120)^13-1/6*E(120)^23+1/6*E(120)^29-1/6*E(120)^31+1/6*E(120)^37-1/6*E(120)^47-1/6*E(120)^53-1/6*E(120)^61+1/6*E(120)^71-1/6*E(120)^77-1/6*E(120)^79+1/6*E(120)^101+1/6*E(120)^103-1/6*E(120)^109+1/6*E(120)^119   structure map verified: true
+    L3-{5,3,5/2}-10  alpha ~ -1.  ->  alpha' ~ 0.61803398874989468   partner: L3-{5,3,5/2}-11   s = 1/2*E(24)-1/2*E(24)^11-1/2*E(24)^17+1/2*E(24)^19   structure map verified: true
+    L3-{5,3,5/2}-11  alpha ~ 0.61803398874989468  ->  alpha' ~ -1.   partner: L3-{5,3,5/2}-10   s = 1/3*E(24)-1/3*E(24)^11-1/3*E(24)^17+1/3*E(24)^19   structure map verified: true
+    L3-{5,3,5/2}-12  alpha ~ -5.8541019662496838  ->  alpha' ~ 1.   partner: L3-{5,3,5/2}-9   s = 1/5*E(120)^7+1/5*E(120)^13-1/5*E(120)^23+1/5*E(120)^29-1/5*E(120)^31+1/5*E(120)^37-1/5*E(120)^47-1/5*E(120)^53-1/5*E(120)^61+1/5*E(120)^71-1/5*E(120)^77-1/5*E(120)^79+1/5*E(120)^101+1/5*E(120)^103-1/5*E(120)^109+1/5*E(120)^119   structure map verified: true
+    L3-{5,3,5/2}-13  alpha ~ 2.  ->  alpha' ~ 2.6180339887498949   partner: L3-{5,3,5/2}-14   s = 1/4*E(120)^7+1/4*E(120)^13-1/4*E(120)^23+1/4*E(120)^37-1/4*E(120)^47-1/4*E(120)^53-1/4*E(120)^77+1/4*E(120)^103   structure map verified: true
+    L3-{5,3,5/2}-14  alpha ~ 2.6180339887498949  ->  alpha' ~ 2.   partner: L3-{5,3,5/2}-13   s = 2/3*E(120)^29-2/3*E(120)^31-2/3*E(120)^61+2/3*E(120)^71-2/3*E(120)^79+2/3*E(120)^101-2/3*E(120)^109+2/3*E(120)^119   structure map verified: true
+    L3-{5,3,5/2}-15  alpha ~ 0.14589803375031618  ->  alpha' ~ 0.   partner: L3-{5,3,5/2}-16   s = -E(120)^7-E(120)^13+E(120)^23+1/2*E(120)^29-1/2*E(120)^31-E(120)^37+E(120)^47+E(120)^53-1/2*E(120)^61+1/2*E(120)^71+E(120)^77-1/2*E(120)^79+1/2*E(120)^101-E(120)^103-1/2*E(120)^109+1/2*E(120)^119   structure map verified: true
+    L3-{5,3,5/2}-16  alpha ~ 0.  ->  alpha' ~ 0.14589803375031618   partner: L3-{5,3,5/2}-15   s = -1/3*E(120)^7-1/3*E(120)^13+1/3*E(120)^23+2/3*E(120)^29-2/3*E(120)^31-1/3*E(120)^37+1/3*E(120)^47+1/3*E(120)^53-2/3*E(120)^61+2/3*E(120)^71+1/3*E(120)^77-2/3*E(120)^79+2/3*E(120)^101-1/3*E(120)^103-2/3*E(120)^109+2/3*E(120)^119   structure map verified: true
+Row {3,3,5/2}: dim commutant = 1, dim anti-space = 1, det M0 = +1 (proper), M0^2 = +I, M0|Pi = reflection, fixed alphas ~ [ 0.2658049769463149, 1.900819724547944 ] (PETCOX [ 0.2658, 1.90082 ], agree [ true, true ])
+    L3-{3,3,5/2}-1  alpha ~ 1.  ->  alpha' ~ -6.9385271511436226   partner: L3-{3,3,5/2}-4   s = -1/2*E(8)+1/2*E(8)^3   structure map verified: true
+    L3-{3,3,5/2}-4  alpha ~ -6.9385271511436226  ->  alpha' ~ 1.   partner: L3-{3,3,5/2}-1   s = -E(8)+E(8)^3   structure map verified: true
+
+Predicted similarity classes of the 24 stored realisations (12 classes):
+   [ "L3-{4,3,3}-1", "L3-{4,3,3}-6" ]
+   [ "L3-{4,3,3}-2", "L3-{4,3,3}-3" ]
+   [ "L3-{5,3,3}-3", "L3-{5,3,3}-8" ]
+   [ "L3-{5,3,5/2}-1", "L3-{5,3,5/2}-4" ]
+   [ "L3-{5,3,5/2}-2", "L3-{5,3,5/2}-3" ]
+   [ "L3-{5,3,5/2}-5", "L3-{5,3,5/2}-8" ]
+   [ "L3-{5,3,5/2}-6", "L3-{5,3,5/2}-7" ]
+   [ "L3-{5,3,5/2}-9", "L3-{5,3,5/2}-12" ]
+   [ "L3-{5,3,5/2}-10", "L3-{5,3,5/2}-11" ]
+   [ "L3-{5,3,5/2}-13", "L3-{5,3,5/2}-14" ]
+   [ "L3-{5,3,5/2}-15", "L3-{5,3,5/2}-16" ]
+   [ "L3-{3,3,5/2}-1", "L3-{3,3,5/2}-4" ]
+pairs: [ [ "L3-{4,3,3}-1", "L3-{4,3,3}-6" ], [ "L3-{4,3,3}-2", "L3-{4,3,3}-3" ], [ "L3-{5,3,3}-3", "L3-{5,3,3}-8" ], [ "L3-{5,3,5/2}-1", "L3-{5,3,5/2}-4" ], [ "L3-{5,3,5/2}-2", "L3-{5,3,5/2}-3" ], [ "L3-{5,3,5/2}-5", "L3-{5,3,5/2}-8" ], [ "L3-{5,3,5/2}-6", "L3-{5,3,5/2}-7" ], [ "L3-{5,3,5/2}-9", "L3-{5,3,5/2}-12" ], [ "L3-{5,3,5/2}-10", "L3-{5,3,5/2}-11" ], [ "L3-{5,3,5/2}-13", "L3-{5,3,5/2}-14" ], [ "L3-{5,3,5/2}-15", "L3-{5,3,5/2}-16" ], [ "L3-{3,3,5/2}-1", "L3-{3,3,5/2}-4" ] ]
+number of pairs: 12, singletons: 0
+  [ok]   the classes partition all 24 records
+det signs of the pair similarities N = M0/s (det N = +-lambda^2): [ "+ (proper)" ]
+det signs of M0 per row: [ "+1 (proper)", "+1 (proper)", "+1 (proper)", "+1 (proper)" ]
+=> every predicted pair is related by a PROPER similarity (after normalisation an isometry of det +1).
+TSV written to ../logs/method3-pairing.tsv
+
+self-check failures: 0
+Done: method3-anti-automorphism.g
